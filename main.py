@@ -67,7 +67,6 @@ def check_tempo(carro, hora_inicio):
        if(horas_carro[carro[i]] > max_visitas):
            return False
 
-
     return True
 
 def criar_rotas():
