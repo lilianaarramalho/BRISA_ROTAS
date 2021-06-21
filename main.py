@@ -63,10 +63,10 @@ def check_tempo(carro, hora_inicio):
         for j in range(len(carro)):
             horas_carro[j] += duracao
 
-
-   for i in range(len(carro)):
+    for i in range(len(carro)):
        if(horas_carro[carro[i]] > max_visitas):
            return False
+
 
     return True
 
