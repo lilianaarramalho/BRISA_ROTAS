@@ -5,6 +5,7 @@ global turnos
 global sublancos
 global duracoes
 global centros_operacionais
+global max_visitas
 
 def ler_inputs():
 
@@ -25,11 +26,12 @@ def ler_inputs():
     
     return centros_operacionais,sublancos,duracoes
 
-centros_operacionais,sublancos,duracoes=ler_inputs()
+
 
 def main():
 
-    ler_inputs()
+    centros_operacionais,sublancos,duracoes=ler_inputs()
+    max_visitas = 180
     criar_rotas()
 
 
@@ -52,12 +54,21 @@ def get_co_proximo(index, sentido):
 
 def check_tempo(carro, hora_inicio):
 
-    possivel = False
+    horas_carro = [len(carro)]
     for i in range(len(carro)):
+        if(horas_carro[i] > max_visitas):
+            return False
         duracao = duracoes[carro[i]]
         hora_inicio += duracao
+        for j in range(len(carro)):
+            horas_carro[j] += duracao
 
-    return possivel
+
+   for i in range(len(carro)):
+       if(horas_carro[carro[i]] > max_visitas):
+           return False
+
+    return True
 
 def criar_rotas():
 
