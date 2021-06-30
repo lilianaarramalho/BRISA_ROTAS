@@ -1,14 +1,12 @@
-Auto-Estrada,CO,Sub-Lanço,Sequência,Latitude,Longitude,CO?,Extensão
-A1,Feira,Jaca  - Sto Ovídio (Fora da Concessão),1,41.100557,-8.597875,0,1.6
-A1,Feira,Carvalhos - Jaca ,2,41.095487,-8.590889,0,2.8
-A1,Feira,Feiteira - Carvalhos,3,40.939771,-8.574035,0,3.3
-A1,Feira,A1/A41 - Feiteira,4,41.030439,-8.57193,0,4
-A1,Feira,Feira - A1/A41,5,40.992339,-8.585427,0,9.8
-A1,Feira,Feira,6,0,0,1,0
-A1,Feira,Estarreja - Feira,7,40.869448,-8.55901,0,16.8
-A1,Feira,Albergaria (A1/A25) - Estarreja,8,40.699441,-8.523234,0,10.4
-A1,Feira,Aveiro Sul - Albergaria (A1/A25),9,40.658223,-8.516084,0,14.7
-A1,Mealhada,Mealhada - Aveiro Sul,10,40.505729,-8.532662,0,0
-A1,Mealhada,Mealhada,11,0,0,1,0
-A1,Mealhada,Coimbra Norte (A1/A14) - Mealhada,12,40.314624,-8.489918,0,11.7
-A1,Mealhada,Coimbra Sul - Coimbra Norte (A1/A14),13,40.258051,-8.485948,0,8.3
+Auto-Estrada,CO,Sub-Lanço,Sequência,Latitude,Longitude,CO?,Extensão,Pausa?,Almoço?
+A1,Feira,Jaca  - Sto Ovídio (Fora da Concessão),1,41.100557,-8.597875,0,1.6,0,0
+A1,Feira,Carvalhos - Jaca ,2,41.095487,-8.590889,0,2.8,1,0
+A1,Feira,Feiteira - Carvalhos,3,40.939771,-8.574035,0,3.3,0,0
+A1,Feira,A1/A41 - Feiteira,4,41.030439,-8.57193,0,4,0,1
+A1,Feira,Feira - A1/A41,5,40.992339,-8.585427,1,9.8,1,0
+A1,Feira,Estarreja - Feira,7,40.869448,-8.55901,0,16.8,0,0
+A1,Feira,Albergaria (A1/A25) - Estarreja,8,40.699441,-8.523234,0,10.4,0,0
+A1,Feira,Aveiro Sul - Albergaria (A1/A25),9,40.658223,-8.516084,0,14.7,0,1
+A1,Mealhada,Mealhada - Aveiro Sul,10,40.505729,-8.532662,1,0,0,0
+A1,Mealhada,Coimbra Norte (A1/A14) - Mealhada,12,40.314624,-8.489918,0,11.7,1,0
+A1,Mealhada,Coimbra Sul - Coimbra Norte (A1/A14),13,40.258051,-8.485948,0,8.3,0,0
