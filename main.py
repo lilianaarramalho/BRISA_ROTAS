@@ -20,6 +20,7 @@ def ler_inputs():
     global carro_1_2_tempo_sub
     global carro_2_1_tempo_sub
     global carro_2_2_tempo_sub
+    global satisfeitos
 
     df_sublancos = pd.read_csv('dados/01. sublanços.csv', sep=",", encoding='iso-8859-1')
     df_turnos=pd.read_csv('dados/03. turnos.csv',sep=',',encoding='iso-8859-1')
@@ -35,6 +36,7 @@ def ler_inputs():
     carro_2_1_tempo_sub = []
     carro_2_2_tempo_sub = []
     duracoes=[]
+    satisfeitos=[]
 
     for index,row in df_sublancos.iterrows():
         if row['CO?']==1:
@@ -48,6 +50,7 @@ def ler_inputs():
         carro_1_2_tempo_sub.append(3 * 60)
         carro_2_1_tempo_sub.append(3 * 60)
         carro_2_2_tempo_sub.append(3 * 60)
+        satisfeitos.append(False)
 
         duracoes.append(row['Extensão']/(80/60))
 
@@ -133,7 +136,6 @@ def check_proxima_paragem(carro,paragens_possiveis,hora_paragem,hora_atual):
                 hora_min=hora
                 paragem_min=paragem
 
-
         elif paragem<ultima_posicao:
             for posicao in range(ultima_posicao,paragem-1,-1):
                 hora+=duracoes[posicao]
@@ -146,10 +148,6 @@ def check_proxima_paragem(carro,paragens_possiveis,hora_paragem,hora_atual):
                 return False
             else:
                 return True
-
-
-
-
 
 
 def verificar_restricoes(carro_1,carro_1_1_tempo_sub):
@@ -174,90 +172,101 @@ def criar_rotas():
     global carro_1_2_tempo_sub
     global carro_2_1_tempo_sub
     global carro_2_2_tempo_sub
+    global satisfeitos
 
     id_turno = 0
     # Para cada turno
 
     for id_turno in range(len(turnos)):
-        index_anterior_1_1=-1
-        index_1_1 = 0
-        index_anterior_2_1=-1
-        index_2_1=0
-        index_anterior_1_2 = -1
-        index_1_2 = 0
-        index_anterior_2_2 = -1
-        index_2_2 = 0
+        index_anterior_1_norte=-1
+        index_1_norte = 0
+        index_anterior_2_norte=-1
+        index_2_norte=0
+        index_anterior_1_sul = -1
+        index_1_sul = 0
+        index_anterior_2_sul = -1
+        index_2_sul = 0
         hora = turnos[id_turno]
-        carro_1_1 = []
-        carro_2_1 = []
-        carro_1_2 = []
-        carro_2_2 = []
+        carro_1_norte = []
+        carro_2_norte = []
+        carro_1_sul = []
+        carro_2_sul = []
         possivel=True
         tempo_atual_1=hora
         tempo_atual_2=hora
 
+        while any(satisfeitos)==False:
+
         # Para cada sublanço
-        while possivel==True:
-            posto_norte = get_co_proximo(index_1_1, "norte")
-            posto_sul = get_co_proximo(index_1_1, "sul")
-            # Existe carro aberto?
-            if len(carro_1_1) == 0 and posto_norte>-1:
-                # Se não existir, abrir
-                for pos_sublanço in range(posto_norte,index_1_1):
-                    carro_1_1.append(pos_sublanço)
-                    tempo_atual_1+=duracoes[pos_sublanço]
-                    carro_1_2.append(pos_sublanço)
 
-            if len(carro_2_1)==0 and posto_sul>-1:
-                for pos_sublanço in range(posto_sul, index_1_1, -1):
-                    carro_2_1.append(pos_sublanço)
-                    tempo_atual_2+=duracoes[pos_sublanço]
-                    carro_2_2.append(pos_sublanço)
+            while possivel==True:
 
-            # Adicionar sublanço a cada carro
-            if (len(carro_1_1) > 0):
-                carro_1_1.append(index_1_1)
-                tempo_atual_1+=duracoes[index_1_1]
+                posto_sul = get_co_proximo(index_1_sul, "sul")
+                # Existe carro aberto?
+                if len(carro_1_norte) == 0:
+                    posto_norte = get_co_proximo(index_1_norte, "norte")
+                    if posto_norte>-1:
+                        # Se não existir, abrir
+                        for pos_sublanço in range(posto_norte,index_1_norte):
+                            carro_1_norte.append(pos_sublanço)
+                            tempo_atual_1+=duracoes[pos_sublanço]
+                            satisfeitos[pos_sublanço]=True
 
-            if (len(carro_1_2) > 0):
-                carro_1_2.append(index_1_2)
+                if len(carro_2)==0 and posto_sul>-1:
+                    for pos_sublanço in range(posto_sul, index_, -1):
+                        carro_2_1.append(pos_sublanço)
+                        tempo_atual_2+=duracoes[pos_sublanço]
+                        carro_2_2.append(pos_sublanço)
+                        satisfeitos[pos_sublanço] = True
 
-            if (len(carro_2_1) > 0):
-                carro_2_1.append(index_2_1)
-                tempo_atual_2 += duracoes[index_2_1]
+                # Adicionar sublanço a cada carro
+                if (len(carro_1_1) > 0):
+                    carro_1_1.append(index_1_1)
+                    tempo_atual_1+=duracoes[index_1_1]
+                    satisfeitos[index_1_1] = True
 
-            if (len(carro_2_2) > 0):
-                carro_2_2.append(index_2_2)
+                if (len(carro_1_2) > 0):
+                    carro_1_2.append(index_1_2)
+                    satisfeitos[index_1_2] = True
 
-            # Verificar se entramos em incumprimento de tempo de passagem
+                if (len(carro_2_1) > 0):
+                    carro_2_1.append(index_2_1)
+                    tempo_atual_2 += duracoes[index_2_1]
+                    satisfeitos[index_2_1] = True
 
-            lista_check=[]
+                if (len(carro_2_2) > 0):
+                    carro_2_2.append(index_2_2)
+                    satisfeitos[index_2_2]=True
 
-            tempo_1 = verificar_restricoes(carro_1_1,carro_1_1_tempo_sub)
-            tempo_2 = verificar_restricoes(carro_2_1, carro_2_1_tempo_sub)
-            lista_check.append(tempo_1)
-            lista_check.append(tempo_2)
+                # Verificar se entramos em incumprimento de tempo de passagem
 
-            if any(lista_check)==True:
-                possivel=True
-            else:
-                possivel=False
+                lista_check=[]
 
-            if index>0 and index<(len(sublancos)-1):
-                if index_anterior<index:
+                tempo_1 = verificar_restricoes(carro_1_1,carro_1_1_tempo_sub)
+                tempo_2 = verificar_restricoes(carro_2_1, carro_2_1_tempo_sub)
+                lista_check.append(tempo_1)
+                lista_check.append(tempo_2)
+
+                if any(lista_check)==True:
+                    possivel=True
+                else:
+                    possivel=False
+
+                if index>0 and index<(len(sublancos)-1):
+                    if index_anterior<index:
+                        index_anterior=index
+                        index+=1
+                    else:
+                        index_anterior=index
+                        index-=1
+
+                elif index==0:
                     index_anterior=index
                     index+=1
-                else:
+
+                elif index==len(sublancos)-1:
                     index_anterior=index
                     index-=1
-
-            elif index==0:
-                index_anterior=index
-                index+=1
-
-            elif index==len(sublancos)-1:
-                index_anterior=index
-                index-=1
 
 main()
 
