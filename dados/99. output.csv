@@ -1,0 +1,193 @@
+,Carro,Nó,Hora Inicio,Hora Fim,Tipo
+0,0,Mealhada,0,0,Deslocação
+1,0,Aveiro Sul,16,16,Deslocação
+2,0,Albergaria (A1/IP5),29,29,Deslocação
+3,0,Estarreja,36,36,Deslocação
+4,0,Feira,48,48,Deslocação
+5,0,Espinho (IC24),55,55,Deslocação
+6,0,Feiteira,59,59,Deslocação
+7,0,Carvalhos,62,62,Deslocação
+8,0,Jaca,63,63,Deslocação
+9,0,Santo Ovídio,63,63,Deslocação
+10,0,Jaca,63,63,Deslocação
+11,0,Carvalhos,64,64,Deslocação
+12,0,Feiteira,67,67,Deslocação
+13,0,Espinho (IC24),71,71,Deslocação
+14,0,Feira,78,78,Deslocação
+15,0,Estarreja,90,90,Deslocação
+16,0,Estarreja,90,120,Incidência
+17,0,Estarreja,120,130,Pausa
+18,0,Feira,142,142,Deslocação
+19,0,Feira,142,172,Incidência
+20,0,Estarreja,184,184,Deslocação
+21,0,Albergaria (A1/IP5),191,191,Deslocação
+22,0,Albergaria (A1/IP5),191,221,Incidência
+23,0,Aveiro Sul,234,234,Deslocação
+24,0,Mealhada,250,250,Deslocação
+25,0,Mealhada,250,280,Incidência
+26,0,Coimbra Norte (A1/A14),289,289,Deslocação
+27,0,Coimbra Norte (A1/A14),289,329,Almoço
+28,0,Mealhada,338,338,Deslocação
+29,0,Aveiro Sul,354,354,Deslocação
+30,0,Albergaria (A1/IP5),367,367,Deslocação
+31,0,Estarreja,374,374,Deslocação
+32,0,Feira,386,386,Deslocação
+33,0,Feira,386,416,Incidência
+34,0,Estarreja,428,428,Deslocação
+35,0,Albergaria (A1/IP5),435,435,Deslocação
+36,0,Aveiro Sul,448,448,Deslocação
+37,0,Mealhada,464,464,Deslocação
+38,0,Mealhada,464,474,Visitar Nó
+39,0,Mealhada,464,474,Vistoria
+40,0,Mealhada,464,464,Fim
+41,1,Mealhada,0,0,Deslocação
+42,1,Coimbra Norte (A1/A14),9,9,Deslocação
+43,1,Coimbra Sul,16,16,Deslocação
+44,1,Coimbra Sul,16,16,Deslocação
+45,1,Coimbra Norte (A1/A14),23,23,Deslocação
+46,1,Mealhada,32,32,Deslocação
+47,1,Aveiro Sul,48,48,Deslocação
+48,1,Albergaria (A1/IP5),61,61,Deslocação
+49,1,Estarreja,68,68,Deslocação
+50,1,Estarreja,68,98,Incidência
+51,1,Feira,110,110,Deslocação
+52,1,Feira,110,120,Pausa
+53,1,Estarreja,132,132,Deslocação
+54,1,Albergaria (A1/IP5),139,139,Deslocação
+55,1,Aveiro Sul,152,152,Deslocação
+56,1,Aveiro Sul,152,182,Incidência
+57,1,Mealhada,198,198,Deslocação
+58,1,Aveiro Sul,214,214,Deslocação
+59,1,Albergaria (A1/IP5),227,227,Deslocação
+60,1,Estarreja,234,234,Deslocação
+61,1,Feira,246,246,Deslocação
+62,1,Feira,246,276,Incidência
+63,1,Espinho (IC24),283,283,Deslocação
+64,1,Espinho (IC24),283,323,Almoço
+65,1,Feira,330,340,Visitar Nó
+66,1,Feira,330,330,Deslocação
+67,1,Estarreja,342,352,Visitar Nó
+68,1,Estarreja,342,352,Vistoria
+69,1,Estarreja,342,342,Deslocação
+70,1,Albergaria (A1/IP5),349,359,Visitar Nó
+71,1,Albergaria (A1/IP5),349,349,Deslocação
+72,1,Aveiro Sul,362,372,Visitar Nó
+73,1,Aveiro Sul,362,362,Deslocação
+74,1,Mealhada,378,378,Deslocação
+75,1,Mealhada,378,408,Incidência
+76,1,Coimbra Norte (A1/A14),417,427,Visitar Nó
+77,1,Coimbra Norte (A1/A14),417,417,Deslocação
+78,1,Mealhada,426,426,Deslocação
+79,1,Mealhada,426,426,Fim
+80,2,Mealhada,0,0,Deslocação
+81,2,Coimbra Norte (A1/A14),9,9,Deslocação
+82,2,Coimbra Sul,16,16,Deslocação
+83,2,Coimbra Sul,16,16,Deslocação
+84,2,Coimbra Norte (A1/A14),23,23,Deslocação
+85,2,Mealhada,32,32,Deslocação
+86,2,Aveiro Sul,48,48,Deslocação
+87,2,Mealhada,64,64,Deslocação
+88,2,Mealhada,64,94,Incidência
+89,2,Coimbra Norte (A1/A14),103,103,Deslocação
+90,2,Coimbra Norte (A1/A14),103,113,Pausa
+91,2,Coimbra Sul,120,120,Deslocação
+92,2,Coimbra Sul,120,120,Deslocação
+93,2,Coimbra Norte (A1/A14),127,127,Deslocação
+94,2,Mealhada,136,136,Deslocação
+95,2,Aveiro Sul,152,152,Deslocação
+96,2,Albergaria (A1/IP5),165,165,Deslocação
+97,2,Estarreja,172,172,Deslocação
+98,2,Feira,184,184,Deslocação
+99,2,Espinho (IC24),191,191,Deslocação
+100,2,Feiteira,195,195,Deslocação
+101,2,Carvalhos,198,198,Deslocação
+102,2,Jaca,199,199,Deslocação
+103,2,Santo Ovídio,199,199,Deslocação
+104,2,Jaca,199,199,Deslocação
+105,2,Carvalhos,200,200,Deslocação
+106,2,Feiteira,203,203,Deslocação
+107,2,Espinho (IC24),207,207,Deslocação
+108,2,Feira,214,214,Deslocação
+109,2,Estarreja,226,226,Deslocação
+110,2,Feira,238,238,Deslocação
+111,2,Espinho (IC24),245,245,Deslocação
+112,2,Espinho (IC24),245,275,Incidência
+113,2,Feiteira,279,279,Deslocação
+114,2,Carvalhos,282,282,Deslocação
+115,2,Jaca,283,283,Deslocação
+116,2,Santo Ovídio,283,283,Deslocação
+117,2,Santo Ovídio,323,333,Visitar Nó
+118,2,Santo Ovídio,323,333,Vistoria
+119,2,Santo Ovídio,283,323,Almoço
+120,2,Jaca,323,333,Visitar Nó
+121,2,Jaca,323,323,Deslocação
+122,2,Carvalhos,324,334,Visitar Nó
+123,2,Carvalhos,324,324,Deslocação
+124,2,Feiteira,327,337,Visitar Nó
+125,2,Feiteira,327,327,Deslocação
+126,2,Espinho (IC24),331,341,Visitar Nó
+127,2,Espinho (IC24),331,331,Deslocação
+128,2,Feira,338,338,Deslocação
+129,2,Estarreja,350,350,Deslocação
+130,2,Albergaria (A1/IP5),357,357,Deslocação
+131,2,Aveiro Sul,370,370,Deslocação
+132,2,Mealhada,386,386,Deslocação
+133,2,Coimbra Norte (A1/A14),395,395,Deslocação
+134,2,Coimbra Sul,402,402,Deslocação
+135,2,Coimbra Sul,402,412,Visitar Nó
+136,2,Coimbra Sul,402,402,Deslocação
+137,2,Coimbra Norte (A1/A14),409,409,Deslocação
+138,2,Mealhada,418,418,Deslocação
+139,2,Mealhada,418,418,Fim
+140,3,Mealhada,0,0,Deslocação
+141,3,Coimbra Norte (A1/A14),9,9,Deslocação
+142,3,Coimbra Sul,16,16,Deslocação
+143,3,Coimbra Sul,16,16,Deslocação
+144,3,Coimbra Norte (A1/A14),23,23,Deslocação
+145,3,Mealhada,32,32,Deslocação
+146,3,Aveiro Sul,48,48,Deslocação
+147,3,Albergaria (A1/IP5),61,61,Deslocação
+148,3,Estarreja,68,68,Deslocação
+149,3,Feira,80,80,Deslocação
+150,3,Espinho (IC24),87,87,Deslocação
+151,3,Feiteira,91,91,Deslocação
+152,3,Carvalhos,94,94,Deslocação
+153,3,Jaca,95,95,Deslocação
+154,3,Santo Ovídio,95,95,Deslocação
+155,3,Jaca,95,95,Deslocação
+156,3,Carvalhos,96,96,Deslocação
+157,3,Feiteira,99,99,Deslocação
+158,3,Espinho (IC24),103,103,Deslocação
+159,3,Espinho (IC24),103,113,Pausa
+160,3,Feira,120,120,Deslocação
+161,3,Estarreja,132,132,Deslocação
+162,3,Albergaria (A1/IP5),139,139,Deslocação
+163,3,Aveiro Sul,152,152,Deslocação
+164,3,Mealhada,168,168,Deslocação
+165,3,Coimbra Norte (A1/A14),177,177,Deslocação
+166,3,Coimbra Sul,184,184,Deslocação
+167,3,Coimbra Sul,184,184,Deslocação
+168,3,Coimbra Norte (A1/A14),191,191,Deslocação
+169,3,Mealhada,200,200,Deslocação
+170,3,Aveiro Sul,216,216,Deslocação
+171,3,Albergaria (A1/IP5),229,229,Deslocação
+172,3,Aveiro Sul,242,242,Deslocação
+173,3,Mealhada,258,258,Deslocação
+174,3,Mealhada,258,288,Incidência
+175,3,Mealhada,288,328,Almoço
+176,3,Coimbra Norte (A1/A14),337,337,Deslocação
+177,3,Coimbra Sul,344,344,Deslocação
+178,3,Coimbra Sul,344,344,Deslocação
+179,3,Coimbra Norte (A1/A14),351,351,Deslocação
+180,3,Mealhada,360,360,Deslocação
+181,3,Aveiro Sul,376,376,Deslocação
+182,3,Albergaria (A1/IP5),389,389,Deslocação
+183,3,Estarreja,396,396,Deslocação
+184,3,Feira,408,408,Deslocação
+185,3,Espinho (IC24),415,415,Deslocação
+186,3,Feira,422,422,Deslocação
+187,3,Estarreja,434,434,Deslocação
+188,3,Albergaria (A1/IP5),441,441,Deslocação
+189,3,Aveiro Sul,454,454,Deslocação
+190,3,Mealhada,470,470,Deslocação
+191,3,Mealhada,470,470,Fim

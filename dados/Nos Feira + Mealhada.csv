@@ -1,0 +1,13 @@
+Auto-Estrada,CO,Nó,Sublanço,Sequência,Latitude,Longitude,CO?,Extensão,pausa,almoco,vistoria
+A1,Mealhada,Coimbra Sul,Coimbra Sul-Coimbra Norte (A1/A14),0,40.18951372,-8.488160602,0,8.303,0,0,0
+A1,Mealhada,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14)-Mealhada,1,40.26903044,-8.483327664,0,11.707,1,1,0
+A1,Mealhada,Mealhada,Mealhada-Aveiro Sul,2,40.37286613,-8.493435181,1,23.633,1,1,1
+A1,Feira,Aveiro Sul,Aveiro Sul-Albergaria (A1/IP5),3,40.56379544,-8.561086614,0,14.78,1,1,0
+A1,Feira,Albergaria (A1/IP5),Albergaria (A1/IP5)-Estarreja,4,40.70489581,-8.522044976,0,10.428,1,1,0
+A1,Feira,Estarreja,Estarreja-Feira,5,40.78236382,-8.544700822,0,16.832,1,1,1
+A1,Feira,Feira,Feira-Espinho (IC24),6,40.93107064,-8.569931162,1,8.92,1,1,0
+A1,Feira,Espinho (IC24),Espinho (IC24)-Feiteira,7,41.00603673,-8.582256038,0,5.47,1,1,0
+A1,Feira,Feiteira,Feiteira-Carvalhos,8,41.04830372,-8.571150958,0,2.7,0,0,0
+A1,Feira,Carvalhos,Carvalhos-Jaca,9,41.07289744,-8.580874642,0,2.78,0,0,0
+A1,Feira,Jaca,Jaca-Santo Ovídio,10,41.08855679,-8.585936813,0,1.804,0,0,0
+A1,Feira,Santo Ovídio,Jaca-Santo Ovídio,11,41.08855679,-8.585936813,0,1.804,1,1,1
