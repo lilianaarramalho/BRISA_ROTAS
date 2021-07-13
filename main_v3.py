@@ -2,8 +2,12 @@ import pandas as pd
 import math
 from classes import *
 global combinacoes
+global count_rota
+global resposta
 
+resposta=3*60
 combinacoes=[]
+count_rota=0
 
 def import_data():
 
@@ -21,9 +25,9 @@ def import_data():
     satisfeitos=[]
     incidencias_visitadas=[]
 
-    df_nos=pd.read_csv('dados/Nos Feira + Mealhada.csv',sep=',',encoding='iso-8859-1')
+    df_nos=pd.read_csv('dados/01. nos.csv',sep=',',encoding='iso-8859-1')
 
-    df_sublancos=pd.read_csv('dados/sublanços, nós Feira + Mealhada.csv',sep=',',encoding='iso-8859-1')
+    df_sublancos=pd.read_csv('dados/05. sublancos nos.csv',sep=',',encoding='iso-8859-1')
     lista_cos=df_nos['CO'].tolist()
     lista_nos=df_nos['Nó'].tolist()
     lista_sublancos=df_nos['Sublanço'].tolist()
@@ -57,7 +61,7 @@ def import_data():
 
     unique_nos = lista_nos.copy()
 
-    df_nos_sublancos = pd.read_csv('dados/sublanços, nós Feira + Mealhada.csv', sep=',', encoding='iso-8859-1')
+    df_nos_sublancos = pd.read_csv('dados/05. sublancos nos.csv', sep=',', encoding='iso-8859-1')
     descricao_sublanco=df_nos_sublancos['Sublanço'].tolist()
     descricao_no=df_nos_sublancos['Nó'].tolist()
 
@@ -95,7 +99,7 @@ def import_data():
 
         nos[index].distancias=[0]*len(nos)
         temp=df_distancias[df_distancias['Stop Start']==nos[index].nome]
-        velocidade=80
+        velocidade=60
 
         out=temp['Stop End'].tolist()
         dist = temp['Duration (min)'].tolist()
@@ -145,7 +149,7 @@ def import_data():
             turnos.append(new_turno)
 
     global max_visitas
-    max_visitas = 180
+    max_visitas = resposta
 
     satisfeitos=[[False] * len(nos)] * len(turnos)
 
@@ -160,7 +164,7 @@ def get_distance(x,y):
         min_dist = nos[y].distancias[x]
 
     if min_dist==0:
-        min_dist=1
+        min_dist=2
 
     return int(min_dist)
 
@@ -177,7 +181,7 @@ def gerar_combinacoes(lista_sublancos,min_comb):
         temp_incidencias = indices_a_manter.copy()
         min_sublanco = min(lista_sublancos)
         max_sublanco = max(lista_sublancos)
-        max_diferenca = 99
+        max_diferenca = 1
         for posicao_incidencia in indices_a_manter:
             if min_sublanco - max_diferenca > incidencias[posicao_incidencia][0] or max_sublanco + max_diferenca < incidencias[posicao_incidencia][0]:
                 temp_incidencias.remove(posicao_incidencia)
@@ -278,6 +282,24 @@ def atualizar_vetor(id_posicao,id_turno,new_carro,vetor_passos,tempo_adicional,t
 
     return new_carro,vetor_passos
 
+def visitar_no(id_no,rota,passos,posicao,tempo_no,tipo):
+
+    new_row={'posicao':id_no,'Hora Inicio':passos[posicao].get('Hora Fim'),'Hora Fim':tempo_no+passos[posicao].get('Hora Fim'),'Tipo':tipo}
+    passos.insert(posicao,new_row)
+    rota.insert(posicao,id_no)
+
+    for index in range(posicao+1,len(passos)):
+
+        new_row= {'posicao':passos[index].get('posicao'),'Hora Inicio':passos[index].get('Hora Inicio')+tempo_no,'Hora Fim':passos[index].get('Hora Fim')+tempo_no,'Tipo':passos[index].get('Tipo')}
+        passos[index]=new_row
+
+    count=0
+    for index in range(len(passos)):
+        if passos[index].get('Tipo')=='Visitar Nó':
+            count+=1
+
+    return rota, passos,count
+
 def adicionar_posicao(id_posicao,tipo_deslocacao,vetor_carro,vetor_passos,vetor_sublancos,id_turno):
 
     tempo_adicional=0
@@ -285,7 +307,7 @@ def adicionar_posicao(id_posicao,tipo_deslocacao,vetor_carro,vetor_passos,vetor_
     if tipo_deslocacao=='Pausa':
         tempo_adicional=10
     elif tipo_deslocacao=='Almoço':
-        tempo_adicional = 40
+        tempo_adicional = 30
     elif tipo_deslocacao=='Visitar Nó':
         tempo_adicional = 10
     elif tipo_deslocacao=='Vistoria':
@@ -325,6 +347,21 @@ def get_tempo_atualizado(posicao_inicial,posicao_final):
 
     return int(tempo)
 
+def verificar_npausas(new_tempo_paragens):
+    n_pausas = 0
+    n_almocos = 0
+    n_fim = 0
+
+    for index in range(len(new_tempo_paragens)):
+        if new_tempo_paragens[index].get('Tipo') == 'Pausa':
+            n_pausas += 1
+        if new_tempo_paragens[index].get('Tipo') == 'Almoço':
+            n_almocos += 1
+        if new_tempo_paragens[index].get('Tipo') == 'Fim':
+            n_fim += 1
+
+    return n_pausas,n_almocos,n_fim
+
 def precisa_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
 
     pausa = turnos[id_turno].pausa
@@ -340,6 +377,7 @@ def precisa_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
     n_pausas = 0
     n_almocos = 0
     n_fim = 0
+    tempo_a_verificar=0
 
     for index in range(len(new_tempo_paragens)):
         if new_tempo_paragens[index].get('Tipo') == 'Pausa':
@@ -354,10 +392,11 @@ def precisa_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
     if len(new_rota) > 0:
         posicao_atual = new_rota[-1]
         posicao_objetivo = -1
-        diferenca_min = 99
+        diferenca_min = 999
 
-        if math.fabs(tempo- pausa)<= 60 and n_pausas==0 :
-            tempo_a_verificar = pausa
+
+        if pausa-tempo<= 45 and n_pausas==0 :
+            tempo_a_verificar = pausa-tempo
             tipo_paragem='Pausa'
             for id_no in lista_sublancos:
                 no=nos[id_no]
@@ -374,8 +413,8 @@ def precisa_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
                             posicao_objetivo = no.id
                             diferenca_min = diferenca
 
-        elif math.fabs(tempo - almoco)<=60 and n_almocos == 0:
-            tempo_a_verificar = almoco
+        elif almoco-tempo<=45 and n_almocos == 0:
+            tempo_a_verificar = almoco-tempo
             tipo_paragem = 'Almoço'
             for id_no in lista_sublancos:
                 no = nos[id_no]
@@ -392,11 +431,11 @@ def precisa_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
                             posicao_objetivo = no.id
                             diferenca_min = diferenca
 
-    return posicao_objetivo,tipo_paragem,new_rota,new_tempo_paragens
+    return posicao_objetivo,tipo_paragem,new_rota,new_tempo_paragens,tempo_a_verificar
 
 def threshold(new_tempo_paragens,lista_sublancos):
 
-    tempo_visita=[180]*len(nos)
+    tempo_visita=[resposta]*len(nos)
 
     posicao_atual=new_tempo_paragens[-1].get('posicao')
     tempo_atual=new_tempo_paragens[-1].get('Hora Fim')
@@ -415,7 +454,7 @@ def threshold(new_tempo_paragens,lista_sublancos):
         for index in range(len(tempo_visita)):
 
             if index==id_posicao:
-                tempo_visita[index]=180
+                tempo_visita[index]=resposta
             elif index in lista_sublancos:
                 tempo_visita[index]=tempo_visita[index]-tempo_retirar
 
@@ -479,20 +518,18 @@ def go_to(id_paragem,lista_sublancos,tipo_paragem,new_rota,new_tempo_paragens,id
 
 def verificar_ultima_paragem(lista_sublancos,new_rota,new_tempo_paragens,id_turno):
 
-    id_paragem, tipo_paragem, new_rota, new_tempo_paragens = precisa_paragem(lista_sublancos, new_rota,
+    id_paragem, tipo_paragem, new_rota, new_tempo_paragens,tempo_a_verificar_1 = precisa_paragem(lista_sublancos, new_rota,
                                                                              new_tempo_paragens, id_turno)
     temp_rota=new_rota.copy()
     temp_tempos=new_tempo_paragens.copy()
     temp_rota, temp_paragens = adicionar_posicao(-1, "Deslocação", temp_rota, temp_tempos, lista_sublancos,
                                                  id_turno)
-    temp_rota, temp_paragens = adicionar_posicao(-1, "Deslocação", temp_rota, temp_tempos, lista_sublancos,
-                                                 id_turno)
-    temp_posicao_objetivo, temp_tipo_paragem, temp_new_rota, temp_new_tempo_paragens = precisa_paragem(lista_sublancos,
+    temp_posicao_objetivo, temp_tipo_paragem, temp_new_rota, temp_new_tempo_paragens,tempo_a_verificar_2 = precisa_paragem(lista_sublancos,
                                                                                                        temp_rota,
                                                                                                        temp_paragens,
                                                                                                id_turno)
 
-    if temp_posicao_objetivo != -1 and temp_tipo_paragem == tipo_paragem:
+    if temp_posicao_objetivo != -1 and temp_tipo_paragem == tipo_paragem and tempo_a_verificar_1>0:
         id_paragem = -1
 
     return id_paragem,tipo_paragem
@@ -544,6 +581,9 @@ def precisa_incidencia(incidencias_a_considerar,new_rota,new_tempo_paragens,new_
 
 def criar_rota_particular(lista_sublancos,incidencias_a_considerar,id_turno,carro_origem,tempo_paragens):
 
+    global count_rota
+    count_rota+=1
+
     new_visitas=[False]*len(incidencias)
 
     for index in range(len(incidencias_visitadas)):
@@ -578,13 +618,19 @@ def criar_rota_particular(lista_sublancos,incidencias_a_considerar,id_turno,carr
     tempo_atual=new_tempo_paragens[-1].get('Hora Fim')
     tempo_to_fim=0
     tempo_no=10
-    verificacoes=count_vistorias(lista_sublancos)
-    verificacoes+=len(lista_sublancos)
-    tempo_necessario_nos=verificacoes*tempo_no
+    tempo_necessario_nos=len(lista_sublancos)*tempo_no
     tempo_abertura=8*60
     tempo_abertura=tempo_abertura-tempo_necessario_nos
 
+    posicao_incidencia_anterior=-1
+    n_pausas=0
+    n_almocos=0
+    n_fim=0
+
     while tempo_atual+tempo_to_fim<tempo_abertura:
+
+        n_pausas,n_almocos,n_fim=verificar_npausas(new_tempo_paragens)
+        id_paragem, tipo_paragem = verificar_ultima_paragem(lista_sublancos, new_rota, new_tempo_paragens, id_turno)
 
         id_paragem,tipo_paragem=verificar_ultima_paragem(lista_sublancos, new_rota, new_tempo_paragens, id_turno)
 
@@ -611,9 +657,9 @@ def criar_rota_particular(lista_sublancos,incidencias_a_considerar,id_turno,carr
 
             temp_final = temp_paragens[-1].get('Hora Fim')
             tempo_to_fim = get_distance(temp_rota[0], temp_paragens[-1].get('posicao'))
-            if temp_final + tempo_to_fim < tempo_abertura:
+            if temp_final + tempo_to_fim < tempo_abertura and posicao_incidencia_anterior!=posicao_incidencia:
                 new_rota, new_tempo_paragens = go_to(id_incidencia,lista_sublancos,"Incidência",new_rota,new_tempo_paragens,0)
-
+                posicao_incidencia_anterior = posicao_incidencia
                 new_visitas[posicao_incidencia]=True
             else:
                 tempo_to_fim=10000000
@@ -631,6 +677,7 @@ def criar_rota_particular(lista_sublancos,incidencias_a_considerar,id_turno,carr
                 tempo_to_fim=10000000
 
         tempo_atual=new_tempo_paragens[-1].get('Hora Fim')
+
         # tempo_to_fim=get_distance(new_rota[0],new_tempo_paragens[-1].get('posicao'))
 
     new_rota, new_tempo_paragens = go_to(new_rota[0], lista_sublancos, "Fim", new_rota,
@@ -704,19 +751,19 @@ def verificar_carro_iniciado(id_turno,index,vetor_sublancos,carro,passos,sentido
                                                          id_turno)
                 posicao=co+incrementar
 
-                if posicao>id_range:
-
-                    for id_pos in range(posicao-1,id_range-1,-1):
-
-                        carro, passos = adicionar_posicao(id_pos, "Início", carro, passos, vetor_sublancos,
-                                                          id_turno)
-
-                elif posicao<id_range:
-
-                    for id_pos in range(posicao+1,id_range+1):
-
-                        carro, passos = adicionar_posicao(id_pos, "Início", carro, passos, vetor_sublancos,
-                                                          id_turno)
+                # if posicao>id_range:
+                #
+                #     for id_pos in range(posicao-1,id_range-1,-1):
+                #
+                #         carro, passos = adicionar_posicao(id_pos, "Início", carro, passos, vetor_sublancos,
+                #                                           id_turno)
+                #
+                # elif posicao<id_range:
+                #
+                #     for id_pos in range(posicao+1,id_range+1):
+                #
+                #         carro, passos = adicionar_posicao(id_pos, "Início", carro, passos, vetor_sublancos,
+                #                                           id_turno)
 
 
 
@@ -726,7 +773,24 @@ def verificar_restricoes(new_tempo_paragens,lista_sublancos,vetor_incidencias,ne
 
     valor =True
 
-    tempo_visita=[180]*len(nos)
+    soma=0
+
+    tempo_visita=[resposta]*len(nos)
+
+    # n_almocos=0
+    # n_pausas=0
+    # n_fim=0
+    #
+    # for index in range(len(new_tempo_paragens)):
+    #     if new_tempo_paragens[index].get('Tipo')=='Pausa':
+    #         n_pausas+=1
+    #     elif new_tempo_paragens[index].get('Tipo')=='Pausa':
+    #         n_almocos+=1
+    #     elif new_tempo_paragens[index].get('Tipo')=='Fim':
+    #         n_fim+=1
+    #
+    # if n_pausas==0 or n_almocos==0 or n_fim==0:
+    #     valor=False
 
     for posicao in range(1,len(new_tempo_paragens)):
 
@@ -740,17 +804,22 @@ def verificar_restricoes(new_tempo_paragens,lista_sublancos,vetor_incidencias,ne
         for index in range(len(tempo_visita)):
 
             if index==id_posicao:
-                tempo_visita[index]=180
+                tempo_visita[index]=resposta
             elif index in lista_sublancos:
                 tempo_visita[index]=tempo_visita[index]-tempo_retirar
                 if tempo_visita[index]<0:
                     valor=False
+                    soma+=tempo_visita[index]
+
+    # temp=[180]*len(tempo_visita)
+    # for index in range(len(tempo_visita)):
+    #     soma += tempo_visita[index]-temp[index]
 
     for posicao_incidencia in incidencias_a_considerar:
         if new_visitas[posicao_incidencia]==False:
             valor=False
 
-    return valor
+    return valor,soma
 
 def limpar_incidencias(best_incidencias):
 
@@ -782,19 +851,20 @@ def compara_incidencias(incidencias_a_considerar,best_incidencias):
 
     return resultado
 
-def count_vistorias(lista_sublancos):
-    count=0
-    for index_no in lista_sublancos:
-        if nos[index_no].vistoria!=-1:
-            count+=1
-    return count
-
-
 def verificar_best(temp_rotas,temp_tempos,temp_incidencias,best_rota,best_tempo,best_incidencias,guardar_best,temp_sub,best_sub):
 
     j=0
     compara_1=0
     compara_2=0
+
+    if len(temp_sub)>len(best_sub) :
+        best_rota = temp_rotas.copy()
+        best_tempo = temp_tempos.copy()
+        best_incidencias = temp_incidencias.copy()
+        best_sub=temp_sub.copy()
+        guardar_best = True
+
+        return best_rota, best_tempo, best_incidencias, guardar_best,best_sub
 
     while j<len(incidencias_a_considerar) or j<len(best_incidencias):
         if j>=len(incidencias_a_considerar):
@@ -817,16 +887,57 @@ def verificar_best(temp_rotas,temp_tempos,temp_incidencias,best_rota,best_tempo,
 
         j += 1
 
-    if len(temp_sub)>len(best_sub) :
-        best_rota = temp_rotas.copy()
-        best_tempo = temp_tempos.copy()
-        best_incidencias = temp_incidencias.copy()
-        best_sub=temp_sub.copy()
-        guardar_best = True
 
-        return best_rota, best_tempo, best_incidencias, guardar_best,best_sub
 
     return best_rota,best_tempo,best_incidencias,guardar_best,best_sub
+
+def adicionar_nos(new_rota, new_tempo_paragens, lista_sublancos,new_visitas):
+
+    temp_rota=new_rota.copy()
+    temp_paragens=new_tempo_paragens.copy()
+
+    count=0
+
+    for no in lista_sublancos:
+
+        posicao=0
+        total=len(temp_paragens)
+        max_soma = -9999
+
+        while posicao<total:
+
+            id_posicao=temp_paragens[posicao].get('posicao')
+
+            if id_posicao==no:
+
+                temp_rota_2=temp_rota.copy()
+                temp_paragens_2=temp_paragens.copy()
+
+                if nos[no].vistoria!=-1:
+                    tempo_add=10
+                else:
+                    tempo_add=20
+
+                temp_rota_2,temp_paragens_2,count=visitar_no(id_posicao,temp_rota_2,temp_paragens_2,posicao,tempo_add,"Visitar Nó")
+
+                melhor_rota = temp_rota_2.copy()
+                melhor_paragem = temp_paragens_2.copy()
+
+                valor,soma=verificar_restricoes(temp_paragens_2,lista_sublancos,[],new_visitas)
+
+                if soma>max_soma:
+                    max_soma=soma
+                    melhor_rota=temp_rota_2.copy()
+                    melhor_paragem=temp_paragens_2.copy()
+
+            posicao += 1
+
+        temp_rota=melhor_rota.copy()
+        temp_paragens=melhor_paragem.copy()
+
+
+    return temp_rota,temp_paragens
+
 
 import_data()
 
@@ -892,8 +1003,6 @@ while stop_condition==False:
 
         gerar_combinacoes(lista_sublancos,min_comb)
 
-        print('combinações para os sublancos ' + str(len(lista_sublancos)) + ' = ' + str(len(combinacoes)))
-
         for posicao_carro in range(len(carros)):
             carro=carros[posicao_carro]
 
@@ -908,11 +1017,13 @@ while stop_condition==False:
                         new_rota, new_tempo_paragens,new_visitas=criar_rota_particular(lista_sublancos, incidencias_a_considerar, 0, carro,passos[posicao_carro])
 
 
-                        verificou_restricoes=verificar_restricoes(new_tempo_paragens,lista_sublancos,incidencias_a_considerar,new_visitas)
+                        verificou_restricoes,soma=verificar_restricoes(new_tempo_paragens,lista_sublancos,incidencias_a_considerar,new_visitas)
 
                         print('minimo sublanço ' + str(min(lista_sublancos)) + str(' carro ') + str(
                             carro) + ' len sublanços ' + str(len(lista_sublancos)) + ' len incidencias ' + str(
                             incidencias_a_considerar) + ' cumpre ' + str(verificou_restricoes))
+
+                        new_rota, new_tempo_paragens=adicionar_nos(new_rota, new_tempo_paragens, lista_sublancos,new_visitas)
 
                         if best_rota == []:
                             best_rota = new_rota.copy()
@@ -922,6 +1033,7 @@ while stop_condition==False:
                             best_incidencias=incidencias_a_considerar.copy()
 
                         if verificou_restricoes==True:
+
                             best_rota,best_tempo,best_incidencias,guardar_best,best_lista_sublancos=verificar_best(new_rota,new_tempo_paragens,incidencias_a_considerar,best_rota,best_tempo,best_incidencias,guardar_best,lista_sublancos,best_lista_sublancos) #escolher o melhor (com incidencias com menor indice)
 
         if guardar_best==True and indice_atual==len(nos)-1:
@@ -961,6 +1073,72 @@ while stop_condition==False:
         lista_sublancos.insert(0,len(nos)-2)
 
 print('finish')
+
+def delete_vaivem(rotas,tempos):
+
+    guardar_rotas=[]
+    guardar_passagens=[]
+
+    temp_rotas=rotas.copy()
+    temp_tempos=tempos.copy()
+
+    for index in range(len(temp_rotas)):
+
+        new_rota=temp_rotas[index].copy()
+        new_tempo=temp_tempos[index].copy()
+
+        vaivem=0
+        posicao=len(new_tempo)-1
+        posicao_inicial=-1
+        posicao_final=[]
+
+        while posicao>=2:
+
+            if new_tempo[posicao-1].get('posicao')==new_tempo[posicao].get('posicao'):
+                if posicao_inicial==-1:
+                    posicao_inicial=posicao
+                else:
+                    posicao_final.append(posicao)
+
+            if new_tempo[posicao].get('Tipo')=='Incidência' :
+                posicao=-1
+
+            posicao-=1
+
+        print('posicao inicial ' + str(posicao_inicial))
+
+        print('posicao final ' + str(posicao_final))
+
+        valor_max=999
+        valores=[]
+        for posicao_fim in posicao_final:
+
+            temp_2=new_tempo.copy()
+
+            del temp_2[posicao_inicial:posicao_fim]
+
+            valor,soma=verificar_restricoes(temp_2,lista_sublancos_solucao[index],[],new_visitas)
+            valores.append(valor)
+            if posicao_fim<valor_max and valor==True:
+                valor_max=posicao_fim
+
+            print(valor)
+
+        if any(valores)==True:
+
+            print(len(new_tempo))
+
+            del new_tempo[valor_max:posicao_inicial]
+            del new_rota[valor_max:posicao_inicial]
+            guardar_rotas.append(new_rota)
+            guardar_passagens.append(new_tempo)
+            print(len(new_tempo))
+
+        print('finiso')
+
+    return guardar_rotas,guardar_passagens
+
+# guardar_rotas,guardar_passagens=delete_vaivem(rotas,tempos)
 
 output=[]
 

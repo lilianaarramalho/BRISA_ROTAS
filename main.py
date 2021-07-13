@@ -779,6 +779,11 @@ def criar_rotas():
     global vetor_solucao_sublancos
     global nos_carro
 
+    global nos_visitados
+    global vistorias_visitadas
+
+    nos_visitados=[False]*len(nos)
+
     vetor_solucao_sublancos=[]
     vetor_tempos_solucao=[]
     tempo_total_solucao=[]
