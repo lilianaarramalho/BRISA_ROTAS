@@ -896,6 +896,9 @@ def adicionar_nos(new_rota, new_tempo_paragens, lista_sublancos,new_visitas):
     temp_rota=new_rota.copy()
     temp_paragens=new_tempo_paragens.copy()
 
+    melhor_rota = temp_rota.copy()
+    melhor_paragem = temp_paragens.copy()
+
     count=0
 
     for no in lista_sublancos:
@@ -1023,7 +1026,7 @@ while stop_condition==False:
                             carro) + ' len sublanços ' + str(len(lista_sublancos)) + ' len incidencias ' + str(
                             incidencias_a_considerar) + ' cumpre ' + str(verificou_restricoes))
 
-                        new_rota, new_tempo_paragens=adicionar_nos(new_rota, new_tempo_paragens, lista_sublancos,new_visitas)
+
 
                         if best_rota == []:
                             best_rota = new_rota.copy()
@@ -1138,7 +1141,12 @@ def delete_vaivem(rotas,tempos):
 
     return guardar_rotas,guardar_passagens
 
-# guardar_rotas,guardar_passagens=delete_vaivem(rotas,tempos)
+guardar_rotas,guardar_passagens=delete_vaivem(rotas,tempos)
+
+for index in range(len(rotas)):
+    temp_rota=rotas[index].copy()
+    temp_passos=tempos[index].copy()
+    new_rota, new_tempo_paragens=adicionar_nos(temp_rota, temp_passos, lista_sublancos,[True]*len(incidencias))
 
 output=[]
 
