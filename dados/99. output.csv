@@ -1,86 +1,148 @@
 ,Carro,Nó,Hora Inicio,Hora Fim,Tipo
-0,0,Feira,92,102,Visitar Nó
-1,0,Feira,10,102,Espera
-2,0,Feira,102,102,Deslocação
-3,0,Estarreja,118,128,Visitar Nó
-4,0,Estarreja,128,128,Deslocação
-5,0,Estarreja,130,130,Deslocação
-6,0,Albergaria (A1/IP5),140,150,Visitar Nó
-7,0,Albergaria (A1/IP5),150,150,Deslocação
-8,0,Aveiro Sul,198,208,Visitar Nó
-9,0,Aveiro Sul,178,208,Incidência
-10,0,Aveiro Sul,210,210,Deslocação
-11,0,Albergaria (A1/IP5),228,228,Deslocação
-12,0,Albergaria (A1/IP5),230,240,Pausa
-13,0,Albergaria (A1/IP5),242,242,Deslocação
-14,0,Estarreja,252,252,Deslocação
-15,0,Feira,268,298,Incidência
-16,0,Feira,300,300,Deslocação
-17,0,Estarreja,316,316,Deslocação
-18,0,Albergaria (A1/IP5),326,326,Deslocação
-19,0,Aveiro Sul,344,344,Deslocação
-20,0,Aveiro Sul,346,376,Almoço
-21,0,Albergaria (A1/IP5),394,394,Deslocação
-22,0,Estarreja,404,404,Deslocação
-23,0,Feira,420,420,Deslocação
-24,0,Feira,422,422,Deslocação
-25,0,Estarreja,438,438,Deslocação
-26,0,Albergaria (A1/IP5),448,448,Deslocação
-27,0,Albergaria (A1/IP5),450,450,Deslocação
-28,0,Estarreja,460,460,Deslocação
-29,0,Feira,476,476,Fim
-30,1,Feira,0,0,Início
-31,1,Espinho (IC24),10,20,Visitar Nó
-32,1,Espinho (IC24),20,20,Início
-33,1,Espinho (IC24),22,86,Espera
-34,1,Espinho (IC24),86,86,Deslocação
-35,1,Feiteira,92,102,Visitar Nó
-36,1,Feiteira,102,102,Deslocação
-37,1,Carvalhos,106,116,Visitar Nó
-38,1,Carvalhos,116,116,Deslocação
-39,1,Jaca,118,128,Visitar Nó
-40,1,Jaca,128,128,Deslocação
-41,1,Santo Ovídio,130,140,Visitar Nó
-42,1,Santo Ovídio,140,140,Deslocação
-43,1,Santo Ovídio,142,142,Deslocação
-44,1,Jaca,144,144,Deslocação
-45,1,Carvalhos,146,146,Deslocação
-46,1,Feiteira,150,150,Deslocação
-47,1,Espinho (IC24),156,156,Deslocação
-48,1,Espinho (IC24),158,190,Espera
-49,1,Espinho (IC24),190,190,Deslocação
-50,1,Feira,200,200,Deslocação
-51,1,Estarreja,216,246,Incidência
-52,1,Estarreja,248,248,Deslocação
-53,1,Feira,264,264,Deslocação
-54,1,Espinho (IC24),274,274,Deslocação
-55,1,Espinho (IC24),276,286,Pausa
-56,1,Feiteira,292,292,Deslocação
-57,1,Carvalhos,296,296,Deslocação
-58,1,Jaca,298,298,Deslocação
-59,1,Santo Ovídio,300,300,Deslocação
-60,1,Santo Ovídio,302,302,Deslocação
-61,1,Jaca,304,304,Deslocação
-62,1,Carvalhos,306,306,Deslocação
-63,1,Feiteira,310,310,Deslocação
-64,1,Espinho (IC24),316,316,Deslocação
-65,1,Espinho (IC24),318,318,Deslocação
-66,1,Espinho (IC24),320,320,Deslocação
-67,1,Feira,330,330,Deslocação
-68,1,Estarreja,346,376,Incidência
-69,1,Estarreja,378,378,Deslocação
-70,1,Feira,394,394,Deslocação
-71,1,Espinho (IC24),404,404,Deslocação
-72,1,Espinho (IC24),406,436,Almoço
-73,1,Feiteira,442,442,Deslocação
-74,1,Carvalhos,446,446,Deslocação
-75,1,Jaca,448,448,Deslocação
-76,1,Santo Ovídio,450,450,Deslocação
-77,1,Santo Ovídio,452,452,Deslocação
-78,1,Jaca,454,454,Deslocação
-79,1,Carvalhos,456,456,Deslocação
-80,1,Feiteira,460,460,Deslocação
-81,1,Espinho (IC24),466,466,Deslocação
-82,1,Espinho (IC24),468,468,Deslocação
-83,1,Espinho (IC24),470,470,Deslocação
-84,1,Feira,480,480,Fim
+0,0,Nó de Carcavelos,0,0,Início
+1,0,Nó de Oeiras,4,14,Visitar Nó
+2,0,Nó de Oeiras,14,14,Início
+3,0,Nó de Oeiras,16,16,Deslocação
+4,0,Nó Estádio Nacional,20,30,Visitar Nó
+5,0,Nó Estádio Nacional,30,30,Deslocação
+6,0,Nó de Linda-a-Velha,32,42,Visitar Nó
+7,0,Nó de Linda-a-Velha,42,42,Deslocação
+8,0,Nó de Miraflores (A5/IC17),44,54,Visitar Nó
+9,0,Nó de Miraflores (A5/IC17),54,54,Deslocação
+10,0,Nó de Monsanto,56,66,Visitar Nó
+11,0,Nó de Monsanto,66,66,Deslocação
+12,0,Nó Cruz das Oliveiras,68,78,Visitar Nó
+13,0,Nó Cruz das Oliveiras,78,78,Deslocação
+14,0,Nó Viaduto Duarte Pacheco,114,124,Visitar Nó
+15,0,Nó Viaduto Duarte Pacheco,90,124,Espera
+16,0,Nó Viaduto Duarte Pacheco,124,156,Espera
+17,0,Nó Viaduto Duarte Pacheco,156,186,Incidência
+18,0,Nó Viaduto Duarte Pacheco,188,188,Deslocação
+19,0,Nó Cruz das Oliveiras,190,190,Deslocação
+20,0,Nó de Monsanto,192,192,Deslocação
+21,0,Nó de Miraflores (A5/IC17),194,194,Deslocação
+22,0,Nó de Miraflores (A5/IC17),196,196,Deslocação
+23,0,Nó de Linda-a-Velha,198,198,Deslocação
+24,0,Nó de Oeiras,230,240,Visitar Nó
+25,0,Nó Estádio Nacional,210,240,Incidência
+26,0,Nó de Oeiras,244,244,Deslocação
+27,0,Nó de Oeiras,246,246,Deslocação
+28,0,Nó Estádio Nacional,250,250,Deslocação
+29,0,Nó de Linda-a-Velha,252,252,Deslocação
+30,0,Nó de Miraflores (A5/IC17),254,254,Deslocação
+31,0,Nó de Monsanto,256,256,Deslocação
+32,0,Nó de Monsanto,258,258,Deslocação
+33,0,Nó Cruz das Oliveiras,260,260,Deslocação
+34,0,Nó Viaduto Duarte Pacheco,262,292,Incidência
+35,0,Nó Viaduto Duarte Pacheco,294,294,Deslocação
+36,0,Nó Cruz das Oliveiras,296,296,Deslocação
+37,0,Nó de Monsanto,298,298,Deslocação
+38,0,Nó de Miraflores (A5/IC17),300,300,Deslocação
+39,0,Nó de Linda-a-Velha,302,302,Deslocação
+40,0,Nó Estádio Nacional,304,304,Deslocação
+41,0,Nó de Oeiras,308,318,Pausa
+42,0,Nó de Oeiras,320,320,Deslocação
+43,0,Nó Estádio Nacional,324,324,Deslocação
+44,0,Nó de Linda-a-Velha,326,326,Deslocação
+45,0,Nó de Miraflores (A5/IC17),328,328,Deslocação
+46,0,Nó de Monsanto,330,330,Deslocação
+47,0,Nó Cruz das Oliveiras,332,332,Deslocação
+48,0,Nó Viaduto Duarte Pacheco,334,334,Deslocação
+49,0,Nó Viaduto Duarte Pacheco,336,336,Deslocação
+50,0,Nó Cruz das Oliveiras,338,338,Deslocação
+51,0,Nó de Monsanto,340,340,Deslocação
+52,0,Nó de Miraflores (A5/IC17),342,342,Deslocação
+53,0,Nó de Linda-a-Velha,344,344,Deslocação
+54,0,Nó Estádio Nacional,346,346,Deslocação
+55,0,Nó de Oeiras,350,350,Deslocação
+56,0,Nó de Oeiras,352,352,Deslocação
+57,0,Nó de Oeiras,354,354,Deslocação
+58,0,Nó de Carcavelos,358,358,Deslocação
+59,0,Nó do Estoril,364,394,Incidência
+60,0,Nó do Estoril,396,396,Deslocação
+61,0,Nó de Carcavelos,402,402,Deslocação
+62,0,Nó de Oeiras,406,406,Deslocação
+63,0,Nó de Oeiras,408,438,Almoço
+64,0,Nó Estádio Nacional,442,442,Deslocação
+65,0,Nó de Linda-a-Velha,444,444,Deslocação
+66,0,Nó de Miraflores (A5/IC17),446,446,Deslocação
+67,0,Nó de Monsanto,448,448,Deslocação
+68,0,Nó de Monsanto,450,450,Deslocação
+69,0,Nó de Miraflores (A5/IC17),452,452,Deslocação
+70,0,Nó de Linda-a-Velha,454,454,Deslocação
+71,0,Nó Estádio Nacional,456,456,Deslocação
+72,0,Nó de Oeiras,460,460,Deslocação
+73,0,Nó de Carcavelos,464,464,Fim
+74,1,Nó de Carcavelos,74,84,Visitar Nó
+75,1,Nó de Carcavelos,10,84,Espera
+76,1,Nó de Carcavelos,84,84,Deslocação
+77,1,Nó do Estoril,90,100,Visitar Nó
+78,1,Nó do Estoril,100,100,Deslocação
+79,1,Nó de Alcabideche,104,114,Visitar Nó
+80,1,Nó de Alcabideche,114,114,Deslocação
+81,1,Nó de Alvide,116,126,Visitar Nó
+82,1,Nó de Alvide,126,126,Deslocação
+83,1,Nó de Cascais,128,138,Visitar Nó
+84,1,Nó de Cascais,138,138,Deslocação
+85,1,Nó de Cascais,140,140,Deslocação
+86,1,Nó de Alvide,142,142,Deslocação
+87,1,Nó de Alcabideche,144,144,Deslocação
+88,1,Nó do Estoril,148,148,Deslocação
+89,1,Nó de Carcavelos,154,190,Espera
+90,1,Nó de Carcavelos,190,190,Deslocação
+91,1,Nó de Oeiras,194,194,Deslocação
+92,1,Nó Estádio Nacional,198,228,Incidência
+93,1,Nó Estádio Nacional,230,230,Deslocação
+94,1,Nó de Oeiras,234,234,Deslocação
+95,1,Nó de Carcavelos,238,238,Deslocação
+96,1,Nó de Carcavelos,240,250,Pausa
+97,1,Nó de Carcavelos,252,252,Deslocação
+98,1,Nó de Oeiras,256,256,Deslocação
+99,1,Nó Estádio Nacional,260,260,Deslocação
+100,1,Nó de Linda-a-Velha,262,292,Incidência
+101,1,Nó de Linda-a-Velha,294,294,Deslocação
+102,1,Nó Estádio Nacional,296,296,Deslocação
+103,1,Nó de Oeiras,300,300,Deslocação
+104,1,Nó de Carcavelos,304,304,Deslocação
+105,1,Nó de Carcavelos,306,306,Deslocação
+106,1,Nó do Estoril,312,312,Deslocação
+107,1,Nó de Alcabideche,316,316,Deslocação
+108,1,Nó de Alvide,318,318,Deslocação
+109,1,Nó de Cascais,320,320,Deslocação
+110,1,Nó de Cascais,322,322,Deslocação
+111,1,Nó de Alvide,324,324,Deslocação
+112,1,Nó de Alcabideche,326,326,Deslocação
+113,1,Nó do Estoril,330,330,Deslocação
+114,1,Nó de Carcavelos,336,336,Deslocação
+115,1,Nó de Carcavelos,338,338,Deslocação
+116,1,Nó do Estoril,344,344,Deslocação
+117,1,Nó de Alcabideche,348,348,Deslocação
+118,1,Nó de Alvide,350,350,Deslocação
+119,1,Nó de Alvide,352,352,Deslocação
+120,1,Nó de Alcabideche,354,354,Deslocação
+121,1,Nó do Estoril,358,388,Almoço
+122,1,Nó de Carcavelos,394,394,Deslocação
+123,1,Nó de Carcavelos,396,396,Deslocação
+124,1,Nó do Estoril,402,402,Deslocação
+125,1,Nó de Alcabideche,406,406,Deslocação
+126,1,Nó de Alvide,408,408,Deslocação
+127,1,Nó de Cascais,410,410,Deslocação
+128,1,Nó de Cascais,412,412,Deslocação
+129,1,Nó de Alvide,414,414,Deslocação
+130,1,Nó de Alcabideche,416,416,Deslocação
+131,1,Nó do Estoril,420,420,Deslocação
+132,1,Nó de Carcavelos,426,426,Deslocação
+133,1,Nó de Carcavelos,428,428,Deslocação
+134,1,Nó do Estoril,434,434,Deslocação
+135,1,Nó de Alcabideche,438,438,Deslocação
+136,1,Nó de Alvide,440,440,Deslocação
+137,1,Nó de Cascais,442,442,Deslocação
+138,1,Nó de Cascais,444,444,Deslocação
+139,1,Nó de Alvide,446,446,Deslocação
+140,1,Nó de Alcabideche,448,448,Deslocação
+141,1,Nó do Estoril,452,452,Deslocação
+142,1,Nó de Carcavelos,458,458,Deslocação
+143,1,Nó de Carcavelos,460,460,Deslocação
+144,1,Nó do Estoril,466,466,Deslocação
+145,1,Nó do Estoril,468,468,Deslocação
+146,1,Nó de Carcavelos,474,474,Fim

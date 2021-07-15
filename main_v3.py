@@ -819,26 +819,34 @@ def verificar_restricoes(new_tempo_paragens,lista_sublancos,vetor_incidencias,ne
 
     tempo_visita=([resposta-90])*len(nos)
 
-    if lista_sublancos not in flat_list:
+    for posicao in range(1,len(new_tempo_paragens)):
 
-        for posicao in range(1,len(new_tempo_paragens)):
+        id_posicao= new_tempo_paragens[posicao].get('posicao')
 
-            id_posicao= new_tempo_paragens[posicao].get('posicao')
-
+        if posicao==1:
+            tempo_anterior=0
+        else:
             tempo_anterior=new_tempo_paragens[posicao-1].get('Hora Fim')
-            tempo_atual = new_tempo_paragens[posicao].get('Hora Fim')
 
-            tempo_retirar=tempo_atual-tempo_anterior
+        tempo_atual = new_tempo_paragens[posicao].get('Hora Fim')
 
-            for index in range(len(tempo_visita)):
+        tempo_retirar=tempo_atual-tempo_anterior
 
-                if index==id_posicao:
-                    tempo_visita[index]=resposta
-                elif index in lista_sublancos:
-                    tempo_visita[index]=tempo_visita[index]-tempo_retirar
-                    if tempo_visita[index]<0:
-                        valor=False
-                        soma+=tempo_visita[index]
+        for index in lista_sublancos:
+
+            if tempo_visita[index] < 0:
+                valor = False
+                soma += tempo_visita[index]
+
+            if index==id_posicao:
+                tempo_visita[index]=resposta
+            else:
+                tempo_visita[index]=tempo_visita[index]-tempo_retirar
+
+            if tempo_visita[index] < 0:
+                valor = False
+                soma += tempo_visita[index]
+
 
     for posicao_incidencia in incidencias_a_considerar:
         if new_visitas[posicao_incidencia]==False:
@@ -952,9 +960,6 @@ def adicionar_nos( new_tempo_paragens, lista_sublancos,new_visitas,tempos_nos):
             posicao += 1
 
         temp_paragens=melhor_paragem.copy()
-
-
-
 
     return melhor_paragem
 
