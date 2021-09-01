@@ -12,15 +12,15 @@ class sublanco(object):
 
 class no(object):
 
-    def __init__(self, id, nome,pausa,almoco,vistoria,co):
+    def __init__(self, id, nome,pausa,almoco,vistoria,co,espera):
         self.id = id
         self.nome = nome
-        self.lista_sublancos = []
         self.pausa=pausa
         self.almoco=almoco
         self.vistoria=vistoria
         self.co=co #se for um nó tipo portagem (que só existe por causa dos almoços) não precisa de ser verificado
         self.distancias=[]
+        self.espera=espera
 
     def __repr__(self):
         return str(self.nome)

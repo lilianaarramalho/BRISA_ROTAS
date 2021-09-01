@@ -1,193 +1,265 @@
 Sublanço,Hora,Probabilidade incidência
-Estarreja-Feira,0,7.90%
-Estarreja-Feira,1,9.30%
-Estarreja-Feira,2,3.30%
-Estarreja-Feira,3,4.70%
-Estarreja-Feira,4,4.90%
-Estarreja-Feira,5,2.50%
-Estarreja-Feira,6,8.50%
-Estarreja-Feira,7,16.20%
-Estarreja-Feira,8,18.40%
-Estarreja-Feira,9,21.40%
-Estarreja-Feira,10,16.40%
-Estarreja-Feira,11,27.10%
-Estarreja-Feira,12,23.00%
-Estarreja-Feira,13,12.30%
-Estarreja-Feira,14,20.80%
-Estarreja-Feira,15,30.70%
-Estarreja-Feira,16,31.20%
-Estarreja-Feira,17,28.50%
-Estarreja-Feira,18,23.60%
-Estarreja-Feira,19,24.90%
-Estarreja-Feira,20,18.10%
-Estarreja-Feira,21,9.30%
-Estarreja-Feira,22,12.60%
-Estarreja-Feira,23,10.10%
-Feira-Espinho (IC24),0,7.10%
-Feira-Espinho (IC24),1,5.50%
-Feira-Espinho (IC24),2,1.60%
-Feira-Espinho (IC24),3,2.20%
-Feira-Espinho (IC24),4,3.80%
-Feira-Espinho (IC24),5,3.80%
-Feira-Espinho (IC24),6,5.50%
-Feira-Espinho (IC24),7,9.30%
-Feira-Espinho (IC24),8,12.90%
-Feira-Espinho (IC24),9,14.20%
-Feira-Espinho (IC24),10,11.80%
-Feira-Espinho (IC24),11,20.50%
-Feira-Espinho (IC24),12,12.60%
-Feira-Espinho (IC24),13,12.60%
-Feira-Espinho (IC24),14,19.70%
-Feira-Espinho (IC24),15,17.30%
-Feira-Espinho (IC24),16,17.30%
-Feira-Espinho (IC24),17,18.10%
-Feira-Espinho (IC24),18,11.50%
-Feira-Espinho (IC24),19,15.10%
-Feira-Espinho (IC24),20,14.80%
-Feira-Espinho (IC24),21,11.00%
-Feira-Espinho (IC24),22,8.20%
-Feira-Espinho (IC24),23,7.70%
-Espinho (IC24)-Feiteira,0,3.60%
-Espinho (IC24)-Feiteira,1,3.00%
-Espinho (IC24)-Feiteira,2,1.60%
-Espinho (IC24)-Feiteira,3,3.60%
-Espinho (IC24)-Feiteira,4,2.50%
-Espinho (IC24)-Feiteira,5,1.40%
-Espinho (IC24)-Feiteira,6,2.20%
-Espinho (IC24)-Feiteira,7,6.30%
-Espinho (IC24)-Feiteira,8,11.00%
-Espinho (IC24)-Feiteira,9,8.20%
-Espinho (IC24)-Feiteira,10,10.10%
-Espinho (IC24)-Feiteira,11,10.70%
-Espinho (IC24)-Feiteira,12,6.80%
-Espinho (IC24)-Feiteira,13,8.50%
-Espinho (IC24)-Feiteira,14,9.60%
-Espinho (IC24)-Feiteira,15,7.70%
-Espinho (IC24)-Feiteira,16,11.00%
-Espinho (IC24)-Feiteira,17,8.50%
-Espinho (IC24)-Feiteira,18,11.20%
-Espinho (IC24)-Feiteira,19,9.30%
-Espinho (IC24)-Feiteira,20,5.50%
-Espinho (IC24)-Feiteira,21,5.80%
-Espinho (IC24)-Feiteira,22,4.70%
-Espinho (IC24)-Feiteira,23,2.20%
-Feiteira-Carvalhos,0,3.60%
-Feiteira-Carvalhos,1,3.60%
-Feiteira-Carvalhos,2,1.60%
-Feiteira-Carvalhos,3,1.40%
-Feiteira-Carvalhos,4,0.30%
-Feiteira-Carvalhos,5,0.80%
-Feiteira-Carvalhos,6,2.20%
-Feiteira-Carvalhos,7,7.10%
-Feiteira-Carvalhos,8,9.60%
-Feiteira-Carvalhos,9,6.30%
-Feiteira-Carvalhos,10,10.70%
-Feiteira-Carvalhos,11,11.20%
-Feiteira-Carvalhos,12,7.90%
-Feiteira-Carvalhos,13,9.30%
-Feiteira-Carvalhos,14,8.20%
-Feiteira-Carvalhos,15,8.50%
-Feiteira-Carvalhos,16,14.80%
-Feiteira-Carvalhos,17,10.10%
-Feiteira-Carvalhos,18,13.40%
-Feiteira-Carvalhos,19,17.00%
-Feiteira-Carvalhos,20,7.10%
-Feiteira-Carvalhos,21,5.50%
-Feiteira-Carvalhos,22,3.30%
-Feiteira-Carvalhos,23,3.30%
-Carvalhos-Jaca,0,1.90%
-Carvalhos-Jaca,1,1.90%
-Carvalhos-Jaca,2,1.60%
-Carvalhos-Jaca,3,0.50%
-Carvalhos-Jaca,4,1.60%
-Carvalhos-Jaca,5,1.10%
-Carvalhos-Jaca,6,2.20%
-Carvalhos-Jaca,7,3.60%
-Carvalhos-Jaca,8,9.30%
-Carvalhos-Jaca,9,4.70%
-Carvalhos-Jaca,10,11.50%
-Carvalhos-Jaca,11,9.90%
-Carvalhos-Jaca,12,4.70%
-Carvalhos-Jaca,13,6.00%
-Carvalhos-Jaca,14,6.60%
-Carvalhos-Jaca,15,6.30%
-Carvalhos-Jaca,16,10.70%
-Carvalhos-Jaca,17,6.00%
-Carvalhos-Jaca,18,10.40%
-Carvalhos-Jaca,19,7.40%
-Carvalhos-Jaca,20,4.10%
-Carvalhos-Jaca,21,4.10%
-Carvalhos-Jaca,22,6.30%
-Carvalhos-Jaca,23,1.60%
-Jaca-Santo Ovídio,0,2.50%
-Jaca-Santo Ovídio,1,0.30%
-Jaca-Santo Ovídio,2,1.40%
-Jaca-Santo Ovídio,3,0.30%
-Jaca-Santo Ovídio,4,0.30%
-Jaca-Santo Ovídio,5,0.00%
-Jaca-Santo Ovídio,6,0.80%
-Jaca-Santo Ovídio,7,2.20%
-Jaca-Santo Ovídio,8,5.80%
-Jaca-Santo Ovídio,9,1.90%
-Jaca-Santo Ovídio,10,4.10%
-Jaca-Santo Ovídio,11,7.90%
-Jaca-Santo Ovídio,12,2.70%
-Jaca-Santo Ovídio,13,3.60%
-Jaca-Santo Ovídio,14,4.70%
-Jaca-Santo Ovídio,15,1.90%
-Jaca-Santo Ovídio,16,3.60%
-Jaca-Santo Ovídio,17,3.00%
-Jaca-Santo Ovídio,18,7.70%
-Jaca-Santo Ovídio,19,3.30%
-Jaca-Santo Ovídio,20,2.70%
-Jaca-Santo Ovídio,21,1.90%
-Jaca-Santo Ovídio,22,3.00%
-Jaca-Santo Ovídio,23,0.50%
-Aveiro Sul-Albergaria (A1/IP5),0,4%
-Aveiro Sul-Albergaria (A1/IP5),1,5%
-Aveiro Sul-Albergaria (A1/IP5),2,2%
-Aveiro Sul-Albergaria (A1/IP5),3,2%
-Aveiro Sul-Albergaria (A1/IP5),4,3%
-Aveiro Sul-Albergaria (A1/IP5),5,1%
-Aveiro Sul-Albergaria (A1/IP5),6,6%
-Aveiro Sul-Albergaria (A1/IP5),7,7%
-Aveiro Sul-Albergaria (A1/IP5),8,6%
-Aveiro Sul-Albergaria (A1/IP5),9,24%
-Aveiro Sul-Albergaria (A1/IP5),10,6%
-Aveiro Sul-Albergaria (A1/IP5),11,17%
-Aveiro Sul-Albergaria (A1/IP5),12,16%
-Aveiro Sul-Albergaria (A1/IP5),13,8%
-Aveiro Sul-Albergaria (A1/IP5),14,18%
-Aveiro Sul-Albergaria (A1/IP5),15,11%
-Aveiro Sul-Albergaria (A1/IP5),16,10%
-Aveiro Sul-Albergaria (A1/IP5),17,26%
-Aveiro Sul-Albergaria (A1/IP5),18,12%
-Aveiro Sul-Albergaria (A1/IP5),19,19%
-Aveiro Sul-Albergaria (A1/IP5),20,11%
-Aveiro Sul-Albergaria (A1/IP5),21,6%
-Aveiro Sul-Albergaria (A1/IP5),22,6%
-Aveiro Sul-Albergaria (A1/IP5),23,5%
-Albergaria (A1/IP5)-Estarreja,0,8%
-Albergaria (A1/IP5)-Estarreja,1,4%
-Albergaria (A1/IP5)-Estarreja,2,7%
-Albergaria (A1/IP5)-Estarreja,3,1%
-Albergaria (A1/IP5)-Estarreja,4,1%
-Albergaria (A1/IP5)-Estarreja,5,2%
-Albergaria (A1/IP5)-Estarreja,6,5%
-Albergaria (A1/IP5)-Estarreja,7,7%
-Albergaria (A1/IP5)-Estarreja,8,17%
-Albergaria (A1/IP5)-Estarreja,9,12%
-Albergaria (A1/IP5)-Estarreja,10,25%
-Albergaria (A1/IP5)-Estarreja,11,12%
-Albergaria (A1/IP5)-Estarreja,12,10%
-Albergaria (A1/IP5)-Estarreja,13,13%
-Albergaria (A1/IP5)-Estarreja,14,12%
-Albergaria (A1/IP5)-Estarreja,15,12%
-Albergaria (A1/IP5)-Estarreja,16,21%
-Albergaria (A1/IP5)-Estarreja,17,15%
-Albergaria (A1/IP5)-Estarreja,18,23%
-Albergaria (A1/IP5)-Estarreja,19,12%
-Albergaria (A1/IP5)-Estarreja,20,8%
-Albergaria (A1/IP5)-Estarreja,21,11%
-Albergaria (A1/IP5)-Estarreja,22,6%
-Albergaria (A1/IP5)-Estarreja,23,3%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,0,2%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,1,1%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,2,2%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,3,2%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,4,1%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,5,1%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,6,2%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,7,3%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,8,5%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,9,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,10,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,11,7%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,12,7%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,13,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,14,5%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,15,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,16,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,17,11%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,18,12%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,19,11%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,20,8%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,21,6%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,22,3%
+Viaduto Duarte Pacheco - Cruz das Oliveiras,23,4%
+Oeiras - Carcavelos,0,2%
+Oeiras - Carcavelos,1,1%
+Oeiras - Carcavelos,2,2%
+Oeiras - Carcavelos,3,0%
+Oeiras - Carcavelos,4,1%
+Oeiras - Carcavelos,5,1%
+Oeiras - Carcavelos,6,1%
+Oeiras - Carcavelos,7,5%
+Oeiras - Carcavelos,8,6%
+Oeiras - Carcavelos,9,8%
+Oeiras - Carcavelos,10,5%
+Oeiras - Carcavelos,11,8%
+Oeiras - Carcavelos,12,7%
+Oeiras - Carcavelos,13,7%
+Oeiras - Carcavelos,14,8%
+Oeiras - Carcavelos,15,7%
+Oeiras - Carcavelos,16,5%
+Oeiras - Carcavelos,17,8%
+Oeiras - Carcavelos,18,12%
+Oeiras - Carcavelos,19,7%
+Oeiras - Carcavelos,20,5%
+Oeiras - Carcavelos,21,3%
+Oeiras - Carcavelos,22,2%
+Oeiras - Carcavelos,23,3%
+Monsanto - Miraflores (A5/IC17),0,2%
+Monsanto - Miraflores (A5/IC17),1,0%
+Monsanto - Miraflores (A5/IC17),2,0%
+Monsanto - Miraflores (A5/IC17),3,0%
+Monsanto - Miraflores (A5/IC17),4,0%
+Monsanto - Miraflores (A5/IC17),5,1%
+Monsanto - Miraflores (A5/IC17),6,0%
+Monsanto - Miraflores (A5/IC17),7,2%
+Monsanto - Miraflores (A5/IC17),8,3%
+Monsanto - Miraflores (A5/IC17),9,4%
+Monsanto - Miraflores (A5/IC17),10,2%
+Monsanto - Miraflores (A5/IC17),11,2%
+Monsanto - Miraflores (A5/IC17),12,1%
+Monsanto - Miraflores (A5/IC17),13,2%
+Monsanto - Miraflores (A5/IC17),14,1%
+Monsanto - Miraflores (A5/IC17),15,3%
+Monsanto - Miraflores (A5/IC17),16,4%
+Monsanto - Miraflores (A5/IC17),17,3%
+Monsanto - Miraflores (A5/IC17),18,5%
+Monsanto - Miraflores (A5/IC17),19,4%
+Monsanto - Miraflores (A5/IC17),20,2%
+Monsanto - Miraflores (A5/IC17),21,2%
+Monsanto - Miraflores (A5/IC17),22,1%
+Monsanto - Miraflores (A5/IC17),23,2%
+Miraflores (A5/IC17) - Linda-a-Velha,0,1%
+Miraflores (A5/IC17) - Linda-a-Velha,1,1%
+Miraflores (A5/IC17) - Linda-a-Velha,2,1%
+Miraflores (A5/IC17) - Linda-a-Velha,3,0%
+Miraflores (A5/IC17) - Linda-a-Velha,4,0%
+Miraflores (A5/IC17) - Linda-a-Velha,5,1%
+Miraflores (A5/IC17) - Linda-a-Velha,6,1%
+Miraflores (A5/IC17) - Linda-a-Velha,7,2%
+Miraflores (A5/IC17) - Linda-a-Velha,8,5%
+Miraflores (A5/IC17) - Linda-a-Velha,9,6%
+Miraflores (A5/IC17) - Linda-a-Velha,10,4%
+Miraflores (A5/IC17) - Linda-a-Velha,11,4%
+Miraflores (A5/IC17) - Linda-a-Velha,12,4%
+Miraflores (A5/IC17) - Linda-a-Velha,13,3%
+Miraflores (A5/IC17) - Linda-a-Velha,14,4%
+Miraflores (A5/IC17) - Linda-a-Velha,15,5%
+Miraflores (A5/IC17) - Linda-a-Velha,16,7%
+Miraflores (A5/IC17) - Linda-a-Velha,17,7%
+Miraflores (A5/IC17) - Linda-a-Velha,18,10%
+Miraflores (A5/IC17) - Linda-a-Velha,19,7%
+Miraflores (A5/IC17) - Linda-a-Velha,20,4%
+Miraflores (A5/IC17) - Linda-a-Velha,21,4%
+Miraflores (A5/IC17) - Linda-a-Velha,22,3%
+Miraflores (A5/IC17) - Linda-a-Velha,23,2%
+Linda-a-Velha - Estádio Nacional,0,1%
+Linda-a-Velha - Estádio Nacional,1,2%
+Linda-a-Velha - Estádio Nacional,2,2%
+Linda-a-Velha - Estádio Nacional,3,0%
+Linda-a-Velha - Estádio Nacional,4,1%
+Linda-a-Velha - Estádio Nacional,5,1%
+Linda-a-Velha - Estádio Nacional,6,1%
+Linda-a-Velha - Estádio Nacional,7,4%
+Linda-a-Velha - Estádio Nacional,8,10%
+Linda-a-Velha - Estádio Nacional,9,11%
+Linda-a-Velha - Estádio Nacional,10,9%
+Linda-a-Velha - Estádio Nacional,11,6%
+Linda-a-Velha - Estádio Nacional,12,5%
+Linda-a-Velha - Estádio Nacional,13,5%
+Linda-a-Velha - Estádio Nacional,14,4%
+Linda-a-Velha - Estádio Nacional,15,6%
+Linda-a-Velha - Estádio Nacional,16,7%
+Linda-a-Velha - Estádio Nacional,17,10%
+Linda-a-Velha - Estádio Nacional,18,12%
+Linda-a-Velha - Estádio Nacional,19,7%
+Linda-a-Velha - Estádio Nacional,20,5%
+Linda-a-Velha - Estádio Nacional,21,2%
+Linda-a-Velha - Estádio Nacional,22,1%
+Linda-a-Velha - Estádio Nacional,23,3%
+Estoril - Alcabideche (A5/A16) (A5/A16),0,1%
+Estoril - Alcabideche (A5/A16) (A5/A16),1,1%
+Estoril - Alcabideche (A5/A16) (A5/A16),2,0%
+Estoril - Alcabideche (A5/A16) (A5/A16),3,0%
+Estoril - Alcabideche (A5/A16) (A5/A16),4,0%
+Estoril - Alcabideche (A5/A16) (A5/A16),5,0%
+Estoril - Alcabideche (A5/A16) (A5/A16),6,1%
+Estoril - Alcabideche (A5/A16),7,1%
+Estoril - Alcabideche (A5/A16),8,3%
+Estoril - Alcabideche (A5/A16),9,2%
+Estoril - Alcabideche (A5/A16),10,2%
+Estoril - Alcabideche (A5/A16),11,4%
+Estoril - Alcabideche (A5/A16),12,2%
+Estoril - Alcabideche (A5/A16),13,2%
+Estoril - Alcabideche (A5/A16),14,2%
+Estoril - Alcabideche (A5/A16),15,2%
+Estoril - Alcabideche (A5/A16),16,2%
+Estoril - Alcabideche (A5/A16),17,4%
+Estoril - Alcabideche (A5/A16),18,1%
+Estoril - Alcabideche (A5/A16),19,1%
+Estoril - Alcabideche (A5/A16),20,2%
+Estoril - Alcabideche (A5/A16),21,1%
+Estoril - Alcabideche (A5/A16),22,1%
+Estoril - Alcabideche (A5/A16),23,1%
+Estádio Nacional - Oeiras,0,1%
+Estádio Nacional - Oeiras,1,2%
+Estádio Nacional - Oeiras,2,1%
+Estádio Nacional - Oeiras,3,1%
+Estádio Nacional - Oeiras,4,1%
+Estádio Nacional - Oeiras,5,1%
+Estádio Nacional - Oeiras,6,1%
+Estádio Nacional - Oeiras,7,4%
+Estádio Nacional - Oeiras,8,11%
+Estádio Nacional - Oeiras,9,11%
+Estádio Nacional - Oeiras,10,6%
+Estádio Nacional - Oeiras,11,5%
+Estádio Nacional - Oeiras,12,4%
+Estádio Nacional - Oeiras,13,5%
+Estádio Nacional - Oeiras,14,6%
+Estádio Nacional - Oeiras,15,6%
+Estádio Nacional - Oeiras,16,5%
+Estádio Nacional - Oeiras,17,6%
+Estádio Nacional - Oeiras,18,5%
+Estádio Nacional - Oeiras,19,6%
+Estádio Nacional - Oeiras,20,3%
+Estádio Nacional - Oeiras,21,2%
+Estádio Nacional - Oeiras,22,3%
+Estádio Nacional - Oeiras,23,4%
+Cruz das Oliveiras - Monsanto,0,2%
+Cruz das Oliveiras - Monsanto,1,1%
+Cruz das Oliveiras - Monsanto,2,0%
+Cruz das Oliveiras - Monsanto,3,1%
+Cruz das Oliveiras - Monsanto,4,0%
+Cruz das Oliveiras - Monsanto,5,1%
+Cruz das Oliveiras - Monsanto,6,0%
+Cruz das Oliveiras - Monsanto,7,5%
+Cruz das Oliveiras - Monsanto,8,5%
+Cruz das Oliveiras - Monsanto,9,5%
+Cruz das Oliveiras - Monsanto,10,5%
+Cruz das Oliveiras - Monsanto,11,4%
+Cruz das Oliveiras - Monsanto,12,4%
+Cruz das Oliveiras - Monsanto,13,3%
+Cruz das Oliveiras - Monsanto,14,3%
+Cruz das Oliveiras - Monsanto,15,5%
+Cruz das Oliveiras - Monsanto,16,8%
+Cruz das Oliveiras - Monsanto,17,10%
+Cruz das Oliveiras - Monsanto,18,10%
+Cruz das Oliveiras - Monsanto,19,10%
+Cruz das Oliveiras - Monsanto,20,4%
+Cruz das Oliveiras - Monsanto,21,2%
+Cruz das Oliveiras - Monsanto,22,2%
+Cruz das Oliveiras - Monsanto,23,2%
+Carcavelos - Estoril,0,3%
+Carcavelos - Estoril,1,1%
+Carcavelos - Estoril,2,1%
+Carcavelos - Estoril,3,0%
+Carcavelos - Estoril,4,1%
+Carcavelos - Estoril,5,0%
+Carcavelos - Estoril,6,1%
+Carcavelos - Estoril,7,4%
+Carcavelos - Estoril,8,6%
+Carcavelos - Estoril,9,3%
+Carcavelos - Estoril,10,6%
+Carcavelos - Estoril,11,6%
+Carcavelos - Estoril,12,5%
+Carcavelos - Estoril,13,5%
+Carcavelos - Estoril,14,4%
+Carcavelos - Estoril,15,3%
+Carcavelos - Estoril,16,7%
+Carcavelos - Estoril,17,6%
+Carcavelos - Estoril,18,3%
+Carcavelos - Estoril,19,5%
+Carcavelos - Estoril,20,3%
+Carcavelos - Estoril,21,2%
+Carcavelos - Estoril,22,1%
+Carcavelos - Estoril,23,3%
+Alvide - Cascais,0,0%
+Alvide - Cascais,1,0%
+Alvide - Cascais,2,0%
+Alvide - Cascais,3,0%
+Alvide - Cascais,4,0%
+Alvide - Cascais,5,0%
+Alvide - Cascais,6,0%
+Alvide - Cascais,7,0%
+Alvide - Cascais,8,1%
+Alvide - Cascais,9,2%
+Alvide - Cascais,10,1%
+Alvide - Cascais,11,1%
+Alvide - Cascais,12,1%
+Alvide - Cascais,13,1%
+Alvide - Cascais,14,1%
+Alvide - Cascais,15,1%
+Alvide - Cascais,16,1%
+Alvide - Cascais,17,2%
+Alvide - Cascais,18,1%
+Alvide - Cascais,19,1%
+Alvide - Cascais,20,1%
+Alvide - Cascais,21,1%
+Alvide - Cascais,22,0%
+Alvide - Cascais,23,1%
+Alcabideche (A5/A16) - Alvide,0,0%
+Alcabideche (A5/A16) - Alvide,1,0%
+Alcabideche (A5/A16) - Alvide,2,0%
+Alcabideche (A5/A16) - Alvide,3,0%
+Alcabideche (A5/A16) - Alvide,4,0%
+Alcabideche (A5/A16) - Alvide,5,0%
+Alcabideche (A5/A16) - Alvide,6,0%
+Alcabideche (A5/A16) - Alvide,7,0%
+Alcabideche (A5/A16) - Alvide,8,1%
+Alcabideche (A5/A16) - Alvide,9,1%
+Alcabideche (A5/A16) - Alvide,10,1%
+Alcabideche (A5/A16) - Alvide,11,1%
+Alcabideche (A5/A16) - Alvide,12,0%
+Alcabideche (A5/A16) - Alvide,13,1%
+Alcabideche (A5/A16) - Alvide,14,1%
+Alcabideche (A5/A16) - Alvide,15,0%
+Alcabideche (A5/A16) - Alvide,16,1%
+Alcabideche (A5/A16) - Alvide,17,1%
+Alcabideche (A5/A16) - Alvide,18,0%
+Alcabideche (A5/A16) - Alvide,19,0%
+Alcabideche (A5/A16) - Alvide,20,0%
+Alcabideche (A5/A16) - Alvide,21,0%
+Alcabideche (A5/A16) - Alvide,22,0%
+Alcabideche (A5/A16) - Alvide,23,0%
