@@ -12,15 +12,18 @@ class sublanco(object):
 
 class no(object):
 
-    def __init__(self, id, nome,pausa,almoco,vistoria,co,espera):
+    def __init__(self, id, nome,pausa,almoco,co,espera,tipo):
         self.id = id
         self.nome = nome
         self.pausa=pausa
         self.almoco=almoco
-        self.vistoria=vistoria
         self.co=co #se for um nó tipo portagem (que só existe por causa dos almoços) não precisa de ser verificado
         self.distancias=[]
+        self.kms=[]
+        self.extensao=0
+        self.tempo=0
         self.espera=espera
+        self.tipo=tipo
 
     def __repr__(self):
         return str(self.nome)
