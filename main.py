@@ -69,8 +69,9 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     simulacoes=[]
     output_condensado = []
     ultima_passagem = [[]] * len(nos)
+    output_tmp = []
 
-    for i in range(1, 5):
+    for i in range(2, 3):
 
         id_co = 0
 
@@ -98,6 +99,12 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
 
             #VETOR CONDENSADO PARA CÁLCULOS
             vetor_condensado=condensar_paragens(vetor_solucao)
+            possivel,tempo_max_resposta=calcular_tmp([],vetor_solucao)
+
+
+            for posicao in range(len(tempo_max_resposta)):
+                new_row={'Número de Voltas':i,'Turno':id_turno,'Nó':nos[posicao].nome,'TMP':tempo_max_resposta[posicao]}
+                output_tmp.append(new_row)
 
             if id_turno==0:
                 for id_no in range(len(nos)):
@@ -129,12 +136,14 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     df_output_tempo_resposta = pd.DataFrame(output_tempo_resposta)
     df_output_tempo_resposta.to_csv('dados/99. dados_solucao_tempo_resposta.csv', encoding='iso-8859-1')
 
+    df_output_tmp=pd.DataFrame(output_tmp)
+    df_output_tmp.to_csv('dados/99. dados_solucao_tmp.csv',encoding='ISO-8859-1')
+
     df_output = pd.DataFrame(output)
     df_output.to_csv('dados/99. dados_solucao_detalhe.csv', encoding='iso-8859-1')
 
     df_output_condensado=pd.DataFrame(output_condensado)
     df_output_condensado.to_csv('dados/99. dados_solucao_tempo_entre_passagens.csv', encoding='iso-8859-1')
-
 
     output_simulacoes=[]
     for corrida in simulacoes:
