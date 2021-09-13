@@ -1,88 +1,433 @@
 ,Numero Voltas,Turno,Sequência,Nó,Hora Inicio,Hora Fim,Última Passagem (Hora Fim)
-0,2,0,7,Nó de Carcavelos,0.0,89.5,0.0
-1,2,0,6,Nó de Oeiras,92.5,102.5,0.0
-2,2,0,5,Nó Estádio Nacional,105.5,133.5,0.0
-3,2,0,4,Nó de Linda-a-Velha,136.5,136.5,0.0
-4,2,0,3,Nó de Miraflores (A5/IC17),137.5,137.5,0.0
-5,2,0,2,Nó de Monsanto,138.5,152.5,0.0
-6,2,0,1,Nó Cruz das Oliveiras,159.5,164.5,0.0
-7,2,0,0,Nó Viaduto Duarte Pacheco,165.5,165.5,0.0
-8,2,0,1,Nó Cruz das Oliveiras,166.5,166.5,164.5
-9,2,0,2,Nó de Monsanto,173.5,173.5,152.5
-10,2,0,3,Nó de Miraflores (A5/IC17),174.5,184.5,137.5
-11,2,0,4,Nó de Linda-a-Velha,185.5,185.5,136.5
-12,2,0,5,Nó Estádio Nacional,188.5,226.5,133.5
-13,2,0,6,Nó de Oeiras,229.5,229.5,102.5
-14,2,0,7,Nó de Carcavelos,232.5,292.5,89.5
-15,2,0,6,Nó de Oeiras,295.5,304.5,229.5
-16,2,0,5,Nó Estádio Nacional,307.5,307.5,226.5
-17,2,0,4,Nó de Linda-a-Velha,310.5,323.5,185.5
-18,2,0,3,Nó de Miraflores (A5/IC17),324.5,334.5,184.5
-19,2,0,2,Nó de Monsanto,335.5,335.5,173.5
-20,2,0,1,Nó Cruz das Oliveiras,342.5,342.5,166.5
-21,2,0,0,Nó Viaduto Duarte Pacheco,343.5,358.5,165.5
-22,2,0,1,Nó Cruz das Oliveiras,359.5,426.0,342.5
-23,2,0,2,Nó de Monsanto,465.0,479.0,335.5
-24,2,0,3,Nó de Miraflores (A5/IC17),480.0,480.0,334.5
-25,2,0,4,Nó de Linda-a-Velha,481.0,494.0,323.5
-26,2,0,5,Nó Estádio Nacional,497.0,497.0,307.5
-27,2,0,6,Nó de Oeiras,500.0,509.0,304.5
-28,2,0,7,Nó de Carcavelos,512.0,512.0,292.5
-29,2,1,7,Nó de Carcavelos,480.0,480.0,512.0
-30,2,1,6,Nó de Oeiras,483.0,493.0,509.0
-31,2,1,5,Nó Estádio Nacional,496.0,496.0,497.0
-32,2,1,4,Nó de Linda-a-Velha,499.0,499.0,494.0
-33,2,1,3,Nó de Miraflores (A5/IC17),500.0,500.0,480.0
-34,2,1,2,Nó de Monsanto,501.0,515.0,479.0
-35,2,1,1,Nó Cruz das Oliveiras,522.0,527.0,426.0
-36,2,1,0,Nó Viaduto Duarte Pacheco,528.0,543.0,358.5
-37,2,1,1,Nó Cruz das Oliveiras,544.0,564.0,527.0
-38,2,1,2,Nó de Monsanto,571.0,585.0,515.0
-39,2,1,3,Nó de Miraflores (A5/IC17),586.0,596.0,500.0
-40,2,1,4,Nó de Linda-a-Velha,597.0,610.0,499.0
-41,2,1,5,Nó Estádio Nacional,613.0,651.0,496.0
-42,2,1,6,Nó de Oeiras,654.0,663.0,493.0
-43,2,1,7,Nó de Carcavelos,666.0,739.0,480.0
-44,2,1,6,Nó de Oeiras,742.0,751.0,663.0
-45,2,1,5,Nó Estádio Nacional,754.0,782.0,651.0
-46,2,1,4,Nó de Linda-a-Velha,785.0,798.0,610.0
-47,2,1,3,Nó de Miraflores (A5/IC17),799.0,809.0,596.0
-48,2,1,2,Nó de Monsanto,810.0,810.0,585.0
-49,2,1,1,Nó Cruz das Oliveiras,817.0,817.0,564.0
-50,2,1,0,Nó Viaduto Duarte Pacheco,818.0,818.0,543.0
-51,2,1,1,Nó Cruz das Oliveiras,819.0,880.5,817.0
-52,2,1,2,Nó de Monsanto,887.5,887.5,810.0
-53,2,1,3,Nó de Miraflores (A5/IC17),888.5,888.5,809.0
-54,2,1,4,Nó de Linda-a-Velha,889.5,889.5,798.0
-55,2,1,5,Nó Estádio Nacional,892.5,892.5,782.0
-56,2,1,6,Nó de Oeiras,895.5,957.0,751.0
-57,2,1,7,Nó de Carcavelos,960.0,960.0,739.0
-58,2,2,7,Nó de Carcavelos,960.0,960.0,960.0
-59,2,2,6,Nó de Oeiras,963.0,982.0,957.0
-60,2,2,5,Nó Estádio Nacional,985.0,1013.0,892.5
-61,2,2,4,Nó de Linda-a-Velha,1016.0,1029.0,889.5
-62,2,2,3,Nó de Miraflores (A5/IC17),1030.0,1040.0,888.5
-63,2,2,2,Nó de Monsanto,1041.0,1055.0,887.5
-64,2,2,1,Nó Cruz das Oliveiras,1062.0,1082.0,880.5
-65,2,2,0,Nó Viaduto Duarte Pacheco,1083.0,1098.0,818.0
-66,2,2,1,Nó Cruz das Oliveiras,1099.0,1104.0,1082.0
-67,2,2,2,Nó de Monsanto,1111.0,1125.0,1055.0
-68,2,2,3,Nó de Miraflores (A5/IC17),1126.0,1136.0,1040.0
-69,2,2,4,Nó de Linda-a-Velha,1137.0,1150.0,1029.0
-70,2,2,5,Nó Estádio Nacional,1153.0,1191.0,1013.0
-71,2,2,6,Nó de Oeiras,1194.0,1203.0,982.0
-72,2,2,7,Nó de Carcavelos,1206.0,1279.0,960.0
-73,2,2,6,Nó de Oeiras,1282.0,1343.5,1203.0
-74,2,2,5,Nó Estádio Nacional,1346.5,1346.5,1191.0
-75,2,2,4,Nó de Linda-a-Velha,1349.5,1349.5,1150.0
-76,2,2,3,Nó de Miraflores (A5/IC17),1350.5,1350.5,1136.0
-77,2,2,2,Nó de Monsanto,1351.5,1351.5,1125.0
-78,2,2,1,Nó Cruz das Oliveiras,1358.5,1420.0,1104.0
-79,2,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,1098.0
-80,2,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,1420.0
-81,2,2,2,Nó de Monsanto,1429.0,1429.0,1351.5
-82,2,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,1350.5
-83,2,2,4,Nó de Linda-a-Velha,1431.0,1431.0,1349.5
-84,2,2,5,Nó Estádio Nacional,1434.0,1434.0,1346.5
-85,2,2,6,Nó de Oeiras,1437.0,1437.0,1343.5
-86,2,2,7,Nó de Carcavelos,1440.0,1440.0,1279.0
+0,1,0,7,Nó de Carcavelos,0.0,81.66666666666666,0.0
+1,1,0,6,Nó de Oeiras,84.66666666666666,157.33333333333331,0.0
+2,1,0,5,Nó Estádio Nacional,160.33333333333331,241.99999999999997,0.0
+3,1,0,4,Nó de Linda-a-Velha,244.99999999999997,258.0,0.0
+4,1,0,3,Nó de Miraflores (A5/IC17),259.0,269.0,0.0
+5,1,0,2,Nó de Monsanto,270.0,284.0,0.0
+6,1,0,1,Nó Cruz das Oliveiras,291.0,296.0,0.0
+7,1,0,0,Nó Viaduto Duarte Pacheco,297.0,312.0,0.0
+8,1,0,1,Nó Cruz das Oliveiras,313.0,318.0,296.0
+9,1,0,2,Nó de Monsanto,325.0,339.0,284.0
+10,1,0,3,Nó de Miraflores (A5/IC17),340.0,350.0,269.0
+11,1,0,4,Nó de Linda-a-Velha,351.0,364.0,258.0
+12,1,0,5,Nó Estádio Nacional,367.0,405.00000000000006,241.99999999999997
+13,1,0,6,Nó de Oeiras,408.00000000000006,417.00000000000006,157.33333333333331
+14,1,0,7,Nó de Carcavelos,420.00000000000006,480.00000000000006,81.66666666666666
+15,1,1,7,Nó de Carcavelos,480.0,561.6666666666666,480.00000000000006
+16,1,1,6,Nó de Oeiras,564.6666666666666,583.6666666666666,417.00000000000006
+17,1,1,5,Nó Estádio Nacional,586.6666666666666,614.6666666666666,405.00000000000006
+18,1,1,4,Nó de Linda-a-Velha,617.6666666666666,630.6666666666666,364.0
+19,1,1,3,Nó de Miraflores (A5/IC17),631.6666666666666,641.6666666666666,350.0
+20,1,1,2,Nó de Monsanto,642.6666666666666,656.6666666666666,339.0
+21,1,1,1,Nó Cruz das Oliveiras,663.6666666666666,668.6666666666666,318.0
+22,1,1,0,Nó Viaduto Duarte Pacheco,669.6666666666666,684.6666666666666,312.0
+23,1,1,1,Nó Cruz das Oliveiras,685.6666666666666,690.6666666666666,668.6666666666666
+24,1,1,2,Nó de Monsanto,697.6666666666666,711.6666666666666,656.6666666666666
+25,1,1,3,Nó de Miraflores (A5/IC17),712.6666666666666,722.6666666666666,641.6666666666666
+26,1,1,4,Nó de Linda-a-Velha,723.6666666666666,736.6666666666666,630.6666666666666
+27,1,1,5,Nó Estádio Nacional,739.6666666666666,831.3333333333333,614.6666666666666
+28,1,1,6,Nó de Oeiras,834.3333333333333,896.9999999999999,583.6666666666666
+29,1,1,7,Nó de Carcavelos,899.9999999999999,959.9999999999999,561.6666666666666
+30,1,2,7,Nó de Carcavelos,960.0,973.0,959.9999999999999
+31,1,2,6,Nó de Oeiras,976.0,995.0,896.9999999999999
+32,1,2,5,Nó Estádio Nacional,998.0,1026.0,831.3333333333333
+33,1,2,4,Nó de Linda-a-Velha,1029.0,1042.0,736.6666666666666
+34,1,2,3,Nó de Miraflores (A5/IC17),1043.0,1053.0,722.6666666666666
+35,1,2,2,Nó de Monsanto,1054.0,1068.0,711.6666666666666
+36,1,2,1,Nó Cruz das Oliveiras,1075.0,1095.0,690.6666666666666
+37,1,2,0,Nó Viaduto Duarte Pacheco,1096.0,1111.0,684.6666666666666
+38,1,2,1,Nó Cruz das Oliveiras,1112.0,1117.0,1095.0
+39,1,2,2,Nó de Monsanto,1124.0,1138.0,1068.0
+40,1,2,3,Nó de Miraflores (A5/IC17),1139.0,1149.0,1053.0
+41,1,2,4,Nó de Linda-a-Velha,1150.0,1163.0,1042.0
+42,1,2,5,Nó Estádio Nacional,1166.0,1257.6666666666667,1026.0
+43,1,2,6,Nó de Oeiras,1260.6666666666667,1323.3333333333335,995.0
+44,1,2,7,Nó de Carcavelos,1326.3333333333335,1440.0000000000002,973.0
+45,2,0,7,Nó de Carcavelos,0.0,89.5,0.0
+46,2,0,6,Nó de Oeiras,92.5,173.0,0.0
+47,2,0,5,Nó Estádio Nacional,176.0,204.0,0.0
+48,2,0,4,Nó de Linda-a-Velha,207.0,220.0,0.0
+49,2,0,3,Nó de Miraflores (A5/IC17),221.0,231.0,0.0
+50,2,0,2,Nó de Monsanto,232.0,246.0,0.0
+51,2,0,1,Nó Cruz das Oliveiras,253.0,258.0,0.0
+52,2,0,0,Nó Viaduto Duarte Pacheco,259.0,274.0,0.0
+53,2,0,1,Nó Cruz das Oliveiras,275.0,280.0,258.0
+54,2,0,2,Nó de Monsanto,287.0,301.0,246.0
+55,2,0,3,Nó de Miraflores (A5/IC17),302.0,312.0,231.0
+56,2,0,4,Nó de Linda-a-Velha,313.0,326.0,220.0
+57,2,0,5,Nó Estádio Nacional,329.0,367.0,204.0
+58,2,0,6,Nó de Oeiras,370.0,379.0,173.0
+59,2,0,7,Nó de Carcavelos,382.0,442.0,89.5
+60,2,0,6,Nó de Oeiras,445.0,445.0,379.0
+61,2,0,5,Nó Estádio Nacional,448.0,448.0,367.0
+62,2,0,4,Nó de Linda-a-Velha,451.0,451.0,326.0
+63,2,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,312.0
+64,2,0,2,Nó de Monsanto,453.0,453.0,301.0
+65,2,0,1,Nó Cruz das Oliveiras,460.0,460.0,280.0
+66,2,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,274.0
+67,2,0,1,Nó Cruz das Oliveiras,462.0,462.0,460.0
+68,2,0,2,Nó de Monsanto,469.0,469.0,453.0
+69,2,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,452.0
+70,2,0,4,Nó de Linda-a-Velha,471.0,471.0,451.0
+71,2,0,5,Nó Estádio Nacional,474.0,474.0,448.0
+72,2,0,6,Nó de Oeiras,477.0,477.0,445.0
+73,2,0,7,Nó de Carcavelos,480.0,480.0,442.0
+74,2,1,7,Nó de Carcavelos,480.0,569.5,480.0
+75,2,1,6,Nó de Oeiras,572.5,653.0,477.0
+76,2,1,5,Nó Estádio Nacional,656.0,684.0,474.0
+77,2,1,4,Nó de Linda-a-Velha,687.0,700.0,471.0
+78,2,1,3,Nó de Miraflores (A5/IC17),701.0,711.0,470.0
+79,2,1,2,Nó de Monsanto,712.0,726.0,469.0
+80,2,1,1,Nó Cruz das Oliveiras,733.0,738.0,462.0
+81,2,1,0,Nó Viaduto Duarte Pacheco,739.0,754.0,461.0
+82,2,1,1,Nó Cruz das Oliveiras,755.0,760.0,738.0
+83,2,1,2,Nó de Monsanto,767.0,781.0,726.0
+84,2,1,3,Nó de Miraflores (A5/IC17),782.0,792.0,711.0
+85,2,1,4,Nó de Linda-a-Velha,793.0,806.0,700.0
+86,2,1,5,Nó Estádio Nacional,809.0,847.0,684.0
+87,2,1,6,Nó de Oeiras,850.0,859.0,653.0
+88,2,1,7,Nó de Carcavelos,862.0,922.0,569.5
+89,2,1,6,Nó de Oeiras,925.0,925.0,859.0
+90,2,1,5,Nó Estádio Nacional,928.0,928.0,847.0
+91,2,1,4,Nó de Linda-a-Velha,931.0,931.0,806.0
+92,2,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,792.0
+93,2,1,2,Nó de Monsanto,933.0,933.0,781.0
+94,2,1,1,Nó Cruz das Oliveiras,940.0,940.0,760.0
+95,2,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,754.0
+96,2,1,1,Nó Cruz das Oliveiras,942.0,942.0,940.0
+97,2,1,2,Nó de Monsanto,949.0,949.0,933.0
+98,2,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,932.0
+99,2,1,4,Nó de Linda-a-Velha,951.0,951.0,931.0
+100,2,1,5,Nó Estádio Nacional,954.0,954.0,928.0
+101,2,1,6,Nó de Oeiras,957.0,957.0,925.0
+102,2,1,7,Nó de Carcavelos,960.0,960.0,922.0
+103,2,2,7,Nó de Carcavelos,960.0,1049.5,960.0
+104,2,2,6,Nó de Oeiras,1052.5,1133.0,957.0
+105,2,2,5,Nó Estádio Nacional,1136.0,1164.0,954.0
+106,2,2,4,Nó de Linda-a-Velha,1167.0,1180.0,951.0
+107,2,2,3,Nó de Miraflores (A5/IC17),1181.0,1191.0,950.0
+108,2,2,2,Nó de Monsanto,1192.0,1206.0,949.0
+109,2,2,1,Nó Cruz das Oliveiras,1213.0,1218.0,942.0
+110,2,2,0,Nó Viaduto Duarte Pacheco,1219.0,1234.0,941.0
+111,2,2,1,Nó Cruz das Oliveiras,1235.0,1240.0,1218.0
+112,2,2,2,Nó de Monsanto,1247.0,1261.0,1206.0
+113,2,2,3,Nó de Miraflores (A5/IC17),1262.0,1272.0,1191.0
+114,2,2,4,Nó de Linda-a-Velha,1273.0,1286.0,1180.0
+115,2,2,5,Nó Estádio Nacional,1289.0,1327.0,1164.0
+116,2,2,6,Nó de Oeiras,1330.0,1339.0,1133.0
+117,2,2,7,Nó de Carcavelos,1342.0,1402.0,1049.5
+118,2,2,6,Nó de Oeiras,1405.0,1405.0,1339.0
+119,2,2,5,Nó Estádio Nacional,1408.0,1408.0,1327.0
+120,2,2,4,Nó de Linda-a-Velha,1411.0,1411.0,1286.0
+121,2,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,1272.0
+122,2,2,2,Nó de Monsanto,1413.0,1413.0,1261.0
+123,2,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,1240.0
+124,2,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,1234.0
+125,2,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,1420.0
+126,2,2,2,Nó de Monsanto,1429.0,1429.0,1413.0
+127,2,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,1412.0
+128,2,2,4,Nó de Linda-a-Velha,1431.0,1431.0,1411.0
+129,2,2,5,Nó Estádio Nacional,1434.0,1434.0,1408.0
+130,2,2,6,Nó de Oeiras,1437.0,1437.0,1405.0
+131,2,2,7,Nó de Carcavelos,1440.0,1440.0,1402.0
+132,3,0,7,Nó de Carcavelos,0.0,113.0,0.0
+133,3,0,6,Nó de Oeiras,116.0,135.0,0.0
+134,3,0,5,Nó Estádio Nacional,138.0,166.0,0.0
+135,3,0,4,Nó de Linda-a-Velha,169.0,182.0,0.0
+136,3,0,3,Nó de Miraflores (A5/IC17),183.0,193.0,0.0
+137,3,0,2,Nó de Monsanto,194.0,208.0,0.0
+138,3,0,1,Nó Cruz das Oliveiras,215.0,220.0,0.0
+139,3,0,0,Nó Viaduto Duarte Pacheco,221.0,236.0,0.0
+140,3,0,1,Nó Cruz das Oliveiras,237.0,242.0,220.0
+141,3,0,2,Nó de Monsanto,249.0,263.0,208.0
+142,3,0,3,Nó de Miraflores (A5/IC17),264.0,274.0,193.0
+143,3,0,4,Nó de Linda-a-Velha,275.0,288.0,182.0
+144,3,0,5,Nó Estádio Nacional,291.0,329.0,166.0
+145,3,0,6,Nó de Oeiras,332.0,341.0,135.0
+146,3,0,7,Nó de Carcavelos,344.0,404.0,113.0
+147,3,0,6,Nó de Oeiras,407.0,407.0,341.0
+148,3,0,5,Nó Estádio Nacional,410.0,410.0,329.0
+149,3,0,4,Nó de Linda-a-Velha,413.0,413.0,288.0
+150,3,0,3,Nó de Miraflores (A5/IC17),414.0,414.0,274.0
+151,3,0,2,Nó de Monsanto,415.0,415.0,263.0
+152,3,0,1,Nó Cruz das Oliveiras,422.0,422.0,242.0
+153,3,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,236.0
+154,3,0,1,Nó Cruz das Oliveiras,424.0,424.0,422.0
+155,3,0,2,Nó de Monsanto,431.0,431.0,415.0
+156,3,0,3,Nó de Miraflores (A5/IC17),432.0,432.0,414.0
+157,3,0,4,Nó de Linda-a-Velha,433.0,433.0,413.0
+158,3,0,5,Nó Estádio Nacional,436.0,436.0,410.0
+159,3,0,6,Nó de Oeiras,439.0,439.0,407.0
+160,3,0,7,Nó de Carcavelos,442.0,442.0,404.0
+161,3,0,6,Nó de Oeiras,445.0,445.0,439.0
+162,3,0,5,Nó Estádio Nacional,448.0,448.0,436.0
+163,3,0,4,Nó de Linda-a-Velha,451.0,451.0,433.0
+164,3,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,432.0
+165,3,0,2,Nó de Monsanto,453.0,453.0,431.0
+166,3,0,1,Nó Cruz das Oliveiras,460.0,460.0,424.0
+167,3,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,423.0
+168,3,0,1,Nó Cruz das Oliveiras,462.0,462.0,460.0
+169,3,0,2,Nó de Monsanto,469.0,469.0,453.0
+170,3,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,452.0
+171,3,0,4,Nó de Linda-a-Velha,471.0,471.0,451.0
+172,3,0,5,Nó Estádio Nacional,474.0,474.0,448.0
+173,3,0,6,Nó de Oeiras,477.0,477.0,445.0
+174,3,0,7,Nó de Carcavelos,480.0,480.0,442.0
+175,3,1,7,Nó de Carcavelos,480.0,493.0,480.0
+176,3,1,6,Nó de Oeiras,496.0,515.0,477.0
+177,3,1,5,Nó Estádio Nacional,518.0,546.0,474.0
+178,3,1,4,Nó de Linda-a-Velha,549.0,562.0,471.0
+179,3,1,3,Nó de Miraflores (A5/IC17),563.0,573.0,470.0
+180,3,1,2,Nó de Monsanto,574.0,588.0,469.0
+181,3,1,1,Nó Cruz das Oliveiras,595.0,615.0,462.0
+182,3,1,0,Nó Viaduto Duarte Pacheco,616.0,631.0,461.0
+183,3,1,1,Nó Cruz das Oliveiras,632.0,637.0,615.0
+184,3,1,2,Nó de Monsanto,644.0,658.0,588.0
+185,3,1,3,Nó de Miraflores (A5/IC17),659.0,669.0,573.0
+186,3,1,4,Nó de Linda-a-Velha,670.0,683.0,562.0
+187,3,1,5,Nó Estádio Nacional,686.0,724.0,546.0
+188,3,1,6,Nó de Oeiras,727.0,736.0,515.0
+189,3,1,7,Nó de Carcavelos,739.0,799.0,493.0
+190,3,1,6,Nó de Oeiras,802.0,887.0,736.0
+191,3,1,5,Nó Estádio Nacional,890.0,890.0,724.0
+192,3,1,4,Nó de Linda-a-Velha,893.0,893.0,683.0
+193,3,1,3,Nó de Miraflores (A5/IC17),894.0,894.0,669.0
+194,3,1,2,Nó de Monsanto,895.0,895.0,658.0
+195,3,1,1,Nó Cruz das Oliveiras,902.0,902.0,637.0
+196,3,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,631.0
+197,3,1,1,Nó Cruz das Oliveiras,904.0,904.0,902.0
+198,3,1,2,Nó de Monsanto,911.0,911.0,895.0
+199,3,1,3,Nó de Miraflores (A5/IC17),912.0,912.0,894.0
+200,3,1,4,Nó de Linda-a-Velha,913.0,913.0,893.0
+201,3,1,5,Nó Estádio Nacional,916.0,916.0,890.0
+202,3,1,6,Nó de Oeiras,919.0,919.0,887.0
+203,3,1,7,Nó de Carcavelos,922.0,922.0,799.0
+204,3,1,6,Nó de Oeiras,925.0,925.0,919.0
+205,3,1,5,Nó Estádio Nacional,928.0,928.0,916.0
+206,3,1,4,Nó de Linda-a-Velha,931.0,931.0,913.0
+207,3,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,912.0
+208,3,1,2,Nó de Monsanto,933.0,933.0,911.0
+209,3,1,1,Nó Cruz das Oliveiras,940.0,940.0,904.0
+210,3,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,903.0
+211,3,1,1,Nó Cruz das Oliveiras,942.0,942.0,940.0
+212,3,1,2,Nó de Monsanto,949.0,949.0,933.0
+213,3,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,932.0
+214,3,1,4,Nó de Linda-a-Velha,951.0,951.0,931.0
+215,3,1,5,Nó Estádio Nacional,954.0,954.0,928.0
+216,3,1,6,Nó de Oeiras,957.0,957.0,925.0
+217,3,1,7,Nó de Carcavelos,960.0,960.0,922.0
+218,3,2,7,Nó de Carcavelos,960.0,1073.0,960.0
+219,3,2,6,Nó de Oeiras,1076.0,1095.0,957.0
+220,3,2,5,Nó Estádio Nacional,1098.0,1126.0,954.0
+221,3,2,4,Nó de Linda-a-Velha,1129.0,1142.0,951.0
+222,3,2,3,Nó de Miraflores (A5/IC17),1143.0,1153.0,950.0
+223,3,2,2,Nó de Monsanto,1154.0,1168.0,949.0
+224,3,2,1,Nó Cruz das Oliveiras,1175.0,1180.0,942.0
+225,3,2,0,Nó Viaduto Duarte Pacheco,1181.0,1196.0,941.0
+226,3,2,1,Nó Cruz das Oliveiras,1197.0,1202.0,1180.0
+227,3,2,2,Nó de Monsanto,1209.0,1223.0,1168.0
+228,3,2,3,Nó de Miraflores (A5/IC17),1224.0,1234.0,1153.0
+229,3,2,4,Nó de Linda-a-Velha,1235.0,1248.0,1142.0
+230,3,2,5,Nó Estádio Nacional,1251.0,1289.0,1126.0
+231,3,2,6,Nó de Oeiras,1292.0,1301.0,1095.0
+232,3,2,7,Nó de Carcavelos,1304.0,1364.0,1073.0
+233,3,2,6,Nó de Oeiras,1367.0,1367.0,1301.0
+234,3,2,5,Nó Estádio Nacional,1370.0,1370.0,1289.0
+235,3,2,4,Nó de Linda-a-Velha,1373.0,1373.0,1248.0
+236,3,2,3,Nó de Miraflores (A5/IC17),1374.0,1374.0,1234.0
+237,3,2,2,Nó de Monsanto,1375.0,1375.0,1223.0
+238,3,2,1,Nó Cruz das Oliveiras,1382.0,1382.0,1202.0
+239,3,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,1196.0
+240,3,2,1,Nó Cruz das Oliveiras,1384.0,1384.0,1382.0
+241,3,2,2,Nó de Monsanto,1391.0,1391.0,1375.0
+242,3,2,3,Nó de Miraflores (A5/IC17),1392.0,1392.0,1374.0
+243,3,2,4,Nó de Linda-a-Velha,1393.0,1393.0,1373.0
+244,3,2,5,Nó Estádio Nacional,1396.0,1396.0,1370.0
+245,3,2,6,Nó de Oeiras,1399.0,1399.0,1367.0
+246,3,2,7,Nó de Carcavelos,1402.0,1402.0,1364.0
+247,3,2,6,Nó de Oeiras,1405.0,1405.0,1399.0
+248,3,2,5,Nó Estádio Nacional,1408.0,1408.0,1396.0
+249,3,2,4,Nó de Linda-a-Velha,1411.0,1411.0,1393.0
+250,3,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,1392.0
+251,3,2,2,Nó de Monsanto,1413.0,1413.0,1391.0
+252,3,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,1384.0
+253,3,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,1383.0
+254,3,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,1420.0
+255,3,2,2,Nó de Monsanto,1429.0,1429.0,1413.0
+256,3,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,1412.0
+257,3,2,4,Nó de Linda-a-Velha,1431.0,1431.0,1411.0
+258,3,2,5,Nó Estádio Nacional,1434.0,1434.0,1408.0
+259,3,2,6,Nó de Oeiras,1437.0,1437.0,1405.0
+260,3,2,7,Nó de Carcavelos,1440.0,1440.0,1402.0
+261,4,0,7,Nó de Carcavelos,0.0,75.0,0.0
+262,4,0,6,Nó de Oeiras,78.0,97.0,0.0
+263,4,0,5,Nó Estádio Nacional,100.0,128.0,0.0
+264,4,0,4,Nó de Linda-a-Velha,131.0,144.0,0.0
+265,4,0,3,Nó de Miraflores (A5/IC17),145.0,155.0,0.0
+266,4,0,2,Nó de Monsanto,156.0,170.0,0.0
+267,4,0,1,Nó Cruz das Oliveiras,177.0,182.0,0.0
+268,4,0,0,Nó Viaduto Duarte Pacheco,183.0,198.0,0.0
+269,4,0,1,Nó Cruz das Oliveiras,199.0,204.0,182.0
+270,4,0,2,Nó de Monsanto,211.0,225.0,170.0
+271,4,0,3,Nó de Miraflores (A5/IC17),226.0,236.0,155.0
+272,4,0,4,Nó de Linda-a-Velha,237.0,250.0,144.0
+273,4,0,5,Nó Estádio Nacional,253.0,291.0,128.0
+274,4,0,6,Nó de Oeiras,294.0,303.0,97.0
+275,4,0,7,Nó de Carcavelos,306.0,366.0,75.0
+276,4,0,6,Nó de Oeiras,369.0,369.0,303.0
+277,4,0,5,Nó Estádio Nacional,372.0,372.0,291.0
+278,4,0,4,Nó de Linda-a-Velha,375.0,375.0,250.0
+279,4,0,3,Nó de Miraflores (A5/IC17),376.0,376.0,236.0
+280,4,0,2,Nó de Monsanto,377.0,377.0,225.0
+281,4,0,1,Nó Cruz das Oliveiras,384.0,384.0,204.0
+282,4,0,0,Nó Viaduto Duarte Pacheco,385.0,385.0,198.0
+283,4,0,1,Nó Cruz das Oliveiras,386.0,386.0,384.0
+284,4,0,2,Nó de Monsanto,393.0,393.0,377.0
+285,4,0,3,Nó de Miraflores (A5/IC17),394.0,394.0,376.0
+286,4,0,4,Nó de Linda-a-Velha,395.0,395.0,375.0
+287,4,0,5,Nó Estádio Nacional,398.0,398.0,372.0
+288,4,0,6,Nó de Oeiras,401.0,401.0,369.0
+289,4,0,7,Nó de Carcavelos,404.0,404.0,366.0
+290,4,0,6,Nó de Oeiras,407.0,407.0,401.0
+291,4,0,5,Nó Estádio Nacional,410.0,410.0,398.0
+292,4,0,4,Nó de Linda-a-Velha,413.0,413.0,395.0
+293,4,0,3,Nó de Miraflores (A5/IC17),414.0,414.0,394.0
+294,4,0,2,Nó de Monsanto,415.0,415.0,393.0
+295,4,0,1,Nó Cruz das Oliveiras,422.0,422.0,386.0
+296,4,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,385.0
+297,4,0,1,Nó Cruz das Oliveiras,424.0,424.0,422.0
+298,4,0,2,Nó de Monsanto,431.0,431.0,415.0
+299,4,0,3,Nó de Miraflores (A5/IC17),432.0,432.0,414.0
+300,4,0,4,Nó de Linda-a-Velha,433.0,433.0,413.0
+301,4,0,5,Nó Estádio Nacional,436.0,436.0,410.0
+302,4,0,6,Nó de Oeiras,439.0,439.0,407.0
+303,4,0,7,Nó de Carcavelos,442.0,442.0,404.0
+304,4,0,6,Nó de Oeiras,445.0,445.0,439.0
+305,4,0,5,Nó Estádio Nacional,448.0,448.0,436.0
+306,4,0,4,Nó de Linda-a-Velha,451.0,451.0,433.0
+307,4,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,432.0
+308,4,0,2,Nó de Monsanto,453.0,453.0,431.0
+309,4,0,1,Nó Cruz das Oliveiras,460.0,460.0,424.0
+310,4,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,423.0
+311,4,0,1,Nó Cruz das Oliveiras,462.0,462.0,460.0
+312,4,0,2,Nó de Monsanto,469.0,469.0,453.0
+313,4,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,452.0
+314,4,0,4,Nó de Linda-a-Velha,471.0,471.0,451.0
+315,4,0,5,Nó Estádio Nacional,474.0,474.0,448.0
+316,4,0,6,Nó de Oeiras,477.0,477.0,445.0
+317,4,0,7,Nó de Carcavelos,480.0,480.0,442.0
+318,4,1,7,Nó de Carcavelos,480.0,555.0,480.0
+319,4,1,6,Nó de Oeiras,558.0,577.0,477.0
+320,4,1,5,Nó Estádio Nacional,580.0,608.0,474.0
+321,4,1,4,Nó de Linda-a-Velha,611.0,624.0,471.0
+322,4,1,3,Nó de Miraflores (A5/IC17),625.0,635.0,470.0
+323,4,1,2,Nó de Monsanto,636.0,650.0,469.0
+324,4,1,1,Nó Cruz das Oliveiras,657.0,662.0,462.0
+325,4,1,0,Nó Viaduto Duarte Pacheco,663.0,678.0,461.0
+326,4,1,1,Nó Cruz das Oliveiras,679.0,684.0,662.0
+327,4,1,2,Nó de Monsanto,691.0,705.0,650.0
+328,4,1,3,Nó de Miraflores (A5/IC17),706.0,716.0,635.0
+329,4,1,4,Nó de Linda-a-Velha,717.0,730.0,624.0
+330,4,1,5,Nó Estádio Nacional,733.0,771.0,608.0
+331,4,1,6,Nó de Oeiras,774.0,783.0,577.0
+332,4,1,7,Nó de Carcavelos,786.0,846.0,555.0
+333,4,1,6,Nó de Oeiras,849.0,849.0,783.0
+334,4,1,5,Nó Estádio Nacional,852.0,852.0,771.0
+335,4,1,4,Nó de Linda-a-Velha,855.0,855.0,730.0
+336,4,1,3,Nó de Miraflores (A5/IC17),856.0,856.0,716.0
+337,4,1,2,Nó de Monsanto,857.0,857.0,705.0
+338,4,1,1,Nó Cruz das Oliveiras,864.0,864.0,684.0
+339,4,1,0,Nó Viaduto Duarte Pacheco,865.0,865.0,678.0
+340,4,1,1,Nó Cruz das Oliveiras,866.0,866.0,864.0
+341,4,1,2,Nó de Monsanto,873.0,873.0,857.0
+342,4,1,3,Nó de Miraflores (A5/IC17),874.0,874.0,856.0
+343,4,1,4,Nó de Linda-a-Velha,875.0,875.0,855.0
+344,4,1,5,Nó Estádio Nacional,878.0,878.0,852.0
+345,4,1,6,Nó de Oeiras,881.0,881.0,849.0
+346,4,1,7,Nó de Carcavelos,884.0,884.0,846.0
+347,4,1,6,Nó de Oeiras,887.0,887.0,881.0
+348,4,1,5,Nó Estádio Nacional,890.0,890.0,878.0
+349,4,1,4,Nó de Linda-a-Velha,893.0,893.0,875.0
+350,4,1,3,Nó de Miraflores (A5/IC17),894.0,894.0,874.0
+351,4,1,2,Nó de Monsanto,895.0,895.0,873.0
+352,4,1,1,Nó Cruz das Oliveiras,902.0,902.0,866.0
+353,4,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,865.0
+354,4,1,1,Nó Cruz das Oliveiras,904.0,904.0,902.0
+355,4,1,2,Nó de Monsanto,911.0,911.0,895.0
+356,4,1,3,Nó de Miraflores (A5/IC17),912.0,912.0,894.0
+357,4,1,4,Nó de Linda-a-Velha,913.0,913.0,893.0
+358,4,1,5,Nó Estádio Nacional,916.0,916.0,890.0
+359,4,1,6,Nó de Oeiras,919.0,919.0,887.0
+360,4,1,7,Nó de Carcavelos,922.0,922.0,884.0
+361,4,1,6,Nó de Oeiras,925.0,925.0,919.0
+362,4,1,5,Nó Estádio Nacional,928.0,928.0,916.0
+363,4,1,4,Nó de Linda-a-Velha,931.0,931.0,913.0
+364,4,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,912.0
+365,4,1,2,Nó de Monsanto,933.0,933.0,911.0
+366,4,1,1,Nó Cruz das Oliveiras,940.0,940.0,904.0
+367,4,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,903.0
+368,4,1,1,Nó Cruz das Oliveiras,942.0,942.0,940.0
+369,4,1,2,Nó de Monsanto,949.0,949.0,933.0
+370,4,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,932.0
+371,4,1,4,Nó de Linda-a-Velha,951.0,951.0,931.0
+372,4,1,5,Nó Estádio Nacional,954.0,954.0,928.0
+373,4,1,6,Nó de Oeiras,957.0,957.0,925.0
+374,4,1,7,Nó de Carcavelos,960.0,960.0,922.0
+375,4,2,7,Nó de Carcavelos,960.0,1035.0,960.0
+376,4,2,6,Nó de Oeiras,1038.0,1057.0,957.0
+377,4,2,5,Nó Estádio Nacional,1060.0,1088.0,954.0
+378,4,2,4,Nó de Linda-a-Velha,1091.0,1104.0,951.0
+379,4,2,3,Nó de Miraflores (A5/IC17),1105.0,1115.0,950.0
+380,4,2,2,Nó de Monsanto,1116.0,1130.0,949.0
+381,4,2,1,Nó Cruz das Oliveiras,1137.0,1142.0,942.0
+382,4,2,0,Nó Viaduto Duarte Pacheco,1143.0,1158.0,941.0
+383,4,2,1,Nó Cruz das Oliveiras,1159.0,1164.0,1142.0
+384,4,2,2,Nó de Monsanto,1171.0,1185.0,1130.0
+385,4,2,3,Nó de Miraflores (A5/IC17),1186.0,1196.0,1115.0
+386,4,2,4,Nó de Linda-a-Velha,1197.0,1210.0,1104.0
+387,4,2,5,Nó Estádio Nacional,1213.0,1251.0,1088.0
+388,4,2,6,Nó de Oeiras,1254.0,1263.0,1057.0
+389,4,2,7,Nó de Carcavelos,1266.0,1326.0,1035.0
+390,4,2,6,Nó de Oeiras,1329.0,1329.0,1263.0
+391,4,2,5,Nó Estádio Nacional,1332.0,1332.0,1251.0
+392,4,2,4,Nó de Linda-a-Velha,1335.0,1335.0,1210.0
+393,4,2,3,Nó de Miraflores (A5/IC17),1336.0,1336.0,1196.0
+394,4,2,2,Nó de Monsanto,1337.0,1337.0,1185.0
+395,4,2,1,Nó Cruz das Oliveiras,1344.0,1344.0,1164.0
+396,4,2,0,Nó Viaduto Duarte Pacheco,1345.0,1345.0,1158.0
+397,4,2,1,Nó Cruz das Oliveiras,1346.0,1346.0,1344.0
+398,4,2,2,Nó de Monsanto,1353.0,1353.0,1337.0
+399,4,2,3,Nó de Miraflores (A5/IC17),1354.0,1354.0,1336.0
+400,4,2,4,Nó de Linda-a-Velha,1355.0,1355.0,1335.0
+401,4,2,5,Nó Estádio Nacional,1358.0,1358.0,1332.0
+402,4,2,6,Nó de Oeiras,1361.0,1361.0,1329.0
+403,4,2,7,Nó de Carcavelos,1364.0,1364.0,1326.0
+404,4,2,6,Nó de Oeiras,1367.0,1367.0,1361.0
+405,4,2,5,Nó Estádio Nacional,1370.0,1370.0,1358.0
+406,4,2,4,Nó de Linda-a-Velha,1373.0,1373.0,1355.0
+407,4,2,3,Nó de Miraflores (A5/IC17),1374.0,1374.0,1354.0
+408,4,2,2,Nó de Monsanto,1375.0,1375.0,1353.0
+409,4,2,1,Nó Cruz das Oliveiras,1382.0,1382.0,1346.0
+410,4,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,1345.0
+411,4,2,1,Nó Cruz das Oliveiras,1384.0,1384.0,1382.0
+412,4,2,2,Nó de Monsanto,1391.0,1391.0,1375.0
+413,4,2,3,Nó de Miraflores (A5/IC17),1392.0,1392.0,1374.0
+414,4,2,4,Nó de Linda-a-Velha,1393.0,1393.0,1373.0
+415,4,2,5,Nó Estádio Nacional,1396.0,1396.0,1370.0
+416,4,2,6,Nó de Oeiras,1399.0,1399.0,1367.0
+417,4,2,7,Nó de Carcavelos,1402.0,1402.0,1364.0
+418,4,2,6,Nó de Oeiras,1405.0,1405.0,1399.0
+419,4,2,5,Nó Estádio Nacional,1408.0,1408.0,1396.0
+420,4,2,4,Nó de Linda-a-Velha,1411.0,1411.0,1393.0
+421,4,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,1392.0
+422,4,2,2,Nó de Monsanto,1413.0,1413.0,1391.0
+423,4,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,1384.0
+424,4,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,1383.0
+425,4,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,1420.0
+426,4,2,2,Nó de Monsanto,1429.0,1429.0,1413.0
+427,4,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,1412.0
+428,4,2,4,Nó de Linda-a-Velha,1431.0,1431.0,1411.0
+429,4,2,5,Nó Estádio Nacional,1434.0,1434.0,1408.0
+430,4,2,6,Nó de Oeiras,1437.0,1437.0,1405.0
+431,4,2,7,Nó de Carcavelos,1440.0,1440.0,1402.0

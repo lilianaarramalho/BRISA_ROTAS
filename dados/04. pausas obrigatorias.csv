@@ -1,7 +1,7 @@
-Tipo,Hora Inicio,Hora Fim,Duração,Nó Início,Nó Fim
-Pausa,60,180,15,,
-Almoço,240,420,60,,
-Pausa,540,660,15,,
-Almoço,720,900,60,,
-Pausa,1020,1140,15,,
-Almoço,1200,1380,60,,
+Tipo,Duração,Hora Inicio,Hora Fim,Nó Início,Nó Fim
+Pausa,15,60,180,,
+Almoço,60,240,420,,
+Pausa,15,540,660,,
+Almoço,60,720,900,,
+Pausa,15,1020,1140,,
+Almoço,60,1200,1380,,

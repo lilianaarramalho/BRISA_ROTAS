@@ -1,166 +1,754 @@
 ,Numero Voltas,Turno,Sequência,Nó,Hora Inicio,Hora Fim,Tipo,kms
-0,2,0,7,Nó de Carcavelos,0,0,Início,0
-1,2,0,7,Nó de Carcavelos,0,61.5,Espera,0
-2,2,0,7,Nó de Carcavelos,61.5,76.5,Pausa,0
-3,2,0,7,Nó de Carcavelos,76.5,76.5,Deslocação,0
-4,2,0,7,Nó de Carcavelos,76.5,89.5,Visitar Nó,0
-5,2,0,6,Nó de Oeiras,92.5,92.5,Deslocação,3
-6,2,0,6,Nó de Oeiras,92.5,102.5,Vistoria,0
-7,2,0,5,Nó Estádio Nacional,105.5,105.5,Deslocação,3
-8,2,0,5,Nó Estádio Nacional,105.5,133.5,Visitar Nó,0
-9,2,0,4,Nó de Linda-a-Velha,136.5,136.5,Deslocação,3
-10,2,0,3,Nó de Miraflores (A5/IC17),137.5,137.5,Deslocação,1
-11,2,0,2,Nó de Monsanto,138.5,138.5,Deslocação,1
-12,2,0,2,Nó de Monsanto,138.5,152.5,Visitar Nó,0
-13,2,0,1,Nó Cruz das Oliveiras,159.5,159.5,Deslocação,7
-14,2,0,1,Nó Cruz das Oliveiras,159.5,164.5,Visitar Nó,0
-15,2,0,0,Nó Viaduto Duarte Pacheco,165.5,165.5,Deslocação,1
-16,2,0,0,Nó Viaduto Duarte Pacheco,165.5,165.5,Deslocação,1
-17,2,0,1,Nó Cruz das Oliveiras,166.5,166.5,Deslocação,1
-18,2,0,2,Nó de Monsanto,173.5,173.5,Deslocação,7
-19,2,0,3,Nó de Miraflores (A5/IC17),174.5,174.5,Deslocação,1
-20,2,0,3,Nó de Miraflores (A5/IC17),174.5,184.5,Visitar Nó,0
-21,2,0,4,Nó de Linda-a-Velha,185.5,185.5,Deslocação,1
-22,2,0,5,Nó Estádio Nacional,188.5,188.5,Deslocação,3
-23,2,0,5,Nó Estádio Nacional,188.5,216.5,Visitar Nó,0
-24,2,0,5,Nó Estádio Nacional,216.5,226.5,Vistoria,0
-25,2,0,6,Nó de Oeiras,229.5,229.5,Deslocação,3
-26,2,0,7,Nó de Carcavelos,232.5,232.5,Deslocação,3
-27,2,0,7,Nó de Carcavelos,232.5,292.5,Pausa,0
-28,2,0,7,Nó de Carcavelos,292.5,292.5,Deslocação,3
-29,2,0,6,Nó de Oeiras,295.5,295.5,Deslocação,3
-30,2,0,6,Nó de Oeiras,295.5,304.5,Visitar Nó,0
-31,2,0,5,Nó Estádio Nacional,307.5,307.5,Deslocação,3
-32,2,0,4,Nó de Linda-a-Velha,310.5,310.5,Deslocação,3
-33,2,0,4,Nó de Linda-a-Velha,310.5,323.5,Visitar Nó,0
-34,2,0,3,Nó de Miraflores (A5/IC17),324.5,324.5,Deslocação,1
-35,2,0,3,Nó de Miraflores (A5/IC17),324.5,334.5,Visitar Nó,0
-36,2,0,2,Nó de Monsanto,335.5,335.5,Deslocação,1
-37,2,0,1,Nó Cruz das Oliveiras,342.5,342.5,Deslocação,7
-38,2,0,0,Nó Viaduto Duarte Pacheco,343.5,343.5,Deslocação,1
-39,2,0,0,Nó Viaduto Duarte Pacheco,343.5,343.5,Deslocação,1
-40,2,0,0,Nó Viaduto Duarte Pacheco,343.5,358.5,Visitar Nó,0
-41,2,0,1,Nó Cruz das Oliveiras,359.5,359.5,Deslocação,1
-42,2,0,1,Nó Cruz das Oliveiras,359.5,421,Espera,0
-43,2,0,1,Nó Cruz das Oliveiras,421,426,Visitar Nó,0
-44,2,0,2,Nó de Monsanto,465,465,Deslocação,7
-45,2,0,2,Nó de Monsanto,465,479,Visitar Nó,0
-46,2,0,3,Nó de Miraflores (A5/IC17),480,480,Deslocação,1
-47,2,0,4,Nó de Linda-a-Velha,481,481,Deslocação,1
-48,2,0,4,Nó de Linda-a-Velha,481,494,Visitar Nó,0
-49,2,0,5,Nó Estádio Nacional,497,497,Deslocação,3
-50,2,0,6,Nó de Oeiras,500,500,Deslocação,3
-51,2,0,6,Nó de Oeiras,500,509,Visitar Nó,0
-52,2,0,7,Nó de Carcavelos,512,512,Deslocação,3
-53,2,0,7,Nó de Carcavelos,512,512,Deslocação,3
-54,2,0,7,Nó de Carcavelos,512,512,Deslocação,3
-55,2,1,7,Nó de Carcavelos,480,480,Início,0
-56,2,1,7,Nó de Carcavelos,480,480,Deslocação,0
-57,2,1,6,Nó de Oeiras,483,483,Deslocação,3
-58,2,1,6,Nó de Oeiras,483,493,Vistoria,0
-59,2,1,5,Nó Estádio Nacional,496,496,Deslocação,3
-60,2,1,4,Nó de Linda-a-Velha,499,499,Deslocação,3
-61,2,1,3,Nó de Miraflores (A5/IC17),500,500,Deslocação,1
-62,2,1,2,Nó de Monsanto,501,501,Deslocação,1
-63,2,1,2,Nó de Monsanto,501,515,Visitar Nó,0
-64,2,1,1,Nó Cruz das Oliveiras,522,522,Deslocação,7
-65,2,1,1,Nó Cruz das Oliveiras,522,527,Visitar Nó,0
-66,2,1,0,Nó Viaduto Duarte Pacheco,528,528,Deslocação,1
-67,2,1,0,Nó Viaduto Duarte Pacheco,528,528,Deslocação,1
-68,2,1,0,Nó Viaduto Duarte Pacheco,528,543,Visitar Nó,0
-69,2,1,1,Nó Cruz das Oliveiras,544,544,Deslocação,1
-70,2,1,1,Nó Cruz das Oliveiras,544,559,Pausa,0
-71,2,1,1,Nó Cruz das Oliveiras,559,564,Visitar Nó,0
-72,2,1,2,Nó de Monsanto,571,571,Deslocação,7
-73,2,1,2,Nó de Monsanto,571,585,Visitar Nó,0
-74,2,1,3,Nó de Miraflores (A5/IC17),586,586,Deslocação,1
-75,2,1,3,Nó de Miraflores (A5/IC17),586,596,Visitar Nó,0
-76,2,1,4,Nó de Linda-a-Velha,597,597,Deslocação,1
-77,2,1,4,Nó de Linda-a-Velha,597,610,Visitar Nó,0
-78,2,1,5,Nó Estádio Nacional,613,613,Deslocação,3
-79,2,1,5,Nó Estádio Nacional,613,641,Visitar Nó,0
-80,2,1,5,Nó Estádio Nacional,641,651,Vistoria,0
-81,2,1,6,Nó de Oeiras,654,654,Deslocação,3
-82,2,1,6,Nó de Oeiras,654,663,Visitar Nó,0
-83,2,1,7,Nó de Carcavelos,666,666,Deslocação,3
-84,2,1,7,Nó de Carcavelos,666,726,Pausa,0
-85,2,1,7,Nó de Carcavelos,726,726,Deslocação,3
-86,2,1,7,Nó de Carcavelos,726,739,Visitar Nó,0
-87,2,1,6,Nó de Oeiras,742,742,Deslocação,3
-88,2,1,6,Nó de Oeiras,742,751,Visitar Nó,0
-89,2,1,5,Nó Estádio Nacional,754,754,Deslocação,3
-90,2,1,5,Nó Estádio Nacional,754,782,Visitar Nó,0
-91,2,1,4,Nó de Linda-a-Velha,785,785,Deslocação,3
-92,2,1,4,Nó de Linda-a-Velha,785,798,Visitar Nó,0
-93,2,1,3,Nó de Miraflores (A5/IC17),799,799,Deslocação,1
-94,2,1,3,Nó de Miraflores (A5/IC17),799,809,Visitar Nó,0
-95,2,1,2,Nó de Monsanto,810,810,Deslocação,1
-96,2,1,1,Nó Cruz das Oliveiras,817,817,Deslocação,7
-97,2,1,0,Nó Viaduto Duarte Pacheco,818,818,Deslocação,1
-98,2,1,0,Nó Viaduto Duarte Pacheco,818,818,Deslocação,1
-99,2,1,1,Nó Cruz das Oliveiras,819,819,Deslocação,1
-100,2,1,1,Nó Cruz das Oliveiras,819,880.5,Espera,0
-101,2,1,2,Nó de Monsanto,887.5,887.5,Deslocação,7
-102,2,1,3,Nó de Miraflores (A5/IC17),888.5,888.5,Deslocação,1
-103,2,1,4,Nó de Linda-a-Velha,889.5,889.5,Deslocação,1
-104,2,1,5,Nó Estádio Nacional,892.5,892.5,Deslocação,3
-105,2,1,6,Nó de Oeiras,895.5,895.5,Deslocação,3
-106,2,1,6,Nó de Oeiras,895.5,957,Espera,0
-107,2,1,7,Nó de Carcavelos,960,960,Deslocação,3
-108,2,1,7,Nó de Carcavelos,960,960,Deslocação,3
-109,2,1,7,Nó de Carcavelos,960,960,Deslocação,3
-110,2,2,7,Nó de Carcavelos,960,960,Início,0
-111,2,2,7,Nó de Carcavelos,960,960,Deslocação,0
-112,2,2,6,Nó de Oeiras,963,963,Deslocação,3
-113,2,2,6,Nó de Oeiras,963,972,Visitar Nó,0
-114,2,2,6,Nó de Oeiras,972,982,Vistoria,0
-115,2,2,5,Nó Estádio Nacional,985,985,Deslocação,3
-116,2,2,5,Nó Estádio Nacional,985,1013,Visitar Nó,0
-117,2,2,4,Nó de Linda-a-Velha,1016,1016,Deslocação,3
-118,2,2,4,Nó de Linda-a-Velha,1016,1029,Visitar Nó,0
-119,2,2,3,Nó de Miraflores (A5/IC17),1030,1030,Deslocação,1
-120,2,2,3,Nó de Miraflores (A5/IC17),1030,1040,Visitar Nó,0
-121,2,2,2,Nó de Monsanto,1041,1041,Deslocação,1
-122,2,2,2,Nó de Monsanto,1041,1055,Visitar Nó,0
-123,2,2,1,Nó Cruz das Oliveiras,1062,1062,Deslocação,7
-124,2,2,1,Nó Cruz das Oliveiras,1062,1077,Pausa,0
-125,2,2,1,Nó Cruz das Oliveiras,1077,1082,Visitar Nó,0
-126,2,2,0,Nó Viaduto Duarte Pacheco,1083,1083,Deslocação,1
-127,2,2,0,Nó Viaduto Duarte Pacheco,1083,1083,Deslocação,1
-128,2,2,0,Nó Viaduto Duarte Pacheco,1083,1098,Visitar Nó,0
-129,2,2,1,Nó Cruz das Oliveiras,1099,1099,Deslocação,1
-130,2,2,1,Nó Cruz das Oliveiras,1099,1104,Visitar Nó,0
-131,2,2,2,Nó de Monsanto,1111,1111,Deslocação,7
-132,2,2,2,Nó de Monsanto,1111,1125,Visitar Nó,0
-133,2,2,3,Nó de Miraflores (A5/IC17),1126,1126,Deslocação,1
-134,2,2,3,Nó de Miraflores (A5/IC17),1126,1136,Visitar Nó,0
-135,2,2,4,Nó de Linda-a-Velha,1137,1137,Deslocação,1
-136,2,2,4,Nó de Linda-a-Velha,1137,1150,Visitar Nó,0
-137,2,2,5,Nó Estádio Nacional,1153,1153,Deslocação,3
-138,2,2,5,Nó Estádio Nacional,1153,1181,Visitar Nó,0
-139,2,2,5,Nó Estádio Nacional,1181,1191,Vistoria,0
-140,2,2,6,Nó de Oeiras,1194,1194,Deslocação,3
-141,2,2,6,Nó de Oeiras,1194,1203,Visitar Nó,0
-142,2,2,7,Nó de Carcavelos,1206,1206,Deslocação,3
-143,2,2,7,Nó de Carcavelos,1206,1266,Pausa,0
-144,2,2,7,Nó de Carcavelos,1266,1266,Deslocação,3
-145,2,2,7,Nó de Carcavelos,1266,1279,Visitar Nó,0
-146,2,2,6,Nó de Oeiras,1282,1282,Deslocação,3
-147,2,2,6,Nó de Oeiras,1282,1343.5,Espera,0
-148,2,2,5,Nó Estádio Nacional,1346.5,1346.5,Deslocação,3
-149,2,2,4,Nó de Linda-a-Velha,1349.5,1349.5,Deslocação,3
-150,2,2,3,Nó de Miraflores (A5/IC17),1350.5,1350.5,Deslocação,1
-151,2,2,2,Nó de Monsanto,1351.5,1351.5,Deslocação,1
-152,2,2,1,Nó Cruz das Oliveiras,1358.5,1358.5,Deslocação,7
-153,2,2,1,Nó Cruz das Oliveiras,1358.5,1420,Espera,0
-154,2,2,0,Nó Viaduto Duarte Pacheco,1421,1421,Deslocação,1
-155,2,2,0,Nó Viaduto Duarte Pacheco,1421,1421,Deslocação,1
-156,2,2,1,Nó Cruz das Oliveiras,1422,1422,Deslocação,1
-157,2,2,2,Nó de Monsanto,1429,1429,Deslocação,7
-158,2,2,3,Nó de Miraflores (A5/IC17),1430,1430,Deslocação,1
-159,2,2,4,Nó de Linda-a-Velha,1431,1431,Deslocação,1
-160,2,2,5,Nó Estádio Nacional,1434,1434,Deslocação,3
-161,2,2,6,Nó de Oeiras,1437,1437,Deslocação,3
-162,2,2,7,Nó de Carcavelos,1440,1440,Deslocação,3
-163,2,2,7,Nó de Carcavelos,1440,1440,Deslocação,3
-164,2,2,7,Nó de Carcavelos,1440,1440,Deslocação,3
+0,1,0,7,Nó de Carcavelos,0.0,0.0,Início,0
+1,1,0,7,Nó de Carcavelos,0.0,53.666666666666664,Espera,0
+2,1,0,7,Nó de Carcavelos,53.666666666666664,68.66666666666666,Pausa,0
+3,1,0,7,Nó de Carcavelos,68.66666666666666,68.66666666666666,Deslocação,0
+4,1,0,7,Nó de Carcavelos,68.66666666666666,81.66666666666666,Visitar Nó,0
+5,1,0,6,Nó de Oeiras,84.66666666666666,84.66666666666666,Deslocação,3
+6,1,0,6,Nó de Oeiras,84.66666666666666,138.33333333333331,Espera,0
+7,1,0,6,Nó de Oeiras,138.33333333333331,147.33333333333331,Visitar Nó,0
+8,1,0,6,Nó de Oeiras,147.33333333333331,157.33333333333331,Vistoria,0
+9,1,0,5,Nó Estádio Nacional,160.33333333333331,160.33333333333331,Deslocação,3
+10,1,0,5,Nó Estádio Nacional,160.33333333333331,213.99999999999997,Espera,0
+11,1,0,5,Nó Estádio Nacional,213.99999999999997,241.99999999999997,Visitar Nó,0
+12,1,0,4,Nó de Linda-a-Velha,244.99999999999997,244.99999999999997,Deslocação,3
+13,1,0,4,Nó de Linda-a-Velha,244.99999999999997,258.0,Visitar Nó,0
+14,1,0,3,Nó de Miraflores (A5/IC17),259.0,259.0,Deslocação,1
+15,1,0,3,Nó de Miraflores (A5/IC17),259.0,269.0,Visitar Nó,0
+16,1,0,2,Nó de Monsanto,270.0,270.0,Deslocação,1
+17,1,0,2,Nó de Monsanto,270.0,284.0,Visitar Nó,0
+18,1,0,1,Nó Cruz das Oliveiras,291.0,291.0,Deslocação,7
+19,1,0,1,Nó Cruz das Oliveiras,291.0,296.0,Visitar Nó,0
+20,1,0,0,Nó Viaduto Duarte Pacheco,297.0,297.0,Deslocação,1
+21,1,0,0,Nó Viaduto Duarte Pacheco,297.0,297.0,Deslocação,1
+22,1,0,0,Nó Viaduto Duarte Pacheco,297.0,312.0,Visitar Nó,0
+23,1,0,1,Nó Cruz das Oliveiras,313.0,313.0,Deslocação,1
+24,1,0,1,Nó Cruz das Oliveiras,313.0,318.0,Visitar Nó,0
+25,1,0,2,Nó de Monsanto,325.0,325.0,Deslocação,7
+26,1,0,2,Nó de Monsanto,325.0,339.0,Visitar Nó,0
+27,1,0,3,Nó de Miraflores (A5/IC17),340.0,340.0,Deslocação,1
+28,1,0,3,Nó de Miraflores (A5/IC17),340.0,350.0,Visitar Nó,0
+29,1,0,4,Nó de Linda-a-Velha,351.0,351.0,Deslocação,1
+30,1,0,4,Nó de Linda-a-Velha,351.0,364.0,Visitar Nó,0
+31,1,0,5,Nó Estádio Nacional,367.0,367.0,Deslocação,3
+32,1,0,5,Nó Estádio Nacional,367.0,395.00000000000006,Visitar Nó,0
+33,1,0,5,Nó Estádio Nacional,395.00000000000006,405.00000000000006,Vistoria,0
+34,1,0,6,Nó de Oeiras,408.00000000000006,408.00000000000006,Deslocação,3
+35,1,0,6,Nó de Oeiras,408.00000000000006,417.00000000000006,Visitar Nó,0
+36,1,0,7,Nó de Carcavelos,420.00000000000006,420.00000000000006,Deslocação,3
+37,1,0,7,Nó de Carcavelos,420.00000000000006,480.00000000000006,Pausa,0
+38,1,0,7,Nó de Carcavelos,480.00000000000006,480.00000000000006,Deslocação,3
+39,1,0,7,Nó de Carcavelos,480.00000000000006,480.00000000000006,Deslocação,3
+40,1,1,7,Nó de Carcavelos,480.0,480.0,Início,0
+41,1,1,7,Nó de Carcavelos,480.0,533.6666666666666,Espera,0
+42,1,1,7,Nó de Carcavelos,533.6666666666666,548.6666666666666,Pausa,0
+43,1,1,7,Nó de Carcavelos,548.6666666666666,548.6666666666666,Deslocação,0
+44,1,1,7,Nó de Carcavelos,548.6666666666666,561.6666666666666,Visitar Nó,0
+45,1,1,6,Nó de Oeiras,564.6666666666666,564.6666666666666,Deslocação,3
+46,1,1,6,Nó de Oeiras,564.6666666666666,573.6666666666666,Visitar Nó,0
+47,1,1,6,Nó de Oeiras,573.6666666666666,583.6666666666666,Vistoria,0
+48,1,1,5,Nó Estádio Nacional,586.6666666666666,586.6666666666666,Deslocação,3
+49,1,1,5,Nó Estádio Nacional,586.6666666666666,614.6666666666666,Visitar Nó,0
+50,1,1,4,Nó de Linda-a-Velha,617.6666666666666,617.6666666666666,Deslocação,3
+51,1,1,4,Nó de Linda-a-Velha,617.6666666666666,630.6666666666666,Visitar Nó,0
+52,1,1,3,Nó de Miraflores (A5/IC17),631.6666666666666,631.6666666666666,Deslocação,1
+53,1,1,3,Nó de Miraflores (A5/IC17),631.6666666666666,641.6666666666666,Visitar Nó,0
+54,1,1,2,Nó de Monsanto,642.6666666666666,642.6666666666666,Deslocação,1
+55,1,1,2,Nó de Monsanto,642.6666666666666,656.6666666666666,Visitar Nó,0
+56,1,1,1,Nó Cruz das Oliveiras,663.6666666666666,663.6666666666666,Deslocação,7
+57,1,1,1,Nó Cruz das Oliveiras,663.6666666666666,668.6666666666666,Visitar Nó,0
+58,1,1,0,Nó Viaduto Duarte Pacheco,669.6666666666666,669.6666666666666,Deslocação,1
+59,1,1,0,Nó Viaduto Duarte Pacheco,669.6666666666666,669.6666666666666,Deslocação,1
+60,1,1,0,Nó Viaduto Duarte Pacheco,669.6666666666666,684.6666666666666,Visitar Nó,0
+61,1,1,1,Nó Cruz das Oliveiras,685.6666666666666,685.6666666666666,Deslocação,1
+62,1,1,1,Nó Cruz das Oliveiras,685.6666666666666,690.6666666666666,Visitar Nó,0
+63,1,1,2,Nó de Monsanto,697.6666666666666,697.6666666666666,Deslocação,7
+64,1,1,2,Nó de Monsanto,697.6666666666666,711.6666666666666,Visitar Nó,0
+65,1,1,3,Nó de Miraflores (A5/IC17),712.6666666666666,712.6666666666666,Deslocação,1
+66,1,1,3,Nó de Miraflores (A5/IC17),712.6666666666666,722.6666666666666,Visitar Nó,0
+67,1,1,4,Nó de Linda-a-Velha,723.6666666666666,723.6666666666666,Deslocação,1
+68,1,1,4,Nó de Linda-a-Velha,723.6666666666666,736.6666666666666,Visitar Nó,0
+69,1,1,5,Nó Estádio Nacional,739.6666666666666,739.6666666666666,Deslocação,3
+70,1,1,5,Nó Estádio Nacional,739.6666666666666,793.3333333333333,Espera,0
+71,1,1,5,Nó Estádio Nacional,793.3333333333333,821.3333333333333,Visitar Nó,0
+72,1,1,5,Nó Estádio Nacional,821.3333333333333,831.3333333333333,Vistoria,0
+73,1,1,6,Nó de Oeiras,834.3333333333333,834.3333333333333,Deslocação,3
+74,1,1,6,Nó de Oeiras,834.3333333333333,887.9999999999999,Espera,0
+75,1,1,6,Nó de Oeiras,887.9999999999999,896.9999999999999,Visitar Nó,0
+76,1,1,7,Nó de Carcavelos,899.9999999999999,899.9999999999999,Deslocação,3
+77,1,1,7,Nó de Carcavelos,899.9999999999999,959.9999999999999,Pausa,0
+78,1,1,7,Nó de Carcavelos,959.9999999999999,959.9999999999999,Deslocação,3
+79,1,1,7,Nó de Carcavelos,959.9999999999999,959.9999999999999,Deslocação,3
+80,1,2,7,Nó de Carcavelos,960.0,960.0,Início,0
+81,1,2,7,Nó de Carcavelos,960.0,960.0,Deslocação,0
+82,1,2,7,Nó de Carcavelos,960.0,973.0,Visitar Nó,0
+83,1,2,6,Nó de Oeiras,976.0,976.0,Deslocação,3
+84,1,2,6,Nó de Oeiras,976.0,985.0,Visitar Nó,0
+85,1,2,6,Nó de Oeiras,985.0,995.0,Vistoria,0
+86,1,2,5,Nó Estádio Nacional,998.0,998.0,Deslocação,3
+87,1,2,5,Nó Estádio Nacional,998.0,1026.0,Visitar Nó,0
+88,1,2,4,Nó de Linda-a-Velha,1029.0,1029.0,Deslocação,3
+89,1,2,4,Nó de Linda-a-Velha,1029.0,1042.0,Visitar Nó,0
+90,1,2,3,Nó de Miraflores (A5/IC17),1043.0,1043.0,Deslocação,1
+91,1,2,3,Nó de Miraflores (A5/IC17),1043.0,1053.0,Visitar Nó,0
+92,1,2,2,Nó de Monsanto,1054.0,1054.0,Deslocação,1
+93,1,2,2,Nó de Monsanto,1054.0,1068.0,Visitar Nó,0
+94,1,2,1,Nó Cruz das Oliveiras,1075.0,1075.0,Deslocação,7
+95,1,2,1,Nó Cruz das Oliveiras,1075.0,1090.0,Pausa,0
+96,1,2,1,Nó Cruz das Oliveiras,1090.0,1095.0,Visitar Nó,0
+97,1,2,0,Nó Viaduto Duarte Pacheco,1096.0,1096.0,Deslocação,1
+98,1,2,0,Nó Viaduto Duarte Pacheco,1096.0,1096.0,Deslocação,1
+99,1,2,0,Nó Viaduto Duarte Pacheco,1096.0,1111.0,Visitar Nó,0
+100,1,2,1,Nó Cruz das Oliveiras,1112.0,1112.0,Deslocação,1
+101,1,2,1,Nó Cruz das Oliveiras,1112.0,1117.0,Visitar Nó,0
+102,1,2,2,Nó de Monsanto,1124.0,1124.0,Deslocação,7
+103,1,2,2,Nó de Monsanto,1124.0,1138.0,Visitar Nó,0
+104,1,2,3,Nó de Miraflores (A5/IC17),1139.0,1139.0,Deslocação,1
+105,1,2,3,Nó de Miraflores (A5/IC17),1139.0,1149.0,Visitar Nó,0
+106,1,2,4,Nó de Linda-a-Velha,1150.0,1150.0,Deslocação,1
+107,1,2,4,Nó de Linda-a-Velha,1150.0,1163.0,Visitar Nó,0
+108,1,2,5,Nó Estádio Nacional,1166.0,1166.0,Deslocação,3
+109,1,2,5,Nó Estádio Nacional,1166.0,1219.6666666666667,Espera,0
+110,1,2,5,Nó Estádio Nacional,1219.6666666666667,1247.6666666666667,Visitar Nó,0
+111,1,2,5,Nó Estádio Nacional,1247.6666666666667,1257.6666666666667,Vistoria,0
+112,1,2,6,Nó de Oeiras,1260.6666666666667,1260.6666666666667,Deslocação,3
+113,1,2,6,Nó de Oeiras,1260.6666666666667,1314.3333333333335,Espera,0
+114,1,2,6,Nó de Oeiras,1314.3333333333335,1323.3333333333335,Visitar Nó,0
+115,1,2,7,Nó de Carcavelos,1326.3333333333335,1326.3333333333335,Deslocação,3
+116,1,2,7,Nó de Carcavelos,1326.3333333333335,1386.3333333333335,Pausa,0
+117,1,2,7,Nó de Carcavelos,1386.3333333333335,1440.0000000000002,Espera,0
+118,1,2,7,Nó de Carcavelos,1440.0000000000002,1440.0000000000002,Deslocação,3
+119,1,2,7,Nó de Carcavelos,1440.0000000000002,1440.0000000000002,Deslocação,3
+120,2,0,7,Nó de Carcavelos,0.0,0.0,Início,0
+121,2,0,7,Nó de Carcavelos,0.0,61.5,Espera,0
+122,2,0,7,Nó de Carcavelos,61.5,76.5,Pausa,0
+123,2,0,7,Nó de Carcavelos,76.5,76.5,Deslocação,0
+124,2,0,7,Nó de Carcavelos,76.5,89.5,Visitar Nó,0
+125,2,0,6,Nó de Oeiras,92.5,92.5,Deslocação,3
+126,2,0,6,Nó de Oeiras,92.5,154.0,Espera,0
+127,2,0,6,Nó de Oeiras,154.0,163.0,Visitar Nó,0
+128,2,0,6,Nó de Oeiras,163.0,173.0,Vistoria,0
+129,2,0,5,Nó Estádio Nacional,176.0,176.0,Deslocação,3
+130,2,0,5,Nó Estádio Nacional,176.0,204.0,Visitar Nó,0
+131,2,0,4,Nó de Linda-a-Velha,207.0,207.0,Deslocação,3
+132,2,0,4,Nó de Linda-a-Velha,207.0,220.0,Visitar Nó,0
+133,2,0,3,Nó de Miraflores (A5/IC17),221.0,221.0,Deslocação,1
+134,2,0,3,Nó de Miraflores (A5/IC17),221.0,231.0,Visitar Nó,0
+135,2,0,2,Nó de Monsanto,232.0,232.0,Deslocação,1
+136,2,0,2,Nó de Monsanto,232.0,246.0,Visitar Nó,0
+137,2,0,1,Nó Cruz das Oliveiras,253.0,253.0,Deslocação,7
+138,2,0,1,Nó Cruz das Oliveiras,253.0,258.0,Visitar Nó,0
+139,2,0,0,Nó Viaduto Duarte Pacheco,259.0,259.0,Deslocação,1
+140,2,0,0,Nó Viaduto Duarte Pacheco,259.0,259.0,Deslocação,1
+141,2,0,0,Nó Viaduto Duarte Pacheco,259.0,274.0,Visitar Nó,0
+142,2,0,1,Nó Cruz das Oliveiras,275.0,275.0,Deslocação,1
+143,2,0,1,Nó Cruz das Oliveiras,275.0,280.0,Visitar Nó,0
+144,2,0,2,Nó de Monsanto,287.0,287.0,Deslocação,7
+145,2,0,2,Nó de Monsanto,287.0,301.0,Visitar Nó,0
+146,2,0,3,Nó de Miraflores (A5/IC17),302.0,302.0,Deslocação,1
+147,2,0,3,Nó de Miraflores (A5/IC17),302.0,312.0,Visitar Nó,0
+148,2,0,4,Nó de Linda-a-Velha,313.0,313.0,Deslocação,1
+149,2,0,4,Nó de Linda-a-Velha,313.0,326.0,Visitar Nó,0
+150,2,0,5,Nó Estádio Nacional,329.0,329.0,Deslocação,3
+151,2,0,5,Nó Estádio Nacional,329.0,357.0,Visitar Nó,0
+152,2,0,5,Nó Estádio Nacional,357.0,367.0,Vistoria,0
+153,2,0,6,Nó de Oeiras,370.0,370.0,Deslocação,3
+154,2,0,6,Nó de Oeiras,370.0,379.0,Visitar Nó,0
+155,2,0,7,Nó de Carcavelos,382.0,382.0,Deslocação,3
+156,2,0,7,Nó de Carcavelos,382.0,442.0,Pausa,0
+157,2,0,7,Nó de Carcavelos,442.0,442.0,Deslocação,3
+158,2,0,6,Nó de Oeiras,445.0,445.0,Deslocação,3
+159,2,0,5,Nó Estádio Nacional,448.0,448.0,Deslocação,3
+160,2,0,4,Nó de Linda-a-Velha,451.0,451.0,Deslocação,3
+161,2,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,Deslocação,1
+162,2,0,2,Nó de Monsanto,453.0,453.0,Deslocação,1
+163,2,0,1,Nó Cruz das Oliveiras,460.0,460.0,Deslocação,7
+164,2,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+165,2,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+166,2,0,1,Nó Cruz das Oliveiras,462.0,462.0,Deslocação,1
+167,2,0,2,Nó de Monsanto,469.0,469.0,Deslocação,7
+168,2,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,Deslocação,1
+169,2,0,4,Nó de Linda-a-Velha,471.0,471.0,Deslocação,1
+170,2,0,5,Nó Estádio Nacional,474.0,474.0,Deslocação,3
+171,2,0,6,Nó de Oeiras,477.0,477.0,Deslocação,3
+172,2,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+173,2,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+174,2,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+175,2,1,7,Nó de Carcavelos,480.0,480.0,Início,0
+176,2,1,7,Nó de Carcavelos,480.0,541.5,Espera,0
+177,2,1,7,Nó de Carcavelos,541.5,556.5,Pausa,0
+178,2,1,7,Nó de Carcavelos,556.5,556.5,Deslocação,0
+179,2,1,7,Nó de Carcavelos,556.5,569.5,Visitar Nó,0
+180,2,1,6,Nó de Oeiras,572.5,572.5,Deslocação,3
+181,2,1,6,Nó de Oeiras,572.5,634.0,Espera,0
+182,2,1,6,Nó de Oeiras,634.0,643.0,Visitar Nó,0
+183,2,1,6,Nó de Oeiras,643.0,653.0,Vistoria,0
+184,2,1,5,Nó Estádio Nacional,656.0,656.0,Deslocação,3
+185,2,1,5,Nó Estádio Nacional,656.0,684.0,Visitar Nó,0
+186,2,1,4,Nó de Linda-a-Velha,687.0,687.0,Deslocação,3
+187,2,1,4,Nó de Linda-a-Velha,687.0,700.0,Visitar Nó,0
+188,2,1,3,Nó de Miraflores (A5/IC17),701.0,701.0,Deslocação,1
+189,2,1,3,Nó de Miraflores (A5/IC17),701.0,711.0,Visitar Nó,0
+190,2,1,2,Nó de Monsanto,712.0,712.0,Deslocação,1
+191,2,1,2,Nó de Monsanto,712.0,726.0,Visitar Nó,0
+192,2,1,1,Nó Cruz das Oliveiras,733.0,733.0,Deslocação,7
+193,2,1,1,Nó Cruz das Oliveiras,733.0,738.0,Visitar Nó,0
+194,2,1,0,Nó Viaduto Duarte Pacheco,739.0,739.0,Deslocação,1
+195,2,1,0,Nó Viaduto Duarte Pacheco,739.0,739.0,Deslocação,1
+196,2,1,0,Nó Viaduto Duarte Pacheco,739.0,754.0,Visitar Nó,0
+197,2,1,1,Nó Cruz das Oliveiras,755.0,755.0,Deslocação,1
+198,2,1,1,Nó Cruz das Oliveiras,755.0,760.0,Visitar Nó,0
+199,2,1,2,Nó de Monsanto,767.0,767.0,Deslocação,7
+200,2,1,2,Nó de Monsanto,767.0,781.0,Visitar Nó,0
+201,2,1,3,Nó de Miraflores (A5/IC17),782.0,782.0,Deslocação,1
+202,2,1,3,Nó de Miraflores (A5/IC17),782.0,792.0,Visitar Nó,0
+203,2,1,4,Nó de Linda-a-Velha,793.0,793.0,Deslocação,1
+204,2,1,4,Nó de Linda-a-Velha,793.0,806.0,Visitar Nó,0
+205,2,1,5,Nó Estádio Nacional,809.0,809.0,Deslocação,3
+206,2,1,5,Nó Estádio Nacional,809.0,837.0,Visitar Nó,0
+207,2,1,5,Nó Estádio Nacional,837.0,847.0,Vistoria,0
+208,2,1,6,Nó de Oeiras,850.0,850.0,Deslocação,3
+209,2,1,6,Nó de Oeiras,850.0,859.0,Visitar Nó,0
+210,2,1,7,Nó de Carcavelos,862.0,862.0,Deslocação,3
+211,2,1,7,Nó de Carcavelos,862.0,922.0,Pausa,0
+212,2,1,7,Nó de Carcavelos,922.0,922.0,Deslocação,3
+213,2,1,6,Nó de Oeiras,925.0,925.0,Deslocação,3
+214,2,1,5,Nó Estádio Nacional,928.0,928.0,Deslocação,3
+215,2,1,4,Nó de Linda-a-Velha,931.0,931.0,Deslocação,3
+216,2,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,Deslocação,1
+217,2,1,2,Nó de Monsanto,933.0,933.0,Deslocação,1
+218,2,1,1,Nó Cruz das Oliveiras,940.0,940.0,Deslocação,7
+219,2,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+220,2,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+221,2,1,1,Nó Cruz das Oliveiras,942.0,942.0,Deslocação,1
+222,2,1,2,Nó de Monsanto,949.0,949.0,Deslocação,7
+223,2,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,Deslocação,1
+224,2,1,4,Nó de Linda-a-Velha,951.0,951.0,Deslocação,1
+225,2,1,5,Nó Estádio Nacional,954.0,954.0,Deslocação,3
+226,2,1,6,Nó de Oeiras,957.0,957.0,Deslocação,3
+227,2,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+228,2,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+229,2,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+230,2,2,7,Nó de Carcavelos,960.0,960.0,Início,0
+231,2,2,7,Nó de Carcavelos,960.0,1021.5,Espera,0
+232,2,2,7,Nó de Carcavelos,1021.5,1036.5,Pausa,0
+233,2,2,7,Nó de Carcavelos,1036.5,1036.5,Deslocação,0
+234,2,2,7,Nó de Carcavelos,1036.5,1049.5,Visitar Nó,0
+235,2,2,6,Nó de Oeiras,1052.5,1052.5,Deslocação,3
+236,2,2,6,Nó de Oeiras,1052.5,1114.0,Espera,0
+237,2,2,6,Nó de Oeiras,1114.0,1123.0,Visitar Nó,0
+238,2,2,6,Nó de Oeiras,1123.0,1133.0,Vistoria,0
+239,2,2,5,Nó Estádio Nacional,1136.0,1136.0,Deslocação,3
+240,2,2,5,Nó Estádio Nacional,1136.0,1164.0,Visitar Nó,0
+241,2,2,4,Nó de Linda-a-Velha,1167.0,1167.0,Deslocação,3
+242,2,2,4,Nó de Linda-a-Velha,1167.0,1180.0,Visitar Nó,0
+243,2,2,3,Nó de Miraflores (A5/IC17),1181.0,1181.0,Deslocação,1
+244,2,2,3,Nó de Miraflores (A5/IC17),1181.0,1191.0,Visitar Nó,0
+245,2,2,2,Nó de Monsanto,1192.0,1192.0,Deslocação,1
+246,2,2,2,Nó de Monsanto,1192.0,1206.0,Visitar Nó,0
+247,2,2,1,Nó Cruz das Oliveiras,1213.0,1213.0,Deslocação,7
+248,2,2,1,Nó Cruz das Oliveiras,1213.0,1218.0,Visitar Nó,0
+249,2,2,0,Nó Viaduto Duarte Pacheco,1219.0,1219.0,Deslocação,1
+250,2,2,0,Nó Viaduto Duarte Pacheco,1219.0,1219.0,Deslocação,1
+251,2,2,0,Nó Viaduto Duarte Pacheco,1219.0,1234.0,Visitar Nó,0
+252,2,2,1,Nó Cruz das Oliveiras,1235.0,1235.0,Deslocação,1
+253,2,2,1,Nó Cruz das Oliveiras,1235.0,1240.0,Visitar Nó,0
+254,2,2,2,Nó de Monsanto,1247.0,1247.0,Deslocação,7
+255,2,2,2,Nó de Monsanto,1247.0,1261.0,Visitar Nó,0
+256,2,2,3,Nó de Miraflores (A5/IC17),1262.0,1262.0,Deslocação,1
+257,2,2,3,Nó de Miraflores (A5/IC17),1262.0,1272.0,Visitar Nó,0
+258,2,2,4,Nó de Linda-a-Velha,1273.0,1273.0,Deslocação,1
+259,2,2,4,Nó de Linda-a-Velha,1273.0,1286.0,Visitar Nó,0
+260,2,2,5,Nó Estádio Nacional,1289.0,1289.0,Deslocação,3
+261,2,2,5,Nó Estádio Nacional,1289.0,1317.0,Visitar Nó,0
+262,2,2,5,Nó Estádio Nacional,1317.0,1327.0,Vistoria,0
+263,2,2,6,Nó de Oeiras,1330.0,1330.0,Deslocação,3
+264,2,2,6,Nó de Oeiras,1330.0,1339.0,Visitar Nó,0
+265,2,2,7,Nó de Carcavelos,1342.0,1342.0,Deslocação,3
+266,2,2,7,Nó de Carcavelos,1342.0,1402.0,Pausa,0
+267,2,2,7,Nó de Carcavelos,1402.0,1402.0,Deslocação,3
+268,2,2,6,Nó de Oeiras,1405.0,1405.0,Deslocação,3
+269,2,2,5,Nó Estádio Nacional,1408.0,1408.0,Deslocação,3
+270,2,2,4,Nó de Linda-a-Velha,1411.0,1411.0,Deslocação,3
+271,2,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,Deslocação,1
+272,2,2,2,Nó de Monsanto,1413.0,1413.0,Deslocação,1
+273,2,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,Deslocação,7
+274,2,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+275,2,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+276,2,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,Deslocação,1
+277,2,2,2,Nó de Monsanto,1429.0,1429.0,Deslocação,7
+278,2,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,Deslocação,1
+279,2,2,4,Nó de Linda-a-Velha,1431.0,1431.0,Deslocação,1
+280,2,2,5,Nó Estádio Nacional,1434.0,1434.0,Deslocação,3
+281,2,2,6,Nó de Oeiras,1437.0,1437.0,Deslocação,3
+282,2,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+283,2,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+284,2,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+285,3,0,7,Nó de Carcavelos,0.0,0.0,Início,0
+286,3,0,7,Nó de Carcavelos,0.0,85.0,Espera,0
+287,3,0,7,Nó de Carcavelos,85.0,100.0,Pausa,0
+288,3,0,7,Nó de Carcavelos,100.0,100.0,Deslocação,0
+289,3,0,7,Nó de Carcavelos,100.0,113.0,Visitar Nó,0
+290,3,0,6,Nó de Oeiras,116.0,116.0,Deslocação,3
+291,3,0,6,Nó de Oeiras,116.0,125.0,Visitar Nó,0
+292,3,0,6,Nó de Oeiras,125.0,135.0,Vistoria,0
+293,3,0,5,Nó Estádio Nacional,138.0,138.0,Deslocação,3
+294,3,0,5,Nó Estádio Nacional,138.0,166.0,Visitar Nó,0
+295,3,0,4,Nó de Linda-a-Velha,169.0,169.0,Deslocação,3
+296,3,0,4,Nó de Linda-a-Velha,169.0,182.0,Visitar Nó,0
+297,3,0,3,Nó de Miraflores (A5/IC17),183.0,183.0,Deslocação,1
+298,3,0,3,Nó de Miraflores (A5/IC17),183.0,193.0,Visitar Nó,0
+299,3,0,2,Nó de Monsanto,194.0,194.0,Deslocação,1
+300,3,0,2,Nó de Monsanto,194.0,208.0,Visitar Nó,0
+301,3,0,1,Nó Cruz das Oliveiras,215.0,215.0,Deslocação,7
+302,3,0,1,Nó Cruz das Oliveiras,215.0,220.0,Visitar Nó,0
+303,3,0,0,Nó Viaduto Duarte Pacheco,221.0,221.0,Deslocação,1
+304,3,0,0,Nó Viaduto Duarte Pacheco,221.0,221.0,Deslocação,1
+305,3,0,0,Nó Viaduto Duarte Pacheco,221.0,236.0,Visitar Nó,0
+306,3,0,1,Nó Cruz das Oliveiras,237.0,237.0,Deslocação,1
+307,3,0,1,Nó Cruz das Oliveiras,237.0,242.0,Visitar Nó,0
+308,3,0,2,Nó de Monsanto,249.0,249.0,Deslocação,7
+309,3,0,2,Nó de Monsanto,249.0,263.0,Visitar Nó,0
+310,3,0,3,Nó de Miraflores (A5/IC17),264.0,264.0,Deslocação,1
+311,3,0,3,Nó de Miraflores (A5/IC17),264.0,274.0,Visitar Nó,0
+312,3,0,4,Nó de Linda-a-Velha,275.0,275.0,Deslocação,1
+313,3,0,4,Nó de Linda-a-Velha,275.0,288.0,Visitar Nó,0
+314,3,0,5,Nó Estádio Nacional,291.0,291.0,Deslocação,3
+315,3,0,5,Nó Estádio Nacional,291.0,319.0,Visitar Nó,0
+316,3,0,5,Nó Estádio Nacional,319.0,329.0,Vistoria,0
+317,3,0,6,Nó de Oeiras,332.0,332.0,Deslocação,3
+318,3,0,6,Nó de Oeiras,332.0,341.0,Visitar Nó,0
+319,3,0,7,Nó de Carcavelos,344.0,344.0,Deslocação,3
+320,3,0,7,Nó de Carcavelos,344.0,404.0,Pausa,0
+321,3,0,7,Nó de Carcavelos,404.0,404.0,Deslocação,3
+322,3,0,6,Nó de Oeiras,407.0,407.0,Deslocação,3
+323,3,0,5,Nó Estádio Nacional,410.0,410.0,Deslocação,3
+324,3,0,4,Nó de Linda-a-Velha,413.0,413.0,Deslocação,3
+325,3,0,3,Nó de Miraflores (A5/IC17),414.0,414.0,Deslocação,1
+326,3,0,2,Nó de Monsanto,415.0,415.0,Deslocação,1
+327,3,0,1,Nó Cruz das Oliveiras,422.0,422.0,Deslocação,7
+328,3,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,Deslocação,1
+329,3,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,Deslocação,1
+330,3,0,1,Nó Cruz das Oliveiras,424.0,424.0,Deslocação,1
+331,3,0,2,Nó de Monsanto,431.0,431.0,Deslocação,7
+332,3,0,3,Nó de Miraflores (A5/IC17),432.0,432.0,Deslocação,1
+333,3,0,4,Nó de Linda-a-Velha,433.0,433.0,Deslocação,1
+334,3,0,5,Nó Estádio Nacional,436.0,436.0,Deslocação,3
+335,3,0,6,Nó de Oeiras,439.0,439.0,Deslocação,3
+336,3,0,7,Nó de Carcavelos,442.0,442.0,Deslocação,3
+337,3,0,7,Nó de Carcavelos,442.0,442.0,Deslocação,3
+338,3,0,6,Nó de Oeiras,445.0,445.0,Deslocação,3
+339,3,0,5,Nó Estádio Nacional,448.0,448.0,Deslocação,3
+340,3,0,4,Nó de Linda-a-Velha,451.0,451.0,Deslocação,3
+341,3,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,Deslocação,1
+342,3,0,2,Nó de Monsanto,453.0,453.0,Deslocação,1
+343,3,0,1,Nó Cruz das Oliveiras,460.0,460.0,Deslocação,7
+344,3,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+345,3,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+346,3,0,1,Nó Cruz das Oliveiras,462.0,462.0,Deslocação,1
+347,3,0,2,Nó de Monsanto,469.0,469.0,Deslocação,7
+348,3,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,Deslocação,1
+349,3,0,4,Nó de Linda-a-Velha,471.0,471.0,Deslocação,1
+350,3,0,5,Nó Estádio Nacional,474.0,474.0,Deslocação,3
+351,3,0,6,Nó de Oeiras,477.0,477.0,Deslocação,3
+352,3,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+353,3,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+354,3,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+355,3,1,7,Nó de Carcavelos,480.0,480.0,Início,0
+356,3,1,7,Nó de Carcavelos,480.0,480.0,Deslocação,0
+357,3,1,7,Nó de Carcavelos,480.0,493.0,Visitar Nó,0
+358,3,1,6,Nó de Oeiras,496.0,496.0,Deslocação,3
+359,3,1,6,Nó de Oeiras,496.0,505.0,Visitar Nó,0
+360,3,1,6,Nó de Oeiras,505.0,515.0,Vistoria,0
+361,3,1,5,Nó Estádio Nacional,518.0,518.0,Deslocação,3
+362,3,1,5,Nó Estádio Nacional,518.0,546.0,Visitar Nó,0
+363,3,1,4,Nó de Linda-a-Velha,549.0,549.0,Deslocação,3
+364,3,1,4,Nó de Linda-a-Velha,549.0,562.0,Visitar Nó,0
+365,3,1,3,Nó de Miraflores (A5/IC17),563.0,563.0,Deslocação,1
+366,3,1,3,Nó de Miraflores (A5/IC17),563.0,573.0,Visitar Nó,0
+367,3,1,2,Nó de Monsanto,574.0,574.0,Deslocação,1
+368,3,1,2,Nó de Monsanto,574.0,588.0,Visitar Nó,0
+369,3,1,1,Nó Cruz das Oliveiras,595.0,595.0,Deslocação,7
+370,3,1,1,Nó Cruz das Oliveiras,595.0,610.0,Pausa,0
+371,3,1,1,Nó Cruz das Oliveiras,610.0,615.0,Visitar Nó,0
+372,3,1,0,Nó Viaduto Duarte Pacheco,616.0,616.0,Deslocação,1
+373,3,1,0,Nó Viaduto Duarte Pacheco,616.0,616.0,Deslocação,1
+374,3,1,0,Nó Viaduto Duarte Pacheco,616.0,631.0,Visitar Nó,0
+375,3,1,1,Nó Cruz das Oliveiras,632.0,632.0,Deslocação,1
+376,3,1,1,Nó Cruz das Oliveiras,632.0,637.0,Visitar Nó,0
+377,3,1,2,Nó de Monsanto,644.0,644.0,Deslocação,7
+378,3,1,2,Nó de Monsanto,644.0,658.0,Visitar Nó,0
+379,3,1,3,Nó de Miraflores (A5/IC17),659.0,659.0,Deslocação,1
+380,3,1,3,Nó de Miraflores (A5/IC17),659.0,669.0,Visitar Nó,0
+381,3,1,4,Nó de Linda-a-Velha,670.0,670.0,Deslocação,1
+382,3,1,4,Nó de Linda-a-Velha,670.0,683.0,Visitar Nó,0
+383,3,1,5,Nó Estádio Nacional,686.0,686.0,Deslocação,3
+384,3,1,5,Nó Estádio Nacional,686.0,714.0,Visitar Nó,0
+385,3,1,5,Nó Estádio Nacional,714.0,724.0,Vistoria,0
+386,3,1,6,Nó de Oeiras,727.0,727.0,Deslocação,3
+387,3,1,6,Nó de Oeiras,727.0,736.0,Visitar Nó,0
+388,3,1,7,Nó de Carcavelos,739.0,739.0,Deslocação,3
+389,3,1,7,Nó de Carcavelos,739.0,799.0,Pausa,0
+390,3,1,7,Nó de Carcavelos,799.0,799.0,Deslocação,3
+391,3,1,6,Nó de Oeiras,802.0,802.0,Deslocação,3
+392,3,1,6,Nó de Oeiras,802.0,887.0,Espera,0
+393,3,1,5,Nó Estádio Nacional,890.0,890.0,Deslocação,3
+394,3,1,4,Nó de Linda-a-Velha,893.0,893.0,Deslocação,3
+395,3,1,3,Nó de Miraflores (A5/IC17),894.0,894.0,Deslocação,1
+396,3,1,2,Nó de Monsanto,895.0,895.0,Deslocação,1
+397,3,1,1,Nó Cruz das Oliveiras,902.0,902.0,Deslocação,7
+398,3,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,Deslocação,1
+399,3,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,Deslocação,1
+400,3,1,1,Nó Cruz das Oliveiras,904.0,904.0,Deslocação,1
+401,3,1,2,Nó de Monsanto,911.0,911.0,Deslocação,7
+402,3,1,3,Nó de Miraflores (A5/IC17),912.0,912.0,Deslocação,1
+403,3,1,4,Nó de Linda-a-Velha,913.0,913.0,Deslocação,1
+404,3,1,5,Nó Estádio Nacional,916.0,916.0,Deslocação,3
+405,3,1,6,Nó de Oeiras,919.0,919.0,Deslocação,3
+406,3,1,7,Nó de Carcavelos,922.0,922.0,Deslocação,3
+407,3,1,7,Nó de Carcavelos,922.0,922.0,Deslocação,3
+408,3,1,6,Nó de Oeiras,925.0,925.0,Deslocação,3
+409,3,1,5,Nó Estádio Nacional,928.0,928.0,Deslocação,3
+410,3,1,4,Nó de Linda-a-Velha,931.0,931.0,Deslocação,3
+411,3,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,Deslocação,1
+412,3,1,2,Nó de Monsanto,933.0,933.0,Deslocação,1
+413,3,1,1,Nó Cruz das Oliveiras,940.0,940.0,Deslocação,7
+414,3,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+415,3,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+416,3,1,1,Nó Cruz das Oliveiras,942.0,942.0,Deslocação,1
+417,3,1,2,Nó de Monsanto,949.0,949.0,Deslocação,7
+418,3,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,Deslocação,1
+419,3,1,4,Nó de Linda-a-Velha,951.0,951.0,Deslocação,1
+420,3,1,5,Nó Estádio Nacional,954.0,954.0,Deslocação,3
+421,3,1,6,Nó de Oeiras,957.0,957.0,Deslocação,3
+422,3,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+423,3,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+424,3,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+425,3,2,7,Nó de Carcavelos,960.0,960.0,Início,0
+426,3,2,7,Nó de Carcavelos,960.0,1045.0,Espera,0
+427,3,2,7,Nó de Carcavelos,1045.0,1060.0,Pausa,0
+428,3,2,7,Nó de Carcavelos,1060.0,1060.0,Deslocação,0
+429,3,2,7,Nó de Carcavelos,1060.0,1073.0,Visitar Nó,0
+430,3,2,6,Nó de Oeiras,1076.0,1076.0,Deslocação,3
+431,3,2,6,Nó de Oeiras,1076.0,1085.0,Visitar Nó,0
+432,3,2,6,Nó de Oeiras,1085.0,1095.0,Vistoria,0
+433,3,2,5,Nó Estádio Nacional,1098.0,1098.0,Deslocação,3
+434,3,2,5,Nó Estádio Nacional,1098.0,1126.0,Visitar Nó,0
+435,3,2,4,Nó de Linda-a-Velha,1129.0,1129.0,Deslocação,3
+436,3,2,4,Nó de Linda-a-Velha,1129.0,1142.0,Visitar Nó,0
+437,3,2,3,Nó de Miraflores (A5/IC17),1143.0,1143.0,Deslocação,1
+438,3,2,3,Nó de Miraflores (A5/IC17),1143.0,1153.0,Visitar Nó,0
+439,3,2,2,Nó de Monsanto,1154.0,1154.0,Deslocação,1
+440,3,2,2,Nó de Monsanto,1154.0,1168.0,Visitar Nó,0
+441,3,2,1,Nó Cruz das Oliveiras,1175.0,1175.0,Deslocação,7
+442,3,2,1,Nó Cruz das Oliveiras,1175.0,1180.0,Visitar Nó,0
+443,3,2,0,Nó Viaduto Duarte Pacheco,1181.0,1181.0,Deslocação,1
+444,3,2,0,Nó Viaduto Duarte Pacheco,1181.0,1181.0,Deslocação,1
+445,3,2,0,Nó Viaduto Duarte Pacheco,1181.0,1196.0,Visitar Nó,0
+446,3,2,1,Nó Cruz das Oliveiras,1197.0,1197.0,Deslocação,1
+447,3,2,1,Nó Cruz das Oliveiras,1197.0,1202.0,Visitar Nó,0
+448,3,2,2,Nó de Monsanto,1209.0,1209.0,Deslocação,7
+449,3,2,2,Nó de Monsanto,1209.0,1223.0,Visitar Nó,0
+450,3,2,3,Nó de Miraflores (A5/IC17),1224.0,1224.0,Deslocação,1
+451,3,2,3,Nó de Miraflores (A5/IC17),1224.0,1234.0,Visitar Nó,0
+452,3,2,4,Nó de Linda-a-Velha,1235.0,1235.0,Deslocação,1
+453,3,2,4,Nó de Linda-a-Velha,1235.0,1248.0,Visitar Nó,0
+454,3,2,5,Nó Estádio Nacional,1251.0,1251.0,Deslocação,3
+455,3,2,5,Nó Estádio Nacional,1251.0,1279.0,Visitar Nó,0
+456,3,2,5,Nó Estádio Nacional,1279.0,1289.0,Vistoria,0
+457,3,2,6,Nó de Oeiras,1292.0,1292.0,Deslocação,3
+458,3,2,6,Nó de Oeiras,1292.0,1301.0,Visitar Nó,0
+459,3,2,7,Nó de Carcavelos,1304.0,1304.0,Deslocação,3
+460,3,2,7,Nó de Carcavelos,1304.0,1364.0,Pausa,0
+461,3,2,7,Nó de Carcavelos,1364.0,1364.0,Deslocação,3
+462,3,2,6,Nó de Oeiras,1367.0,1367.0,Deslocação,3
+463,3,2,5,Nó Estádio Nacional,1370.0,1370.0,Deslocação,3
+464,3,2,4,Nó de Linda-a-Velha,1373.0,1373.0,Deslocação,3
+465,3,2,3,Nó de Miraflores (A5/IC17),1374.0,1374.0,Deslocação,1
+466,3,2,2,Nó de Monsanto,1375.0,1375.0,Deslocação,1
+467,3,2,1,Nó Cruz das Oliveiras,1382.0,1382.0,Deslocação,7
+468,3,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,Deslocação,1
+469,3,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,Deslocação,1
+470,3,2,1,Nó Cruz das Oliveiras,1384.0,1384.0,Deslocação,1
+471,3,2,2,Nó de Monsanto,1391.0,1391.0,Deslocação,7
+472,3,2,3,Nó de Miraflores (A5/IC17),1392.0,1392.0,Deslocação,1
+473,3,2,4,Nó de Linda-a-Velha,1393.0,1393.0,Deslocação,1
+474,3,2,5,Nó Estádio Nacional,1396.0,1396.0,Deslocação,3
+475,3,2,6,Nó de Oeiras,1399.0,1399.0,Deslocação,3
+476,3,2,7,Nó de Carcavelos,1402.0,1402.0,Deslocação,3
+477,3,2,7,Nó de Carcavelos,1402.0,1402.0,Deslocação,3
+478,3,2,6,Nó de Oeiras,1405.0,1405.0,Deslocação,3
+479,3,2,5,Nó Estádio Nacional,1408.0,1408.0,Deslocação,3
+480,3,2,4,Nó de Linda-a-Velha,1411.0,1411.0,Deslocação,3
+481,3,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,Deslocação,1
+482,3,2,2,Nó de Monsanto,1413.0,1413.0,Deslocação,1
+483,3,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,Deslocação,7
+484,3,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+485,3,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+486,3,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,Deslocação,1
+487,3,2,2,Nó de Monsanto,1429.0,1429.0,Deslocação,7
+488,3,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,Deslocação,1
+489,3,2,4,Nó de Linda-a-Velha,1431.0,1431.0,Deslocação,1
+490,3,2,5,Nó Estádio Nacional,1434.0,1434.0,Deslocação,3
+491,3,2,6,Nó de Oeiras,1437.0,1437.0,Deslocação,3
+492,3,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+493,3,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+494,3,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+495,4,0,7,Nó de Carcavelos,0.0,0.0,Início,0
+496,4,0,7,Nó de Carcavelos,0.0,47.0,Espera,0
+497,4,0,7,Nó de Carcavelos,47.0,62.0,Pausa,0
+498,4,0,7,Nó de Carcavelos,62.0,62.0,Deslocação,0
+499,4,0,7,Nó de Carcavelos,62.0,75.0,Visitar Nó,0
+500,4,0,6,Nó de Oeiras,78.0,78.0,Deslocação,3
+501,4,0,6,Nó de Oeiras,78.0,87.0,Visitar Nó,0
+502,4,0,6,Nó de Oeiras,87.0,97.0,Vistoria,0
+503,4,0,5,Nó Estádio Nacional,100.0,100.0,Deslocação,3
+504,4,0,5,Nó Estádio Nacional,100.0,128.0,Visitar Nó,0
+505,4,0,4,Nó de Linda-a-Velha,131.0,131.0,Deslocação,3
+506,4,0,4,Nó de Linda-a-Velha,131.0,144.0,Visitar Nó,0
+507,4,0,3,Nó de Miraflores (A5/IC17),145.0,145.0,Deslocação,1
+508,4,0,3,Nó de Miraflores (A5/IC17),145.0,155.0,Visitar Nó,0
+509,4,0,2,Nó de Monsanto,156.0,156.0,Deslocação,1
+510,4,0,2,Nó de Monsanto,156.0,170.0,Visitar Nó,0
+511,4,0,1,Nó Cruz das Oliveiras,177.0,177.0,Deslocação,7
+512,4,0,1,Nó Cruz das Oliveiras,177.0,182.0,Visitar Nó,0
+513,4,0,0,Nó Viaduto Duarte Pacheco,183.0,183.0,Deslocação,1
+514,4,0,0,Nó Viaduto Duarte Pacheco,183.0,183.0,Deslocação,1
+515,4,0,0,Nó Viaduto Duarte Pacheco,183.0,198.0,Visitar Nó,0
+516,4,0,1,Nó Cruz das Oliveiras,199.0,199.0,Deslocação,1
+517,4,0,1,Nó Cruz das Oliveiras,199.0,204.0,Visitar Nó,0
+518,4,0,2,Nó de Monsanto,211.0,211.0,Deslocação,7
+519,4,0,2,Nó de Monsanto,211.0,225.0,Visitar Nó,0
+520,4,0,3,Nó de Miraflores (A5/IC17),226.0,226.0,Deslocação,1
+521,4,0,3,Nó de Miraflores (A5/IC17),226.0,236.0,Visitar Nó,0
+522,4,0,4,Nó de Linda-a-Velha,237.0,237.0,Deslocação,1
+523,4,0,4,Nó de Linda-a-Velha,237.0,250.0,Visitar Nó,0
+524,4,0,5,Nó Estádio Nacional,253.0,253.0,Deslocação,3
+525,4,0,5,Nó Estádio Nacional,253.0,281.0,Visitar Nó,0
+526,4,0,5,Nó Estádio Nacional,281.0,291.0,Vistoria,0
+527,4,0,6,Nó de Oeiras,294.0,294.0,Deslocação,3
+528,4,0,6,Nó de Oeiras,294.0,303.0,Visitar Nó,0
+529,4,0,7,Nó de Carcavelos,306.0,306.0,Deslocação,3
+530,4,0,7,Nó de Carcavelos,306.0,366.0,Pausa,0
+531,4,0,7,Nó de Carcavelos,366.0,366.0,Deslocação,3
+532,4,0,6,Nó de Oeiras,369.0,369.0,Deslocação,3
+533,4,0,5,Nó Estádio Nacional,372.0,372.0,Deslocação,3
+534,4,0,4,Nó de Linda-a-Velha,375.0,375.0,Deslocação,3
+535,4,0,3,Nó de Miraflores (A5/IC17),376.0,376.0,Deslocação,1
+536,4,0,2,Nó de Monsanto,377.0,377.0,Deslocação,1
+537,4,0,1,Nó Cruz das Oliveiras,384.0,384.0,Deslocação,7
+538,4,0,0,Nó Viaduto Duarte Pacheco,385.0,385.0,Deslocação,1
+539,4,0,0,Nó Viaduto Duarte Pacheco,385.0,385.0,Deslocação,1
+540,4,0,1,Nó Cruz das Oliveiras,386.0,386.0,Deslocação,1
+541,4,0,2,Nó de Monsanto,393.0,393.0,Deslocação,7
+542,4,0,3,Nó de Miraflores (A5/IC17),394.0,394.0,Deslocação,1
+543,4,0,4,Nó de Linda-a-Velha,395.0,395.0,Deslocação,1
+544,4,0,5,Nó Estádio Nacional,398.0,398.0,Deslocação,3
+545,4,0,6,Nó de Oeiras,401.0,401.0,Deslocação,3
+546,4,0,7,Nó de Carcavelos,404.0,404.0,Deslocação,3
+547,4,0,7,Nó de Carcavelos,404.0,404.0,Deslocação,3
+548,4,0,6,Nó de Oeiras,407.0,407.0,Deslocação,3
+549,4,0,5,Nó Estádio Nacional,410.0,410.0,Deslocação,3
+550,4,0,4,Nó de Linda-a-Velha,413.0,413.0,Deslocação,3
+551,4,0,3,Nó de Miraflores (A5/IC17),414.0,414.0,Deslocação,1
+552,4,0,2,Nó de Monsanto,415.0,415.0,Deslocação,1
+553,4,0,1,Nó Cruz das Oliveiras,422.0,422.0,Deslocação,7
+554,4,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,Deslocação,1
+555,4,0,0,Nó Viaduto Duarte Pacheco,423.0,423.0,Deslocação,1
+556,4,0,1,Nó Cruz das Oliveiras,424.0,424.0,Deslocação,1
+557,4,0,2,Nó de Monsanto,431.0,431.0,Deslocação,7
+558,4,0,3,Nó de Miraflores (A5/IC17),432.0,432.0,Deslocação,1
+559,4,0,4,Nó de Linda-a-Velha,433.0,433.0,Deslocação,1
+560,4,0,5,Nó Estádio Nacional,436.0,436.0,Deslocação,3
+561,4,0,6,Nó de Oeiras,439.0,439.0,Deslocação,3
+562,4,0,7,Nó de Carcavelos,442.0,442.0,Deslocação,3
+563,4,0,7,Nó de Carcavelos,442.0,442.0,Deslocação,3
+564,4,0,6,Nó de Oeiras,445.0,445.0,Deslocação,3
+565,4,0,5,Nó Estádio Nacional,448.0,448.0,Deslocação,3
+566,4,0,4,Nó de Linda-a-Velha,451.0,451.0,Deslocação,3
+567,4,0,3,Nó de Miraflores (A5/IC17),452.0,452.0,Deslocação,1
+568,4,0,2,Nó de Monsanto,453.0,453.0,Deslocação,1
+569,4,0,1,Nó Cruz das Oliveiras,460.0,460.0,Deslocação,7
+570,4,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+571,4,0,0,Nó Viaduto Duarte Pacheco,461.0,461.0,Deslocação,1
+572,4,0,1,Nó Cruz das Oliveiras,462.0,462.0,Deslocação,1
+573,4,0,2,Nó de Monsanto,469.0,469.0,Deslocação,7
+574,4,0,3,Nó de Miraflores (A5/IC17),470.0,470.0,Deslocação,1
+575,4,0,4,Nó de Linda-a-Velha,471.0,471.0,Deslocação,1
+576,4,0,5,Nó Estádio Nacional,474.0,474.0,Deslocação,3
+577,4,0,6,Nó de Oeiras,477.0,477.0,Deslocação,3
+578,4,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+579,4,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+580,4,0,7,Nó de Carcavelos,480.0,480.0,Deslocação,3
+581,4,1,7,Nó de Carcavelos,480.0,480.0,Início,0
+582,4,1,7,Nó de Carcavelos,480.0,527.0,Espera,0
+583,4,1,7,Nó de Carcavelos,527.0,542.0,Pausa,0
+584,4,1,7,Nó de Carcavelos,542.0,542.0,Deslocação,0
+585,4,1,7,Nó de Carcavelos,542.0,555.0,Visitar Nó,0
+586,4,1,6,Nó de Oeiras,558.0,558.0,Deslocação,3
+587,4,1,6,Nó de Oeiras,558.0,567.0,Visitar Nó,0
+588,4,1,6,Nó de Oeiras,567.0,577.0,Vistoria,0
+589,4,1,5,Nó Estádio Nacional,580.0,580.0,Deslocação,3
+590,4,1,5,Nó Estádio Nacional,580.0,608.0,Visitar Nó,0
+591,4,1,4,Nó de Linda-a-Velha,611.0,611.0,Deslocação,3
+592,4,1,4,Nó de Linda-a-Velha,611.0,624.0,Visitar Nó,0
+593,4,1,3,Nó de Miraflores (A5/IC17),625.0,625.0,Deslocação,1
+594,4,1,3,Nó de Miraflores (A5/IC17),625.0,635.0,Visitar Nó,0
+595,4,1,2,Nó de Monsanto,636.0,636.0,Deslocação,1
+596,4,1,2,Nó de Monsanto,636.0,650.0,Visitar Nó,0
+597,4,1,1,Nó Cruz das Oliveiras,657.0,657.0,Deslocação,7
+598,4,1,1,Nó Cruz das Oliveiras,657.0,662.0,Visitar Nó,0
+599,4,1,0,Nó Viaduto Duarte Pacheco,663.0,663.0,Deslocação,1
+600,4,1,0,Nó Viaduto Duarte Pacheco,663.0,663.0,Deslocação,1
+601,4,1,0,Nó Viaduto Duarte Pacheco,663.0,678.0,Visitar Nó,0
+602,4,1,1,Nó Cruz das Oliveiras,679.0,679.0,Deslocação,1
+603,4,1,1,Nó Cruz das Oliveiras,679.0,684.0,Visitar Nó,0
+604,4,1,2,Nó de Monsanto,691.0,691.0,Deslocação,7
+605,4,1,2,Nó de Monsanto,691.0,705.0,Visitar Nó,0
+606,4,1,3,Nó de Miraflores (A5/IC17),706.0,706.0,Deslocação,1
+607,4,1,3,Nó de Miraflores (A5/IC17),706.0,716.0,Visitar Nó,0
+608,4,1,4,Nó de Linda-a-Velha,717.0,717.0,Deslocação,1
+609,4,1,4,Nó de Linda-a-Velha,717.0,730.0,Visitar Nó,0
+610,4,1,5,Nó Estádio Nacional,733.0,733.0,Deslocação,3
+611,4,1,5,Nó Estádio Nacional,733.0,761.0,Visitar Nó,0
+612,4,1,5,Nó Estádio Nacional,761.0,771.0,Vistoria,0
+613,4,1,6,Nó de Oeiras,774.0,774.0,Deslocação,3
+614,4,1,6,Nó de Oeiras,774.0,783.0,Visitar Nó,0
+615,4,1,7,Nó de Carcavelos,786.0,786.0,Deslocação,3
+616,4,1,7,Nó de Carcavelos,786.0,846.0,Pausa,0
+617,4,1,7,Nó de Carcavelos,846.0,846.0,Deslocação,3
+618,4,1,6,Nó de Oeiras,849.0,849.0,Deslocação,3
+619,4,1,5,Nó Estádio Nacional,852.0,852.0,Deslocação,3
+620,4,1,4,Nó de Linda-a-Velha,855.0,855.0,Deslocação,3
+621,4,1,3,Nó de Miraflores (A5/IC17),856.0,856.0,Deslocação,1
+622,4,1,2,Nó de Monsanto,857.0,857.0,Deslocação,1
+623,4,1,1,Nó Cruz das Oliveiras,864.0,864.0,Deslocação,7
+624,4,1,0,Nó Viaduto Duarte Pacheco,865.0,865.0,Deslocação,1
+625,4,1,0,Nó Viaduto Duarte Pacheco,865.0,865.0,Deslocação,1
+626,4,1,1,Nó Cruz das Oliveiras,866.0,866.0,Deslocação,1
+627,4,1,2,Nó de Monsanto,873.0,873.0,Deslocação,7
+628,4,1,3,Nó de Miraflores (A5/IC17),874.0,874.0,Deslocação,1
+629,4,1,4,Nó de Linda-a-Velha,875.0,875.0,Deslocação,1
+630,4,1,5,Nó Estádio Nacional,878.0,878.0,Deslocação,3
+631,4,1,6,Nó de Oeiras,881.0,881.0,Deslocação,3
+632,4,1,7,Nó de Carcavelos,884.0,884.0,Deslocação,3
+633,4,1,7,Nó de Carcavelos,884.0,884.0,Deslocação,3
+634,4,1,6,Nó de Oeiras,887.0,887.0,Deslocação,3
+635,4,1,5,Nó Estádio Nacional,890.0,890.0,Deslocação,3
+636,4,1,4,Nó de Linda-a-Velha,893.0,893.0,Deslocação,3
+637,4,1,3,Nó de Miraflores (A5/IC17),894.0,894.0,Deslocação,1
+638,4,1,2,Nó de Monsanto,895.0,895.0,Deslocação,1
+639,4,1,1,Nó Cruz das Oliveiras,902.0,902.0,Deslocação,7
+640,4,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,Deslocação,1
+641,4,1,0,Nó Viaduto Duarte Pacheco,903.0,903.0,Deslocação,1
+642,4,1,1,Nó Cruz das Oliveiras,904.0,904.0,Deslocação,1
+643,4,1,2,Nó de Monsanto,911.0,911.0,Deslocação,7
+644,4,1,3,Nó de Miraflores (A5/IC17),912.0,912.0,Deslocação,1
+645,4,1,4,Nó de Linda-a-Velha,913.0,913.0,Deslocação,1
+646,4,1,5,Nó Estádio Nacional,916.0,916.0,Deslocação,3
+647,4,1,6,Nó de Oeiras,919.0,919.0,Deslocação,3
+648,4,1,7,Nó de Carcavelos,922.0,922.0,Deslocação,3
+649,4,1,7,Nó de Carcavelos,922.0,922.0,Deslocação,3
+650,4,1,6,Nó de Oeiras,925.0,925.0,Deslocação,3
+651,4,1,5,Nó Estádio Nacional,928.0,928.0,Deslocação,3
+652,4,1,4,Nó de Linda-a-Velha,931.0,931.0,Deslocação,3
+653,4,1,3,Nó de Miraflores (A5/IC17),932.0,932.0,Deslocação,1
+654,4,1,2,Nó de Monsanto,933.0,933.0,Deslocação,1
+655,4,1,1,Nó Cruz das Oliveiras,940.0,940.0,Deslocação,7
+656,4,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+657,4,1,0,Nó Viaduto Duarte Pacheco,941.0,941.0,Deslocação,1
+658,4,1,1,Nó Cruz das Oliveiras,942.0,942.0,Deslocação,1
+659,4,1,2,Nó de Monsanto,949.0,949.0,Deslocação,7
+660,4,1,3,Nó de Miraflores (A5/IC17),950.0,950.0,Deslocação,1
+661,4,1,4,Nó de Linda-a-Velha,951.0,951.0,Deslocação,1
+662,4,1,5,Nó Estádio Nacional,954.0,954.0,Deslocação,3
+663,4,1,6,Nó de Oeiras,957.0,957.0,Deslocação,3
+664,4,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+665,4,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+666,4,1,7,Nó de Carcavelos,960.0,960.0,Deslocação,3
+667,4,2,7,Nó de Carcavelos,960.0,960.0,Início,0
+668,4,2,7,Nó de Carcavelos,960.0,1007.0,Espera,0
+669,4,2,7,Nó de Carcavelos,1007.0,1022.0,Pausa,0
+670,4,2,7,Nó de Carcavelos,1022.0,1022.0,Deslocação,0
+671,4,2,7,Nó de Carcavelos,1022.0,1035.0,Visitar Nó,0
+672,4,2,6,Nó de Oeiras,1038.0,1038.0,Deslocação,3
+673,4,2,6,Nó de Oeiras,1038.0,1047.0,Visitar Nó,0
+674,4,2,6,Nó de Oeiras,1047.0,1057.0,Vistoria,0
+675,4,2,5,Nó Estádio Nacional,1060.0,1060.0,Deslocação,3
+676,4,2,5,Nó Estádio Nacional,1060.0,1088.0,Visitar Nó,0
+677,4,2,4,Nó de Linda-a-Velha,1091.0,1091.0,Deslocação,3
+678,4,2,4,Nó de Linda-a-Velha,1091.0,1104.0,Visitar Nó,0
+679,4,2,3,Nó de Miraflores (A5/IC17),1105.0,1105.0,Deslocação,1
+680,4,2,3,Nó de Miraflores (A5/IC17),1105.0,1115.0,Visitar Nó,0
+681,4,2,2,Nó de Monsanto,1116.0,1116.0,Deslocação,1
+682,4,2,2,Nó de Monsanto,1116.0,1130.0,Visitar Nó,0
+683,4,2,1,Nó Cruz das Oliveiras,1137.0,1137.0,Deslocação,7
+684,4,2,1,Nó Cruz das Oliveiras,1137.0,1142.0,Visitar Nó,0
+685,4,2,0,Nó Viaduto Duarte Pacheco,1143.0,1143.0,Deslocação,1
+686,4,2,0,Nó Viaduto Duarte Pacheco,1143.0,1143.0,Deslocação,1
+687,4,2,0,Nó Viaduto Duarte Pacheco,1143.0,1158.0,Visitar Nó,0
+688,4,2,1,Nó Cruz das Oliveiras,1159.0,1159.0,Deslocação,1
+689,4,2,1,Nó Cruz das Oliveiras,1159.0,1164.0,Visitar Nó,0
+690,4,2,2,Nó de Monsanto,1171.0,1171.0,Deslocação,7
+691,4,2,2,Nó de Monsanto,1171.0,1185.0,Visitar Nó,0
+692,4,2,3,Nó de Miraflores (A5/IC17),1186.0,1186.0,Deslocação,1
+693,4,2,3,Nó de Miraflores (A5/IC17),1186.0,1196.0,Visitar Nó,0
+694,4,2,4,Nó de Linda-a-Velha,1197.0,1197.0,Deslocação,1
+695,4,2,4,Nó de Linda-a-Velha,1197.0,1210.0,Visitar Nó,0
+696,4,2,5,Nó Estádio Nacional,1213.0,1213.0,Deslocação,3
+697,4,2,5,Nó Estádio Nacional,1213.0,1241.0,Visitar Nó,0
+698,4,2,5,Nó Estádio Nacional,1241.0,1251.0,Vistoria,0
+699,4,2,6,Nó de Oeiras,1254.0,1254.0,Deslocação,3
+700,4,2,6,Nó de Oeiras,1254.0,1263.0,Visitar Nó,0
+701,4,2,7,Nó de Carcavelos,1266.0,1266.0,Deslocação,3
+702,4,2,7,Nó de Carcavelos,1266.0,1326.0,Pausa,0
+703,4,2,7,Nó de Carcavelos,1326.0,1326.0,Deslocação,3
+704,4,2,6,Nó de Oeiras,1329.0,1329.0,Deslocação,3
+705,4,2,5,Nó Estádio Nacional,1332.0,1332.0,Deslocação,3
+706,4,2,4,Nó de Linda-a-Velha,1335.0,1335.0,Deslocação,3
+707,4,2,3,Nó de Miraflores (A5/IC17),1336.0,1336.0,Deslocação,1
+708,4,2,2,Nó de Monsanto,1337.0,1337.0,Deslocação,1
+709,4,2,1,Nó Cruz das Oliveiras,1344.0,1344.0,Deslocação,7
+710,4,2,0,Nó Viaduto Duarte Pacheco,1345.0,1345.0,Deslocação,1
+711,4,2,0,Nó Viaduto Duarte Pacheco,1345.0,1345.0,Deslocação,1
+712,4,2,1,Nó Cruz das Oliveiras,1346.0,1346.0,Deslocação,1
+713,4,2,2,Nó de Monsanto,1353.0,1353.0,Deslocação,7
+714,4,2,3,Nó de Miraflores (A5/IC17),1354.0,1354.0,Deslocação,1
+715,4,2,4,Nó de Linda-a-Velha,1355.0,1355.0,Deslocação,1
+716,4,2,5,Nó Estádio Nacional,1358.0,1358.0,Deslocação,3
+717,4,2,6,Nó de Oeiras,1361.0,1361.0,Deslocação,3
+718,4,2,7,Nó de Carcavelos,1364.0,1364.0,Deslocação,3
+719,4,2,7,Nó de Carcavelos,1364.0,1364.0,Deslocação,3
+720,4,2,6,Nó de Oeiras,1367.0,1367.0,Deslocação,3
+721,4,2,5,Nó Estádio Nacional,1370.0,1370.0,Deslocação,3
+722,4,2,4,Nó de Linda-a-Velha,1373.0,1373.0,Deslocação,3
+723,4,2,3,Nó de Miraflores (A5/IC17),1374.0,1374.0,Deslocação,1
+724,4,2,2,Nó de Monsanto,1375.0,1375.0,Deslocação,1
+725,4,2,1,Nó Cruz das Oliveiras,1382.0,1382.0,Deslocação,7
+726,4,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,Deslocação,1
+727,4,2,0,Nó Viaduto Duarte Pacheco,1383.0,1383.0,Deslocação,1
+728,4,2,1,Nó Cruz das Oliveiras,1384.0,1384.0,Deslocação,1
+729,4,2,2,Nó de Monsanto,1391.0,1391.0,Deslocação,7
+730,4,2,3,Nó de Miraflores (A5/IC17),1392.0,1392.0,Deslocação,1
+731,4,2,4,Nó de Linda-a-Velha,1393.0,1393.0,Deslocação,1
+732,4,2,5,Nó Estádio Nacional,1396.0,1396.0,Deslocação,3
+733,4,2,6,Nó de Oeiras,1399.0,1399.0,Deslocação,3
+734,4,2,7,Nó de Carcavelos,1402.0,1402.0,Deslocação,3
+735,4,2,7,Nó de Carcavelos,1402.0,1402.0,Deslocação,3
+736,4,2,6,Nó de Oeiras,1405.0,1405.0,Deslocação,3
+737,4,2,5,Nó Estádio Nacional,1408.0,1408.0,Deslocação,3
+738,4,2,4,Nó de Linda-a-Velha,1411.0,1411.0,Deslocação,3
+739,4,2,3,Nó de Miraflores (A5/IC17),1412.0,1412.0,Deslocação,1
+740,4,2,2,Nó de Monsanto,1413.0,1413.0,Deslocação,1
+741,4,2,1,Nó Cruz das Oliveiras,1420.0,1420.0,Deslocação,7
+742,4,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+743,4,2,0,Nó Viaduto Duarte Pacheco,1421.0,1421.0,Deslocação,1
+744,4,2,1,Nó Cruz das Oliveiras,1422.0,1422.0,Deslocação,1
+745,4,2,2,Nó de Monsanto,1429.0,1429.0,Deslocação,7
+746,4,2,3,Nó de Miraflores (A5/IC17),1430.0,1430.0,Deslocação,1
+747,4,2,4,Nó de Linda-a-Velha,1431.0,1431.0,Deslocação,1
+748,4,2,5,Nó Estádio Nacional,1434.0,1434.0,Deslocação,3
+749,4,2,6,Nó de Oeiras,1437.0,1437.0,Deslocação,3
+750,4,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+751,4,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3
+752,4,2,7,Nó de Carcavelos,1440.0,1440.0,Deslocação,3

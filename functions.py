@@ -1672,6 +1672,8 @@ def ler_pausas():
 
 def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_turno,sentido_anterior,vetor_solucao):
 
+
+
     # 2 sentidos, requerem duas rotas
     rota_1 = []
     rota_2 = []
@@ -1700,22 +1702,22 @@ def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_tu
                                      tempo_paragens_1, id_turno)
 
     # Incluir Vistorias
-    print('a incluir vistorias')
+    print('adicionar vistorias')
     tempo_paragens_1 = adicionar_vistorias(tempo_paragens_1, sublancos_a_considerar, [], tempos_nos, id_turno,vetor_solucao)
     tempo_paragens_2 = adicionar_vistorias(tempo_paragens_2, sublancos_a_considerar, [], tempos_nos, id_turno,vetor_solucao)
 
     # Incluir Nós
-    print('a incluir nós')
+    print('adicionar visita nós')
     tempo_paragens_1 = adicionar_nos_dois_sentidos(tempo_paragens_1, sublancos_a_considerar, [], tempos_nos, id_turno,vetor_solucao)
     tempo_paragens_2 = adicionar_nos_dois_sentidos(tempo_paragens_2, sublancos_a_considerar, [], tempos_nos, id_turno,vetor_solucao)
 
     # Incluir Espera
-    print('a incluir espera')
+    print('adicionar esperas...')
     tempo_paragens_1=adiciona_esperas(tempo_paragens_1,id_turno,vetor_solucao,n_voltas)
     tempo_paragens_2 = adiciona_esperas(tempo_paragens_2, id_turno,vetor_solucao,n_voltas)
 
     # Incluir Pausas
-    print('a incluir pausas')
+    print('adicionar pausas')
     tempo_paragens_1 = adiciona_pausas(tempo_paragens_1, id_turno, vetor_solucao)
     tempo_paragens_2 = adiciona_pausas(tempo_paragens_2, id_turno, vetor_solucao)
 
@@ -1755,7 +1757,10 @@ def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_tu
         sentido = 'crescente'
         simulacoes=output_simulacoes_2
 
+    print('--------------------')
+
     return rota_best, tempo_paragens_best,montecarlo_best,passagem_best,sentido,simulacoes
+
 
 def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno,n_voltas):
 

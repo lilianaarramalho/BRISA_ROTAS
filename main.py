@@ -71,7 +71,7 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     ultima_passagem = [[]] * len(nos)
     output_tmp = []
 
-    for i in range(2, 3):
+    for i in range(1, 5):
 
         id_co = 0
 
@@ -83,7 +83,8 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
 
         for id_turno in range(len(turnos)):
 
-            print(str('número de voltas:' + str(i) + ' turno ' + str(id_turno)))
+            print('NOVA ROTA')
+            print(str('número de voltas: ' + str(i) + ' turno: ' + str(id_turno)))
             rota_best, tempo_paragens_best, montecarlo_best, passagem_best, sentido_anterior,simulacoes_to_append = criar_rota_dividida(i,
                                                                                                                    id_co,
                                                                                                                    nos,
@@ -160,7 +161,7 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     df_simulacoes=pd.DataFrame(output_simulacoes)
     df_simulacoes.to_csv('dados/99. output_simulacoes.csv')
 
-    print('fim')
+
 else: #Tipo Corrida = 0 é Macro
     print('Corrida Macro')
 
