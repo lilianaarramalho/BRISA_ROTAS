@@ -103,7 +103,7 @@ def import_data():
                 if no_in[posicao_lista] in no_atual.nome:
 
                     no_atual.extensao = round(kms[posicao_lista])
-                    no_atual.tempo = round(velocidade * kms[posicao_lista] / 60)
+                    no_atual.tempo = round(60 * kms[posicao_lista] / velocidade)
 
     # ler turnos
 
@@ -437,8 +437,13 @@ def atualizar_vetor(id_posicao,id_turno,vetor_passos,tempo_adicional,tipo):
 
 def visitar_no(id_no,passos,posicao,tempo_no,tipo,id_ocorrencia):
 
+
     new_row={'posicao':id_no,'Hora Inicio':passos[posicao].get('Hora Fim'),'Hora Fim':tempo_no+passos[posicao].get('Hora Fim'),'Tipo':tipo,'id_pausa':id_ocorrencia}
     passos.insert(posicao,new_row)
+    if posicao==0:
+        dif_inicial = tempo_no
+    else:
+        dif_inicial= passos[posicao].get('Hora Inicio') - passos[posicao-1].get('Hora Fim')+tempo_no
 
     index=posicao+1
 
@@ -447,8 +452,9 @@ def visitar_no(id_no,passos,posicao,tempo_no,tipo,id_ocorrencia):
             id_pausa=passos[index].get('id_pausa')
         except:
             id_pausa=-1
-        new_row = {'posicao': passos[index].get('posicao'), 'Hora Inicio': passos[index].get('Hora Inicio') + tempo_no,
-                   'Hora Fim': passos[index].get('Hora Fim') + tempo_no, 'Tipo': passos[index].get('Tipo'),'id_pausa':id_pausa}
+
+        new_row = {'posicao': passos[index].get('posicao'), 'Hora Inicio': passos[index].get('Hora Inicio') + dif_inicial,
+               'Hora Fim': passos[index].get('Hora Fim')+dif_inicial, 'Tipo': passos[index].get('Tipo'),'id_pausa':id_pausa}
         passos[index] = new_row
         index+=1
 
@@ -1575,11 +1581,11 @@ def ler_pausas():
 
             for no in nos:
 
-                if row['Tipo']=='Pausa' and no.pausa!=-1:
+                if row['Tipo']=='Pausa' and no.pausa!=0:
 
                     lista_in.append(no.id)
 
-                if row['Tipo'] == 'Almoço' and no.almoco != -1:
+                if row['Tipo'] == 'Almoço' and no.almoco !=0:
 
                     lista_in.append(no.id)
 
@@ -1672,8 +1678,8 @@ def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_tu
     tempo_paragens_1=[tempo_paragens_1]
     tempo_paragens_2 = [tempo_paragens_2]
 
-    montecarlo_1,tempo_medio_passagem_1,output_simulacoes_1 = calcular_tempo_resposta(tempo_paragens_1, tempo_inicio_turno,id_turno)
-    montecarlo_2,tempo_medio_passagem_2,output_simulacoes_2 = calcular_tempo_resposta(tempo_paragens_2,tempo_inicio_turno ,id_turno)
+    montecarlo_1,tempo_medio_passagem_1,output_simulacoes_1 = calcular_tempo_resposta(tempo_paragens_1, tempo_inicio_turno,id_turno,n_voltas)
+    montecarlo_2,tempo_medio_passagem_2,output_simulacoes_2 = calcular_tempo_resposta(tempo_paragens_2,tempo_inicio_turno ,id_turno,n_voltas)
 
     if sentido_anterior=='nd':
         if (montecarlo_1 > montecarlo_2):
@@ -1707,7 +1713,7 @@ def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_tu
 
     return rota_best, tempo_paragens_best,montecarlo_best,passagem_best,sentido,simulacoes
 
-def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno):
+def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno,n_voltas):
 
     hora_inicio_turno=turnos[id_turno].inicio
 
@@ -1725,13 +1731,13 @@ def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno):
 
     df_probabilidades = pd.read_csv('dados/probabilidades sem zeros.csv', sep=",", encoding='iso-8859-1')
 
-    monte_carlo_com_zeros,output_simulacoes=gerar_montecarlo(df_probabilidades,flat_list,tempo_inicio_turno,id_turno)
+    monte_carlo_com_zeros,output_simulacoes=gerar_montecarlo(df_probabilidades,flat_list,tempo_inicio_turno,id_turno,n_voltas)
 
     tempo_medio_passagem=calcular_tempo_medio_passagem(rotas)
 
     return monte_carlo_com_zeros,tempo_medio_passagem,output_simulacoes
 
-def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno):
+def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_voltas):
 
     #tempo_inicio_turno=turnos[tempo_inicio_turno].inicio
     #method=0 - probabilidades maiores
@@ -1827,14 +1833,9 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno):
 
                     id_no_chegada=id_no_in
 
-                id_turno=-1
-                for turno in turnos:
-                    if hora_incidencia>turno.inicio and hora_incidencia<turno.fim:
-                        id_turno=turno.id
-
                 #ADICIONA TODAS AS POSICOES INTERMEDIAS ENTRE O PONTO INICIAL E O FINAL
                 print('posicao atual: ' + str(id_no_partida) + ' posicao incidencia: ' + str(id_no_chegada))
-                paragens,tempo_total, add = go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno)
+                paragens,tempo_total, add,last_hora_fim,first_hora_inicio = go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno)
 
                 #TEMPO PARA RESPONDER À INCIDENCIA
 
@@ -1843,10 +1844,10 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno):
                 duracao_paragens.append(tempo_de_resposta)
 
                 #ATUALIZAR VETOR POSICOES
-                paragens=update_posicoes(paragens,min_acontecimento,tempo_total, posicao_real_escolhida + add)
+                paragens=update_posicoes(paragens,min_acontecimento,tempo_total, posicao_real_escolhida + add,last_hora_fim,first_hora_inicio)
 
                 for posicao in range(len(paragens)):
-                    new_row = {'Simulação': index, 'Nó': paragens[posicao].get('posicao'),
+                    new_row = {'Simulação': index, 'Número Voltas':n_voltas,'Turno':id_turno,'Nó': paragens[posicao].get('posicao'),
                                'Hora Inicio': paragens[posicao].get('Hora Inicio'),'Hora Fim':paragens[posicao].get('Hora Fim'),'Tipo':paragens[posicao].get('Tipo')}
 
                     output.append(new_row)
@@ -1864,7 +1865,10 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno):
 
     return simulcao_montecarlo,output
 
-def update_posicoes(paragens,min_acontecimento,tempo_total, posicao_incidencia):
+def update_posicoes(paragens,min_acontecimento,tempo_total, posicao_incidencia,last_hora_fim,first_hora_inicio):
+
+    tempo_total=last_hora_fim-first_hora_inicio
+
 
     counter=-1
 
@@ -1981,8 +1985,8 @@ def calcular_tempo_medio_passagem(rotas):
 
         max_diferenca.append(max)
 
-    df_posicoes=pd.DataFrame(posicoes_por_no)
-    df_posicoes.to_csv('posicoes_por_no.csv')
+    # df_posicoes=pd.DataFrame(posicoes_por_no)
+    # df_posicoes.to_csv('posicoes_por_no.csv')
 
     return tempo_medio_passagem
 
@@ -2100,8 +2104,8 @@ def adicionar_deslocacoes(output, vetor_solucao, i, id_turno):
             while pos >= 0 and nos[vetor_solucao[pos].get('posicao')].id == nos[vetor_solucao[posicao].get('posicao')].id:
                 pos -= 1
 
-            deslocacao = nos[vetor]
-                get_distance(nos[vetor_solucao[pos].get('posicao')].id, nos[vetor_solucao[posicao].get('posicao')].id)
+            deslocacao = nos[vetor_solucao[pos].get('posicao')].kms[vetor_solucao[posicao].get('posicao')]
+            #get_distance(nos[vetor_solucao[pos].get('posicao')].id, nos[vetor_solucao[posicao].get('posicao')].id)
 
         new_row = {'Numero Voltas': i, 'Turno': id_turno,
                    'Sequência': nos[vetor_solucao[posicao].get('posicao')].id,
@@ -2145,6 +2149,8 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
     count = id_no_partida
     add = 0
     tempo_total = 0
+    last_hora_fim=-1
+    first_hora_inicio=-1
 
     while math.fabs(count - id_no_chegada) > 0:
         hora_inicio = paragens[posicao_real_escolhida + add].get('Hora Fim')
@@ -2153,6 +2159,8 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
         else:
             posicao_anterior = count + 1
         if posicao_anterior < len(nos) and posicao_anterior >= 0:
+            if first_hora_inicio==-1:
+                first_hora_inicio=hora_inicio
             new_row = {'posicao': count, 'Hora Inicio': hora_inicio,
                        'Hora Fim': hora_inicio + get_distance(count, posicao_anterior), 'Tipo': "Deslocação Incidência"}
             add += 1
@@ -2169,6 +2177,11 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
 
     hora_inicio = paragens[posicao_real_escolhida + add].get('Hora Fim')
 
+    if first_hora_inicio==-1:
+        first_hora_inicio = paragens[posicao_real_escolhida + add].get('Hora Fim')
+
+
+    last_hora_fim = hora_inicio + t_medio_incidencia
     new_row = {'posicao': id_no_chegada, 'Hora Inicio': paragens[posicao_real_escolhida + add].get('Hora Fim'),
                    'Hora Fim': hora_inicio + t_medio_incidencia, 'Tipo': "Incidência"}
 
@@ -2177,26 +2190,27 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
     paragens.insert(posicao_real_escolhida+1+add, new_row)
 
     count = id_no_chegada
-    add = 0
+    #add=0
 
     while math.fabs(count - id_no_partida) > 0:
-        hora_inicio = paragens[posicao_real_escolhida + add].get('Hora Fim')
+        hora_inicio = paragens[posicao_real_escolhida + add+1].get('Hora Fim')
         if count < id_no_partida:
             posicao_anterior = count - 1
         else:
             posicao_anterior = count + 1
         if posicao_anterior < len(nos) and posicao_anterior >= 0:
+            last_hora_fim=hora_inicio + get_distance(count, posicao_anterior)
             new_row = {'posicao': count, 'Hora Inicio': hora_inicio,
                        'Hora Fim': hora_inicio + get_distance(count, posicao_anterior), 'Tipo': "Deslocação Incidência"}
             add += 1
             tempo_total += get_distance(count, posicao_anterior)
-            paragens.insert(posicao_real_escolhida + add, new_row)
+            paragens.insert(posicao_real_escolhida + add+1, new_row)
         if count < id_no_partida:
             count += 1
         else:
             count -= 1
 
-    return paragens,tempo_total, add
+    return paragens,tempo_total, add,last_hora_fim,first_hora_inicio
 
 def filtrar_incidencias(hora_incidencia,sublanco_incidencia):
     nos_incidencias=[]
