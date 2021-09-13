@@ -1,0 +1,1 @@
+{'velocidade':60,'t_medio_incidencia':30,'n_simulacoes':100,'tipo_corrida':1,'slot_tempo':60,'tempo_inicio_turno':7,'max_tempo_passagem':3.5}
