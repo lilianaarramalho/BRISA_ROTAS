@@ -2355,9 +2355,22 @@ def calcular_tmp(rota,vetor_solucao):
 
     rota=condensar_paragens(rota)
 
-    temp_vetor=[vetor_solucao]
+    temp_vetor=[vetor_solucao.copy()]
 
     temp_vetor.append(rota)
+
+    index=len(temp_vetor[0])-1
+    nos_visitados=[False]*len(nos)
+
+    # if len(temp_vetor[0])>0:
+    #     while all(nos_visitados)==False and index>=0:
+    #         posicao=temp_vetor[0][index].get('posicao')
+    #         if temp_vetor[0][index].get('Tipo')=='Deslocação':
+    #             nos_visitados[posicao]=True
+    #         else:
+    #             index-=1
+    #
+    #     temp_vetor[0]=temp_vetor[0][index:]
 
     tempo_medio_passagem,tempo_max_passagem=calcular_tempo_medio_passagem(temp_vetor)
 
