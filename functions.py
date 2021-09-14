@@ -260,46 +260,61 @@ def import_data():
 
 
     df_probabilidades = pd.read_csv('dados/probabilidades com zeros.csv', sep=",", encoding='iso-8859-1')
-    df_probabilidades['Probabilidade incidência'] = df_probabilidades['Probabilidade incidência'].replace("%", "",
-                                                                                                          regex=True).astype(
-        float) / 100
+    # df_probabilidades['Probabilidade incidência'] = df_probabilidades['Probabilidade incidência'].replace("%", "",
+    #                                                                                                       regex=True).astype(
+    #     float) / 100
 
     lista_probabilidades = df_probabilidades['Probabilidade incidência'].tolist()
     lista_hora = df_probabilidades['Hora'].tolist()
     lista_sublanco = df_probabilidades['Sublanço'].tolist()
+    lista_n_incidencias_ano = df_probabilidades['n_incidencias_ano'].tolist()
 
     id_turno = 0
     id_sublanco = 0
 
+    probabilidades_turno_1 = [0] * len(nos)
+    probabilidades_turno_2 = [0] * len(nos)
+    probabilidades_turno_3 = [0] * len(nos)
 
+    global n_incidencias_dia_1
+    global n_incidencias_dia_2
+    global n_incidencias_dia_3
 
-    #Calcular probabilidade agregada por tuno por cada sublanço
+    n_incidencias_dia_1 = [0] * len(nos)
+    n_incidencias_dia_2 = [0] * len(nos)
+    n_incidencias_dia_3 = [0] * len(nos)
+
+    # Calcular probabilidade agregada por tuno por cada sublanço
     for i in range(len(lista_probabilidades)):
 
-        #Descobrir a que turno diz respeito
+        # Descobrir a que turno diz respeito
         for j in range(len(turnos)):
-            if lista_hora[i]*60-tempo_inicio_turno*60 < turnos[j].fim:
+            if lista_hora[i] * 60 - tempo_inicio_turno * 60 >= turnos[j].inicio:
                 id_turno = j
 
-        #Descobrir qual o sublanço
+        # Descobrir qual o sublanço
         for j in range(len(nos)):
             no_fim = lista_sublanco[i].split('-')[1]
             no_fim = no_fim.strip()
-            if(no_fim in nos[j].nome):
+            if (no_fim in nos[j].nome):
                 id_sublanco = j
 
         try:
-            if(id_turno == 0):
+            if (id_turno == 0):
                 probabilidades_turno_1[id_sublanco] += lista_probabilidades[i]
+                n_incidencias_dia_1[id_sublanco] += lista_n_incidencias_ano[i] / 365
             elif (id_turno == 1):
                 probabilidades_turno_2[id_sublanco] += lista_probabilidades[i]
+                n_incidencias_dia_2[id_sublanco] += lista_n_incidencias_ano[i] / 365
             else:
                 probabilidades_turno_3[id_sublanco] += lista_probabilidades[i]
+                n_incidencias_dia_3[id_sublanco] += lista_n_incidencias_ano[i] / 365
+
+
         except:
-            print('.') #TODO isto nunca devia vir para o except
+            print('.')  # TODO isto nunca devia vir para o except
 
-
-    return nos,turnos
+    return nos, turnos
 
 def get_distance(x,y):
 
@@ -1063,6 +1078,8 @@ def adicionar_vistorias(new_tempo_paragens, lista_sublancos,new_visitas,tempos_n
         best_max_tmp = 999999
         best_possivel_tmp=False
         best_vetor_max_tmp=[]
+        best_tempos_entre_passagens_total=[]
+
         while posicao < total:
             id_posicao = temp_paragens[posicao].get('posicao')
             # Verificar sentido
@@ -1088,7 +1105,7 @@ def adicionar_vistorias(new_tempo_paragens, lista_sublancos,new_visitas,tempos_n
 
                 # valor,soma=verificar_restricoes(temp_paragens_2,lista_sublancos,[],new_visitas, id_turno)
 
-                best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp)
+                best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
 
             posicao += 1
 
@@ -1102,6 +1119,7 @@ def adicionar_vistorias(new_tempo_paragens, lista_sublancos,new_visitas,tempos_n
         posicao = 1
         max_soma = 999999
         best_vetor_max_tmp = []
+        best_tempos_entre_passagens_total=[]
         best_max_tmp = 999999
         best_possivel_tmp = False
         while posicao < total:
@@ -1129,13 +1147,7 @@ def adicionar_vistorias(new_tempo_paragens, lista_sublancos,new_visitas,tempos_n
 
                 # valor,soma=verificar_restricoes(temp_paragens_2,lista_sublancos,[],new_visitas, id_turno)
 
-                best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp= verificar_melhor_solucao(max_soma,
-                                                                                                     best_possivel_tmp,
-                                                                                                     best_max_tmp,
-                                                                                                     temp_paragens_2,
-                                                                                                     vetor_solucao,
-                                                                                                     melhor_paragem,
-                                                                                                    best_vetor_max_tmp)
+                best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total= verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
 
             posicao += 1
 
@@ -1175,6 +1187,7 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
         total=len(temp_paragens)
         max_soma = 999999
         best_vetor_max_tmp = []
+        best_tempos_entre_passagens_total=[]
         best_max_tmp = 999999
         best_possivel_tmp = False
 
@@ -1205,11 +1218,7 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
 
                 visitado_sul_norte[id_posicao] = True
 
-                best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp = verificar_melhor_solucao(max_soma,
-                                                                                                     best_possivel_tmp,
-                                                                                                     best_max_tmp,
-                                                                                                     temp_paragens_2,vetor_solucao,
-                                                                                                     melhor_paragem,best_vetor_max_tmp)
+                best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total = verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
 
             posicao += 1
 
@@ -1223,6 +1232,7 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
         total = len(temp_paragens)
         max_soma = 999999
         best_vetor_max_tmp = []
+        best_tempos_entre_passagens_total=[]
         best_max_tmp = 999999
         best_possivel_tmp = False
 
@@ -1251,7 +1261,7 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
 
                 visitado_norte_sul[id_posicao] = True
 
-                best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp)
+                best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
 
             posicao += 1
 
@@ -1782,7 +1792,7 @@ def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno,n_voltas):
 
     monte_carlo_com_zeros,output_simulacoes=gerar_montecarlo(df_probabilidades,flat_list,tempo_inicio_turno,id_turno,n_voltas)
 
-    tempo_medio_passagem=calcular_tempo_medio_passagem(rotas)
+    tempo_medio_passagem=calcular_tempo_medio_passagem(rotas,id_turno)
 
     return monte_carlo_com_zeros,tempo_medio_passagem,output_simulacoes
 
@@ -1990,17 +2000,23 @@ def calcular_delta(rota,id_pausa,id_turno):
 
     return delta
 
-def calcular_tempo_medio_passagem(rotas):
+def calcular_tempo_medio_passagem(rotas,id_turno):
+
+    parametro=2
 
     tempo_medio_passagem=[]
     max_diferenca=[]
     posicoes_por_no=[]
 
+    hora_inicio_turno=0
+
     flat_list = [item for sublist in rotas for item in sublist]
+    flat_list=condensar_paragens(flat_list)
 
     for no in nos:
 
-        tempos_nos = []
+        tempos_nos=[]
+
         count=0
         total=0
         max=-1
@@ -2009,7 +2025,17 @@ def calcular_tempo_medio_passagem(rotas):
 
             if paragem.get('posicao')==no.id:
 
+                if len(tempos_nos) == 0 and id_turno==0:
+                    new_row = {'posicao': no.id,
+                               'Hora Inicio': hora_inicio_turno - maximo_tempo_passagem / parametro,
+                               'Hora Fim': hora_inicio_turno - maximo_tempo_passagem / parametro}
+                    tempos_nos.append(new_row)
+
                 tempos_nos.append(paragem)
+
+                last_dict=paragem.copy()
+
+        tempos_nos.append({'posicao':no.id,'Hora Inicio':flat_list[-1].get('Hora Fim')+maximo_tempo_passagem/parametro,'Hora Fim':flat_list[-1].get('Hora Fim')+maximo_tempo_passagem/parametro})
 
         tempos_nos = sorted(tempos_nos, key=lambda k: k['Hora Fim'])
 
@@ -2031,15 +2057,23 @@ def calcular_tempo_medio_passagem(rotas):
 
         max_diferenca.append(max)
 
-    # df_posicoes=pd.DataFrame(posicoes_por_no)
-    # df_posicoes.to_csv('posicoes_por_no.csv')
+    tempos_entre_passagens_total=[]
 
-    return tempo_medio_passagem,max_diferenca
+    for no in nos:
+        for posicao in range(len(posicoes_por_no[no.id])-1):
+
+            diferenca = posicoes_por_no[no.id][posicao + 1].get('Hora Fim') - posicoes_por_no[no.id][posicao].get('Hora Fim')
+            tempos_entre_passagens_total.append(diferenca)
+
+
+    return tempo_medio_passagem,max_diferenca,posicoes_por_no,tempos_entre_passagens_total
 
 def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
     global slot_tempo
     global pausas_duracao
+
+    output_posicoes=[]
 
     duracao_pausas_turno=sum(pausas_duracao[id_turno])
 
@@ -2083,9 +2117,9 @@ def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
         try:
 
-            slot_tempo=tempo_espera/len(id_posicoes)
+            #slot_tempo=tempo_espera/len(id_posicoes)
             numero_esperas = round(tempo_espera / slot_tempo)
-            for x in itertools.combinations(id_posicoes, numero_esperas):
+            for x in itertools.combinations_with_replacement(id_posicoes, numero_esperas):
                 id_testes.append(x)
 
 
@@ -2095,17 +2129,18 @@ def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
     else:
 
-        for x in itertools.combinations(id_posicoes, numero_esperas):
+        for x in itertools.combinations_with_replacement(id_posicoes, numero_esperas):
             id_testes.append(x)
 
     count_combinacao=0
 
     max_soma = 999999
     best_vetor_max_tmp = []
+    best_tempos_entre_passagens_total=[]
     best_max_tmp = 999999
     best_possivel_tmp = False
     melhor_paragem=[]
-
+    counter=0
     for combinacao in id_testes:
 
         rota=paragens.copy()
@@ -2121,15 +2156,30 @@ def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
             rota, count = visitar_no(id_posicao, rota, id_posicao_espera, slot_tempo, "Espera", -1)
 
-        best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp = verificar_melhor_solucao(max_soma,
-                                                                                             best_possivel_tmp,
-                                                                                             best_max_tmp,
-                                                                                             rota,vetor_solucao,
-                                                                                             melhor_paragem,best_vetor_max_tmp)
+        counter += 1
+
+        best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp ,posicoes_por_no,best_tempos_entre_passagens_total= verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,rota,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
 
 
         count_combinacao+=1
 
+        espera_cascais=False
+
+        for posicao_rota in rota:
+            if posicao_rota.get('Tipo')=='Espera' and posicao_rota.get('posicao')==4:
+                espera_cascais=True
+                break
+
+        for no in nos:
+
+            for posicao in posicoes_por_no[no.id]:
+
+                new_row={'combinação': count_combinacao, 'inicio':posicao.get('Hora Inicio'),'fim':posicao.get('Hora Fim'),'nó':no.nome,'espera_cascais':espera_cascais}
+                output_posicoes.append(new_row)
+
+    if id_turno==0:
+        df=pd.DataFrame(output_posicoes)
+        df.to_csv('posicoes_por_nos.csv',encoding='ISO-8859-1')
     print('combinações geradas: ' + str(count_combinacao) + '/' + str(len(id_testes)) + ' número de voltas: ' + str(n_voltas) + ' id turno: ' + str(id_turno))
 
     return melhor_paragem
@@ -2347,13 +2397,11 @@ def verificar_corte(carro, id_turno, n_voltas):
 
 
 
-def calcular_tmp(rota,vetor_solucao):
+def calcular_tmp(rota,vetor_solucao,id_turno):
 
     global maximo_tempo_passagem
 
     resultado=True
-
-    rota=condensar_paragens(rota)
 
     temp_vetor=[vetor_solucao.copy()]
 
@@ -2362,29 +2410,29 @@ def calcular_tmp(rota,vetor_solucao):
     index=len(temp_vetor[0])-1
     nos_visitados=[False]*len(nos)
 
-    # if len(temp_vetor[0])>0:
-    #     while all(nos_visitados)==False and index>=0:
-    #         posicao=temp_vetor[0][index].get('posicao')
-    #         if temp_vetor[0][index].get('Tipo')=='Deslocação':
-    #             nos_visitados[posicao]=True
-    #         else:
-    #             index-=1
-    #
-    #     temp_vetor[0]=temp_vetor[0][index:]
+    if len(temp_vetor[0])>0:
+        while all(nos_visitados)==False and index>=0:
+            posicao=temp_vetor[0][index].get('posicao')
+            if temp_vetor[0][index].get('Tipo')=='Deslocação':
+                nos_visitados[posicao]=True
+            index-=1
 
-    tempo_medio_passagem,tempo_max_passagem=calcular_tempo_medio_passagem(temp_vetor)
+        temp_vetor[0]=temp_vetor[0][index:]
+
+    tempo_medio_passagem,tempo_max_passagem,posicoes_por_no,tempos_entre_passagens_total=calcular_tempo_medio_passagem(temp_vetor,id_turno)
 
     for tempo in tempo_max_passagem:
         if tempo>maximo_tempo_passagem:
             resultado=False
+            break
 
-    return resultado,tempo_max_passagem
+    return resultado,tempo_max_passagem,posicoes_por_no,tempos_entre_passagens_total
 
-def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp):
+def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total):
 
     soma = calcular_delta(temp_paragens_2, -1, vetor_solucao)
 
-    possivel_tmp, vetor_max_atual = calcular_tmp(temp_paragens_2, vetor_solucao)
+    possivel_tmp, vetor_max_atual,posicoes_por_no,tempos_entre_passagens_total = calcular_tmp(temp_paragens_2, vetor_solucao,id_turno)
 
     max_atual=max(vetor_max_atual)
 
@@ -2395,6 +2443,7 @@ def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_parage
         max_soma = soma
         melhor_paragem = temp_paragens_2.copy()
         best_vetor_max_tmp=vetor_max_atual.copy()
+        best_tempos_entre_passagens_total=tempos_entre_passagens_total.copy()
 
     elif possivel_tmp == False and best_possivel_tmp == False and max_atual < best_max_tmp:
 
@@ -2403,6 +2452,7 @@ def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_parage
         max_soma = soma
         melhor_paragem = temp_paragens_2.copy()
         best_vetor_max_tmp = vetor_max_atual.copy()
+        best_tempos_entre_passagens_total = tempos_entre_passagens_total.copy()
 
     elif possivel_tmp == True and best_possivel_tmp == False:
 
@@ -2411,5 +2461,20 @@ def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_parage
         max_soma = soma
         melhor_paragem = temp_paragens_2.copy()
         best_vetor_max_tmp = vetor_max_atual.copy()
+        best_tempos_entre_passagens_total = tempos_entre_passagens_total.copy()
 
-    return best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,best_vetor_max_tmp
+    elif possivel_tmp==True and best_possivel_tmp==True and max_atual==best_max_tmp:
+
+        best_max_tmp_var=np.var(best_tempos_entre_passagens_total)
+        max_atual_var=np.var(tempos_entre_passagens_total)
+
+        if len(best_vetor_max_tmp)==0 or best_max_tmp_var>max_atual_var:
+
+            best_max_tmp = max_atual
+            best_possivel_tmp = True
+            max_soma = soma
+            melhor_paragem = temp_paragens_2.copy()
+            best_vetor_max_tmp = vetor_max_atual.copy()
+            best_tempos_entre_passagens_total = tempos_entre_passagens_total.copy()
+
+    return best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,best_vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total

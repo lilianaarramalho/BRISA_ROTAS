@@ -71,7 +71,11 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     ultima_passagem = [[]] * len(nos)
     output_tmp = []
 
-    for i in range(1, 5):
+    solucao_n_voltas = []
+
+    for i in range(2, 4):
+
+        solucao_volta_atual=[]
 
         id_co = 0
 
@@ -91,6 +95,8 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
                                                                                                                    id_turno,
                                                                                                                    sentido_anterior,vetor_solucao)
 
+            solucao_volta_atual.append(tempo_paragens_best[0].copy())
+
             vetor_solucao = tempo_paragens_best[0].copy()
             condensar_paragens(vetor_solucao)
             simulacoes.append(simulacoes_to_append)
@@ -100,12 +106,6 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
 
             #VETOR CONDENSADO PARA CÁLCULOS
             vetor_condensado=condensar_paragens(vetor_solucao)
-            possivel,tempo_max_resposta=calcular_tmp([],vetor_solucao)
-
-
-            for posicao in range(len(tempo_max_resposta)):
-                new_row={'Número de Voltas':i,'Turno':id_turno,'Nó':nos[posicao].nome,'TMP':tempo_max_resposta[posicao]}
-                output_tmp.append(new_row)
 
             if id_turno==0:
                 for id_no in range(len(nos)):
@@ -134,6 +134,9 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
 
             output = adicionar_deslocacoes(output, vetor_solucao, i, id_turno)
 
+        solucao_n_voltas.append(solucao_volta_atual)
+
+
     df_output_tempo_resposta = pd.DataFrame(output_tempo_resposta)
     df_output_tempo_resposta.to_csv('dados/99. dados_solucao_tempo_resposta.csv', encoding='iso-8859-1')
 
@@ -161,6 +164,67 @@ if(tipo_corrida == 1): #Tipo Corrida = 1 é Micro
     df_simulacoes=pd.DataFrame(output_simulacoes)
     df_simulacoes.to_csv('dados/99. output_simulacoes.csv')
 
+    output_condensado_ultima_passagem=[]
+    for i in range(2,4):
+
+        for index_turno in range(len(turnos)):
+
+            vetor_condensado_turno = condensar_paragens(solucao_n_voltas[i-2][index_turno])
+
+            ultima_passagem=[0]*len(nos)
+
+            if index_turno == 0:
+                vetor_condensado_turno_final=condensar_paragens(solucao_n_voltas[i-2][-1])
+
+                for id_no in range(len(nos)):
+                    index_final=len(vetor_condensado_turno_final)-1
+                    not_found=True
+                    while not_found==True:
+                        if index_final>=0 and vetor_condensado_turno_final[index_final].get('posicao')==id_no:
+                            ultima_passagem[id_no] = vetor_condensado_turno_final[index_final].get('Hora Fim')
+                            not_found=False
+                        index_final-=1
+
+                    index_final = len(vetor_condensado_turno_final) - 1
+
+            else:
+
+                vetor_condensado_turno_final = condensar_paragens(solucao_n_voltas[i - 2][index_turno-1])
+
+                for id_no in range(len(nos)):
+                    index_final = len(vetor_condensado_turno_final) - 1
+                    not_found = True
+                    while not_found == True:
+                        if index_final >= 0 and vetor_condensado_turno_final[index_final].get('posicao') == id_no:
+                            ultima_passagem[id_no] = vetor_condensado_turno_final[index_final].get('Hora Fim')
+                            not_found = False
+                        index_final -= 1
+
+                    index_final = len(vetor_condensado_turno_final) - 1
+
+
+            for dict_posicao in vetor_condensado_turno:
+                numero_voltas = i
+                turno = id_turno
+                sequencia = nos[dict_posicao.get('posicao')].id
+                nome_no = nos[dict_posicao.get('posicao')].nome
+                hora_inicio = dict_posicao.get('Hora Inicio')
+                hora_fim = dict_posicao.get('Hora Fim')
+                last_passagem = ultima_passagem[dict_posicao.get('posicao')]
+
+                new_condensado = {'Numero Voltas': numero_voltas, 'Turno': turno,
+                                  'Sequência': sequencia,
+                                  'Nó': nome_no,
+                                  'Hora Inicio': hora_inicio,
+                                  'Hora Fim': hora_fim,
+                                  'Última Passagem (Hora Fim)': last_passagem}
+
+                ultima_passagem[dict_posicao.get('posicao')] = hora_fim
+
+                output_condensado_ultima_passagem.append(new_condensado)
+
+    df_output_condensado_ultima_passagem=pd.DataFrame(output_condensado_ultima_passagem)
+    df_output_condensado_ultima_passagem.to_csv('dados/99. dados_solucao_tempo_entre_passagens.csv',encoding='ISO-8859-1')
 
 else: #Tipo Corrida = 0 é Macro
     print('Corrida Macro')
