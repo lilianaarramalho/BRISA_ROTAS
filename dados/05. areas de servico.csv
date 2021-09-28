@@ -1,2 +1,9 @@
 Auto-Estrada,Tipo,Área de Serviço,Nó Início,Nó Fim,pausa,almoco,norte-sul,sul-norte,espera
-A5,Área de Serviço,Área de Serviço 1,Nó Estádio Nacional,Nó de Oeiras,0,0,10,10,0
+A1,Área de Serviço,AS Aveiras,Carregado,Aveiras de Cima,0,0,10,10,0
+A1,Área de Serviço,AS Santarem,Santarém,Torres Novas (A1/A23),0,0,10,10,0
+A1,Área de Serviço,AS Leiria,Fátima,Leiria,0,0,10,10,0
+A1,Área de Serviço,AS Pombal,Pombal,Soure,0,0,10,10,0
+A1,Área de Serviço,AS Mealhada,Coimbra Norte (A1/A14),Mealhada,0,0,10,10,0
+A1,Área de Serviço,AS Antua,Albergaria (A1/IP5),Estarreja,0,0,10,10,0
+A1,Área de Serviço,AS Gaia,Jaca,Santo Ovídio,0,0,10,10,0
+A1,Área de Serviço,Área Repouso Oia,Mealhada,Aveiro Sul,0,0,0,0,1

@@ -4,17 +4,9 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
+  ('pkg_resources._vendor.packaging.tags',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
   ('ctypes',
    'c:\\users\\liliana '
@@ -28,41 +20,181 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\struct.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
+  ('distutils.util',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\util.py',
    'PYMODULE'),
-  ('string',
+  ('distutils.filelist',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\string.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\filelist.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('distutils.debug',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\debug.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
+  ('fnmatch',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\fnmatch.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
+  ('distutils.file_util',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\file_util.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
+  ('distutils.dir_util',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dir_util.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('py_compile',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\py_compile.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.pyparsing',
+  ('importlib._bootstrap_external',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
    'PYMODULE'),
-  ('uuid',
+  ('importlib.metadata',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\numbers.py',
    'PYMODULE'),
   ('hashlib',
    'c:\\users\\liliana '
@@ -76,17 +208,13 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pickle.py',
    'PYMODULE'),
+  ('pprint',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pprint.py',
+   'PYMODULE'),
   ('doctest',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\doctest.py',
-   'PYMODULE'),
-  ('argparse',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\argparse.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\gettext.py',
    'PYMODULE'),
   ('unittest',
    'c:\\users\\liliana '
@@ -112,10 +240,6 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\signal.py',
    'PYMODULE'),
-  ('selectors',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\selectors.py',
-   'PYMODULE'),
   ('asyncio.windows_events',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\windows_events.py',
@@ -131,10 +255,6 @@
   ('ssl',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ssl.py',
-   'PYMODULE'),
-  ('calendar',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\calendar.py',
    'PYMODULE'),
   ('base64',
    'c:\\users\\liliana '
@@ -155,10 +275,6 @@
   ('asyncio.threads',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\threads.py',
-   'PYMODULE'),
-  ('contextvars',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\contextvars.py',
    'PYMODULE'),
   ('asyncio.subprocess',
    'c:\\users\\liliana '
@@ -212,10 +328,6 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\heap.py',
    'PYMODULE'),
-  ('bisect',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\bisect.py',
-   'PYMODULE'),
   ('multiprocessing.resource_tracker',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\resource_tracker.py',
@@ -227,118 +339,6 @@
   ('runpy',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\runpy.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('importlib._bootstrap_external',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
-   'PYMODULE'),
-  ('importlib.metadata',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
-   'PYMODULE'),
-  ('configparser',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\configparser.py',
-   'PYMODULE'),
-  ('pathlib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pathlib.py',
-   'PYMODULE'),
-  ('urllib.parse',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\parse.py',
-   'PYMODULE'),
-  ('urllib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\__init__.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('email',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\__init__.py',
-   'PYMODULE'),
-  ('email._header_value_parser',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_header_value_parser.py',
-   'PYMODULE'),
-  ('email.utils',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\utils.py',
-   'PYMODULE'),
-  ('email._parseaddr',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_parseaddr.py',
-   'PYMODULE'),
-  ('email._encoded_words',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_encoded_words.py',
-   'PYMODULE'),
-  ('email.header',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\header.py',
-   'PYMODULE'),
-  ('email.base64mime',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\base64mime.py',
-   'PYMODULE'),
-  ('email.quoprimime',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\quoprimime.py',
-   'PYMODULE'),
-  ('email.charset',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\charset.py',
-   'PYMODULE'),
-  ('email.encoders',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\encoders.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\quopri.py',
-   'PYMODULE'),
-  ('email.errors',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
-   'PYMODULE'),
-  ('csv',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
-   'PYMODULE'),
-  ('tokenize',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\tokenize.py',
-   'PYMODULE'),
-  ('token',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\token.py',
-   'PYMODULE'),
-  ('importlib._bootstrap',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('typing',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
-   'PYMODULE'),
-  ('importlib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
    'PYMODULE'),
   ('multiprocessing.process',
    'c:\\users\\liliana '
@@ -423,14 +423,6 @@
   ('xmlrpc',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\xmlrpc\\__init__.py',
-   'PYMODULE'),
-  ('gzip',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_compression.py',
    'PYMODULE'),
   ('xml.parsers.expat',
    'c:\\users\\liliana '
@@ -528,6 +520,10 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\contentmanager.py',
    'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
   ('email.headerregistry',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\headerregistry.py',
@@ -544,6 +540,10 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_policybase.py',
    'PYMODULE'),
+  ('quopri',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\quopri.py',
+   'PYMODULE'),
   ('uu',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\uu.py',
@@ -551,22 +551,6 @@
   ('optparse',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\optparse.py',
-   'PYMODULE'),
-  ('decimal',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\decimal.py',
-   'PYMODULE'),
-  ('_pydecimal',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_pydecimal.py',
-   'PYMODULE'),
-  ('numbers',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\numbers.py',
-   'PYMODULE'),
-  ('multiprocessing',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('concurrent.futures._base',
    'c:\\users\\liliana '
@@ -668,50 +652,6 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\util.py',
    'PYMODULE'),
-  ('difflib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\difflib.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('random',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\random.py',
-   'PYMODULE'),
-  ('statistics',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\statistics.py',
-   'PYMODULE'),
-  ('fractions',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\fractions.py',
-   'PYMODULE'),
-  ('socket',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\socket.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('shutil',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py',
-   'PYMODULE'),
-  ('tarfile',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\tarfile.py',
-   'PYMODULE'),
-  ('lzma',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\bz2.py',
-   'PYMODULE'),
   ('pdb',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pdb.py',
@@ -780,69 +720,61 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\cmd.py',
    'PYMODULE'),
-  ('threading',
+  ('difflib',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\threading.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\difflib.py',
    'PYMODULE'),
-  ('_threading_local',
+  ('_compat_pickle',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_threading_local.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('datetime',
+  ('bisect',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\datetime.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\bisect.py',
    'PYMODULE'),
-  ('_strptime',
+  ('email._encoded_words',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_strptime.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\_encoded_words.py',
    'PYMODULE'),
-  ('pprint',
+  ('email.header',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\pprint.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\header.py',
    'PYMODULE'),
-  ('copy',
+  ('email.base64mime',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\copy.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\base64mime.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('email.charset',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\charset.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('email.encoders',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\encoders.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.six',
+  ('email.errors',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
+  ('csv',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
    'PYMODULE'),
-  ('distutils.util',
+  ('importlib',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\util.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
    'PYMODULE'),
-  ('distutils.filelist',
+  ('tokenize',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\filelist.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\tokenize.py',
    'PYMODULE'),
-  ('distutils.debug',
+  ('token',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\debug.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\token.py',
    'PYMODULE'),
-  ('distutils.file_util',
+  ('subprocess',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\file_util.py',
-   'PYMODULE'),
-  ('distutils.dir_util',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dir_util.py',
-   'PYMODULE'),
-  ('py_compile',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\py_compile.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\subprocess.py',
    'PYMODULE'),
   ('distutils.sysconfig',
    'c:\\users\\liliana '
@@ -895,6 +827,70 @@
   ('distutils.errors',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\string.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\users\\liliana '
@@ -980,27 +976,361 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\__future__.py',
    'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
    'PYMODULE'),
-  ('classes',
-   'C:\\Users\\Liliana Ramalho\\PycharmProjects\\Rotas Brisa\\classes.py',
-   'PYMODULE'),
-  ('functions',
-   'C:\\Users\\Liliana Ramalho\\PycharmProjects\\Rotas Brisa\\functions.py',
-   'PYMODULE'),
-  ('numpy',
+  ('_py_abc',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\__init__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('joblib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.loky',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\cloudpickle\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle.cloudpickle_fast',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\cloudpickle\\cloudpickle_fast.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle.compat',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\cloudpickle\\compat.py',
+   'PYMODULE'),
+  ('joblib.externals.cloudpickle.cloudpickle',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\cloudpickle\\cloudpickle.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.process_executor',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\process_executor.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\utils.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.queues',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\queues.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.compat',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\compat.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.compat_posix',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\compat_posix.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._posix_wait',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\_posix_wait.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.compat_win32',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\compat_win32.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._win_wait',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\_win_wait.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\__init__.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.spawn',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\spawn.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.resource_tracker',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\resource_tracker.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.fork_exec',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\fork_exec.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.semlock',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\semlock.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._win_reduction',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\_win_reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.cloudpickle_wrapper',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\cloudpickle_wrapper.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.reusable_executor',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\reusable_executor.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.reduction',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend._posix_reduction',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\_posix_reduction.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.context',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\context.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.synchronize',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\synchronize.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.managers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\managers.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.process',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\process.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.popen_loky_posix',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\popen_loky_posix.py',
+   'PYMODULE'),
+  ('joblib.externals.loky.backend.popen_loky_win32',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\backend\\popen_loky_win32.py',
+   'PYMODULE'),
+  ('joblib.externals.loky._base',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\externals\\loky\\_base.py',
+   'PYMODULE'),
+  ('joblib.parallel',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\parallel.py',
+   'PYMODULE'),
+  ('joblib._dask',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_dask.py',
+   'PYMODULE'),
+  ('joblib._parallel_backends',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_parallel_backends.py',
+   'PYMODULE'),
+  ('joblib.executor',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\executor.py',
+   'PYMODULE'),
+  ('joblib._memmapping_reducer',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_memmapping_reducer.py',
+   'PYMODULE'),
+  ('joblib.backports',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\backports.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\__init__.py',
    'PYMODULE'),
   ('numpy._pytesttester',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\linalg.py',
    'PYMODULE'),
   ('numpy.distutils.cpuinfo',
    'c:\\users\\liliana '
@@ -1086,10 +1416,6 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\windows_support.py',
    'PYMODULE'),
-  ('distutils.version',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\version.py',
-   'PYMODULE'),
   ('distutils.cmd',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\cmd.py',
@@ -1158,6 +1484,10 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
   ('setuptools._vendor.packaging.tags',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
@@ -1166,29 +1496,33 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\six.py',
    'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
+  ('setuptools._vendor.packaging._structures',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.specifiers',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
+  ('setuptools._vendor.packaging.version',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging',
    'c:\\users\\liliana '
@@ -1202,17 +1536,9 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
+  ('setuptools._vendor',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'c:\\users\\liliana '
@@ -1558,109 +1884,25 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\log.py',
    'PYMODULE'),
-  ('numpy.testing',
+  ('numpy.lib._version',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_version.py',
    'PYMODULE'),
-  ('numpy.testing._private.nosetester',
+  ('numpy.lib.arraypad',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraypad.py',
    'PYMODULE'),
-  ('numpy.testing._private.noseclasses',
+  ('numpy.lib.arrayterator',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
    'PYMODULE'),
-  ('numpy.testing._private.decorators',
+  ('numpy.lib.npyio',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\npyio.py',
    'PYMODULE'),
-  ('numpy.testing._private.parameterized',
+  ('numpy.ma.mrecords',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
-   'PYMODULE'),
-  ('numpy.testing._private',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
-   'PYMODULE'),
-  ('numpy.testing._private.utils',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
-   'PYMODULE'),
-  ('numpy.core.fromnumeric',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
-   'PYMODULE'),
-  ('numpy.core._methods',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_methods.py',
-   'PYMODULE'),
-  ('numpy.lib.stride_tricks',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
-   'PYMODULE'),
-  ('numpy.core.numeric',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numeric.py',
-   'PYMODULE'),
-  ('numpy.core.arrayprint',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\arrayprint.py',
-   'PYMODULE'),
-  ('numpy.core._ufunc_config',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
-   'PYMODULE'),
-  ('numpy.core.shape_base',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\shape_base.py',
-   'PYMODULE'),
-  ('numpy.core._exceptions',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_exceptions.py',
-   'PYMODULE'),
-  ('numpy.core._asarray',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_asarray.py',
-   'PYMODULE'),
-  ('numpy.core.umath',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\umath.py',
-   'PYMODULE'),
-  ('numpy.core.overrides',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\overrides.py',
-   'PYMODULE'),
-  ('numpy.compat._inspect',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\_inspect.py',
-   'PYMODULE'),
-  ('numpy.core.multiarray',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\multiarray.py',
-   'PYMODULE'),
-  ('numpy.core.numerictypes',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numerictypes.py',
-   'PYMODULE'),
-  ('numpy.core._dtype',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype.py',
-   'PYMODULE'),
-  ('numpy.core._type_aliases',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
-   'PYMODULE'),
-  ('numpy.core._string_helpers',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
-   'PYMODULE'),
-  ('numpy.matrixlib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
-   'PYMODULE'),
-  ('numpy.matrixlib.defmatrix',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\mrecords.py',
    'PYMODULE'),
   ('numpy.ma',
    'c:\\users\\liliana '
@@ -1670,33 +1912,97 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\extras.py',
    'PYMODULE'),
-  ('numpy.lib.index_tricks',
+  ('numpy.ma.core',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\core.py',
    'PYMODULE'),
-  ('numpy.lib.function_base',
+  ('numpy.lib._iotools',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\polynomial.py',
    'PYMODULE'),
   ('numpy.lib.histograms',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\histograms.py',
    'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
   ('numpy.lib.twodim_base',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
    'PYMODULE'),
-  ('numpy.core.function_base',
+  ('numpy.lib.shape_base',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\shape_base.py',
    'PYMODULE'),
-  ('numpy.ma.core',
+  ('numpy.matrixlib.defmatrix',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\core.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
    'PYMODULE'),
-  ('numpy.core._internal',
+  ('numpy.matrixlib',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\__init__.py',
    'PYMODULE'),
   ('numpy.ctypeslib',
    'c:\\users\\liliana '
@@ -1758,161 +2064,87 @@
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
    'PYMODULE'),
-  ('numpy.linalg',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\__init__.py',
-   'PYMODULE'),
-  ('numpy.linalg.linalg',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\linalg.py',
-   'PYMODULE'),
-  ('numpy.lib',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\__init__.py',
-   'PYMODULE'),
-  ('numpy.lib._version',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_version.py',
-   'PYMODULE'),
-  ('numpy.lib.arraypad',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraypad.py',
-   'PYMODULE'),
-  ('numpy.lib.arrayterator',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
-   'PYMODULE'),
-  ('numpy.lib.npyio',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\npyio.py',
-   'PYMODULE'),
-  ('numpy.ma.mrecords',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\mrecords.py',
-   'PYMODULE'),
-  ('numpy.core.records',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\records.py',
-   'PYMODULE'),
-  ('numpy.lib._iotools',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_iotools.py',
-   'PYMODULE'),
-  ('numpy.lib._datasource',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_datasource.py',
-   'PYMODULE'),
-  ('numpy.lib.format',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\format.py',
-   'PYMODULE'),
-  ('numpy.lib.arraysetops',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
-   'PYMODULE'),
-  ('numpy.lib.utils',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\utils.py',
-   'PYMODULE'),
-  ('numpy.lib.polynomial',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\polynomial.py',
-   'PYMODULE'),
-  ('numpy.lib.ufunclike',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
-   'PYMODULE'),
-  ('numpy.lib.shape_base',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\shape_base.py',
-   'PYMODULE'),
-  ('numpy.lib.nanfunctions',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
-   'PYMODULE'),
-  ('numpy.lib.type_check',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\type_check.py',
-   'PYMODULE'),
-  ('numpy.core.getlimits',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\getlimits.py',
-   'PYMODULE'),
-  ('numpy.core.machar',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\machar.py',
-   'PYMODULE'),
-  ('numpy.lib.scimath',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\scimath.py',
-   'PYMODULE'),
-  ('numpy.lib.mixins',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\mixins.py',
-   'PYMODULE'),
-  ('numpy.compat',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\__init__.py',
-   'PYMODULE'),
-  ('numpy.compat.py3k',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\py3k.py',
-   'PYMODULE'),
-  ('numpy.core',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\__init__.py',
-   'PYMODULE'),
-  ('numpy.core._dtype_ctypes',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
-   'PYMODULE'),
-  ('numpy.core._add_newdocs_scalars',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
-   'PYMODULE'),
-  ('numpy.core._add_newdocs',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
-   'PYMODULE'),
-  ('numpy.core.einsumfunc',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
-   'PYMODULE'),
-  ('numpy.core.memmap',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\memmap.py',
-   'PYMODULE'),
-  ('numpy.core.defchararray',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\defchararray.py',
-   'PYMODULE'),
   ('numpy._distributor_init',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_distributor_init.py',
-   'PYMODULE'),
-  ('numpy.version',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\version.py',
    'PYMODULE'),
   ('numpy.__config__',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\__config__.py',
    'PYMODULE'),
-  ('numpy._globals',
+  ('joblib.pool',
    'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_globals.py',
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\pool.py',
+   'PYMODULE'),
+  ('joblib.my_exceptions',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\my_exceptions.py',
+   'PYMODULE'),
+  ('joblib.disk',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\disk.py',
+   'PYMODULE'),
+  ('joblib._multiprocessing_helpers',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_multiprocessing_helpers.py',
+   'PYMODULE'),
+  ('joblib._deprecated_my_exceptions',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_deprecated_my_exceptions.py',
+   'PYMODULE'),
+  ('joblib.compressor',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\compressor.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\numpy_pickle.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle_compat',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\numpy_pickle_compat.py',
+   'PYMODULE'),
+  ('joblib.numpy_pickle_utils',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\numpy_pickle_utils.py',
+   'PYMODULE'),
+  ('joblib.logger',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\logger.py',
+   'PYMODULE'),
+  ('joblib.memory',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\memory.py',
+   'PYMODULE'),
+  ('joblib._store_backends',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\_store_backends.py',
+   'PYMODULE'),
+  ('joblib.func_inspect',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\func_inspect.py',
+   'PYMODULE'),
+  ('joblib.hashing',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\joblib\\hashing.py',
+   'PYMODULE'),
+  ('classes',
+   'C:\\Users\\Liliana Ramalho\\PycharmProjects\\Rotas Brisa\\classes.py',
+   'PYMODULE'),
+  ('functions',
+   'C:\\Users\\Liliana Ramalho\\PycharmProjects\\Rotas Brisa\\functions.py',
    'PYMODULE'),
   ('pandas',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\__init__.py',
    'PYMODULE'),
-  ('pandas._libs.window',
-   'c:\\users\\liliana '
-   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
-   'PYMODULE'),
   ('pandas._libs.tslibs',
    'c:\\users\\liliana '
    'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\liliana '
+   'ramalho\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
    'PYMODULE'),
   ('pandas._version',
    'c:\\users\\liliana '

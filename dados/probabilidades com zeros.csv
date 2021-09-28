@@ -1,252 +1,1379 @@
 Sublanço,Hora,Probabilidade incidência,n_incidencias_ano
 Miraflores (A5/IC17) - Linda-a-Velha,2,0.024657534,10
+Vila Verde - A14/A17,2,0.002739726,1
+São João da Talha - Sta Iria da Azóia,3,0.02739726,10
+Vila Verde - A14/A17,3,0.005479452,2
+A14/A17 - Santa Eulália,5,0.002739726,1
+Feira - Espinho (IC24),7,0.093150685,36
+Mealhada - Aveiro Sul,7,0.126027397,51
+Sta Iria da Azóia - Alverca (A1/A9),7,0.101369863,39
+São João da Talha - Sta Iria da Azóia,7,0.060273973,23
+Estarreja - Feira,9,0.21369863,94
+Torres Novas (A1/A23) - Fátima,9,0.252054795,115
+Leiria - Pombal,11,0.18630137,80
+Arruda dos Vinhos - A1/A10,11,0.054794521,22
+Sta Iria da Azóia - Alverca (A1/A9),13,0.17260274,69
+Carregado - Aveiras de Cima,13,0.2,91
+Arruda dos Vinhos - A1/A10,13,0.035616438,15
+A1/A15 - Torres Novas (A1/A23),13,0.290410959,131
+Condeixa - Coimbra Sul,14,0.054794521,21
+Fátima - Leiria,14,0.117808219,48
+A1/A15 - Torres Novas (A1/A23),14,0.306849315,135
+Leiria - Pombal,15,0.194520548,99
+Torres Novas (A1/A23) - Fátima,15,0.21369863,97
+Vila Franca de Xira II - Vila Franca de Xira I,15,0.087671233,38
+Soure - Condeixa,15,0.060273973,24
+Mealhada - Aveiro Sul,15,0.24109589,103
 Miraflores (A5/IC17) - Linda-a-Velha,15,0.076712329,32
+Torres Novas (A1/A23) - Fátima,16,0.178082192,86
+Feiteira - Carvalhos,16,0.147945205,60
+Bucelas (Zambujal) - A9/A10,16,0.016438356,8
 Viaduto Duarte Pacheco - Cruz das Oliveiras,16,0.147945205,73
+Espinho (IC24) - Feiteira,16,0.109589041,45
+Pombal - Soure,16,0.145205479,59
+Condeixa - Coimbra Sul,16,0.054794521,26
+Mealhada - Aveiro Sul,17,0.15890411,64
+Soure - Condeixa,17,0.139726027,60
+Albergaria (A1/IP5) - Estarreja,17,0.153424658,67
+A14/A17 - Santa Eulália,17,0.109589041,42
 Carcavelos - Estoril,17,0.101369863,41
+Carregado - Aveiras de Cima,18,0.24109589,113
+Coimbra Norte (A1/A14) - Mealhada,18,0.180821918,77
+Vila Franca de Xira I - PLLN,18,0.087671233,36
+Sacavém - São João da Talha,18,0.178082192,84
+Bucelas (Zambujal) - A9/A10,18,0.098630137,40
+Torres Novas (A1/A23) - Fátima,18,0.216438356,101
+Aveiras de Cima - Cartaxo,18,0.224657534,100
+Estarreja - Feira,18,0.235616438,98
+Aveiras de Cima - Cartaxo,19,0.150684932,66
+A1/A15 - Torres Novas (A1/A23),19,0.320547945,150
+A14/A17 - Santa Eulália,19,0.068493151,27
+Torres Novas (A1/A23) - Fátima,19,0.232876712,114
+Feira - Espinho (IC24),20,0.147945205,65
+Aveiro Sul - Albergaria (A1/IP5),20,0.109589041,46
+Radial Pontinha - Radial Odivelas,20,0.054794521,22
+Sta Iria da Azóia - Alverca (A1/A9),20,0.095890411,42
+Sta Iria da Azóia - Alverca (A1/A9),21,0.123287671,48
+Leiria - Pombal,22,0.090410959,37
+Pombal - Soure,22,0.084931507,33
+Sta Iria da Azóia - Alverca (A1/A9),22,0.049315068,23
+Soure - Condeixa,22,0.054794521,21
+Queluz - Radial da Pontinha,22,0.052054795,20
+Albergaria (A1/IP5) - Estarreja,22,0.057534247,21
+A1/A10 - Carregado,23,0.010958904,4
+Alverca (A1/A9) - Vila Franca de Xira II,23,0.068493151,33
 Alcabideche (A5/A16) - Alvide,23,0.002739726,1
-Linda-a-Velha - Estádio Nacional,8,0.104109589,45
+Feira - Espinho (IC24),0,0.071232877,31
+Torres Novas (A1/A23) - Fátima,0,0.04109589,18
+Coimbra Norte (A1/A14) - Mealhada,3,0.035616438,13
+A9/A10 - Arruda dos Vinhos,4,0.008219178,4
+Mealhada - Aveiro Sul,5,0.043835616,19
+Torres Novas (A1/A23) - Fátima,7,0.101369863,40
+Aveiro Sul - Albergaria (A1/IP5),7,0.073972603,31
+Sacavém - São João da Talha,7,0.093150685,41
+Coimbra Norte (A1/A14) - Mealhada,7,0.084931507,35
+Linda-a-Velha - Estádio Nacional (A5/A9),8,0.104109589,45
+Sacavém - São João da Talha,8,0.169863014,74
+Leiria - Pombal,8,0.189041096,80
 Oeiras - Carcavelos,8,0.117808219,45
+Torres Novas (A1/A23) - Fátima,8,0.156164384,68
 Oeiras - Carcavelos,9,0.126027397,52
+Fátima - Leiria,9,0.120547945,50
+Carregado - Aveiras de Cima,9,0.139726027,61
+Vila Franca de Xira II - Vila Franca de Xira I,9,0.073972603,31
+Estádio Nacional (A5/A9) - Queluz,9,0.106849315,42
+Mealhada - Aveiro Sul,9,0.175342466,73
+Soure - Condeixa,9,0.101369863,40
+Espinho (IC24) - Feiteira,9,0.082191781,31
+Queluz - Radial da Pontinha,10,0.115068493,48
 Carcavelos - Estoril,10,0.139726027,62
+Mealhada - Aveiro Sul,10,0.263013699,123
+Leiria - Pombal,10,0.252054795,107
+Albergaria (A1/IP5) - Estarreja,10,0.252054795,108
 Estoril - Alcabideche (A5/A16),10,0.049315068,20
+Pombal - Soure,11,0.098630137,37
+Coimbra Norte (A1/A14) - Mealhada,11,0.131506849,59
 Viaduto Duarte Pacheco - Cruz das Oliveiras,11,0.112328767,52
-Linda-a-Velha - Estádio Nacional,14,0.079452055,33
+A1/A15 - Torres Novas (A1/A23),11,0.345205479,164
+Feira - Espinho (IC24),11,0.205479452,95
+A1/A15 - Torres Novas (A1/A23),12,0.205479452,87
+Estarreja - Feira,12,0.230136986,103
+Torres Novas (A1/A23) - Fátima,12,0.257534247,118
+Mealhada - Aveiro Sul,12,0.271232877,127
+Aveiro Sul - Albergaria (A1/IP5),13,0.082191781,34
+Leiria - Pombal,14,0.134246575,55
+Carvalhos - Jaca,14,0.065753425,27
+Mealhada - Aveiro Sul,14,0.18630137,84
+Vila Franca de Xira II - Vila Franca de Xira I,14,0.101369863,43
+Linda-a-Velha - Estádio Nacional (A5/A9),14,0.079452055,33
+Coimbra Norte (A1/A14) - Mealhada,14,0.109589041,41
 Oeiras - Carcavelos,15,0.175342466,72
+Arruda dos Vinhos - A1/A10,15,0.073972603,28
+Estarreja - Feira,15,0.306849315,135
+Albergaria (A1/IP5) - Estarreja,16,0.208219178,86
+Estarreja - Feira,16,0.312328767,146
+Fátima - Leiria,16,0.197260274,81
+Vila Franca de Xira I - PLLN,16,0.076712329,29
 Miraflores (A5/IC17) - Linda-a-Velha,16,0.095890411,43
 Alcabideche (A5/A16) - Alvide,16,0.008219178,3
+Alverca (A1/A9) - Vila Franca de Xira II,16,0.183561644,85
+A14/A17 - Santa Eulália,16,0.030136986,11
+A1/A15 - Torres Novas (A1/A23),17,0.326027397,144
+Fátima - Leiria,17,0.136986301,57
+Sacavém - São João da Talha,17,0.123287671,49
+Torres Novas (A1/A23) - Fátima,17,0.334246575,151
+Estarreja - Feira,17,0.284931507,137
+A9/A10 - Arruda dos Vinhos,17,0.04109589,17
 Oeiras - Carcavelos,18,0.189041096,90
 Viaduto Duarte Pacheco - Cruz das Oliveiras,18,0.18630137,93
+Albergaria (A1/IP5) - Estarreja,18,0.232876712,107
+Fátima - Leiria,18,0.18630137,77
+Alverca (A1/A9) - Vila Franca de Xira II,18,0.178082192,84
+Sta Iria da Azóia - Alverca (A1/A9),18,0.208219178,90
 Monsanto - Miraflores (A5/IC17),18,0.065753425,28
+Radial Odivelas - A8/A9,18,0.071232877,27
+Mealhada - Aveiro Sul,18,0.298630137,139
 Monsanto - Miraflores (A5/IC17),19,0.076712329,32
-Estádio Nacional - Oeiras,20,0.090410959,37
+Coimbra Norte (A1/A14) - Mealhada,19,0.101369863,39
+Ançã - Coimbra Norte (A1/A14),19,0.035616438,13
+Sta Iria da Azóia - Alverca (A1/A9),19,0.210958904,84
+Mealhada - Aveiro Sul,19,0.243835616,106
+Feira - Espinho (IC24),19,0.150684932,60
+Radial Odivelas - A8/A9,19,0.068493151,25
+Estádio Nacional (A5/A9) - Oeiras,20,0.090410959,37
+Estarreja - Feira,20,0.180821918,79
+Albergaria (A1/IP5) - Estarreja,20,0.082191781,34
+Feiteira - Carvalhos,21,0.054794521,21
+Cartaxo - Santarém,21,0.052054795,20
+Mealhada - Aveiro Sul,22,0.090410959,39
+Radial Pontinha - Radial Odivelas,23,0.035616438,16
+Espinho (IC24) - Feiteira,0,0.035616438,13
+Albergaria (A1/IP5) - Estarreja,0,0.076712329,30
+A1/A15 - Torres Novas (A1/A23),1,0.104109589,41
+Albergaria (A1/IP5) - Estarreja,1,0.043835616,16
+Vila Franca de Xira I - PLLN,4,0.019178082,7
+Alverca (A1/A9) - Vila Franca de Xira II,7,0.126027397,53
 Oeiras - Carcavelos,7,0.098630137,39
+Cartaxo - Santarém,7,0.076712329,31
+PLLN - A1/A10,7,0.01369863,5
+Queluz - Radial da Pontinha,8,0.139726027,59
+Bucelas (Zambujal) - A9/A10,8,0.032876712,14
+Soure - Condeixa,8,0.065753425,25
+Estarreja - Feira,8,0.183561644,73
+Mealhada - Aveiro Sul,8,0.246575342,113
+Vila Franca de Xira I - PLLN,8,0.073972603,27
+Carregado - Aveiras de Cima,8,0.169863014,69
+A1/A15 - Torres Novas (A1/A23),8,0.189041096,89
 Viaduto Duarte Pacheco - Cruz das Oliveiras,9,0.197260274,83
 Miraflores (A5/IC17) - Linda-a-Velha,9,0.093150685,41
-Linda-a-Velha - Estádio Nacional,9,0.208219178,97
-Linda-a-Velha - Estádio Nacional,10,0.189041096,79
-Linda-a-Velha - Estádio Nacional,12,0.090410959,41
+Albergaria (A1/IP5) - Estarreja,9,0.120547945,50
+Linda-a-Velha - Estádio Nacional (A5/A9),9,0.208219178,97
+Feira - Espinho (IC24),9,0.142465753,59
+A1/A15 - Torres Novas (A1/A23),9,0.271232877,119
+Aveiras de Cima - Cartaxo,10,0.189041096,72
+Carregado - Aveiras de Cima,10,0.205479452,89
+Linda-a-Velha - Estádio Nacional (A5/A9),10,0.189041096,79
+PLLN - A1/A10,11,0.049315068,19
+Vila Franca de Xira II - Vila Franca de Xira I,11,0.076712329,38
+Cartaxo - Santarém,12,0.106849315,45
+Linda-a-Velha - Estádio Nacional (A5/A9),12,0.090410959,41
+Vila Franca de Xira I - PLLN,12,0.087671233,35
 Oeiras - Carcavelos,12,0.147945205,59
-Estádio Nacional - Oeiras,14,0.128767123,55
+Cartaxo - Santarém,13,0.090410959,38
+Aveiras de Cima - Cartaxo,13,0.18630137,80
+Feiteira - Carvalhos,13,0.093150685,34
+Sacavém - São João da Talha,13,0.178082192,74
+Estádio Nacional (A5/A9) - Oeiras,14,0.128767123,55
+Feiteira - Carvalhos,14,0.082191781,33
+Soure - Condeixa,14,0.104109589,44
 Alvide - Cascais,14,0.01369863,5
-Estádio Nacional - Oeiras,16,0.117808219,52
-Linda-a-Velha - Estádio Nacional,17,0.224657534,100
+Estádio Nacional (A5/A9) - Oeiras,16,0.117808219,52
+Feira - Espinho (IC24),16,0.17260274,70
+São João da Talha - Sta Iria da Azóia,16,0.131506849,52
+Pombal - Soure,17,0.183561644,74
+Feira - Espinho (IC24),17,0.180821918,79
+Linda-a-Velha - Estádio Nacional (A5/A9),17,0.224657534,100
+Radial Pontinha - Radial Odivelas,17,0.161643836,64
+Queluz - Radial da Pontinha,18,0.106849315,43
 Miraflores (A5/IC17) - Linda-a-Velha,18,0.134246575,58
+Carregado - Aveiras de Cima,19,0.21369863,94
+Pombal - Soure,19,0.134246575,61
 Cruz das Oliveiras - Monsanto,19,0.2,88
+A1/A10 - Benavente,19,0.046575342,23
+Vila Franca de Xira I - PLLN,20,0.090410959,38
+Condeixa - Coimbra Sul,20,0.054794521,21
+Vila Franca de Xira II - Vila Franca de Xira I,20,0.071232877,27
+Vila Franca de Xira II - Vila Franca de Xira I,21,0.054794521,25
+Condeixa - Coimbra Sul,21,0.063013699,25
+Estarreja - Feira,21,0.093150685,43
+Vila Franca de Xira I - PLLN,21,0.049315068,18
 Cruz das Oliveiras - Monsanto,21,0.063013699,32
-Linda-a-Velha - Estádio Nacional,21,0.071232877,33
+A1/A15 - Torres Novas (A1/A23),21,0.197260274,84
+Linda-a-Velha - Estádio Nacional (A5/A9),21,0.071232877,33
+Aveiro Sul - Albergaria (A1/IP5),22,0.063013699,27
+Pombal - Soure,23,0.049315068,18
+Carvalhos - Jaca,23,0.016438356,6
+Vila Franca de Xira II - Vila Franca de Xira I,23,0.021917808,8
+Figueira da Foz - Vila Verde,23,0.005479452,2
+Coimbra Norte (A1/A14) - Mealhada,0,0.054794521,21
 Carcavelos - Estoril,0,0.04109589,16
+Estarreja - Feira,1,0.093150685,36
+Estarreja - Feira,2,0.032876712,12
+Torres Novas (A1/A23) - Fátima,5,0.019178082,7
+A1/A15 - Torres Novas (A1/A23),5,0.060273973,23
+Pombal - Soure,7,0.071232877,29
+Carregado - Aveiras de Cima,7,0.164383562,67
+São João da Talha - Sta Iria da Azóia,8,0.101369863,44
+Feira - Espinho (IC24),8,0.128767123,54
+Aveiro Sul - Albergaria (A1/IP5),9,0.24109589,107
+Jaca - Santo Ovídio,9,0.019178082,7
 Viaduto Duarte Pacheco - Cruz das Oliveiras,10,0.167123288,82
 Oeiras - Carcavelos,10,0.117808219,48
+Espinho (IC24) - Feiteira,10,0.101369863,40
+Carvalhos - Jaca,11,0.098630137,38
+Cartaxo - Santarém,11,0.065753425,27
+Torres Novas (A1/A23) - Fátima,11,0.249315068,110
+Montemor-o-Velho - EN335,11,0.035616438,13
+Aveiro Sul - Albergaria (A1/IP5),12,0.161643836,73
+Radial Odivelas - A8/A9,12,0.030136986,11
+Albergaria (A1/IP5) - Estarreja,12,0.104109589,51
 Alcabideche (A5/A16) - Alvide,14,0.008219178,3
 Cruz das Oliveiras - Monsanto,14,0.073972603,31
+Cartaxo - Santarém,14,0.093150685,36
 Alcabideche (A5/A16) - Alvide,15,0.010958904,4
-Linda-a-Velha - Estádio Nacional,15,0.123287671,54
+Linda-a-Velha - Estádio Nacional (A5/A9),15,0.123287671,54
+Alverca (A1/A9) - Vila Franca de Xira II,15,0.169863014,75
+Vila Franca de Xira II - Vila Franca de Xira I,16,0.087671233,37
+Aveiro Sul - Albergaria (A1/IP5),16,0.095890411,39
+A1/A15 - Torres Novas (A1/A23),16,0.35890411,179
 Estoril - Alcabideche (A5/A16),17,0.060273973,25
+Sta Iria da Azóia - Alverca (A1/A9),17,0.142465753,60
+Espinho (IC24) - Feiteira,17,0.084931507,31
 Viaduto Duarte Pacheco - Cruz das Oliveiras,17,0.21369863,109
+Alverca (A1/A9) - Vila Franca de Xira II,17,0.205479452,92
+A1/A15 - Torres Novas (A1/A23),18,0.312328767,139
+Leiria - Pombal,18,0.273972603,130
+Coimbra Sul - Coimbra Norte (A1/A14),18,0.052054795,19
 Alvide - Cascais,19,0.008219178,3
+Queluz - Radial da Pontinha,19,0.117808219,50
+Estádio Nacional (A5/A9) - Queluz,19,0.052054795,21
+Leiria - Pombal,19,0.219178082,99
+Carvalhos - Jaca,19,0.073972603,27
+Espinho (IC24) - Feiteira,19,0.093150685,40
 Oeiras - Carcavelos,19,0.153424658,61
+Arruda dos Vinhos - A1/A10,20,0.024657534,11
+Coimbra Sul - Coimbra Norte (A1/A14),20,0.060273973,24
+Leiria - Pombal,20,0.180821918,77
+Albergaria (A1/IP5) - Estarreja,21,0.106849315,45
+Aveiras de Cima - Cartaxo,22,0.060273973,23
+Jaca - Santo Ovídio,22,0.030136986,11
+Vila Verde - A14/A17,22,0.008219178,3
+A1/A15 - Torres Novas (A1/A23),22,0.145205479,60
 Estoril - Alcabideche (A5/A16),23,0.02739726,11
 Cruz das Oliveiras - Monsanto,23,0.035616438,14
-Linda-a-Velha - Estádio Nacional,5,0.016438356,7
+A1/A15 - Torres Novas (A1/A23),23,0.101369863,43
+Vila Franca de Xira I - PLLN,0,0.049315068,22
+Mealhada - Aveiro Sul,1,0.063013699,26
+Sta Iria da Azóia - Alverca (A1/A9),3,0.032876712,13
+Sacavém - São João da Talha,3,0.052054795,20
+Linda-a-Velha - Estádio Nacional (A5/A9),5,0.016438356,7
+A1/A15 - Torres Novas (A1/A23),6,0.068493151,29
+Torres Novas (A1/A23) - Fátima,6,0.076712329,32
+Estarreja - Feira,7,0.161643836,70
+Vila Franca de Xira II - Vila Franca de Xira I,8,0.049315068,20
+Feiteira - Carvalhos,8,0.095890411,39
+Alverca (A1/A9) - Vila Franca de Xira II,9,0.167123288,75
+Torres Novas (A1/A23) - Fátima,10,0.167123288,70
+Santarém - A1/A15,10,0.019178082,7
+Estarreja - Feira,10,0.164383562,74
+Pombal - Soure,10,0.057534247,25
+São João da Talha - Sta Iria da Azóia,11,0.098630137,37
+Fátima - Leiria,11,0.194520548,83
+Feiteira - Carvalhos,12,0.079452055,34
+Soure - Condeixa,13,0.123287671,54
+Fátima - Leiria,13,0.156164384,73
+São João da Talha - Sta Iria da Azóia,13,0.106849315,41
 Viaduto Duarte Pacheco - Cruz das Oliveiras,13,0.117808219,54
+Montemor-o-Velho - EN335,13,0.016438356,6
+Vila Franca de Xira II - Vila Franca de Xira I,13,0.060273973,25
 Monsanto - Miraflores (A5/IC17),14,0.035616438,14
+Albergaria (A1/IP5) - Estarreja,14,0.123287671,53
+Estarreja - Feira,14,0.208219178,94
+A14/A17 - Santa Eulália,15,0.04109589,16
 Estoril - Alcabideche (A5/A16),15,0.065753425,26
+A9/A10 - Alverca,15,0.035616438,14
 Monsanto - Miraflores (A5/IC17),15,0.054794521,21
 Monsanto - Miraflores (A5/IC17),16,0.046575342,18
+EN335 - Ançã,16,0.032876712,12
+Mealhada - Aveiro Sul,16,0.254794521,119
+Queluz - Radial da Pontinha,16,0.104109589,41
+Aveiro Sul - Albergaria (A1/IP5),17,0.257534247,118
 Cruz das Oliveiras - Monsanto,17,0.17260274,74
+A1/A10 - Benavente,18,0.024657534,13
 Carcavelos - Estoril,18,0.120547945,45
 Viaduto Duarte Pacheco - Cruz das Oliveiras,19,0.189041096,91
-Linda-a-Velha - Estádio Nacional,22,0.043835616,17
+Cartaxo - Santarém,19,0.073972603,31
+Mealhada - Aveiro Sul,20,0.197260274,93
+Cartaxo - Santarém,20,0.101369863,39
+Leiria - Pombal,21,0.101369863,38
+Coimbra Norte (A1/A14) - Mealhada,21,0.098630137,42
+Radial Pontinha - Radial Odivelas,21,0.04109589,16
+Linda-a-Velha - Estádio Nacional (A5/A9),22,0.043835616,17
+Estádio Nacional (A5/A9) - Queluz,23,0.008219178,3
 Viaduto Duarte Pacheco - Cruz das Oliveiras,0,0.073972603,35
-Estádio Nacional - Oeiras,3,0.019178082,8
-Estádio Nacional - Oeiras,11,0.112328767,45
+Estádio Nacional (A5/A9) - Oeiras,3,0.019178082,8
+Vila Franca de Xira II - Vila Franca de Xira I,7,0.049315068,23
+Espinho (IC24) - Feiteira,8,0.109589041,42
+Arruda dos Vinhos - A1/A10,9,0.019178082,7
+Estádio Nacional (A5/A9) - Oeiras,11,0.112328767,45
+EN335 - Ançã,12,0.024657534,9
+Montemor-o-Velho - EN335,12,0.038356164,16
+Alverca (A1/A9) - Vila Franca de Xira II,13,0.15890411,61
+A9/A10 - Arruda dos Vinhos,13,0.079452055,32
+Mealhada - Aveiro Sul,13,0.167123288,73
+A9/A10 - Alverca,14,0.030136986,11
+Carregado - Aveiras de Cima,15,0.268493151,123
+Cartaxo - Santarém,15,0.139726027,56
 Carcavelos - Estoril,15,0.134246575,59
+Sta Iria da Azóia - Alverca (A1/A9),15,0.134246575,57
+Coimbra Norte (A1/A14) - Mealhada,15,0.136986301,54
+Arruda dos Vinhos - A1/A10,16,0.02739726,10
+PLLN - A1/A10,17,0.049315068,18
 Miraflores (A5/IC17) - Linda-a-Velha,17,0.117808219,54
+Benavente - A10/A13,17,0.032876712,13
+Figueira da Foz - Vila Verde,17,0.060273973,22
+Cartaxo - Santarém,18,0.142465753,55
+Santarém - A1/A15,18,0.035616438,13
 Cruz das Oliveiras - Monsanto,18,0.161643836,69
+Vila Franca de Xira II - Vila Franca de Xira I,18,0.087671233,33
+Estarreja - Feira,19,0.249315068,108
+Fátima - Leiria,22,0.052054795,20
+Coimbra Norte (A1/A14) - Mealhada,22,0.043835616,19
+Torres Novas (A1/A23) - Fátima,22,0.101369863,45
+A9/A10 - Arruda dos Vinhos,23,0.021917808,8
+Torres Novas (A1/A23) - Fátima,23,0.063013699,25
+Estarreja - Feira,23,0.101369863,43
+A1/A15 - Torres Novas (A1/A23),0,0.095890411,39
 Oeiras - Carcavelos,1,0.024657534,9
-Linda-a-Velha - Estádio Nacional,7,0.063013699,27
-Estádio Nacional - Oeiras,9,0.260273973,114
-Estádio Nacional - Oeiras,10,0.115068493,44
+Coimbra Sul - Coimbra Norte (A1/A14),1,0.030136986,11
+Carregado - Aveiras de Cima,4,0.04109589,15
+A9/A10 - Arruda dos Vinhos,5,0.002739726,1
+Sacavém - São João da Talha,5,0.02739726,11
+Feiteira - Carvalhos,6,0.021917808,8
+Linda-a-Velha - Estádio Nacional (A5/A9),7,0.063013699,27
+Montemor-o-Velho - EN335,8,0.02739726,11
+Estádio Nacional (A5/A9) - Queluz,8,0.095890411,48
+Sta Iria da Azóia - Alverca (A1/A9),8,0.175342466,82
+Fátima - Leiria,8,0.147945205,59
+Coimbra Norte (A1/A14) - Mealhada,9,0.098630137,41
+Figueira da Foz - Vila Verde,9,0.04109589,15
+Queluz - Radial da Pontinha,9,0.106849315,50
+Radial Pontinha - Radial Odivelas,9,0.161643836,69
+Estádio Nacional (A5/A9) - Oeiras,9,0.260273973,114
+Sacavém - São João da Talha,9,0.150684932,68
+Alverca (A1/A9) - Vila Franca de Xira II,10,0.153424658,68
+Estádio Nacional (A5/A9) - Oeiras,10,0.115068493,44
+Coimbra Sul - Coimbra Norte (A1/A14),10,0.049315068,18
+Vila Franca de Xira II - Vila Franca de Xira I,10,0.082191781,38
+Fátima - Leiria,10,0.191780822,91
+Sta Iria da Azóia - Alverca (A1/A9),10,0.161643836,65
 Oeiras - Carcavelos,11,0.126027397,49
-Linda-a-Velha - Estádio Nacional,11,0.153424658,60
+Bucelas (Zambujal) - A9/A10,11,0.035616438,14
+Linda-a-Velha - Estádio Nacional (A5/A9),11,0.153424658,60
+Coimbra Sul - Coimbra Norte (A1/A14),12,0.060273973,23
+Pombal - Soure,12,0.142465753,62
+Feira - Espinho (IC24),12,0.126027397,49
+Condeixa - Coimbra Sul,13,0.093150685,35
+Radial Odivelas - A8/A9,14,0.065753425,24
+Sta Iria da Azóia - Alverca (A1/A9),14,0.106849315,48
+Leiria - Pombal,16,0.320547945,142
+Sta Iria da Azóia - Alverca (A1/A9),16,0.194520548,89
+Jaca - Santo Ovídio,17,0.030136986,12
+A8/A9 - Bucelas (Zambujal),17,0.04109589,16
+Soure - Condeixa,18,0.145205479,60
+São João da Talha - Sta Iria da Azóia,18,0.098630137,43
+Vila Franca de Xira II - Vila Franca de Xira I,19,0.087671233,39
+EN335 - Ançã,19,0.057534247,23
+Coimbra Sul - Coimbra Norte (A1/A14),19,0.098630137,42
 Miraflores (A5/IC17) - Linda-a-Velha,19,0.115068493,46
-Estádio Nacional - Oeiras,0,0.052054795,20
-Estádio Nacional - Oeiras,4,0.02739726,12
+Feira - Espinho (IC24),21,0.109589041,43
+A1/A10 - Carregado,21,0.01369863,5
+Espinho (IC24) - Feiteira,21,0.057534247,23
+Coimbra Sul - Coimbra Norte (A1/A14),22,0.038356164,15
+Estádio Nacional (A5/A9) - Oeiras,0,0.052054795,20
+Feira - Espinho (IC24),1,0.054794521,23
+Alverca (A1/A9) - Vila Franca de Xira II,2,0.035616438,16
+Estádio Nacional (A5/A9) - Oeiras,4,0.02739726,12
+Carregado - Aveiras de Cima,6,0.082191781,36
 Monsanto - Miraflores (A5/IC17),7,0.043835616,18
 Monsanto - Miraflores (A5/IC17),8,0.04109589,17
 Alvide - Cascais,9,0.02739726,10
-Estádio Nacional - Oeiras,12,0.084931507,36
+Ançã - Coimbra Norte (A1/A14),9,0.024657534,11
+A1/A15 - Torres Novas (A1/A23),10,0.284931507,125
+Vila Franca de Xira I - PLLN,10,0.098630137,39
+Carregado - Aveiras de Cima,11,0.265753425,124
+Vila Franca de Xira I - PLLN,11,0.087671233,36
+A1/A10 - Carregado,11,0.016438356,6
+Mealhada - Aveiro Sul,11,0.238356164,102
+Radial Pontinha - Radial Odivelas,11,0.131506849,54
+A8/A9 - Bucelas (Zambujal),11,0.032876712,13
+Coimbra Sul - Coimbra Norte (A1/A14),11,0.106849315,47
+Estádio Nacional (A5/A9) - Oeiras,12,0.084931507,36
+Estádio Nacional (A5/A9) - Queluz,12,0.019178082,8
+Leiria - Pombal,12,0.22739726,91
+Espinho (IC24) - Feiteira,13,0.084931507,34
+Bucelas (Zambujal) - A9/A10,13,0.079452055,31
+Jaca - Santo Ovídio,14,0.046575342,17
+Coimbra Sul - Coimbra Norte (A1/A14),14,0.090410959,36
+Pombal - Soure,15,0.145205479,58
+Fátima - Leiria,15,0.180821918,82
+Feira - Espinho (IC24),15,0.17260274,72
 Oeiras - Carcavelos,16,0.169863014,75
-Estádio Nacional - Oeiras,19,0.126027397,51
-Estádio Nacional - Oeiras,8,0.164383562,76
+São João da Talha - Sta Iria da Azóia,17,0.076712329,29
+Espinho (IC24) - Feiteira,18,0.112328767,45
+Estádio Nacional (A5/A9) - Oeiras,19,0.126027397,51
+Torres Novas (A1/A23) - Fátima,20,0.153424658,70
+EN335 - Ançã,20,0.038356164,15
+Bucelas (Zambujal) - A9/A10,20,0.02739726,10
+Fátima - Leiria,21,0.071232877,26
+Mealhada - Aveiro Sul,23,0.065753425,25
+Leiria - Pombal,0,0.093150685,35
+Espinho (IC24) - Feiteira,3,0.035616438,14
+A1/A15 - Torres Novas (A1/A23),3,0.024657534,9
+Estarreja - Feira,3,0.046575342,19
+Torres Novas (A1/A23) - Fátima,3,0.030136986,11
+Aveiras de Cima - Cartaxo,4,0.010958904,4
+Pombal - Soure,5,0.016438356,6
+A8/A9 - Bucelas (Zambujal),7,0.021917808,9
+Albergaria (A1/IP5) - Estarreja,7,0.065753425,26
+Vila Franca de Xira I - PLLN,7,0.071232877,29
+Bucelas (Zambujal) - A9/A10,7,0.032876712,13
+Albergaria (A1/IP5) - Estarreja,8,0.17260274,77
+Alverca (A1/A9) - Vila Franca de Xira II,8,0.087671233,34
+Estádio Nacional (A5/A9) - Oeiras,8,0.164383562,76
 Cruz das Oliveiras - Monsanto,10,0.126027397,52
-Linda-a-Velha - Estádio Nacional,13,0.093150685,41
+A1/A10 - Carregado,10,0.021917808,8
+Cartaxo - Santarém,10,0.079452055,31
+Santarém - A1/A15,11,0.021917808,8
+Aveiras de Cima - Cartaxo,11,0.131506849,54
+Linda-a-Velha - Estádio Nacional (A5/A9),13,0.093150685,41
+Coimbra Norte (A1/A14) - Mealhada,13,0.161643836,66
 Viaduto Duarte Pacheco - Cruz das Oliveiras,14,0.134246575,61
+Radial Pontinha - Radial Odivelas,14,0.123287671,47
+A1/A15 - Torres Novas (A1/A23),15,0.301369863,141
+Aveiro Sul - Albergaria (A1/IP5),15,0.109589041,44
+Cartaxo - Santarém,16,0.087671233,40
 Cruz das Oliveiras - Monsanto,16,0.145205479,67
-Estádio Nacional - Oeiras,18,0.093150685,37
+Radial Pontinha - Radial Odivelas,16,0.153424658,59
+Aveiras de Cima - Cartaxo,17,0.063013699,30
+Estádio Nacional (A5/A9) - Oeiras,18,0.093150685,37
+Vila Franca de Xira I - PLLN,19,0.079452055,34
 Estoril - Alcabideche (A5/A16),19,0.024657534,11
 Oeiras - Carcavelos,20,0.115068493,46
 Estoril - Alcabideche (A5/A16),20,0.04109589,16
-Estádio Nacional - Oeiras,21,0.054794521,23
-Estádio Nacional - Oeiras,22,0.082191781,33
-Estádio Nacional - Oeiras,7,0.098630137,39
+Arruda dos Vinhos - A1/A10,21,0.01369863,6
+Aveiras de Cima - Cartaxo,21,0.095890411,40
+Estádio Nacional (A5/A9) - Oeiras,21,0.054794521,23
+Estádio Nacional (A5/A9) - Oeiras,22,0.082191781,33
+Aveiro Sul - Albergaria (A1/IP5),2,0.016438356,7
+Alverca (A1/A9) - Vila Franca de Xira II,5,0.016438356,6
+Feiteira - Carvalhos,7,0.071232877,28
+Estádio Nacional (A5/A9) - Oeiras,7,0.098630137,39
+Radial Odivelas - A8/A9,8,0.057534247,21
 Carcavelos - Estoril,8,0.079452055,32
+Carvalhos - Jaca,8,0.093150685,37
+A1/A10 - Benavente,9,0.065753425,27
+Leiria - Pombal,9,0.120547945,53
 Miraflores (A5/IC17) - Linda-a-Velha,10,0.084931507,42
+Alverca (A1/A9) - Vila Franca de Xira II,11,0.150684932,68
+PLLN - A1/A10,12,0.038356164,14
+Feira - Espinho (IC24),13,0.126027397,52
 Carcavelos - Estoril,13,0.17260274,76
 Carcavelos - Estoril,14,0.060273973,22
+Vila Franca de Xira I - PLLN,15,0.093150685,37
+Sacavém - São João da Talha,15,0.090410959,38
 Monsanto - Miraflores (A5/IC17),17,0.063013699,30
-Linda-a-Velha - Estádio Nacional,23,0.057534247,23
-Linda-a-Velha - Estádio Nacional,0,0.046575342,18
-Linda-a-Velha - Estádio Nacional,1,0.02739726,11
-Linda-a-Velha - Estádio Nacional,2,0.035616438,13
+Condeixa - Coimbra Sul,18,0.098630137,39
+Feiteira - Carvalhos,19,0.169863014,68
+Fátima - Leiria,20,0.145205479,67
+Vila Verde - A14/A17,20,0.010958904,4
+Carregado - Aveiras de Cima,23,0.128767123,49
+Linda-a-Velha - Estádio Nacional (A5/A9),23,0.057534247,23
+Linda-a-Velha - Estádio Nacional (A5/A9),0,0.046575342,18
+Queluz - Radial da Pontinha,0,0.046575342,17
+Linda-a-Velha - Estádio Nacional (A5/A9),1,0.02739726,11
+Cartaxo - Santarém,2,0.021917808,9
+Espinho (IC24) - Feiteira,2,0.016438356,6
+Linda-a-Velha - Estádio Nacional (A5/A9),2,0.035616438,13
 Cruz das Oliveiras - Monsanto,7,0.073972603,34
 Alvide - Cascais,8,0.010958904,5
+Vila Franca de Xira I - PLLN,9,0.090410959,40
+Cartaxo - Santarém,9,0.112328767,43
+Sacavém - São João da Talha,10,0.117808219,48
+Ançã - Coimbra Norte (A1/A14),10,0.024657534,9
+Figueira da Foz - Vila Verde,11,0.019178082,7
+Sta Iria da Azóia - Alverca (A1/A9),11,0.134246575,57
 Viaduto Duarte Pacheco - Cruz das Oliveiras,12,0.093150685,39
-Linda-a-Velha - Estádio Nacional,19,0.164383562,70
+Leiria - Pombal,13,0.153424658,61
+Carregado - Aveiras de Cima,14,0.21369863,88
+Vila Franca de Xira I - PLLN,14,0.106849315,44
+Montemor-o-Velho - EN335,14,0.032876712,12
+Feiteira - Carvalhos,15,0.084931507,33
+Bucelas (Zambujal) - A9/A10,15,0.090410959,34
+Sacavém - São João da Talha,16,0.221917808,100
+Radial Odivelas - A8/A9,16,0.063013699,25
+Cartaxo - Santarém,17,0.142465753,61
+A9/A10 - Arruda dos Vinhos,18,0.079452055,30
+A8/A9 - Bucelas (Zambujal),18,0.054794521,21
+Arruda dos Vinhos - A1/A10,18,0.052054795,20
+Estádio Nacional (A5/A9) - Queluz,18,0.049315068,21
+A9/A10 - Arruda dos Vinhos,19,0.02739726,10
+Linda-a-Velha - Estádio Nacional (A5/A9),19,0.164383562,70
+Soure - Condeixa,19,0.095890411,36
+Carregado - Aveiras de Cima,20,0.183561644,78
+Soure - Condeixa,20,0.049315068,23
+Aveiras de Cima - Cartaxo,20,0.068493151,28
 Miraflores (A5/IC17) - Linda-a-Velha,21,0.049315068,20
+Mealhada - Aveiro Sul,21,0.128767123,53
+Aveiro Sul - Albergaria (A1/IP5),4,0.02739726,12
+Carvalhos - Jaca,4,0.016438356,6
+Mealhada - Aveiro Sul,6,0.038356164,15
+Leiria - Pombal,7,0.147945205,61
+Coimbra Norte (A1/A14) - Mealhada,8,0.131506849,49
 Estoril - Alcabideche (A5/A16),8,0.032876712,13
 Viaduto Duarte Pacheco - Cruz das Oliveiras,8,0.079452055,36
+Jaca - Santo Ovídio,10,0.04109589,16
 Estoril - Alcabideche (A5/A16),11,0.043835616,17
 Carcavelos - Estoril,12,0.065753425,27
+Carregado - Aveiras de Cima,12,0.205479452,86
 Cruz das Oliveiras - Monsanto,12,0.057534247,24
-Estádio Nacional - Oeiras,23,0.060273973,23
+EN335 - Ançã,13,0.019178082,7
+Feira - Espinho (IC24),14,0.197260274,83
+Feiteira - Carvalhos,18,0.134246575,56
+Coimbra Norte (A1/A14) - Mealhada,20,0.079452055,32
+Estádio Nacional (A5/A9) - Oeiras,23,0.060273973,23
+Fátima - Leiria,0,0.057534247,22
+Torres Novas (A1/A23) - Fátima,1,0.093150685,39
 Miraflores (A5/IC17) - Linda-a-Velha,1,0.010958904,5
+Espinho (IC24) - Feiteira,1,0.030136986,12
+Jaca - Santo Ovídio,2,0.01369863,5
+Alverca (A1/A9) - Vila Franca de Xira II,6,0.02739726,13
 Miraflores (A5/IC17) - Linda-a-Velha,6,0.02739726,14
+Coimbra Norte (A1/A14) - Mealhada,6,0.019178082,8
+Montemor-o-Velho - EN335,9,0.063013699,24
+Estarreja - Feira,11,0.271232877,115
+Soure - Condeixa,12,0.060273973,23
 Estoril - Alcabideche (A5/A16),14,0.032876712,16
-Linda-a-Velha - Estádio Nacional,20,0.098630137,45
+Alverca (A1/A9) - Vila Franca de Xira II,14,0.150684932,65
+Torres Novas (A1/A23) - Fátima,14,0.219178082,100
+Soure - Condeixa,16,0.087671233,38
+Carvalhos - Jaca,16,0.106849315,46
+Espinho (IC24) - Feiteira,20,0.054794521,22
+Feiteira - Carvalhos,20,0.071232877,27
+Linda-a-Velha - Estádio Nacional (A5/A9),20,0.098630137,45
+Alverca (A1/A9) - Vila Franca de Xira II,21,0.084931507,33
+Torres Novas (A1/A23) - Fátima,21,0.123287671,54
+Espinho (IC24) - Feiteira,22,0.046575342,22
+Estarreja - Feira,0,0.079452055,32
+Coimbra Norte (A1/A14) - Mealhada,1,0.010958904,4
+Carvalhos - Jaca,1,0.019178082,7
+Feiteira - Carvalhos,1,0.035616438,13
+Pombal - Soure,8,0.095890411,37
+Feiteira - Carvalhos,9,0.063013699,24
+Coimbra Sul - Coimbra Norte (A1/A14),9,0.109589041,46
+A14/A17 - Santa Eulália,9,0.076712329,29
+Benavente - A10/A13,10,0.016438356,6
+Radial Odivelas - A8/A9,11,0.049315068,19
 Carcavelos - Estoril,11,0.073972603,30
+Queluz - Radial da Pontinha,11,0.112328767,44
+Aveiras de Cima - Cartaxo,15,0.112328767,48
+A1/A10 - Benavente,16,0.079452055,34
+Santarém - A1/A15,16,0.035616438,13
 Alcabideche (A5/A16) - Alvide,17,0.01369863,6
+Feiteira - Carvalhos,17,0.101369863,42
+Radial Pontinha - Radial Odivelas,18,0.106849315,44
+Condeixa - Coimbra Sul,19,0.090410959,35
 Cruz das Oliveiras - Monsanto,20,0.104109589,49
 Viaduto Duarte Pacheco - Cruz das Oliveiras,20,0.123287671,56
+São João da Talha - Sta Iria da Azóia,21,0.063013699,24
+Sta Iria da Azóia - Alverca (A1/A9),23,0.060273973,24
 Oeiras - Carcavelos,23,0.052054795,22
-Estádio Nacional - Oeiras,13,0.104109589,41
+São João da Talha - Sta Iria da Azóia,0,0.068493151,26
+São João da Talha - Sta Iria da Azóia,1,0.01369863,5
+São João da Talha - Sta Iria da Azóia,2,0.016438356,6
+PLLN - A1/A10,2,0.005479452,2
+Vila Franca de Xira I - PLLN,3,0.016438356,7
+Espinho (IC24) - Feiteira,4,0.024657534,9
+A9/A10 - Arruda dos Vinhos,8,0.04109589,17
+A9/A10 - Arruda dos Vinhos,9,0.035616438,14
+PLLN - A1/A10,10,0.016438356,6
+Sacavém - São João da Talha,11,0.153424658,68
+Feiteira - Carvalhos,11,0.112328767,47
+Sta Iria da Azóia - Alverca (A1/A9),12,0.106849315,41
+Torres Novas (A1/A23) - Fátima,13,0.131506849,55
+Carvalhos - Jaca,13,0.060273973,25
+Coimbra Sul - Coimbra Norte (A1/A14),13,0.068493151,30
+Estádio Nacional (A5/A9) - Oeiras,13,0.104109589,41
+Albergaria (A1/IP5) - Estarreja,13,0.126027397,52
+Aveiro Sul - Albergaria (A1/IP5),14,0.175342466,75
+Estádio Nacional (A5/A9) - Queluz,16,0.046575342,17
+Coimbra Norte (A1/A14) - Mealhada,17,0.090410959,43
+A9/A10 - Alverca,17,0.01369863,5
+Aveiro Sul - Albergaria (A1/IP5),18,0.120547945,52
+Bucelas (Zambujal) - A9/A10,21,0.049315068,19
+Santarém - A1/A15,21,0.016438356,6
+São João da Talha - Sta Iria da Azóia,22,0.052054795,21
 Carcavelos - Estoril,23,0.063013699,23
+Sta Iria da Azóia - Alverca (A1/A9),0,0.098630137,41
 Cruz das Oliveiras - Monsanto,8,0.068493151,29
+Radial Pontinha - Radial Odivelas,8,0.164383562,77
 Cruz das Oliveiras - Monsanto,9,0.153424658,65
+Feira - Espinho (IC24),10,0.117808219,47
+Albergaria (A1/IP5) - Estarreja,11,0.115068493,54
+A9/A10 - Alverca,11,0.01369863,5
 Estoril - Alcabideche (A5/A16),13,0.057534247,21
+Estarreja - Feira,13,0.123287671,58
+Espinho (IC24) - Feiteira,14,0.095890411,36
 Cruz das Oliveiras - Monsanto,15,0.087671233,36
+São João da Talha - Sta Iria da Azóia,15,0.052054795,21
 Carcavelos - Estoril,16,0.101369863,42
+Coimbra Sul - Coimbra Norte (A1/A14),16,0.043835616,17
+A14/A17 - Santa Eulália,18,0.04109589,15
+São João da Talha - Sta Iria da Azóia,19,0.123287671,51
+Radial Pontinha - Radial Odivelas,19,0.169863014,76
+Carvalhos - Jaca,20,0.04109589,19
+Santarém - A1/A15,23,0.010958904,4
 Monsanto - Miraflores (A5/IC17),0,0.024657534,9
+Alverca (A1/A9) - Vila Franca de Xira II,1,0.04109589,16
+Sta Iria da Azóia - Alverca (A1/A9),2,0.019178082,9
 Viaduto Duarte Pacheco - Cruz das Oliveiras,2,0.049315068,20
 Cruz das Oliveiras - Monsanto,2,0.038356164,18
 Oeiras - Carcavelos,4,0.016438356,6
+Sta Iria da Azóia - Alverca (A1/A9),6,0.030136986,13
+Aveiro Sul - Albergaria (A1/IP5),8,0.063013699,27
+A1/A10 - Carregado,9,0.016438356,6
+Soure - Condeixa,10,0.145205479,58
 Alvide - Cascais,10,0.035616438,14
+Espinho (IC24) - Feiteira,12,0.068493151,26
 Monsanto - Miraflores (A5/IC17),13,0.035616438,17
+Queluz - Radial da Pontinha,14,0.073972603,29
+A8/A9 - Bucelas (Zambujal),16,0.032876712,12
+Arruda dos Vinhos - A1/A10,19,0.049315068,19
+Fátima - Leiria,19,0.128767123,50
+Aveiras de Cima - Cartaxo,6,0.038356164,14
+Feira - Espinho (IC24),6,0.054794521,20
+Pombal - Soure,6,0.035616438,15
+Carvalhos - Jaca,6,0.021917808,8
+Estarreja - Feira,6,0.084931507,33
+A1/A15 - Torres Novas (A1/A23),7,0.167123288,71
+Carvalhos - Jaca,7,0.035616438,13
+Aveiras de Cima - Cartaxo,8,0.145205479,62
+Coimbra Norte (A1/A14) - Zombaria,9,0.021917808,8
+Sta Iria da Azóia - Alverca (A1/A9),9,0.115068493,54
+Carvalhos - Jaca,9,0.046575342,18
+Soure - Condeixa,11,0.090410959,40
+Aveiro Sul - Albergaria (A1/IP5),11,0.17260274,71
+Fátima - Leiria,12,0.15890411,65
+Coimbra Norte (A1/A14) - Mealhada,12,0.101369863,37
+Queluz - Radial da Pontinha,15,0.04109589,20
+A9/A10 - Arruda dos Vinhos,15,0.093150685,38
+Carregado - Aveiras de Cima,16,0.243835616,109
+Coimbra Norte (A1/A14) - Zombaria,18,0.016438356,6
+Figueira da Foz - Vila Verde,20,0.019178082,7
+A14/A17 - Santa Eulália,20,0.035616438,13
+Pombal - Soure,21,0.068493151,28
+Sacavém - São João da Talha,21,0.117808219,46
+Soure - Condeixa,21,0.073972603,28
+Carvalhos - Jaca,22,0.063013699,23
 Viaduto Duarte Pacheco - Cruz das Oliveiras,23,0.068493151,29
+Vila Franca de Xira I - PLLN,23,0.024657534,10
 Miraflores (A5/IC17) - Linda-a-Velha,0,0.04109589,17
+Feira - Espinho (IC24),5,0.038356164,14
+Santarém - A1/A15,9,0.035616438,13
 Alcabideche (A5/A16) - Alvide,9,0.008219178,3
 Miraflores (A5/IC17) - Linda-a-Velha,11,0.082191781,42
 Monsanto - Miraflores (A5/IC17),11,0.046575342,23
 Alcabideche (A5/A16) - Alvide,11,0.010958904,4
+Sacavém - São João da Talha,12,0.054794521,24
 Oeiras - Carcavelos,13,0.126027397,52
 Cruz das Oliveiras - Monsanto,13,0.082191781,42
+Pombal - Soure,14,0.136986301,61
 Oeiras - Carcavelos,14,0.139726027,56
+Albergaria (A1/IP5) - Estarreja,15,0.115068493,50
+A1/A10 - Carregado,16,0.021917808,9
+Condeixa - Coimbra Sul,17,0.142465753,58
+Sacavém - São João da Talha,19,0.156164384,79
+Aveiro Sul - Albergaria (A1/IP5),19,0.18630137,71
+Sacavém - São João da Talha,20,0.063013699,28
+Santarém - A1/A15,20,0.019178082,7
 Alvide - Cascais,21,0.010958904,4
 Miraflores (A5/IC17) - Linda-a-Velha,22,0.065753425,29
+Estarreja - Feira,22,0.126027397,53
+Aveiro Sul - Albergaria (A1/IP5),0,0.04109589,15
+Sacavém - São João da Talha,1,0.01369863,5
+Cartaxo - Santarém,1,0.030136986,11
+Sta Iria da Azóia - Alverca (A1/A9),4,0.008219178,3
+A1/A15 - Torres Novas (A1/A23),4,0.054794521,22
+Sacavém - São João da Talha,4,0.005479452,3
+A8/A9 - Bucelas (Zambujal),10,0.052054795,19
 Cruz das Oliveiras - Monsanto,11,0.098630137,45
-Estádio Nacional - Oeiras,17,0.104109589,45
+Santa Eulália - Montemor-o-Velho,11,0.02739726,11
+A1/A10 - Carregado,12,0.021917808,8
+Sacavém - São João da Talha,14,0.079452055,35
+Aveiras de Cima - Cartaxo,14,0.123287671,48
+Jaca - Santo Ovídio,16,0.035616438,14
+Aveiras de Cima - Cartaxo,16,0.150684932,65
+Estádio Nacional (A5/A9) - Oeiras,17,0.104109589,45
+Alverca (A1/A9) - Vila Franca de Xira II,19,0.147945205,66
+Condeixa - Coimbra Sul,22,0.035616438,14
+Ançã - Coimbra Norte (A1/A14),1,0.008219178,3
+Carregado - Aveiras de Cima,3,0.030136986,13
+Coimbra Norte (A1/A14) - Mealhada,5,0.02739726,10
+Aveiro Sul - Albergaria (A1/IP5),6,0.063013699,33
+Radial Odivelas - A8/A9,6,0.008219178,3
+Espinho (IC24) - Feiteira,7,0.063013699,27
 Estoril - Alcabideche (A5/A16),7,0.032876712,13
+Radial Pontinha - Radial Odivelas,10,0.120547945,55
+Feiteira - Carvalhos,10,0.106849315,43
+Estádio Nacional (A5/A9) - Queluz,11,0.038356164,14
+Coimbra Norte (A1/A14) - Zombaria,11,0.016438356,8
+Alverca (A1/A9) - Vila Franca de Xira II,12,0.101369863,47
+A1/A10 - Benavente,13,0.054794521,21
 Alcabideche (A5/A16) - Alvide,18,0.021917808,10
+Aveiro Sul - Albergaria (A1/IP5),21,0.063013699,27
+EN335 - Ançã,22,0.008219178,3
+Figueira da Foz - Vila Verde,1,0.010958904,4
+Aveiras de Cima - Cartaxo,5,0.024657534,9
+Arruda dos Vinhos - A1/A10,8,0.049315068,19
+Cartaxo - Santarém,8,0.046575342,18
+A1/A10 - Benavente,8,0.073972603,28
 Estoril - Alcabideche (A5/A16),9,0.035616438,14
 Carcavelos - Estoril,9,0.057534247,22
+Coimbra Norte (A1/A14) - Zombaria,14,0.021917808,8
+A1/A10 - Benavente,14,0.032876712,13
+Coimbra Norte (A1/A14) - Mealhada,16,0.15890411,70
+Coimbra Norte (A1/A14) - Zombaria,16,0.019178082,7
 Oeiras - Carcavelos,17,0.115068493,50
+A9/A10 - Arruda dos Vinhos,21,0.046575342,18
+A1/A10 - Benavente,22,0.008219178,4
+Feiteira - Carvalhos,23,0.032876712,14
+Feira - Espinho (IC24),23,0.076712329,30
+A1/A10 - Benavente,23,0.005479452,2
+A1/A10 - Benavente,0,0.019178082,8
+Albergaria (A1/IP5) - Estarreja,3,0.01369863,6
+Soure - Condeixa,5,0.016438356,6
+Vila Franca de Xira I - PLLN,6,0.032876712,13
+Aveiro Sul - Albergaria (A1/IP5),10,0.060273973,25
+Arruda dos Vinhos - A1/A10,10,0.073972603,30
+Estádio Nacional (A5/A9) - Queluz,13,0.035616438,16
+Benavente - A10/A13,14,0.01369863,5
+A1/A10 - Benavente,17,0.065753425,27
+Queluz - Radial da Pontinha,17,0.071232877,28
+Pombal - Soure,18,0.115068493,47
+Benavente - A10/A13,21,0.016438356,6
+Santarém - A1/A15,22,0.01369863,5
+Santa Eulália - Montemor-o-Velho,6,0.005479452,2
+Radial Odivelas - A8/A9,9,0.065753425,24
+Pombal - Soure,9,0.147945205,60
 Monsanto - Miraflores (A5/IC17),9,0.071232877,28
+Aveiras de Cima - Cartaxo,9,0.049315068,21
+Condeixa - Coimbra Sul,10,0.073972603,29
+Coimbra Norte (A1/A14) - Mealhada,10,0.150684932,61
 Monsanto - Miraflores (A5/IC17),10,0.046575342,18
+Queluz - Radial da Pontinha,12,0.038356164,15
 Miraflores (A5/IC17) - Linda-a-Velha,14,0.106849315,47
-Estádio Nacional - Oeiras,15,0.109589041,44
+Figueira da Foz - Vila Verde,14,0.04109589,16
+Estádio Nacional (A5/A9) - Oeiras,15,0.109589041,44
+Carvalhos - Jaca,17,0.060273973,27
+Carvalhos - Jaca,18,0.104109589,42
 Carcavelos - Estoril,19,0.071232877,29
+Carregado - Aveiras de Cima,21,0.101369863,39
 Oeiras - Carcavelos,22,0.043835616,16
+Soure - Condeixa,6,0.043835616,16
+EN335 - Ançã,9,0.052054795,20
+A1/A10 - Benavente,11,0.02739726,11
+Benavente - A10/A13,12,0.01369863,6
+Vila Franca de Xira II - Vila Franca de Xira I,12,0.082191781,37
+A8/A9 - Bucelas (Zambujal),13,0.030136986,12
+A14/A17 - Santa Eulália,14,0.071232877,29
+A9/A10 - Arruda dos Vinhos,14,0.024657534,10
 Viaduto Duarte Pacheco - Cruz das Oliveiras,15,0.136986301,60
+Benavente - A10/A13,16,0.024657534,9
+Carregado - Aveiras de Cima,17,0.232876712,98
+Vila Franca de Xira II - Vila Franca de Xira I,17,0.120547945,54
+Pombal - Soure,20,0.090410959,34
+Coimbra Sul - Coimbra Norte (A1/A14),21,0.046575342,20
+Sacavém - São João da Talha,23,0.04109589,16
+Aveiras de Cima - Cartaxo,3,0.02739726,11
+Estarreja - Feira,4,0.049315068,18
+Santarém - A1/A15,5,0.005479452,2
+Espinho (IC24) - Feiteira,11,0.106849315,44
 Alvide - Cascais,12,0.01369863,5
+A9/A10 - Arruda dos Vinhos,16,0.054794521,22
+Arruda dos Vinhos - A1/A10,17,0.035616438,14
+Feira - Espinho (IC24),18,0.115068493,46
+Jaca - Santo Ovídio,20,0.02739726,10
+Sacavém - São João da Talha,22,0.054794521,23
 Monsanto - Miraflores (A5/IC17),22,0.016438356,8
+Alverca (A1/A9) - Vila Franca de Xira II,22,0.052054795,21
+Coimbra Norte (A1/A14) - Mealhada,23,0.052054795,25
+Bucelas (Zambujal) - A9/A10,23,0.021917808,8
+Alverca (A1/A9) - Vila Franca de Xira II,0,0.038356164,15
+Mealhada - Aveiro Sul,3,0.054794521,20
 Miraflores (A5/IC17) - Linda-a-Velha,8,0.071232877,31
+Condeixa - Coimbra Sul,12,0.076712329,36
+Radial Pontinha - Radial Odivelas,13,0.057534247,22
 Alvide - Cascais,15,0.038356164,14
+Vila Franca de Xira I - PLLN,17,0.106849315,42
+Montemor-o-Velho - EN335,17,0.024657534,12
 Estoril - Alcabideche (A5/A16),18,0.090410959,34
-Linda-a-Velha - Estádio Nacional,18,0.150684932,73
+Albergaria (A1/IP5) - Estarreja,19,0.123287671,50
+Vila Franca de Xira I - PLLN,22,0.057534247,22
+Leiria - Pombal,23,0.115068493,45
+A1/A10 - Carregado,8,0.024657534,10
+Santarém - A1/A15,8,0.010958904,4
+Bucelas (Zambujal) - A9/A10,9,0.02739726,10
+A9/A10 - Arruda dos Vinhos,11,0.016438356,6
+Aveiras de Cima - Cartaxo,12,0.082191781,32
+Benavente - A10/A13,13,0.019178082,7
+A9/A10 - Alverca,16,0.019178082,7
+Linda-a-Velha - Estádio Nacional (A5/A9),18,0.150684932,73
 Alvide - Cascais,18,0.032876712,13
 Oeiras - Carcavelos,21,0.079452055,30
+Soure - Condeixa,23,0.016438356,6
+Albergaria (A1/IP5) - Estarreja,2,0.065753425,27
+Espinho (IC24) - Feiteira,5,0.01369863,5
+Queluz - Radial da Pontinha,13,0.046575342,20
+Radial Odivelas - A8/A9,17,0.030136986,11
+Leiria - Pombal,17,0.175342466,78
+A9/A10 - Alverca,19,0.002739726,1
 Viaduto Duarte Pacheco - Cruz das Oliveiras,21,0.082191781,41
+Cartaxo - Santarém,23,0.063013699,29
+Santarém - A1/A15,0,0.01369863,5
 Miraflores (A5/IC17) - Linda-a-Velha,5,0.01369863,5
+A9/A10 - Arruda dos Vinhos,10,0.057534247,21
+A1/A10 - Carregado,13,0.019178082,7
+Jaca - Santo Ovídio,19,0.032876712,12
+A1/A15 - Torres Novas (A1/A23),20,0.178082192,76
+Montemor-o-Velho - EN335,22,0.030136986,11
 Viaduto Duarte Pacheco - Cruz das Oliveiras,22,0.095890411,48
+Carregado - Aveiras de Cima,0,0.060273973,25
+Bucelas (Zambujal) - A9/A10,4,0.008219178,3
+Cartaxo - Santarém,6,0.035616438,15
 Alcabideche (A5/A16) - Alvide,10,0.032876712,12
+Santa Eulália - Montemor-o-Velho,12,0.010958904,4
 Miraflores (A5/IC17) - Linda-a-Velha,12,0.065753425,27
+Ançã - Coimbra Norte (A1/A14),12,0.016438356,6
 Alvide - Cascais,13,0.035616438,14
 Miraflores (A5/IC17) - Linda-a-Velha,13,0.087671233,37
+EN335 - Ançã,15,0.02739726,10
+Cartaxo - Santarém,0,0.021917808,8
 Miraflores (A5/IC17) - Linda-a-Velha,7,0.02739726,11
+São João da Talha - Sta Iria da Azóia,9,0.071232877,33
+Condeixa - Coimbra Sul,9,0.068493151,28
+Carvalhos - Jaca,10,0.115068493,43
+Jaca - Santo Ovídio,11,0.079452055,34
 Estoril - Alcabideche (A5/A16),12,0.016438356,6
+Arruda dos Vinhos - A1/A10,14,0.021917808,9
+PLLN - A1/A10,16,0.02739726,10
+A1/A10 - Carregado,17,0.021917808,8
+Coimbra Sul - Coimbra Norte (A1/A14),17,0.112328767,42
 Miraflores (A5/IC17) - Linda-a-Velha,20,0.073972603,29
-Linda-a-Velha - Estádio Nacional,16,0.093150685,42
+São João da Talha - Sta Iria da Azóia,20,0.021917808,10
+Queluz - Radial da Pontinha,20,0.030136986,12
+PLLN - A1/A10,0,0.010958904,4
+Montemor-o-Velho - EN335,1,0.010958904,4
+Coimbra Sul - Coimbra Norte (A1/A14),5,0.010958904,4
+Sta Iria da Azóia - Alverca (A1/A9),5,0.021917808,8
+Radial Pontinha - Radial Odivelas,15,0.071232877,26
+Vila Verde - A14/A17,15,0.005479452,2
+Linda-a-Velha - Estádio Nacional (A5/A9),16,0.093150685,42
+Vila Verde - A14/A17,16,0.005479452,2
+Jaca - Santo Ovídio,18,0.076712329,30
 Estoril - Alcabideche (A5/A16),0,0.010958904,5
-Linda-a-Velha - Estádio Nacional,6,0.032876712,14
+Aveiro Sul - Albergaria (A1/IP5),1,0.049315068,20
+Alverca (A1/A9) - Vila Franca de Xira II,3,0.030136986,13
+Alverca (A1/A9) - Vila Franca de Xira II,4,0.024657534,10
+Radial Pontinha - Radial Odivelas,4,0.010958904,5
+Vila Verde - A14/A17,19,0.01369863,5
+Alverca (A1/A9) - Vila Franca de Xira II,20,0.104109589,46
+Cartaxo - Santarém,22,0.054794521,22
+Aveiro Sul - Albergaria (A1/IP5),23,0.054794521,23
+Mealhada - Aveiro Sul,0,0.063013699,26
+Soure - Condeixa,1,0.024657534,10
+Mealhada - Aveiro Sul,2,0.038356164,14
+Montemor-o-Velho - EN335,6,0.005479452,2
+Linda-a-Velha - Estádio Nacional (A5/A9),6,0.032876712,14
+Albergaria (A1/IP5) - Estarreja,6,0.054794521,21
+EN335 - Ançã,8,0.032876712,14
+Jaca - Santo Ovídio,8,0.057534247,21
+Jaca - Santo Ovídio,13,0.035616438,13
+A8/A9 - Bucelas (Zambujal),19,0.030136986,11
+Santarém - A1/A15,19,0.005479452,2
 Estoril - Alcabideche (A5/A16),21,0.032876712,12
+Carregado - Aveiras de Cima,22,0.101369863,43
+EN335 - Ançã,0,0.010958904,4
+Coimbra Norte (A1/A14) - Mealhada,4,0.024657534,9
+Santarém - A1/A15,15,0.030136986,11
+Espinho (IC24) - Feiteira,15,0.076712329,29
+Estádio Nacional (A5/A9) - Queluz,17,0.035616438,15
 Alvide - Cascais,17,0.019178082,7
-Estádio Nacional - Oeiras,5,0.019178082,7
-Estádio Nacional - Oeiras,6,0.030136986,11
+PLLN - A1/A10,19,0.019178082,7
+Leiria - Pombal,1,0.035616438,13
+Torres Novas (A1/A23) - Fátima,2,0.024657534,9
+A9/A10 - Alverca,10,0.038356164,14
+Santa Eulália - Montemor-o-Velho,14,0.021917808,8
+EN335 - Ançã,14,0.021917808,8
+Ançã - Coimbra Norte (A1/A14),17,0.010958904,5
+Bucelas (Zambujal) - A9/A10,22,0.005479452,2
+Vila Franca de Xira II - Vila Franca de Xira I,0,0.016438356,6
+Bucelas (Zambujal) - A9/A10,1,0.016438356,6
+Arruda dos Vinhos - A1/A10,1,0.005479452,2
+Feira - Espinho (IC24),4,0.038356164,16
+Radial Pontinha - Radial Odivelas,5,0.016438356,6
+A9/A10 - Alverca,7,0.016438356,6
+A9/A10 - Arruda dos Vinhos,7,0.052054795,19
+Benavente - A10/A13,9,0.01369863,5
+São João da Talha - Sta Iria da Azóia,10,0.076712329,33
+Aveiras de Cima - Cartaxo,7,0.090410959,36
+Figueira da Foz - Vila Verde,10,0.016438356,7
+Santarém - A1/A15,12,0.02739726,10
+Jaca - Santo Ovídio,12,0.02739726,10
+Figueira da Foz - Vila Verde,12,0.038356164,15
+A14/A17 - Santa Eulália,12,0.054794521,21
+Benavente - A10/A13,18,0.010958904,4
+PLLN - A1/A10,18,0.02739726,11
+Radial Pontinha - Radial Odivelas,0,0.02739726,10
+A1/A10 - Benavente,1,0.024657534,10
+Vila Franca de Xira I - PLLN,1,0.035616438,13
+A1/A15 - Torres Novas (A1/A23),2,0.057534247,24
+Estádio Nacional (A5/A9) - Oeiras,5,0.019178082,7
+Estádio Nacional (A5/A9) - Oeiras,6,0.030136986,11
+Fátima - Leiria,6,0.024657534,9
+EN335 - Ançã,17,0.019178082,9
+Figueira da Foz - Vila Verde,22,0.008219178,3
 Alvide - Cascais,1,0.008219178,4
+Arruda dos Vinhos - A1/A10,3,0.01369863,5
+Carvalhos - Jaca,5,0.010958904,4
+Santa Eulália - Montemor-o-Velho,7,0.002739726,1
+Montemor-o-Velho - EN335,15,0.035616438,13
+Santa Eulália - Montemor-o-Velho,17,0.021917808,8
+Coimbra Norte (A1/A14) - Zombaria,21,0.008219178,3
+São João da Talha - Sta Iria da Azóia,23,0.02739726,10
+Queluz - Radial da Pontinha,23,0.016438356,8
+Santa Eulália - Montemor-o-Velho,3,0.002739726,1
+Condeixa - Coimbra Sul,6,0.021917808,8
+Santarém - A1/A15,7,0.021917808,8
+Santa Eulália - Montemor-o-Velho,9,0.04109589,16
+Estádio Nacional (A5/A9) - Queluz,10,0.052054795,21
+EN335 - Ançã,11,0.030136986,12
+Ançã - Coimbra Norte (A1/A14),15,0.010958904,4
+EN335 - Ançã,18,0.02739726,10
+Pombal - Soure,0,0.043835616,17
+Pombal - Soure,1,0.04109589,16
+A1/A10 - Carregado,1,0.005479452,2
+Coimbra Sul - Coimbra Norte (A1/A14),6,0.04109589,18
+Bucelas (Zambujal) - A9/A10,6,0.005479452,2
 Estoril - Alcabideche (A5/A16),16,0.02739726,10
+Santarém - A1/A15,17,0.032876712,14
+Coimbra Norte (A1/A14) - Zombaria,17,0.01369863,5
+Coimbra Sul - Coimbra Norte (A1/A14),3,0.002739726,1
 Viaduto Duarte Pacheco - Cruz das Oliveiras,6,0.024657534,10
+Vila Verde - A14/A17,11,0.016438356,6
+Estádio Nacional (A5/A9) - Queluz,14,0.043835616,18
+A1/A10 - Carregado,19,0.019178082,7
+Benavente - A10/A13,23,0.005479452,2
+Fátima - Leiria,3,0.030136986,11
+A9/A10 - Arruda dos Vinhos,3,0.010958904,4
+Montemor-o-Velho - EN335,10,0.021917808,9
+Ançã - Coimbra Norte (A1/A14),11,0.024657534,10
+Vila Franca de Xira I - PLLN,13,0.04109589,15
+A8/A9 - Bucelas (Zambujal),14,0.021917808,8
+Carvalhos - Jaca,15,0.063013699,25
+Santa Eulália - Montemor-o-Velho,20,0.008219178,3
+Coimbra Sul - Coimbra Norte (A1/A14),0,0.016438356,6
+Feiteira - Carvalhos,0,0.035616438,15
+Feiteira - Carvalhos,2,0.016438356,7
+Carregado - Aveiras de Cima,5,0.02739726,11
+Bucelas (Zambujal) - A9/A10,10,0.109589041,40
+Condeixa - Coimbra Sul,11,0.109589041,46
+Vila Verde - A14/A17,12,0.01369863,5
+Queluz - Radial da Pontinha,21,0.030136986,12
 Alcabideche (A5/A16) - Alvide,2,0.002739726,1
+Condeixa - Coimbra Sul,15,0.054794521,23
+Sta Iria da Azóia - Alverca (A1/A9),1,0.030136986,12
 Oeiras - Carcavelos,3,0.024657534,9
+Radial Pontinha - Radial Odivelas,3,0.008219178,3
 Monsanto - Miraflores (A5/IC17),4,0.008219178,3
 Viaduto Duarte Pacheco - Cruz das Oliveiras,7,0.043835616,19
+A8/A9 - Bucelas (Zambujal),12,0.030136986,12
+A1/A10 - Benavente,12,0.032876712,15
+São João da Talha - Sta Iria da Azóia,14,0.060273973,30
+A1/A10 - Carregado,22,0.008219178,3
 Oeiras - Carcavelos,0,0.054794521,20
+A9/A10 - Arruda dos Vinhos,1,0.008219178,3
+Torres Novas (A1/A23) - Fátima,4,0.032876712,12
+Albergaria (A1/IP5) - Estarreja,5,0.024657534,9
+Fátima - Leiria,5,0.021917808,8
+A9/A10 - Alverca,6,0.010958904,4
+Coimbra Sul - Coimbra Norte (A1/A14),8,0.046575342,17
+Radial Odivelas - A8/A9,20,0.021917808,8
+Radial Pontinha - Radial Odivelas,22,0.043835616,17
+Vila Franca de Xira II - Vila Franca de Xira I,22,0.032876712,12
+Feira - Espinho (IC24),22,0.082191781,32
+Fátima - Leiria,23,0.043835616,18
+Ançã - Coimbra Norte (A1/A14),2,0.002739726,1
 Oeiras - Carcavelos,5,0.019178082,7
+Bucelas (Zambujal) - A9/A10,14,0.021917808,8
+Leiria - Pombal,2,0.052054795,23
 Alcabideche (A5/A16) - Alvide,8,0.010958904,4
+Estádio Nacional (A5/A9) - Queluz,21,0.019178082,7
+Ançã - Coimbra Norte (A1/A14),20,0.008219178,3
+PLLN - A1/A10,20,0.021917808,8
+Carvalhos - Jaca,3,0.005479452,2
+A14/A17 - Santa Eulália,11,0.043835616,17
+Estádio Nacional (A5/A9) - Queluz,15,0.010958904,4
+A14/A17 - Santa Eulália,22,0.04109589,16
+A14/A17 - Santa Eulália,0,0.005479452,3
 Estoril - Alcabideche (A5/A16),1,0.02739726,10
-Linda-a-Velha - Estádio Nacional,3,0.008219178,4
+Leiria - Pombal,3,0.052054795,19
+São João da Talha - Sta Iria da Azóia,6,0.016438356,6
+Santa Eulália - Montemor-o-Velho,19,0.032876712,13
+Estádio Nacional (A5/A9) - Queluz,0,0.016438356,6
+Condeixa - Coimbra Sul,3,0.010958904,4
+Linda-a-Velha - Estádio Nacional (A5/A9),3,0.008219178,4
 Viaduto Duarte Pacheco - Cruz das Oliveiras,3,0.016438356,6
 Viaduto Duarte Pacheco - Cruz das Oliveiras,4,0.019178082,9
-Estádio Nacional - Oeiras,2,0.043835616,18
+Estádio Nacional (A5/A9) - Oeiras,2,0.043835616,18
+Soure - Condeixa,7,0.032876712,15
+Vila Verde - A14/A17,9,0.016438356,9
+Bucelas (Zambujal) - A9/A10,19,0.04109589,16
 Monsanto - Miraflores (A5/IC17),23,0.024657534,10
-Linda-a-Velha - Estádio Nacional,4,0.01369863,5
+Feiteira - Carvalhos,5,0.008219178,3
+A9/A10 - Arruda dos Vinhos,22,0.008219178,4
+Santa Eulália - Montemor-o-Velho,22,0.005479452,2
+Radial Odivelas - A8/A9,22,0.008219178,3
+Sacavém - São João da Talha,0,0.060273973,26
+Ançã - Coimbra Norte (A1/A14),8,0.016438356,6
+Carvalhos - Jaca,12,0.046575342,18
+PLLN - A1/A10,1,0.008219178,3
+Radial Pontinha - Radial Odivelas,12,0.049315068,19
+A9/A10 - Alverca,13,0.038356164,17
+A14/A17 - Santa Eulália,23,0.002739726,1
+Aveiras de Cima - Cartaxo,0,0.021917808,9
+Linda-a-Velha - Estádio Nacional (A5/A9),4,0.01369863,5
+Pombal - Soure,13,0.060273973,28
+Montemor-o-Velho - EN335,16,0.019178082,8
 Carcavelos - Estoril,21,0.054794521,20
 Alvide - Cascais,23,0.01369863,5
+A9/A10 - Alverca,23,0.010958904,4
+Santarém - A1/A15,1,0.019178082,8
+Santa Eulália - Montemor-o-Velho,1,0.01369863,5
+Arruda dos Vinhos - A1/A10,2,0.002739726,1
+Coimbra Sul - Coimbra Norte (A1/A14),2,0.005479452,2
 Monsanto - Miraflores (A5/IC17),3,0.002739726,1
 Carcavelos - Estoril,4,0.021917808,8
 Cruz das Oliveiras - Monsanto,5,0.010958904,6
+Radial Pontinha - Radial Odivelas,6,0.016438356,6
+Figueira da Foz - Vila Verde,13,0.002739726,1
+Santa Eulália - Montemor-o-Velho,16,0.010958904,4
+Aveiras de Cima - Cartaxo,23,0.063013699,28
+Carvalhos - Jaca,2,0.016438356,6
+Mealhada - Aveiro Sul,4,0.021917808,11
+Aveiro Sul - Albergaria (A1/IP5),5,0.010958904,4
+Condeixa - Coimbra Sul,8,0.032876712,12
+A8/A9 - Bucelas (Zambujal),21,0.008219178,3
+Condeixa - Coimbra Sul,4,0.008219178,3
 Monsanto - Miraflores (A5/IC17),21,0.021917808,9
+Fátima - Leiria,7,0.079452055,30
+A9/A10 - Alverca,9,0.032876712,13
+A8/A9 - Bucelas (Zambujal),9,0.024657534,9
+Radial Odivelas - A8/A9,15,0.02739726,10
+A1/A10 - Benavente,15,0.024657534,9
+PLLN - A1/A10,15,0.032876712,13
 Estoril - Alcabideche (A5/A16),22,0.01369863,5
 Cruz das Oliveiras - Monsanto,0,0.04109589,18
+A9/A10 - Alverca,8,0.01369863,5
+Benavente - A10/A13,8,0.005479452,2
+A8/A9 - Bucelas (Zambujal),15,0.052054795,20
+A1/A10 - Carregado,18,0.005479452,2
+Condeixa - Coimbra Sul,1,0.019178082,7
+Feira - Espinho (IC24),3,0.021917808,8
+Pombal - Soure,3,0.016438356,6
+A9/A10 - Alverca,1,0.005479452,2
+Carregado - Aveiras de Cima,2,0.038356164,16
 Carcavelos - Estoril,7,0.082191781,31
+A9/A10 - Alverca,18,0.043835616,16
 Carcavelos - Estoril,20,0.076712329,29
+Leiria - Pombal,4,0.01369863,5
+Radial Pontinha - Radial Odivelas,7,0.024657534,9
+Benavente - A10/A13,15,0.016438356,6
+Benavente - A10/A13,19,0.008219178,3
+Carregado - Aveiras de Cima,1,0.04109589,15
+Fátima - Leiria,2,0.038356164,14
+Arruda dos Vinhos - A1/A10,7,0.024657534,9
+Queluz - Radial da Pontinha,7,0.019178082,8
+Coimbra Norte (A1/A14) - Zombaria,20,0.002739726,1
+Santarém - A1/A15,13,0.038356164,15
+Jaca - Santo Ovídio,0,0.024657534,11
+A1/A10 - Carregado,5,0.005479452,2
+Condeixa - Coimbra Sul,7,0.010958904,4
+A1/A10 - Benavente,10,0.035616438,15
+A1/A10 - Carregado,20,0.021917808,9
+Feiteira - Carvalhos,22,0.032876712,15
 Miraflores (A5/IC17) - Linda-a-Velha,23,0.021917808,9
+Radial Odivelas - A8/A9,23,0.005479452,2
+Condeixa - Coimbra Sul,2,0.008219178,3
+Estarreja - Feira,5,0.024657534,10
 Oeiras - Carcavelos,6,0.021917808,8
+Coimbra Sul - Coimbra Norte (A1/A14),7,0.021917808,9
+Ançã - Coimbra Norte (A1/A14),7,0.010958904,6
+Jaca - Santo Ovídio,7,0.021917808,8
+Ançã - Coimbra Norte (A1/A14),18,0.005479452,2
+Coimbra Norte (A1/A14) - Mealhada,2,0.024657534,9
+A1/A10 - Carregado,4,0.008219178,4
+PLLN - A1/A10,14,0.021917808,8
+Montemor-o-Velho - EN335,7,0.019178082,7
+Estádio Nacional (A5/A9) - Queluz,20,0.016438356,6
 Oeiras - Carcavelos,2,0.030136986,12
+Queluz - Radial da Pontinha,2,0.01369863,5
+Leiria - Pombal,6,0.038356164,15
 Alvide - Cascais,11,0.005479452,2
+Arruda dos Vinhos - A1/A10,12,0.01369863,5
+EN335 - Ançã,23,0.010958904,4
+Estádio Nacional (A5/A9) - Queluz,2,0.010958904,4
+Radial Odivelas - A8/A9,10,0.032876712,14
+A8/A9 - Bucelas (Zambujal),8,0.02739726,11
+A9/A10 - Alverca,21,0.008219178,5
+EN335 - Ançã,21,0.010958904,4
 Monsanto - Miraflores (A5/IC17),2,0.010958904,4
-Estádio Nacional - Oeiras,1,0.04109589,16
+EN335 - Ançã,4,0.005479452,2
+Espinho (IC24) - Feiteira,6,0.021917808,9
+Estádio Nacional (A5/A9) - Oeiras,1,0.04109589,16
+Queluz - Radial da Pontinha,6,0.008219178,3
+Ançã - Coimbra Norte (A1/A14),16,0.02739726,10
 Estoril - Alcabideche (A5/A16),6,0.005479452,2
+Aveiro Sul - Albergaria (A1/IP5),3,0.019178082,7
+Bucelas (Zambujal) - A9/A10,17,0.035616438,13
 Alcabideche (A5/A16) - Alvide,3,0.002739726,1
+PLLN - A1/A10,8,0.030136986,12
+Sacavém - São João da Talha,6,0.019178082,7
+Carvalhos - Jaca,21,0.04109589,16
+Vila Franca de Xira II - Vila Franca de Xira I,1,0.021917808,9
+Aveiras de Cima - Cartaxo,2,0.021917808,9
+A9/A10 - Arruda dos Vinhos,20,0.016438356,6
+Espinho (IC24) - Feiteira,23,0.021917808,8
+Bucelas (Zambujal) - A9/A10,0,0.008219178,3
 Miraflores (A5/IC17) - Linda-a-Velha,3,0.002739726,1
+Feiteira - Carvalhos,3,0.01369863,6
 Carcavelos - Estoril,5,0.008219178,5
+Arruda dos Vinhos - A1/A10,6,0.002739726,1
+Vila Verde - A14/A17,7,0.002739726,1
+Ançã - Coimbra Norte (A1/A14),13,0.008219178,3
+Estádio Nacional (A5/A9) - Queluz,1,0.008219178,4
+Radial Odivelas - A8/A9,21,0.030136986,11
 Carcavelos - Estoril,1,0.016438356,6
 Viaduto Duarte Pacheco - Cruz das Oliveiras,5,0.005479452,2
 Monsanto - Miraflores (A5/IC17),20,0.032876712,14
+Santa Eulália - Montemor-o-Velho,10,0.008219178,3
+A1/A10 - Benavente,20,0.021917808,8
+Radial Odivelas - A8/A9,0,0.01369863,5
+Vila Verde - A14/A17,0,0.002739726,1
+Santa Eulália - Montemor-o-Velho,8,0.010958904,4
+A9/A10 - Arruda dos Vinhos,12,0.016438356,7
+Bucelas (Zambujal) - A9/A10,12,0.035616438,14
+PLLN - A1/A10,23,0.010958904,4
+A8/A9 - Bucelas (Zambujal),1,0.002739726,1
+Figueira da Foz - Vila Verde,7,0.005479452,2
+Coimbra Sul - Coimbra Norte (A1/A14),4,0.005479452,2
+Santa Eulália - Montemor-o-Velho,23,0.008219178,3
+Santa Eulália - Montemor-o-Velho,0,0.008219178,3
+A8/A9 - Bucelas (Zambujal),20,0.019178082,7
+Benavente - A10/A13,22,0.005479452,2
+Fátima - Leiria,1,0.02739726,10
+Vila Franca de Xira I - PLLN,5,0.008219178,3
+Radial Odivelas - A8/A9,7,0.010958904,4
+A8/A9 - Bucelas (Zambujal),22,0.010958904,4
 Monsanto - Miraflores (A5/IC17),12,0.01369863,5
+Montemor-o-Velho - EN335,0,0.005479452,3
+A1/A10 - Benavente,3,0.002739726,1
+A14/A17 - Santa Eulália,7,0.008219178,3
+São João da Talha - Sta Iria da Azóia,5,0.024657534,9
+Figueira da Foz - Vila Verde,15,0.019178082,8
+Figueira da Foz - Vila Verde,16,0.01369863,5
+Fátima - Leiria,4,0.02739726,12
 Alvide - Cascais,16,0.016438356,6
+PLLN - A1/A10,21,0.010958904,4
+Albergaria (A1/IP5) - Estarreja,23,0.02739726,10
 Alvide - Cascais,7,0.005479452,2
+Coimbra Norte (A1/A14) - Zombaria,10,0.01369863,5
 Estoril - Alcabideche (A5/A16),2,0.002739726,2
+Figueira da Foz - Vila Verde,19,0.02739726,12
+Sacavém - São João da Talha,2,0.01369863,5
+Radial Odivelas - A8/A9,13,0.024657534,10
+Coimbra Norte (A1/A14) - Zombaria,19,0.01369863,6
+Leiria - Pombal,5,0.019178082,7
+Carvalhos - Jaca,0,0.019178082,7
+São João da Talha - Sta Iria da Azóia,12,0.024657534,10
+A1/A10 - Carregado,7,0.010958904,5
+Vila Verde - A14/A17,17,0.01369863,6
+Santa Eulália - Montemor-o-Velho,15,0.005479452,2
+A9/A10 - Arruda dos Vinhos,0,0.010958904,4
 Carcavelos - Estoril,2,0.019178082,7
+Pombal - Soure,4,0.021917808,9
 Cruz das Oliveiras - Monsanto,22,0.054794521,28
+A14/A17 - Santa Eulália,10,0.021917808,8
+Jaca - Santo Ovídio,21,0.019178082,8
 Cruz das Oliveiras - Monsanto,1,0.01369863,5
+Benavente - A10/A13,11,0.008219178,3
 Estoril - Alcabideche (A5/A16),4,0.005479452,2
+São João da Talha - Sta Iria da Azóia,4,0.002739726,1
+A1/A10 - Benavente,7,0.005479452,3
+Arruda dos Vinhos - A1/A10,23,0.02739726,11
+Benavente - A10/A13,1,0.019178082,7
+Soure - Condeixa,3,0.010958904,4
+Vila Franca de Xira II - Vila Franca de Xira I,6,0.032876712,12
+Coimbra Sul - Coimbra Norte (A1/A14),23,0.021917808,8
+A9/A10 - Alverca,3,0.002739726,1
 Alcabideche (A5/A16) - Alvide,13,0.01369863,5
+A14/A17 - Santa Eulália,21,0.01369863,5
+Estádio Nacional (A5/A9) - Queluz,22,0.008219178,3
+A14/A17 - Santa Eulália,1,0.010958904,4
+Montemor-o-Velho - EN335,2,0.002739726,1
+A14/A17 - Santa Eulália,2,0.002739726,1
+Montemor-o-Velho - EN335,4,0.005479452,2
+A14/A17 - Santa Eulália,6,0.01369863,5
+Coimbra Norte (A1/A14) - Zombaria,15,0.01369863,5
+A14/A17 - Santa Eulália,13,0.010958904,5
+PLLN - A1/A10,9,0.008219178,3
+Santa Eulália - Montemor-o-Velho,18,0.005479452,2
+Queluz - Radial da Pontinha,4,0.008219178,4
+Figueira da Foz - Vila Verde,8,0.005479452,2
+A9/A10 - Alverca,12,0.005479452,3
 Viaduto Duarte Pacheco - Cruz das Oliveiras,1,0.019178082,7
+Cartaxo - Santarém,5,0.008219178,3
+Figueira da Foz - Vila Verde,18,0.008219178,3
+Pombal - Soure,2,0.005479452,3
 Alvide - Cascais,20,0.008219178,3
+Soure - Condeixa,0,0.021917808,10
+Jaca - Santo Ovídio,4,0.002739726,1
+Benavente - A10/A13,2,0.005479452,2
+Jaca - Santo Ovídio,15,0.019178082,9
 Cruz das Oliveiras - Monsanto,3,0.010958904,4
 Alcabideche (A5/A16) - Alvide,19,0.002739726,1
+Benavente - A10/A13,20,0.010958904,4
+Estádio Nacional (A5/A9) - Queluz,5,0.005479452,2
 Cruz das Oliveiras - Monsanto,4,0.01369863,5
+Albergaria (A1/IP5) - Estarreja,4,0.010958904,4
+Vila Franca de Xira II - Vila Franca de Xira I,3,0.005479452,2
+EN335 - Ançã,1,0.01369863,5
+Coimbra Sul - Coimbra Norte (A1/A14),15,0.02739726,11
+Vila Franca de Xira I - PLLN,2,0.005479452,2
+A1/A10 - Carregado,0,0.005479452,2
+PLLN - A1/A10,22,0.010958904,4
 Carcavelos - Estoril,22,0.021917808,8
 Carcavelos - Estoril,6,0.019178082,8
+Ançã - Coimbra Norte (A1/A14),23,0.01369863,5
+Santarém - A1/A15,2,0.005479452,2
+Estádio Nacional (A5/A9) - Queluz,6,0.008219178,6
+Vila Verde - A14/A17,10,0.002739726,1
+A1/A10 - Benavente,21,0.019178082,7
+A8/A9 - Bucelas (Zambujal),0,0.01369863,5
+EN335 - Ançã,10,0.01369863,5
+Estádio Nacional (A5/A9) - Queluz,3,0.005479452,2
+Condeixa - Coimbra Sul,23,0.002739726,1
+Radial Odivelas - A8/A9,1,0.010958904,4
+Benavente - A10/A13,4,0.002739726,1
+Montemor-o-Velho - EN335,20,0.021917808,8
+Montemor-o-Velho - EN335,19,0.019178082,8
+Cartaxo - Santarém,4,0.005479452,2
+Santarém - A1/A15,14,0.016438356,7
+Ançã - Coimbra Norte (A1/A14),0,0.002739726,1
+Figueira da Foz - Vila Verde,4,0.002739726,2
+Coimbra Norte (A1/A14) - Zombaria,6,0.002739726,1
+Arruda dos Vinhos - A1/A10,0,0.005479452,2
+Aveiras de Cima - Cartaxo,1,0.01369863,6
+EN335 - Ançã,3,0.002739726,1
+A1/A10 - Benavente,6,0.002739726,1
+Benavente - A10/A13,7,0.008219178,3
+Feira - Espinho (IC24),2,0.016438356,6
 Alcabideche (A5/A16) - Alvide,20,0.002739726,1
+Vila Verde - A14/A17,14,0.005479452,2
+Montemor-o-Velho - EN335,21,0.008219178,3
+Santa Eulália - Montemor-o-Velho,13,0.005479452,2
+A1/A10 - Benavente,4,0.002739726,1
+Vila Franca de Xira II - Vila Franca de Xira I,2,0.002739726,1
+Radial Odivelas - A8/A9,3,0.002739726,1
+Jaca - Santo Ovídio,23,0.005479452,2
+A14/A17 - Santa Eulália,4,0.008219178,3
+Queluz - Radial da Pontinha,5,0.010958904,4
+Bucelas (Zambujal) - A9/A10,2,0.002739726,1
+Bucelas (Zambujal) - A9/A10,3,0.008219178,3
+Soure - Condeixa,4,0.008219178,3
+A8/A9 - Bucelas (Zambujal),3,0.002739726,1
 Alvide - Cascais,2,0.005479452,2
+Vila Franca de Xira II - Vila Franca de Xira I,4,0.005479452,2
+A1/A10 - Carregado,14,0.016438356,7
+A1/A10 - Carregado,15,0.01369863,5
+Arruda dos Vinhos - A1/A10,22,0.002739726,1
+EN335 - Ançã,6,0.005479452,2
 Cruz das Oliveiras - Monsanto,6,0.010958904,7
+Estádio Nacional (A5/A9) - Queluz,7,0.005479452,2
+Vila Verde - A14/A17,18,0.005479452,2
 Monsanto - Miraflores (A5/IC17),6,0.002739726,1
+Montemor-o-Velho - EN335,3,0.002739726,1
+Jaca - Santo Ovídio,1,0.002739726,1
+Vila Verde - A14/A17,1,0.005479452,2
+PLLN - A1/A10,13,0.010958904,4
+Santarém - A1/A15,4,0.002739726,1
+Condeixa - Coimbra Sul,0,0.005479452,2
+Condeixa - Coimbra Sul,5,0.005479452,3
+Vila Verde - A14/A17,8,0.002739726,1
+Jaca - Santo Ovídio,6,0.008219178,3
+Coimbra Norte (A1/A14) - Zombaria,13,0.005479452,2
+Radial Pontinha - Radial Odivelas,1,0.010958904,4
+Coimbra Norte (A1/A14) - Zombaria,8,0.010958904,4
 Monsanto - Miraflores (A5/IC17),5,0.005479452,2
 Alvide - Cascais,4,0.005479452,2
+A8/A9 - Bucelas (Zambujal),5,0.002739726,2
+Ançã - Coimbra Norte (A1/A14),22,0.005479452,2
+A8/A9 - Bucelas (Zambujal),23,0.01369863,5
+Bucelas (Zambujal) - A9/A10,5,0.002739726,1
+Coimbra Norte (A1/A14) - Zombaria,12,0.008219178,3
+A8/A9 - Bucelas (Zambujal),2,0.005479452,2
+A1/A10 - Carregado,6,0.008219178,3
 Monsanto - Miraflores (A5/IC17),1,0.005479452,3
+Jaca - Santo Ovídio,3,0.002739726,1
 Alvide - Cascais,3,0.002739726,1
+A9/A10 - Alverca,2,0.002739726,1
+Radial Pontinha - Radial Odivelas,2,0.005479452,2
+Ançã - Coimbra Norte (A1/A14),14,0.010958904,4
+Figueira da Foz - Vila Verde,21,0.002739726,1
+A14/A17 - Santa Eulália,8,0.005479452,2
+A1/A10 - Benavente,5,0.002739726,1
+A9/A10 - Arruda dos Vinhos,2,0.002739726,1
+Montemor-o-Velho - EN335,18,0.002739726,1
+PLLN - A1/A10,6,0.002739726,1
+Figueira da Foz - Vila Verde,5,0.002739726,1
+Queluz - Radial da Pontinha,3,0.010958904,4
+A1/A10 - Carregado,3,0.002739726,1
+Coimbra Norte (A1/A14) - Zombaria,7,0.002739726,1
 Miraflores (A5/IC17) - Linda-a-Velha,4,0.008219178,3
+Radial Odivelas - A8/A9,4,0.002739726,1
+Vila Franca de Xira II - Vila Franca de Xira I,5,0.005479452,2
+Santarém - A1/A15,6,0.005479452,3
+A8/A9 - Bucelas (Zambujal),4,0.002739726,1
+A9/A10 - Arruda dos Vinhos,6,0.002739726,2
+Queluz - Radial da Pontinha,1,0.002739726,1
+Soure - Condeixa,2,0.002739726,1
+Radial Odivelas - A8/A9,2,0.005479452,2
 Alcabideche (A5/A16) - Alvide,21,0.002739726,1
+Cartaxo - Santarém,3,0.002739726,1
 Alcabideche (A5/A16) - Alvide,22,0.002739726,1
+A9/A10 - Alverca,22,0.002739726,1
+Santa Eulália - Montemor-o-Velho,2,0.002739726,1
+Santarém - A1/A15,3,0.002739726,1
+Benavente - A10/A13,6,0.002739726,1
+Vila Verde - A14/A17,23,0.002739726,1
+Feiteira - Carvalhos,4,0.002739726,1
 Estoril - Alcabideche (A5/A16),5,0.002739726,1

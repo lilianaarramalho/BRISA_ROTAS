@@ -1,3 +1,5 @@
+import copy
+
 import pandas as pd
 import math
 import numpy as np
@@ -5,6 +7,7 @@ import random
 import itertools
 from classes import *
 import ast
+from joblib import Parallel,delayed
 
 def ler_arguments():
 
@@ -35,7 +38,7 @@ def ler_arguments():
     return velocidade,t_medio_incidencia,n_simulacoes,tipo_corrida,slot_tempo
 
 
-def import_data():
+def import_data(sort):
 
     global cos
     global sublancos
@@ -52,8 +55,20 @@ def import_data():
     global probabilidades_turno_1
     global probabilidades_turno_2
     global probabilidades_turno_3
+    global tempo_sublancos
 
 
+    df_tempo_incidencia=pd.read_csv('dados/06. tempo_incidencias.csv',sep=",",encoding="iso-8859-1")
+    sublancos_incidencias=df_tempo_incidencia['Sublanco'].tolist()
+    tempo_sublancos_incidencias=df_tempo_incidencia['Tempo Ponderado'].tolist()
+
+    tempo_sublancos=[]
+
+    for posicao_sublanco in range(len(sublancos_incidencias)):
+        sublanco=sublancos_incidencias[posicao_sublanco]
+        tempo=tempo_sublancos_incidencias[posicao_sublanco]
+        new_row={'sublanco':sublanco,'tempo':tempo}
+        tempo_sublancos.append(new_row)
 
     cos=[]
     sublancos=[]
@@ -63,49 +78,73 @@ def import_data():
     id_nos=[]
 
     df_nos=pd.read_csv('dados/01. nos.csv',sep=',',encoding='iso-8859-1')
+    df_sequencia = pd.read_csv('dados/07. sequencia_nos.csv', sep=',', encoding='iso-8859-1')
+    df_nos=df_nos.sort_values(by=sort)
 
-    lista_nos=df_nos['Nó'].tolist()
+    lista_nos=df_sequencia['Nó'].tolist()
+    df_sequencia=df_sequencia.sort_values(by='Sequência',ascending=False)
+    lista_nos_inverted=df_sequencia['Nó'].tolist()
     is_co=df_nos['CO?'].tolist()
     is_pausa=df_nos['pausa'].tolist()
     is_almoco=df_nos['almoco'].tolist()
     is_espera=df_nos['espera'].tolist()
+    df_nos['Grupos']=df_nos['Grupos'].fillna("-1")
+    grupos=df_nos['Grupos'].tolist()
+    auto_estrada=df_nos['Auto-Estrada'].tolist()
+    considerar_no=df_nos['Considerar Tempo Nós?'].tolist()
+
     tempos_nos_norte_sul=df_nos['norte-sul'].tolist()
     tempos_nos_sul_norte = df_nos['sul-norte'].tolist()
     tempos_nos = tempos_nos_norte_sul.copy()
 
-    unique_nos = lista_nos.copy()
+    unique_nos = df_nos['Nó'].tolist()
+    count_nos=0
+    real_tempos_nos_norte_sul=[]
+    real_tempos_nos_sul_norte=[]
 
     for index in range(len(unique_nos)):
 
-        new_no=no(index,unique_nos[index],is_pausa[index],is_almoco[index],is_co[index],is_espera[index],"Nó")
+        new_no=no(count_nos,unique_nos[index],is_pausa[index],is_almoco[index],is_co[index],is_espera[index],"Nó",grupos[index],auto_estrada[index],considerar_no[index])
         nos.append(new_no)
-        id_nos.append(index)
+        id_nos.append(count_nos)
+        real_tempos_nos_norte_sul.append(tempos_nos_norte_sul[index])
+        real_tempos_nos_sul_norte.append(tempos_nos_sul_norte[index])
+
+        count_nos+=1
+
+    tempos_nos_norte_sul=copy.deepcopy(real_tempos_nos_norte_sul)
+    tempos_nos_sul_norte=copy.deepcopy(real_tempos_nos_sul_norte)
+
 
     #ler distancias
 
     df_distancias=pd.read_csv('dados/02. distancias.csv',sep=',',encoding='iso-8859-1')
-    df_distancias['no in']=df_distancias['Sublanço'].str.split('-').str[0]
-    df_distancias['no in'] = df_distancias['no in'].str.rstrip()
-    no_in=df_distancias['no in'].tolist()
+    no_dist=df_distancias['No_2'].tolist()
     kms=df_distancias['kms'].tolist()
+    no_1=df_distancias['No_1'].tolist()
+    no_2=df_distancias['No_2'].tolist()
+
+    alterados=[]
 
     for index in range(len(nos)):
 
         no_atual = nos[index]
 
-        if index==len(nos)-1:
+        #alterados.append(no_atual.nome)
+
+        if index==0:
 
             no.extensao = 0
             no.tempo = 0
 
         else:
 
-            for posicao_lista in range(len(no_in)):
+            for posicao_lista in range(len(no_dist)):
 
-                if no_in[posicao_lista] in no_atual.nome:
+                if no_dist[posicao_lista]==no_atual.nome:
 
-                    no_atual.extensao = round(kms[posicao_lista])
-                    no_atual.tempo = round(60 * kms[posicao_lista] / velocidade)
+                    no_atual.extensao = (kms[posicao_lista])
+                    no_atual.tempo = math.ceil(60 * kms[posicao_lista] / velocidade)
 
     # ler turnos
 
@@ -218,54 +257,150 @@ def import_data():
         no_atual.distancias = [0] * len(nos)
         no_atual.kms = [0] * len(nos)
 
-    for index in range(len(nos)):
+    for posicao_inicio in range(len(nos)-1):
 
-        no_atual = nos[index]
+        no_inicio=nos[posicao_inicio]
 
-        if no_atual.tipo=="Nó":
+        for posicao_2 in range(len(nos)):
+            no_atual=nos[posicao_2]
+            for posicao_sublanco in range(len(kms)):
+                if no_1[posicao_sublanco] == no_inicio.nome and no_2[posicao_sublanco] == no_atual.nome:
+                    no_inicio.distancias[no_atual.id] = math.ceil(60 * kms[posicao_sublanco] / velocidade)
+                    no_inicio.kms[no_atual.id] = kms[posicao_sublanco]
+                    no_atual.distancias[no_inicio.id] = math.ceil(60 * kms[posicao_sublanco] / velocidade)
+                    no_atual.kms[no_inicio.id] = kms[posicao_sublanco]
+                    break
+                elif no_2[posicao_sublanco] == no_inicio.nome and no_1[posicao_sublanco] == no_atual.nome:
+                    no_inicio.distancias[no_atual.id] = math.ceil(60 * kms[posicao_sublanco] / velocidade)
+                    no_inicio.kms[no_atual.id] = kms[posicao_sublanco]
+                    no_atual.distancias[no_inicio.id] = math.ceil(60 * kms[posicao_sublanco] / velocidade)
+                    no_atual.kms[no_inicio.id] = kms[posicao_sublanco]
+                    break
+        no_fim=nos[posicao_inicio+1]
+        found = False
 
-            acumulado_tempo = 0
-            acumulado_kms = 0
+        for posicao_sublanco in range(len(kms)):
+            if no_1[posicao_sublanco]==no_inicio.nome and no_2[posicao_sublanco]==no_fim.nome:
+                no_inicio.distancias[no_fim.id]=math.ceil(60*kms[posicao_sublanco]/velocidade)
+                no_inicio.kms[no_fim.id]=kms[posicao_sublanco]
+                no_fim.distancias[no_inicio.id] = math.ceil(60*kms[posicao_sublanco]/velocidade)
+                no_fim.kms[no_inicio.id] = kms[posicao_sublanco]
+                found=True
+                break
+            elif no_2[posicao_sublanco]==no_inicio.nome and no_1[posicao_sublanco]==no_fim.nome:
+                no_inicio.distancias[no_fim.id] = math.ceil(60*kms[posicao_sublanco]/velocidade)
+                no_inicio.kms[no_fim.id] = kms[posicao_sublanco]
+                no_fim.distancias[no_inicio.id] = math.ceil(60*kms[posicao_sublanco]/velocidade)
+                no_fim.kms[no_inicio.id] = kms[posicao_sublanco]
+                found = True
+                break
 
-            for index2 in range(len(nos)):
+        if found==False:
+            print(no_inicio.nome)
+            print(no_fim.nome)
+            posicao_no_inicio=-1
+            posicao_no_fim=-1
+            for posicao_lista_nos in range(len(lista_nos)-1):
+                if lista_nos[posicao_lista_nos]==no_inicio.nome:
+                    posicao_no_inicio=posicao_lista_nos
+                    break
+            for posicao_lista_nos in range(posicao_no_inicio+1,len(lista_nos)):
+                if lista_nos[posicao_lista_nos]==no_fim.nome:
+                    posicao_no_fim=posicao_lista_nos
+                    break
 
-                no2=nos[index2]
+            id_no_in_intermedio=no_inicio.id
+            total_dist=0
+            total_kms=0
+            for posicao_intermediaria in range(posicao_no_inicio+1,posicao_no_fim+1):
+                for no_intermediario in nos:
+                    if no_intermediario.nome==lista_nos[posicao_intermediaria]:
+                        id_no_fim_intermedio=no_intermediario.id
+                        break
 
-                if no_atual==no2:
-                    acumulado_tempo=0
-                    acumulado_kms=0
-                elif no_atual.id>no2.id:
-                    acumulado_tempo=no2.distancias[index]
-                    acumulado_kms=no2.kms[index]
-                else:
-                    acumulado_tempo+=nos[index2-1].tempo
-                    acumulado_kms+=nos[index2-1].extensao
+                for posicao_sublanco in range(len(kms)):
+                    if no_1[posicao_sublanco] == nos[id_no_in_intermedio].nome and no_2[posicao_sublanco] == nos[id_no_fim_intermedio].nome:
+                        total_dist+=60*kms[posicao_sublanco]/velocidade
+                        total_kms+=kms[posicao_sublanco]
+                        break
 
-                no_atual.kms[index2]=acumulado_kms
+                    elif no_2[posicao_sublanco] == nos[id_no_in_intermedio].nome and no_1[posicao_sublanco] == nos[id_no_fim_intermedio].nome:
+                        total_dist += 60*kms[posicao_sublanco]/velocidade
+                        total_kms += kms[posicao_sublanco]
+                        break
 
-                no_atual.distancias[index2] = acumulado_tempo
+                id_no_in_intermedio=id_no_fim_intermedio
 
-        else:
+            no_inicio.distancias[no_fim.id]=math.ceil(total_dist)
+            no_inicio.kms[no_fim.id]=total_kms
+            no_fim.distancias[no_inicio.id] = math.ceil(total_dist)
+            no_fim.kms[no_inicio.id] = total_kms
 
-            no_atual.distancias=nos[index-1].distancias.copy()
-            no_atual.kms=nos[index-1].kms.copy()
+            if total_dist==0 and no_inicio.id!=no_fim.id:
+                posicao_no_inicio = -1
+                posicao_no_fim = -1
+                for posicao_lista_nos in range(len(lista_nos_inverted) - 1):
+                    if lista_nos_inverted[posicao_lista_nos] == no_inicio.nome:
+                        posicao_no_inicio = posicao_lista_nos
+                        break
+                for posicao_lista_nos in range(posicao_no_inicio + 1, len(lista_nos_inverted)):
+                    if lista_nos_inverted[posicao_lista_nos] == no_fim.nome:
+                        posicao_no_fim = posicao_lista_nos
+                        break
+
+                id_no_in_intermedio = no_inicio.id
+                total_dist = 0
+                total_kms = 0
+                for posicao_intermediaria in range(posicao_no_inicio + 1, posicao_no_fim + 1):
+                    for no_intermediario in nos:
+                        if no_intermediario.nome == lista_nos_inverted[posicao_intermediaria]:
+                            id_no_fim_intermedio = no_intermediario.id
+                            break
+
+                    for posicao_sublanco in range(len(kms)):
+                        if no_1[posicao_sublanco] == nos[id_no_in_intermedio].nome and no_2[posicao_sublanco] == nos[
+                            id_no_fim_intermedio].nome:
+                            total_dist += 60 * kms[posicao_sublanco] / velocidade
+                            total_kms += kms[posicao_sublanco]
+                            break
+
+                        elif no_2[posicao_sublanco] == nos[id_no_in_intermedio].nome and no_1[posicao_sublanco] == nos[
+                            id_no_fim_intermedio].nome:
+                            total_dist +=60 * kms[posicao_sublanco] / velocidade
+                            total_kms += kms[posicao_sublanco]
+                            break
+
+                    id_no_in_intermedio = id_no_fim_intermedio
+
+                no_inicio.distancias[no_fim.id] = math.ceil(total_dist)
+                no_inicio.kms[no_fim.id] = total_kms
+                no_fim.distancias[no_inicio.id] = math.ceil(total_dist)
+                no_fim.kms[no_inicio.id] = total_kms
+
+    print(nos)
 
     satisfeitos=[[False] * len(nos)] * len(turnos)
-
-
 
     probabilidades_turno_1 = [0] * len(sublancos)
     probabilidades_turno_2 = [0] * len(sublancos)
     probabilidades_turno_3 = [0] * len(sublancos)
 
-
     df_probabilidades = pd.read_csv('dados/probabilidades com zeros.csv', sep=",", encoding='iso-8859-1')
-    # df_probabilidades['Probabilidade incidência'] = df_probabilidades['Probabilidade incidência'].replace("%", "",
-    #                                                                                                       regex=True).astype(
-    #     float) / 100
 
     lista_probabilidades = df_probabilidades['Probabilidade incidência'].tolist()
     lista_hora = df_probabilidades['Hora'].tolist()
+    new_lista=[]
+    for hora in lista_hora:
+        if hora>=tempo_inicio_turno:
+            new_value=(hora-tempo_inicio_turno)*60
+
+        else:
+            new_value=(24-tempo_inicio_turno)*60
+
+        new_lista.append(new_value)
+
+    lista_hora=copy.deepcopy(new_lista)
+
     lista_sublanco = df_probabilidades['Sublanço'].tolist()
     lista_n_incidencias_ano = df_probabilidades['n_incidencias_ano'].tolist()
 
@@ -280,42 +415,62 @@ def import_data():
     global n_incidencias_dia_2
     global n_incidencias_dia_3
 
+    global nome_sublanco_turno_1
+    global nome_sublanco_turno_2
+    global nome_sublanco_turno_3
+
     n_incidencias_dia_1 = [0] * len(nos)
     n_incidencias_dia_2 = [0] * len(nos)
     n_incidencias_dia_3 = [0] * len(nos)
 
+    nome_sublanco_turno_1 = [""] * len(nos)
+    nome_sublanco_turno_2 = [""] * len(nos)
+    nome_sublanco_turno_3 = [""] * len(nos)
+
+    total=0
     # Calcular probabilidade agregada por tuno por cada sublanço
     for i in range(len(lista_probabilidades)):
 
         # Descobrir a que turno diz respeito
         for j in range(len(turnos)):
-            if lista_hora[i] * 60 - tempo_inicio_turno * 60 >= turnos[j].inicio:
+            if lista_hora[i]>=turnos[j].inicio and lista_hora[i]<turnos[j].fim:
                 id_turno = j
+                break
 
         # Descobrir qual o sublanço
+        found=False
         for j in range(len(nos)):
-            no_fim = lista_sublanco[i].split('-')[1]
+            n_caracteres=lista_sublanco[i].count('-')
+            no_fim = lista_sublanco[i].split('-')[n_caracteres]
             no_fim = no_fim.strip()
             if (no_fim in nos[j].nome):
                 id_sublanco = j
-
-        try:
-            if (id_turno == 0):
-                probabilidades_turno_1[id_sublanco] += lista_probabilidades[i]
-                n_incidencias_dia_1[id_sublanco] += lista_n_incidencias_ano[i] / 365
-            elif (id_turno == 1):
-                probabilidades_turno_2[id_sublanco] += lista_probabilidades[i]
-                n_incidencias_dia_2[id_sublanco] += lista_n_incidencias_ano[i] / 365
-            else:
-                probabilidades_turno_3[id_sublanco] += lista_probabilidades[i]
-                n_incidencias_dia_3[id_sublanco] += lista_n_incidencias_ano[i] / 365
+                found=True
 
 
-        except:
-            print('.')  # TODO isto nunca devia vir para o except
+        if found==True:
+            try:
+                if (id_turno == 0):
+                    probabilidades_turno_1[id_sublanco] += lista_probabilidades[i]
+                    n_incidencias_dia_1[id_sublanco] += lista_n_incidencias_ano[i] / 365
+                    nome_sublanco_turno_1[id_sublanco]=lista_sublanco[i]
+                elif (id_turno == 1):
+
+                    probabilidades_turno_2[id_sublanco] += lista_probabilidades[i]
+                    n_incidencias_dia_2[id_sublanco] += lista_n_incidencias_ano[i] / 365
+                    nome_sublanco_turno_2[id_sublanco] = lista_sublanco[i]
+                else:
+                    if id_sublanco==1:
+                        total+=lista_n_incidencias_ano[i]
+                    probabilidades_turno_3[id_sublanco] += lista_probabilidades[i]
+                    n_incidencias_dia_3[id_sublanco] += lista_n_incidencias_ano[i] / 365
+                    nome_sublanco_turno_3[id_sublanco] = lista_sublanco[i]
+
+
+            except:
+                print('.')  # TODO isto nunca devia vir para o except
 
     return nos, turnos
-
 def get_distance(x,y):
 
     min_dist=999999
@@ -1163,7 +1318,7 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
 
     melhor_paragem = temp_paragens.copy()
 
-    count=0
+    count = 0
 
     nos_visitados=lista_sublancos.copy()
 
@@ -1181,6 +1336,9 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
            else:
                visitado_sul_norte[id_posicao] = True
 
+
+    count_visitas = [0]*len(nos)
+
     for no in nos:
 
         posicao=0
@@ -1190,37 +1348,40 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
         best_tempos_entre_passagens_total=[]
         best_max_tmp = 999999
         best_possivel_tmp = False
+        if no.considerar_no==1:
 
-        while posicao<total:
+            while posicao<total:
 
-            id_posicao=temp_paragens[posicao].get('posicao')
+                id_posicao=temp_paragens[posicao].get('posicao')
 
-            # Verificar sentido
-            if (posicao + 1 < total):
-                if (id_posicao < temp_paragens[posicao + 1].get('posicao')):
-                    sentido = 'norte'
+                # Verificar sentido
+                if (posicao + 1 < total):
+                    if (id_posicao < temp_paragens[posicao + 1].get('posicao')):
+                        sentido = 'norte'
+                    else:
+                        sentido = 'sul'
                 else:
                     sentido = 'sul'
-            else:
-                sentido = 'sul'
 
-            #Ver se já foi visitado
+                #Ver se já foi visitado
 
-            if id_posicao==no.id and sentido == 'norte' and visitado_sul_norte[id_posicao] == False:
+                if id_posicao==no.id and sentido == 'norte':
 
-                temp_paragens_2=melhor_paragem.copy()
+                    temp_paragens_2=temp_paragens.copy()
 
-                tempo_add = tempos_nos_sul_norte[no.id]
+                    tempo_add = tempos_nos_sul_norte[no.id]
 
-                #tempo_add=tempos_nos[no]
+                    #tempo_add=tempos_nos[no]
 
-                temp_paragens_2,count=visitar_no(id_posicao,temp_paragens_2,posicao,tempo_add,"Visitar Nó",-1)
+                    temp_paragens_2,count=visitar_no(id_posicao,temp_paragens_2,posicao,tempo_add,"Visitar Nó",-1)
 
-                visitado_sul_norte[id_posicao] = True
+                    count_visitas[no.id] = count_visitas[no.id]+1
 
-                best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total = verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
+                    visitado_sul_norte[id_posicao] = True
 
-            posicao += 1
+                    best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total = verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
+
+                posicao += 1
 
         temp_paragens=melhor_paragem.copy()
 
@@ -1235,35 +1396,38 @@ def adicionar_nos_dois_sentidos( new_tempo_paragens, lista_sublancos,new_visitas
         best_tempos_entre_passagens_total=[]
         best_max_tmp = 999999
         best_possivel_tmp = False
+        if no.considerar_no == 1:
 
-        while posicao < total:
+            while posicao < total:
 
-            id_posicao = temp_paragens[posicao].get('posicao')
+                id_posicao = temp_paragens[posicao].get('posicao')
 
-            # Verificar sentido
-            if (posicao + 1 < total):
-                if (id_posicao <= temp_paragens[posicao + 1].get('posicao')):
-                    sentido = 'norte'
+                # Verificar sentido
+                if (posicao + 1 < total):
+                    if (id_posicao <= temp_paragens[posicao + 1].get('posicao')):
+                        sentido = 'norte'
+                    else:
+                        sentido = 'sul'
                 else:
-                    sentido = 'sul'
-            else:
-                sentido = 'norte'
+                    sentido = 'norte'
 
-            if id_posicao == no.id and sentido == 'sul' and visitado_norte_sul[id_posicao] == False:
+                if id_posicao == no.id and sentido == 'sul':
 
-                temp_paragens_2 = melhor_paragem.copy()
+                    temp_paragens_2 = temp_paragens.copy()
 
-                tempo_add = tempos_nos_norte_sul[no.id]
+                    tempo_add = tempos_nos_norte_sul[no.id]
 
-                # tempo_add=tempos_nos[no]
+                    # tempo_add=tempos_nos[no]
 
-                temp_paragens_2, count = visitar_no(id_posicao, temp_paragens_2, posicao, tempo_add, "Visitar Nó",-1)
+                    temp_paragens_2, count = visitar_no(id_posicao, temp_paragens_2, posicao, tempo_add, "Visitar Nó",-1)
 
-                visitado_norte_sul[id_posicao] = True
+                    visitado_norte_sul[id_posicao] = True
 
-                best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
+                    count_visitas[no.id] = count_visitas[no.id]+1
 
-            posicao += 1
+                    best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total=verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_paragens_2,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
+
+                posicao += 1
 
         temp_paragens = melhor_paragem.copy()
 
@@ -1528,7 +1692,7 @@ def verificar_best_global(rotas,best):
 
     return best_global
 
-def adiciona_pausas(paragens,id_turno):
+def adiciona_pausas(paragens,id_turno, vetor_solucao):
 
     best_rota=paragens.copy()
     rota=best_rota.copy()
@@ -1539,11 +1703,13 @@ def adiciona_pausas(paragens,id_turno):
 
         hora_fim_resposta=pausas_hora_fim[id_turno][id_pausa]
 
-        duracao=hora_fim_resposta-hora_inicio_resposta
+        duracao = pausas_duracao[id_turno][id_pausa]
 
         rotas_alternativas = []
         total=len(best_rota)-1
         id_posicao=0
+
+        id_posicao = 1
 
         while id_posicao<total:
 
@@ -1682,8 +1848,6 @@ def ler_pausas():
 
 def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_turno,sentido_anterior,vetor_solucao):
 
-
-
     # 2 sentidos, requerem duas rotas
     rota_1 = []
     rota_2 = []
@@ -1734,42 +1898,49 @@ def criar_rota_dividida(n_voltas, co_a_considerar, sublancos_a_considerar, id_tu
     tempo_paragens_1=[tempo_paragens_1]
     tempo_paragens_2 = [tempo_paragens_2]
 
-    montecarlo_1,tempo_medio_passagem_1,output_simulacoes_1 = calcular_tempo_resposta(tempo_paragens_1, tempo_inicio_turno,id_turno,n_voltas)
-    montecarlo_2,tempo_medio_passagem_2,output_simulacoes_2 = calcular_tempo_resposta(tempo_paragens_2,tempo_inicio_turno ,id_turno,n_voltas)
+    temp_1=copy.deepcopy(tempo_paragens_1)
+    temp_2=copy.deepcopy(tempo_paragens_2)
+
+    montecarlo_1,tempo_medio_passagem_1,output_simulacoes_1,n_simulacoes_1 = calcular_tempo_resposta(tempo_paragens_1, tempo_inicio_turno,id_turno,n_voltas)
+    montecarlo_2,tempo_medio_passagem_2,output_simulacoes_2,n_simulacoes_2 = calcular_tempo_resposta(tempo_paragens_2,tempo_inicio_turno ,id_turno,n_voltas)
 
     if sentido_anterior=='nd':
         if (montecarlo_1 > montecarlo_2):
             rota_best = rota_2
-            tempo_paragens_best = tempo_paragens_2
+            tempo_paragens_best = temp_2
             montecarlo_best=montecarlo_2
             passagem_best=tempo_medio_passagem_2
             sentido='crescente'
             simulacoes=output_simulacoes_2
+            n_simulacoes=n_simulacoes_2
         else:
             rota_best = rota_1
-            tempo_paragens_best = tempo_paragens_1
+            tempo_paragens_best = temp_1
             passagem_best=tempo_medio_passagem_1
             montecarlo_best=montecarlo_1
             sentido='decrescente'
             simulacoes=output_simulacoes_1
+            n_simulacoes = n_simulacoes_1
     elif sentido_anterior=='crescente':
         rota_best = rota_1
-        tempo_paragens_best = tempo_paragens_1
+        tempo_paragens_best = temp_1
         passagem_best = tempo_medio_passagem_1
         montecarlo_best = montecarlo_1
         sentido = 'decrescente'
         simulacoes=output_simulacoes_1
+        n_simulacoes = n_simulacoes_1
     elif sentido_anterior=="decrescente":
         rota_best = rota_2
-        tempo_paragens_best = tempo_paragens_2
+        tempo_paragens_best = temp_2
         montecarlo_best = montecarlo_2
         passagem_best = tempo_medio_passagem_2
         sentido = 'crescente'
         simulacoes=output_simulacoes_2
+        n_simulacoes = n_simulacoes_2
 
     print('--------------------')
 
-    return rota_best, tempo_paragens_best,montecarlo_best,passagem_best,sentido,simulacoes
+    return rota_best, tempo_paragens_best,montecarlo_best,passagem_best,sentido,simulacoes,n_simulacoes
 
 
 def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno,n_voltas):
@@ -1790,20 +1961,16 @@ def calcular_tempo_resposta(rotas,hora_inicio_turno,id_turno,n_voltas):
 
     df_probabilidades = pd.read_csv('dados/probabilidades sem zeros.csv', sep=",", encoding='iso-8859-1')
 
-    monte_carlo_com_zeros,output_simulacoes=gerar_montecarlo(df_probabilidades,flat_list,tempo_inicio_turno,id_turno,n_voltas)
+    monte_carlo_com_zeros,output_simulacoes,numero_medio_incidencias=gerar_montecarlo(df_probabilidades,flat_list,tempo_inicio_turno,id_turno,n_voltas)
 
     tempo_medio_passagem=calcular_tempo_medio_passagem(rotas,id_turno)
 
-    return monte_carlo_com_zeros,tempo_medio_passagem,output_simulacoes
+    return monte_carlo_com_zeros,tempo_medio_passagem,output_simulacoes,numero_medio_incidencias
 
 def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_voltas):
 
     #tempo_inicio_turno=turnos[tempo_inicio_turno].inicio
     #method=0 - probabilidades maiores
-
-    global t_medio_incidencia
-
-    output_inicial=paragens.copy()
 
     output_inicial=condensar_paragens(paragens)
 
@@ -1821,18 +1988,30 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_vo
         if posicao_rota.get('Hora Fim')+tempo_inicio_turno > max_hora:
             max_hora = int(posicao_rota.get('Hora Fim')/60)+tempo_inicio_turno
 
-    df_probabilidades = df_probabilidades[
-        (df_probabilidades['Hora'] >= min_hora) & (df_probabilidades['Hora'] < max_hora)]
+    min_hora=round((turnos[id_turno].inicio+tempo_inicio_turno*60)/60)
+    max_hora=round((turnos[id_turno].fim+tempo_inicio_turno*60)/60)
 
-    df_probabilidades['Probabilidade incidência'] = df_probabilidades['Probabilidade incidência'].replace("%", "",
-                                                                                                          regex=True).astype(
-        float) / 100
+    if min_hora>23:
+        min_hora=min_hora-24
+    if max_hora>23:
+        max_hora=max_hora-24
+
+    if max_hora<min_hora:
+        df_probabilidades = df_probabilidades[
+            (df_probabilidades['Hora'] < max_hora) | (df_probabilidades['Hora'] >= min_hora)]
+
+    else:
+
+        df_probabilidades = df_probabilidades[
+            (df_probabilidades['Hora'] >= min_hora) & (df_probabilidades['Hora'] < max_hora)]
 
     output=[]
 
     lista_probabilidades=df_probabilidades['Probabilidade incidência'].tolist()
     lista_hora=df_probabilidades['Hora'].tolist()
     lista_sublanco=df_probabilidades['Sublanço'].tolist()
+
+    numero_incidencias=0
 
     for index in range(n_simulacoes):
 
@@ -1851,19 +2030,23 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_vo
 
         nos_incidencias=filtrar_incidencias(hora_incidencia,sublanco_incidencia)
 
+        numero_incidencias+=len(nos_incidencias)
+
         for incidencia in nos_incidencias:
 
             hora_incidencia=incidencia.get('hora')
-
+            #tempo_sublanco_incidencia=incidencia.get('sublanço')
+            tempo_sublanco_incidencia=30
             pontos_hora=[]
             posicao_real=[]
+
             id_real=-1
 
             for paragem in paragens:
 
                 id_real+=1
 
-                if round(paragem.get('Hora Inicio')/60+tempo_inicio_turno)==hora_incidencia:
+                if math.floor(paragem.get('Hora Inicio')/60+tempo_inicio_turno)==hora_incidencia:
 
                     pontos_hora.append(paragem)
                     posicao_real.append(id_real)
@@ -1871,18 +2054,24 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_vo
             if len(pontos_hora)>0:
 
                 #ESCOLHER UM PONTO ALEATÓRIO A PARTIR DO QUAL SE VAI RESPONDER À INCIDENCIA
+                minuto_escolhido=random.randint(1,59)+(hora_incidencia)*60-tempo_inicio_turno*60
+                posicao_escolhida = pontos_hora[0].get('posicao')
+                posicao_real_escolhida=0
 
-                posicao_escolhida=random.randint(0,len(pontos_hora)-1)#escolha do ponto a partir do qual se vai calcular o tempo de resposta
-                posicao_real_escolhida=posicao_real[posicao_escolhida]
+                count_ponto=0
+                for ponto in pontos_hora:
+                    if ponto.get('Hora Fim')>=minuto_escolhido:
+                        posicao_escolhida=ponto.get('posicao')
+                        posicao_real_escolhida=posicao_real[count_ponto] #escolha do ponto a partir do qual se vai calcular o tempo de resposta
+                        break
+                    count_ponto+=1
 
-                ponto_partida=pontos_hora[posicao_escolhida]
-
-                id_no_partida=ponto_partida.get('posicao')
+                id_no_partida=posicao_escolhida
 
                 id_no_in=incidencia.get('no_in')
                 id_no_out=incidencia.get('no_out')
 
-                min_acontecimento=ponto_partida.get('Hora Fim')
+                min_acontecimento=paragens[posicao_real_escolhida].get('Hora Fim')
 
                 if math.fabs(id_no_out-id_no_partida)>math.fabs(id_no_out-id_no_partida) or id_no_in==-1:
 
@@ -1892,27 +2081,50 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_vo
 
                     id_no_chegada=id_no_in
 
+                no_atual=paragens[posicao_real_escolhida].get('posicao')
+                index_posicao=posicao_real_escolhida
+                while no_atual==id_no_partida:
+                    index_posicao-=1
+                    no_atual=paragens[index_posicao].get('posicao')
+
+                tempo_inversao_marcha=tempos_nos_sul_norte[id_no_partida]/2
+
+                if id_no_chegada<id_no_partida and id_no_partida<no_atual:
+                    tempo_inversao_marcha=0
+                elif id_no_chegada>id_no_partida and id_no_partida>no_atual:
+                    tempo_inversao_marcha = 0
+                elif id_no_chegada==id_no_partida:
+                    tempo_inversao_marcha = 0
+
+
                 #ADICIONA TODAS AS POSICOES INTERMEDIAS ENTRE O PONTO INICIAL E O FINAL
                 print('posicao atual: ' + str(id_no_partida) + ' posicao incidencia: ' + str(id_no_chegada))
-                paragens,tempo_total, add,last_hora_fim,first_hora_inicio = go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno)
+                paragens,tempo_total, add,last_hora_fim,first_hora_inicio = go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno,tempo_sublanco_incidencia)
 
                 #TEMPO PARA RESPONDER À INCIDENCIA
+                tempo_de_resposta=tempo_inversao_marcha
+                if id_no_chegada>id_no_partida:
+                    posicao_anterior=id_no_partida
+                    for posicao in range(id_no_partida+1,id_no_chegada+1):
+                        tempo_de_resposta+=get_distance(posicao_anterior,posicao)
+                        posicao_anterior=posicao
+                else:
+                    posicao_anterior = id_no_chegada
+                    for posicao in range(id_no_chegada,id_no_partida+1):
+                        tempo_de_resposta += get_distance(posicao_anterior, posicao)
+                        posicao_anterior = posicao
 
-                tempo_de_resposta=get_distance(id_no_chegada,id_no_partida)
                 print('simulacao: ' + str(index) +'/' + str(n_simulacoes) + ' tempo de resposta: ' + str(tempo_de_resposta))
-                duracao_paragens.append(tempo_de_resposta)
+                if tempo_de_resposta!=0:
+                    duracao_paragens.append(tempo_de_resposta)
 
                 #ATUALIZAR VETOR POSICOES
                 paragens=update_posicoes(paragens,min_acontecimento,tempo_total, posicao_real_escolhida + add,last_hora_fim,first_hora_inicio)
-
-                for posicao in range(len(paragens)):
-                    new_row = {'Simulação': index, 'Número Voltas':n_voltas,'Turno':id_turno,'Nó': paragens[posicao].get('posicao'),
-                               'Hora Inicio': paragens[posicao].get('Hora Inicio'),'Hora Fim':paragens[posicao].get('Hora Fim'),'Tipo':paragens[posicao].get('Tipo')}
-
-                    output.append(new_row)
+                new_row = {'Simulação': index, 'Número Voltas':n_voltas,'Turno':id_turno,'Nó partida': nos[id_no_partida].nome,'Nó chegada':nos[id_no_chegada].nome,'Tempo':tempo_de_resposta,'Posicao real escolhida':posicao_real_escolhida,'Hora fim vetor':output_inicial[-1].get('Hora Fim')}
+                output.append(new_row)
 
         #RESET NO VETOR DAS PARAGENS
-        paragens=output_inicial.copy()
+        paragens=copy.deepcopy(output_inicial)
 
     if len(duracao_paragens)>0:
 
@@ -1922,7 +2134,9 @@ def gerar_montecarlo(df_probabilidades,paragens,tempo_inicio_turno,id_turno,n_vo
 
         simulcao_montecarlo=0
 
-    return simulcao_montecarlo,output
+    n_medio_simulacoes=numero_incidencias/n_simulacoes
+
+    return simulcao_montecarlo,output,n_medio_simulacoes
 
 def update_posicoes(paragens,min_acontecimento,tempo_total, posicao_incidencia,last_hora_fim,first_hora_inicio):
 
@@ -1946,57 +2160,92 @@ def update_posicoes(paragens,min_acontecimento,tempo_total, posicao_incidencia,l
 
     return paragens
 
-def calcular_delta(rota,id_pausa,id_turno):
+def calcular_delta(rota,id_pausa,vetor_solucao):
 
     delta = 0
     dif_inicio = 0
     dif_fim = 0
     id_posicao=-1
 
-    if id_pausa == -1:
-        for i in range(len(rota)):
-            if(rota[i].get('Tipo') == 'Pausa'):
 
-                dif_inicio = pausas_hora_inicio[id_turno][rota[i].get('id_pausa')] - rota[i].get('Hora Fim')
+    hora_final = rota[-1].get('Hora Fim')
 
-                dif_fim = rota[i].get('Hora Inicio') - pausas_hora_fim[id_turno][rota[i].get('id_pausa')]
+    # Descobrir id_turn
+    found_it = False
+    id_turno = 0
 
-                if (dif_inicio > 0):
-                    try:
-                        delta = delta + dif_inicio
-                        id_posicao = i
-                    except OverflowError:
-                        delta = float('inf')
-                if (dif_fim > 0):
-                    try:
-                        delta = delta + dif_fim
-                        id_posicao = i
-                    except OverflowError:
-                        delta = float('inf')
+    if(id_pausa != -1):
+        while found_it == False and id_turno < len(turnos):
+            if id_turno<len(turnos)-1 and int(hora_final)>turnos[id_turno].inicio and int(hora_final)<turnos[id_turno+1].fim:
+                found_it = True
+            elif(int(hora_final) <= turnos[id_turno].fim):
+                found_it = True
+            else:
+                id_turno += 1
+
+    if id_turno>len(turnos)-1:
+        id_turno=len(turnos)-1
+
+    temp_vetor = [vetor_solucao]
+    temp_vetor.append(rota)
+    temp_vetor=[item for sublist in temp_vetor for item in sublist]
+
+    # Flat list de tudo
+    flat_list_inicio = [item for sublist in pausas_hora_inicio for item in sublist]
+    flat_list_fim = [item for sublist in pausas_hora_fim for item in sublist]
+    flat_list_id_inicio = [item for sublist in pausas_id_inicio for item in sublist]
+    flat_list_id_fim = [item for sublist in pausas_id_fim for item in sublist]
+
+    # Que pausas considerar?
+    ultima_pausa = 0
+    while ultima_pausa < len(flat_list_fim) and flat_list_fim[ultima_pausa] <= hora_final:
+        ultima_pausa += 1
+
+    #Descobrir o mais apropriado para cada pausa
+
+    best_local = 0
+    best_fit = 0
+    fit = 0
+    if (id_pausa == -1):
+        for i in range(ultima_pausa):
+            best_local = 0
+            best_fit = 9999999
+
+            for j in range(len(temp_vetor)):
+
+                if (temp_vetor[j].get('posicao') in flat_list_id_inicio[i] or
+                temp_vetor[j].get('posicao') in flat_list_id_fim[i]):
+                    if temp_vetor[j].get('Hora Inicio') > flat_list_fim[i]:
+                        fit = temp_vetor[j].get('Hora Inicio') - flat_list_fim[i]
+                    elif temp_vetor[j].get('Hora Fim') < flat_list_inicio[i]:
+                        fit = flat_list_inicio[i] - temp_vetor[j].get('Hora Fim')
+                    else:
+                        fit = 0
+
+                    if fit < best_fit:
+                        best_local = j
+                        best_fit = fit
+
+        delta += best_fit
     else:
-        for i in range(len(rota)):
-            if (rota[i].get('Tipo') == 'Pausa'):
-                if rota[i].get('id_pausa')==id_pausa:
+        best_local = 0
+        best_fit = 9999999
+        for j in range(len(temp_vetor)):
 
-                    dif_inicio =pausas_hora_inicio[id_turno][rota[i].get('id_pausa')] - rota[i].get('Hora Fim')
+            if (id_pausa != -1 and temp_vetor[j].get('id_pausa') == id_pausa
+                 and temp_vetor[j].get('Hora Inicio') > turnos[id_turno].inicio):
+                if temp_vetor[j].get('Hora Inicio') > pausas_hora_fim[id_turno][id_pausa]:
+                    fit = temp_vetor[j].get('Hora Inicio') - pausas_hora_fim[id_turno][id_pausa]
+                elif temp_vetor[j].get('Hora Fim') < pausas_hora_inicio[id_turno][id_pausa]:
+                    fit = pausas_hora_inicio[id_turno][id_pausa] - temp_vetor[j].get('Hora Fim')
+                else:
+                    fit = 0
 
-                    dif_fim = rota[i].get('Hora Inicio')-pausas_hora_fim[id_turno][rota[i].get('id_pausa')]
+                if fit < best_fit:
+                    best_local = j
+                    best_fit = fit
 
-                    if (dif_inicio > 0):
-                        try:
-                            delta = delta + dif_inicio
-                            id_posicao=i
-                        except OverflowError:
-                            delta = float('inf')
-                    if (dif_fim > 0):
-                        try:
-                            delta = delta + dif_fim
-                            id_posicao=i
-                        except OverflowError:
-                            delta = float('inf')
-
-                    break
-
+        delta += best_fit
 
     return delta
 
@@ -2068,6 +2317,21 @@ def calcular_tempo_medio_passagem(rotas,id_turno):
 
     return tempo_medio_passagem,max_diferenca,posicoes_por_no,tempos_entre_passagens_total
 
+
+def adiciona_cada_combinacao(combinacao, paragens, id_turno, vetor_solucao,slot_tempo):
+
+    rota = paragens.copy()
+
+    combinacao_final = list(combinacao)
+
+    for id_posicao_espera in combinacao_final:
+        id_posicao = rota[id_posicao_espera].get('posicao')
+
+        rota, count = visitar_no(id_posicao, rota, id_posicao_espera, slot_tempo, "Espera", -1)
+
+    return rota
+
+
 def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
     global slot_tempo
@@ -2089,11 +2353,12 @@ def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
 
     if numero_esperas>0:
 
-        slot_tempo=tempo_espera/numero_esperas
+        slot_tempo=round(tempo_espera/numero_esperas)
 
     id_posicoes=[]
     id_testes=[]
-    deltas=[]
+
+    remainder = tempo_espera - slot_tempo * numero_esperas + slot_tempo
 
     diferente = True
     for i in range(len(rota)):
@@ -2141,46 +2406,48 @@ def adiciona_esperas(paragens,id_turno,vetor_solucao,n_voltas):
     best_possivel_tmp = False
     melhor_paragem=[]
     counter=0
+    output_esperas=[]
+
     for combinacao in id_testes:
 
-        rota=paragens.copy()
+        rota = paragens.copy()
 
-        combinacao_final=[]
+        combinacao_final = list(combinacao)
 
-        for i in range(len(combinacao)):
-            combinacao_final.append(combinacao[i]+i)
 
-        for id_posicao_espera in combinacao_final:
+        for posicao_lista in range(len(combinacao_final)):
 
-            id_posicao=rota[id_posicao_espera].get('posicao')
 
-            rota, count = visitar_no(id_posicao, rota, id_posicao_espera, slot_tempo, "Espera", -1)
+            id_posicao_espera=combinacao_final[posicao_lista]+posicao_lista
+
+            id_posicao = rota[id_posicao_espera].get('posicao')
+
+            if(posicao_lista == 0):
+                rota, count = visitar_no(id_posicao, rota, id_posicao_espera, remainder, "Espera", -1)
+            else:
+                rota, count = visitar_no(id_posicao, rota, id_posicao_espera, slot_tempo, "Espera", -1)
 
         counter += 1
 
-        best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem,vetor_max_tmp ,posicoes_por_no,best_tempos_entre_passagens_total= verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,rota,vetor_solucao,melhor_paragem,best_vetor_max_tmp,id_turno,best_tempos_entre_passagens_total)
+        best_max_tmp, best_possivel_tmp, max_soma, melhor_paragem, vetor_max_tmp, posicoes_por_no, best_tempos_entre_passagens_total = verificar_melhor_solucao(
+            max_soma, best_possivel_tmp, best_max_tmp, rota, vetor_solucao, melhor_paragem, best_vetor_max_tmp,
+            id_turno, best_tempos_entre_passagens_total)
 
+        temp_best=copy.deepcopy(posicoes_por_no)
 
-        count_combinacao+=1
+        for no in temp_best:
+            for posicao in no:
 
-        espera_cascais=False
+                new_row={'combinacao':count_combinacao,'posicao':posicao.get('posicao'),'hora inicio':posicao.get('Hora Inicio'),'hora fim':posicao.get('Hora Fim'),'tipo':posicao.get('')}
+                output_esperas.append(new_row)
 
-        for posicao_rota in rota:
-            if posicao_rota.get('Tipo')=='Espera' and posicao_rota.get('posicao')==4:
-                espera_cascais=True
-                break
+        count_combinacao += 1
 
-        for no in nos:
+    # if id_turno==0:
+    #     df=pd.DataFrame(output_esperas)
+    #     df.to_csv('posicao.csv',encoding='iso-8859-1')
 
-            for posicao in posicoes_por_no[no.id]:
-
-                new_row={'combinação': count_combinacao, 'inicio':posicao.get('Hora Inicio'),'fim':posicao.get('Hora Fim'),'nó':no.nome,'espera_cascais':espera_cascais}
-                output_posicoes.append(new_row)
-
-    if id_turno==0:
-        df=pd.DataFrame(output_posicoes)
-        df.to_csv('posicoes_por_nos.csv',encoding='ISO-8859-1')
-    print('combinações geradas: ' + str(count_combinacao) + '/' + str(len(id_testes)) + ' número de voltas: ' + str(n_voltas) + ' id turno: ' + str(id_turno))
+    #print('combinações geradas: ' + str(count_combinacao) + '/' + str(len(id_testes)) + ' número de voltas: ' + str(n_voltas) + ' id turno: ' + str(id_turno))
 
     return melhor_paragem
 
@@ -2237,7 +2504,7 @@ def condensar_paragens(vetor_paragens):
 
     return new_vetor
 
-def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno):
+def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida,id_turno,tempo_sublanco_incidencia):
 
     count = id_no_partida
     add = 0
@@ -2274,11 +2541,11 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
         first_hora_inicio = paragens[posicao_real_escolhida + add].get('Hora Fim')
 
 
-    last_hora_fim = hora_inicio + t_medio_incidencia
+    last_hora_fim = hora_inicio + tempo_sublanco_incidencia
     new_row = {'posicao': id_no_chegada, 'Hora Inicio': paragens[posicao_real_escolhida + add].get('Hora Fim'),
-                   'Hora Fim': hora_inicio + t_medio_incidencia, 'Tipo': "Incidência"}
+                   'Hora Fim': hora_inicio + tempo_sublanco_incidencia, 'Tipo': "Incidência"}
 
-    tempo_total += t_medio_incidencia
+    tempo_total += tempo_sublanco_incidencia
 
     paragens.insert(posicao_real_escolhida+1+add, new_row)
 
@@ -2306,6 +2573,7 @@ def go_to_incidencia(paragens,posicao_real_escolhida,id_no_chegada,id_no_partida
     return paragens,tempo_total, add,last_hora_fim,first_hora_inicio
 
 def filtrar_incidencias(hora_incidencia,sublanco_incidencia):
+
     nos_incidencias=[]
     for posicao in range(len(hora_incidencia)):
         sublanco = sublanco_incidencia[posicao]
@@ -2315,14 +2583,17 @@ def filtrar_incidencias(hora_incidencia,sublanco_incidencia):
         no_fim = sublanco.split('-')[1]
         no_fim = no_fim.strip()
         id_fim = -1
+        n_consideracoes=0
         for no_real in nos:
             if no_inicio in no_real.nome:
                 id_inicio = no_real.id
+                n_consideracoes+=no_real.considerar_no
             if no_fim in no_real.nome:
                 id_fim = no_real.id
+                n_consideracoes += no_real.considerar_no
 
-        if id_inicio != -1 and id_fim != -1:
-            new_row = {'no_in': id_inicio, 'no_out': id_fim, 'hora': hora_incidencia[posicao]}
+        if id_inicio != -1 and id_fim != -1 and n_consideracoes>0:
+            new_row = {'no_in': id_inicio, 'no_out': id_fim,'sublanço':sublanco,'hora': hora_incidencia[posicao]}
             nos_incidencias.append(new_row)
     return nos_incidencias
 
@@ -2360,42 +2631,130 @@ def limpar_resultado(paragens):
 
     return new_vetor
 
+def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adicionados):
 
-def verificar_corte(carro, id_turno, n_voltas):
-    
-    probabilidades_turno = []
-    if(id_turno == 0):
+    if (id_turno == 0):
         probabilidades_turno = probabilidades_turno_1.copy()
-    elif(id_turno == 1):
+        n_incidencias_turno = n_incidencias_dia_1.copy()
+        nome_sublancos_turno=nome_sublanco_turno_1.copy()
+    elif (id_turno == 1):
         probabilidades_turno = probabilidades_turno_2.copy()
+        n_incidencias_turno = n_incidencias_dia_2.copy()
+        nome_sublancos_turno = nome_sublanco_turno_2.copy()
     else:
         probabilidades_turno = probabilidades_turno_3.copy()
+        n_incidencias_turno = n_incidencias_dia_3.copy()
+        nome_sublancos_turno = nome_sublanco_turno_3.copy()
 
-    #Tempos em minutos
+    # Tempos em minutos
     tempo_patrulha = 0
     tempo_nos = 0
-    tempo_incidencias = 0
 
-    #Calcular tempos_nos e tempos patrulhas
-    for index in range(len(carro)-1):
-        tempo_patrulha += get_distance(carro[index], carro[index+1]) * n_voltas
-        tempo_nos += tempos_nos_norte_sul[carro[index]]
-        tempo_nos += tempos_nos_sul_norte[carro[index]]
-        tempo_incidencias += probabilidades_turno[carro[index]+1] * t_medio_incidencia
+    tempo_desloc_incidencia = 0
+    pos_ponto_medio = math.floor(len(carro) / 2)
+    ponto_medio = carro[pos_ponto_medio]
+    tempo_resol_incid = 0
 
-    tempo_nos += (tempos_nos_norte_sul[carro[-1]] + tempos_nos_sul_norte[carro[-1]]) / 2
+    incidencias_consideradas = []
+    tempo_sublanco = t_medio_incidencia
 
-    #Tempo turno sem pausas
-    tempo_turno = turnos[id_turno].fim - turnos[id_turno].inicio - 60 - 30
+    # Calcular tempos_nos e tempos patrulhas
+    print(carro)
 
-    tempo_total = tempo_patrulha + tempo_nos + tempo_incidencias
+    lista_extensoes=[]
+    append_tempo_nos=[]
 
-    if(tempo_total > tempo_turno):
-        return False
+    tempo_co_rota = dist_co_rota * 2
+
+    for index in range(len(carro) - 1):
+
+        tempo_sublanco = t_medio_incidencia
+
+        tempo_patrulha += nos[carro[index]].kms[carro[index + 1]] * n_voltas * 2
+        lista_extensoes.append(nos[carro[index]].kms[carro[index + 1]])
+
+        for dict in tempo_sublancos:
+            if nome_sublancos_turno[carro[index]] == dict.get('sublanco'):
+                tempo_sublanco = dict.get('tempo')
+                break
+
+        if index==0 and carro[0]!=0:
+
+            tempo_nos += (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2
+            append_tempo_nos.append( (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2)
+
+        else:
+
+            tempo_nos += tempos_nos_norte_sul[carro[index]]
+            tempo_nos += tempos_nos_sul_norte[carro[index]]
+            append_tempo_nos.append((tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]]))
+
+
+            if index!=0:
+
+                tempo_resol_incid += n_incidencias_turno[carro[index]] * tempo_sublanco
+                incidencias_consideradas.append( n_incidencias_turno[carro[index]] * tempo_sublanco)
+                tempo_desloc_incidencia += get_distance(ponto_medio, carro[index]) * probabilidades_turno[
+                        carro[index]]
+
+    if carro[0]==0 and len(carro)==1:
+        tempo_nos += tempos_nos_norte_sul[carro[0]]
+        tempo_nos += tempos_nos_sul_norte[carro[0]]
+        append_tempo_nos.append((tempos_nos_norte_sul[carro[0]] + tempos_nos_sul_norte[carro[0]]) )
+
+    elif carro[-1]==len(nos)-1:
+
+        tempo_nos += tempos_nos_norte_sul[carro[-1]]
+        tempo_nos += tempos_nos_sul_norte[carro[-1]]
+        append_tempo_nos.append( (tempos_nos_norte_sul[carro[-1]] + tempos_nos_sul_norte[carro[-1]]))
+
     else:
-        return True
+
+    # Para o tempo do nó na ponta
+        tempo_nos += (tempos_nos_norte_sul[carro[-1]] + tempos_nos_sul_norte[carro[-1]]) / 2
+        append_tempo_nos.append( (tempos_nos_norte_sul[carro[-1]] + tempos_nos_sul_norte[carro[-1]])/2)
+
+    for dict in tempo_sublancos:
+        if nome_sublancos_turno[carro[-1]] == dict.get('sublanco'):
+            tempo_sublanco = dict.get('tempo')
+            break
+
+    tempo_resol_incid += n_incidencias_turno[carro[-1]] * tempo_sublanco
+    incidencias_consideradas.append( n_incidencias_turno[carro[-1]] * tempo_sublanco)
+    tempo_desloc_incidencia += get_distance(ponto_medio, carro[-1]) * probabilidades_turno[
+        carro[-1]]
+
+    tempo_incidencias = tempo_resol_incid + tempo_desloc_incidencia
+    # Tempo turno sem pausas
+    tempo_turno = turnos[id_turno].fim - turnos[id_turno].inicio - sum(pausas_duracao[id_turno])
+    tempo_patrulha=60 * tempo_patrulha / velocidade
+    # Calcular tempo total
+    tempo_total = tempo_patrulha + tempo_nos + tempo_incidencias + tempo_co_rota
+
+    indicadores = {
+        'Tempo_Resolucao_Incid': tempo_resol_incid,
+        'Tempo_Desloc_Incid': tempo_desloc_incidencia,
+        'Tempo_Nos': tempo_nos,
+        'Tempo_Patrulha': tempo_patrulha,
+        'Tempo_Total': tempo_total,
+        'Tempo_Abertura':tempo_turno,
+        'Incidencias consideradas' : incidencias_consideradas,
+        'Lista extensoes':lista_extensoes,
+        'Tempo_CO_Rota' : tempo_co_rota,
+        'Lista nos':append_tempo_nos
+    }
+
+    # Retornar resultado
 
 
+    if (tempo_total <= tempo_turno) or len(carro)<=2 or (len(carro)<=adicionados+1 and adicionados>1) or (adicionados>1 and tempo_total*0.8<=tempo_turno) :
+        if tempo_total>tempo_turno:
+            print('Para o número de voltas ' + str(n_voltas) + ' no turno ' + str(id_turno) + ', existe um carro cujo tempo total (' + str(tempo_total/60) + ') é superior ao tempo de abertura (' + str(tempo_turno/60) + ').')
+            vetor_warnings.append('Para o número de voltas ' + str(n_voltas) + ' no turno ' + str(id_turno) + ', existe um carro cujo tempo total (' + str(tempo_total/60) + ') é superior ao tempo de abertura (' + str(tempo_turno/60) + ').')
+        return indicadores, False,vetor_warnings
+
+    else:
+        return indicadores, True,vetor_warnings
 
 def calcular_tmp(rota,vetor_solucao,id_turno):
 
@@ -2421,10 +2780,9 @@ def calcular_tmp(rota,vetor_solucao,id_turno):
 
     tempo_medio_passagem,tempo_max_passagem,posicoes_por_no,tempos_entre_passagens_total=calcular_tempo_medio_passagem(temp_vetor,id_turno)
 
-    for tempo in tempo_max_passagem:
-        if tempo>maximo_tempo_passagem:
-            resultado=False
-            break
+    tempo = max(tempo_max_passagem)
+    if tempo > maximo_tempo_passagem:
+        resultado = False
 
     return resultado,tempo_max_passagem,posicoes_por_no,tempos_entre_passagens_total
 
@@ -2463,18 +2821,79 @@ def verificar_melhor_solucao(max_soma,best_possivel_tmp,best_max_tmp,temp_parage
         best_vetor_max_tmp = vetor_max_atual.copy()
         best_tempos_entre_passagens_total = tempos_entre_passagens_total.copy()
 
-    elif possivel_tmp==True and best_possivel_tmp==True and max_atual==best_max_tmp:
+    elif max_atual==best_max_tmp:
 
         best_max_tmp_var=np.var(best_tempos_entre_passagens_total)
         max_atual_var=np.var(tempos_entre_passagens_total)
 
         if len(best_vetor_max_tmp)==0 or best_max_tmp_var>max_atual_var:
-
+            best_possivel_tmp=possivel_tmp
             best_max_tmp = max_atual
-            best_possivel_tmp = True
             max_soma = soma
             melhor_paragem = temp_paragens_2.copy()
             best_vetor_max_tmp = vetor_max_atual.copy()
             best_tempos_entre_passagens_total = tempos_entre_passagens_total.copy()
 
+
     return best_max_tmp,best_possivel_tmp,max_soma,melhor_paragem,best_vetor_max_tmp,posicoes_por_no,best_tempos_entre_passagens_total
+
+
+def calcular_matriz_cos():
+    lista_cos = []
+    for no in range(len(nos)):
+        if nos[no].co == True:
+            lista_cos.append(no)
+
+    co_min = -1
+
+    global dict_cos_dist
+    dict_cos_dist = []
+    for no in nos:
+        co_min = -1
+        dist_min = 99999999
+        for co in lista_cos:
+            distancia=0
+            if no.id>co:
+                id_inicio=co
+                id_fim=no.id
+            else:
+                id_inicio = co
+                id_fim = no.id
+            id_anterior=id_inicio
+            for posicao_intermedia in range(id_inicio+1,id_fim+1):
+                distancia +=get_distance(id_anterior, posicao_intermedia)
+                id_anterior=posicao_intermedia
+            if (distancia < dist_min):
+                dist_min = distancia
+                co_min = co
+
+        new_row = {'Nó': no.id,
+                   'C.O.': co_min,
+                   'Distância': dist_min}
+
+        dict_cos_dist.append(new_row)
+
+
+def escolher_co(lista_nos):
+    dist_min = 999999
+    co_min = -1
+
+    for no in lista_nos:
+        if (dict_cos_dist[no].get('Distância') < dist_min):
+            co_min = dict_cos_dist[no].get('C.O.')
+            dist_min = dict_cos_dist[no].get('Distância')
+
+    return co_min, dist_min
+
+def verificar_nivel_1(nome_fim,kms,no_1,no_2,nome_inicio,opcoes):
+    opcoes_temp=[]
+    found=False
+    for posicao in range(len(kms)):
+        if no_2[posicao]==nome_fim:
+            opcoes_temp.append(no_1[posicao])
+        if no_2[posicao]==nome_inicio:
+            found=True
+    #opcoes.remove(nome_fim)
+    for opcao_temp in opcoes_temp:
+        opcoes.append(opcao_temp)
+    return opcoes,found

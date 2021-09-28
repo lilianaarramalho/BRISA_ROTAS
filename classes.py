@@ -12,7 +12,7 @@ class sublanco(object):
 
 class no(object):
 
-    def __init__(self, id, nome,pausa,almoco,co,espera,tipo):
+    def __init__(self, id, nome,pausa,almoco,co,espera,tipo,grupo,auto_estrada,considerar_no):
         self.id = id
         self.nome = nome
         self.pausa=pausa
@@ -24,6 +24,9 @@ class no(object):
         self.tempo=0
         self.espera=espera
         self.tipo=tipo
+        self.grupo=grupo
+        self.auto_estrada=auto_estrada
+        self.considerar_no=considerar_no
 
     def __repr__(self):
         return str(self.nome)

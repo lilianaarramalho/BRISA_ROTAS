@@ -1,9 +1,43 @@
-Auto-Estrada,CO,Nó,Sequência,CO?,pausa,almoco,norte-sul,sul-norte,espera
-A5,Carcavelos,Nó Viaduto Duarte Pacheco,0,0,0,0,15,15,0
-A5,Carcavelos,Nó Cruz das Oliveiras,1,0,1,0,5,5,1
-A5,Carcavelos,Nó de Monsanto,2,0,0,0,14,14,0
-A5,Carcavelos,Nó de Miraflores (A5/IC17),3,0,0,0,10,10,0
-A5,Carcavelos,Nó de Linda-a-Velha,4,0,0,0,13,13,0
-A5,Carcavelos,Nó Estádio Nacional,5,0,0,0,28,28,0
-A5,Carcavelos,Nó de Oeiras,6,0,1,0,9,9,1
-A5,Carcavelos,Nó de Carcavelos,7,1,1,1,13,13,1
+Auto-Estrada,CO,Nó,Grupos,Sequência AE_1,Sequência AE_2,Sequência Micro,Considerar Tempo Nós?,CO?,pausa,almoco,norte-sul,sul-norte,espera
+A1,Feira,Santo Ovídio,,1,42,1,1,0,0,10,10,10,0
+A1,Feira,Jaca,,2,41,2,1,0,0,10,10,10,0
+A1,Feira,Carvalhos,,3,40,3,1,0,0,10,10,10,0
+A1,Feira,Feiteira,,4,39,4,1,0,0,10,10,10,0
+A1,Feira,Espinho (IC24),,5,38,5,1,0,0,10,10,10,0
+A1,Feira,Feira,,6,37,6,1,1,1,10,10,10,0
+A1,Feira,Estarreja,,7,36,7,1,0,0,10,10,10,0
+A1,Mealhada,Albergaria (A1/IP5),,8,35,8,1,0,0,10,10,10,0
+A1,Mealhada,Aveiro Sul,,9,34,9,1,0,0,10,10,10,0
+A1,Mealhada,Mealhada,,10,33,10,1,1,0,10,10,10,0
+A1,Mealhada,Coimbra Norte (A1/A14),,11,24,11,1,0,0,10,10,10,0
+A14,A14,Zombaria,G1,12,25,12,1,0,0,10,10,10,0
+A14,A14,Ançã,G1,13,26,13,1,0,0,10,10,10,0
+A14,A14,EN 335,G1,14,27,14,1,0,0,10,10,10,0
+A14,A14,Montemor-o-Velho,G1,15,28,15,1,0,0,10,10,10,0
+A14,A14,Santa Eulália,G1,16,29,16,1,0,0,10,10,10,0
+A14,A14,A14/A17,G1,17,30,17,1,0,0,10,10,10,0
+A14,A14,Vila Verde,G1,18,31,18,1,0,0,10,10,10,0
+A14,A14,Figueira da Foz,G1,19,32,19,1,0,0,15,15,15,0
+A1,Mealhada,Coimbra Sul,,20,23,20,1,0,0,10,10,10,0
+A1,Leiria,Condeixa,,21,22,21,1,0,0,15,15,15,0
+A1,Leiria,Soure,,22,21,22,1,0,0,10,10,10,0
+A1,Leiria,Pombal,,23,20,23,1,0,0,10,10,10,0
+A1,Leiria,Leiria,,24,19,24,1,1,0,15,15,15,0
+A1,Leiria,Fátima,,25,18,25,1,0,0,10,10,10,0
+A1,Leiria,Torres Novas (A1/A23),,26,17,26,1,0,0,10,10,10,0
+A1,Leiria,A1/A15,,27,16,27,1,0,0,10,10,10,0
+A1,Leiria,Santarém,,28,15,28,1,0,0,10,10,10,0
+A1,Leiria,Cartaxo,,29,14,29,1,1,1,10,10,10,0
+A1,Carregado,Aveiras de Cima,,30,13,30,1,0,0,10,10,10,0
+A1,Carregado,Carregado,,31,12,31,1,1,1,15,15,15,0
+A1,Carregado,A1/A10,,32,8,32,1,0,0,50,50,50,0
+A10,A10,Arruda dos Vinhos,,33,9,33,1,0,0,10,10,10,0
+A10,A10,A9/A10,,34,10,34,1,0,0,20,20,20,0
+A10,A10,Benavente,,35,11,35,1,0,0,20,20,20,0
+A1,Carregado,PLLN,,36,7,36,1,0,0,10,10,10,0
+A1,Carregado,Vila Franca de Xira I,,37,6,37,1,0,0,20,20,20,0
+A1,Carregado,Vila Franca de Xira II,,38,5,38,1,0,0,10,10,10,0
+A1,Carregado,Alverca (A1/A9),,39,4,39,1,0,1,10,10,10,0
+A1,Carregado,Sta Iria da Azóia,,40,3,40,1,0,0,10,10,10,0
+A1,Carregado,São João da Talha,,41,2,41,1,0,0,10,10,10,0
+A1,Carregado,Sacavém,,42,1,42,1,0,0,10,10,10,0

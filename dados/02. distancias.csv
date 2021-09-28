@@ -1,209 +1,61 @@
-CO,Sublanço,kms
-Carcavelos,Viaduto Duarte Pacheco - Cruz das Oliveiras,1.466
-Carcavelos,Cruz das Oliveiras - Monsanto,1.484
-Carcavelos,Monsanto - Miraflores (A5/IC17),1.042
-Carcavelos,Miraflores (A5/IC17) - Linda-a-Velha,1.36
-Carcavelos,Linda-a-Velha - Estádio Nacional,2.688
-Carcavelos,Estádio Nacional-Oeiras,3.523
-Carcavelos,Oeiras - Carcavelos,3.377
-Carcavelos,Carcavelos - Estoril,4.86
-Carcavelos,Estoril - Alcabideche (A5/A16),3
-Carcavelos,Alcabideche (A5/A16) - Alvide,0.55
-Carcavelos,Alvide - Cascais,1.65
-Carcavelos,Alvide - Cascais,1.65
-Feira,Albergaria (A1/IP5) - Estarreja,10.428
-Feira,Estarreja - Feira,16.832
-Feira,Feira - Espinho (IC24),8.92
-Feira,Espinho (IC24) - Feiteira,5.47
-Feira,Feiteira - Carvalhos,2.7
-Feira,Carvalhos - Jaca,2.78
-Feira,Jaca - Santo Ovídio,1.804
-Feira,Jaca - Santo Ovídio,1.804
-Mealhada,Coimbra Sul - Coimbra Norte (A1/A14),8.303
-Mealhada,Coimbra Norte (A1/A14) - Mealhada,11.707
-Mealhada,Mealhada - Aveiro Sul,23.633
-Mealhada,Aveiro Sul - Albergaria (A1/IP5),14.78
-Mealhada,Aveiro Sul - Albergaria (A1/IP5),14.78
-Loures,Estádio 3 - Estádio Nacional (A5/A9),0.77
-Loures,Estádio Nacional - Queluz,3.43
-Loures,Queluz - A9/A16,2.72
-Loures,A9/A16 - Radial da Pontinha,3.28
-Loures,Radial da Pontinha - Radial de Odivelas,6.82
-Loures,Radial de Odivelas - A8/A9,3.55
-Loures,A8/A9 - Bucelas (Zambujal),3.44
-Loures,Bucelas (Zambujal) - A9/A10,8.41
-Loures,A9/A10 - Alverca,3.08
-Loures,A9/A10 - Alverca,3.08
-Grândola,Marateca - A2/A6/A13,1.89
-Grândola,A2/A6/A13 - Alcácer do Sal,25.32
-Grândola,A2/A6/A13 - Alcácer do Sal,25.32
-Grândola,Alcácer do Sal - Grândola Norte,22.53
-Grândola,Grândola Norte - Grândola Sul,15.5
-Grândola,Grândola Sul - Aljustrel,31.4
-Almodôvar,Aljustrel - Castro Verde,26.8
-Almodôvar,Castro Verde - Almodôvar,16.8
-Almodôvar,Almodôvar - S.B. Messines,33.1
-Almodôvar,S.B. Messines - Paderne (A22),12.1
-Almodôvar,S.B. Messines - Paderne (A22),12.1
-Carregado,Sacavém - São João da Talha,3.8
-Carregado,São João da Talha - Sta Iria da Azóia,2.95
-Carregado,Sta Iria da Azóia - Alverca (A1/A9),6.24
-Carregado,Alverca (A1/A9) - Vila Franca de Xira II,7.46
-Carregado,Vila Franca de Xira II - Vila Franca de Xira I,3.4
-Carregado,Vila Franca de Xira I - PLLN,3.975
-Carregado,PLLN - A1/A10,1.225
-Carregado,A1/A10 - Carregado,0.868
-Carregado,Carregado - Aveiras de Cima,15.516
-Carregado,Aveiras de Cima - Cartaxo,11.286
-Carregado,Cartaxo - Santarém,8.08
-Carregado,Cartaxo - Santarém,8.08
-Carregado,A10/A9 - Arruda dos Vinhos,6.9
-Carregado,Arruda dos Vinhos - A10/A1,10.64
-Carregado,A10/A1 - Benavente,14.86
-Carregado,Benavente - A10/A13,7.4
-Carregado,Benavente - A10/A13,7.4
-Ponte de Lima,Porto(VCI) - N12,1.03
-Ponte de Lima,Porto(VCI) - N12,1.03
-Ponte de Lima,N12 - Águas Santas (A3/A4),2.095
-Ponte de Lima,Águas Santas (A3/A4) - Maia,5.25
-Ponte de Lima,Maia - Santo Tirso,12.835
-Ponte de Lima,Santo Tirso - Famalicão,4.525
-Ponte de Lima,Famalicão - Cruz,9.455
-Ponte de Lima,Cruz - Braga Sul,7.235
-Ponte de Lima,Braga Sul - Braga Oeste,4.515
-Ponte de Lima,Braga Oeste - EN 201,19.9
-Ponte de Lima,EN 201 - Ponte de Lima Sul,10
-Ponte de Lima,Ponte de Lima Sul - Ponte de Lima Norte,0.83
-Ponte de Lima,Ponte de Lima Norte - EN 303,20.78
-Ponte de Lima,EN 303 - Valença,8
-Ponte de Lima,Rotunda EN14 - EN14,0.6
-Ponte de Lima,Rotunda EN14 - EN14,0.6
-Ponte de Lima,EN14 - EN 309,1.23
-Ponte de Lima,EN 309 - EN 101,1.06
-Ponte de Lima,EN 101 - Circular Sul de Braga,0.665
-Ponte de Lima,Braga Sul - Celeirós,1.32
-Ponte de Lima,Braga Sul - Celeirós,1.32
-Ponte de Lima,Celeirós - EN14,1.01
-Maia,Águas Santas (A4/A3) - Ermesinde,3
-Maia,Ermesinde - Valongo,4.25
-Maia,Valongo - Campo,5.06
-Maia,Campo - A4/A41,3.4
-Maia,A4/A41 - Baltar,3.4
-Maia,Baltar - Paredes,5.72
-Maia,Guilhufe - Penafiel,2.61
-Maia,Paredes - Guilhufe,2.2
-Maia,Penafiel - Castelões (A4/IP9),7.7
-Maia,Castelões (A4/IP9) - Amarante Poente,12.3
-Maia,Amarante Poente - Amarante Nascente,0.75
-Maia,Amarante Nascente - Geraldes,1.25
-Medas,EN224 - EN227,2.043
-Medas,EN 227 - Feira/Mansores,8.615
-Medas,Feira/Mansores - Gião/Louredo,5.395
-Medas,Gião/Louredo - Canedo,3.743
-Medas,Canedo - A32/A41,3.228
-Medas,A32/A41 - Olival,3.832
-Medas,Olival - A32/A1,6.164
-Medas,Olival - A32/A1,6.164
-Medas,Gondomar - Gens,6.025
-Medas,Gens - A41/A43,9.589
-Medas,A41/A42 - Gandra,3.358
-Medas,Gandra - A4/A41,3.001
-Medas,A4/A41 - ZIC,1.578
-Medas,ZIC - Aguiar de Sousa,3.434
-Medas,Aguiar de Sousa - A41/A43,6.203
-Medas,A41/A43 - Medas,3.042
-Medas,Medas - A32/A41,4.993
-Medas,A32/A41 - Sandim,1.315
-Medas,Sandim - Argoncilhe,6.206
-Medas,Argoncilhe - Nogueira,1.4
-Medas,Nogueira - A41/A1,1
-Medas,A41/A1 - Guetim,1.1
-Medas,Guetim - Espinho,4
-Marinha das Ondas,Figueira da Foz - Vila Verde,3.27
-Marinha das Ondas,Vila Verde - A14/A17,1.11
-Marinha das Ondas,A14/A17 - Santa Eulália,0.002
-Marinha das Ondas,Santa Eulália - Montemor-o-Velho,0.001
-Marinha das Ondas,Montemor-o-Velho - EN 335,0.001
-Marinha das Ondas,EN 335 - Ançã,0.001
-Marinha das Ondas,Ançã - Coimbra Norte (A14/A1),0.002
-Marinha das Ondas,Coimbra Norte (A14/A1) - Zombaria,0.001
-Marinha das Ondas,Coimbra Norte (A14/A1) - Zombaria,0.001
-Marinha das Ondas,A8/A17 - Leiria Norte,10.307
-Marinha das Ondas,Leiria Norte - Monte Real,4.369
-Marinha das Ondas,Monte Real - Monte Redondo,5.281
-Marinha das Ondas,Monte Redondo - Guia,6.612
-Marinha das Ondas,Guia - Louriçal,5.621
-Marinha das Ondas,Louriçal - Marinha Ondas,6.465
-Marinha das Ondas,Marinha Ondas - A17/14 Figueira da Foz,16.258
-Marinha das Ondas,A17/14 Figueira da Foz - Quiaios,8.673
-Marinha das Ondas,Quiaios - Tocha,14.273
-Marinha das Ondas,Tocha - Mira Nó,10.109
-Marinha das Ondas,Mira Nó - Mira PV(limite concessão),3.132
-Coina,Almada - Fogueteiro,8.98
-Coina,Fogueteiro - Coina,8.87
-Coina,Coina - Palmela,11.5
-Coina,Palmela - A2/A12,2.03
-Coina,A2/A12 - Marateca,17.29
-Coina,A2/A12 - Marateca,17.29
-Coina,Montijo (A12/A33) - Pinhal Novo,9.582
-Coina,Pinhal Novo - A12/A2,9.418
-Coina,A12/A2 - Setúbal,5.21
-Coina,A12/A2 - Setúbal,5.21
-Coina,A12 ( Inicio da Concessão) - Alto da Guerra ( Fora da Concessão),3.2
-Coina,A12 ( Inicio da Concessão) - Alto da Guerra ( Fora da Concessão),3.2
-Coina AEBT,IC20 (Inicio Operação) - Rotunda,0.246
-Coina AEBT,Rotunda - Lazarim,0.846
-Coina AEBT,Lazarim - Botequim,2.008
-Coina AEBT,Botequim - Palhais,0.895
-Coina AEBT,Palhais - Queimada,1.648
-Coina AEBT,Queimada - Belverde,4.431
-Coina AEBT,Belverde - Laranjeiras,1.508
-Coina AEBT,Laranjeiras - Coina com EN10 ,6.354
-Coina AEBT,Coina com EN10 - Penalva,3.397
-Coina AEBT,Penalva - Moita,6.436
-Coina AEBT,Moita - Sarilhos,4.65
-Coina AEBT,Sarilhos - Montijo,2.7
-Coina AEBT,Montijo - A33/A12,1.77
-Coina AEBT,A33/A12 - Alcochete,2.95
-Coina AEBT,Alcochete - EN 118,0.35
-Coina AEBT,Alcochete - EN 118,0.4
-Coina AEBT,Rotunda Almada - Almada (IC20/A2),0.4
-Coina AEBT,Almada (IC20/A2) - Hospital,1.65
-Coina AEBT,Hospital - Casas Velhas (Universidade),1.07
-Coina AEBT,Casas Velhas (Universidade) - Funchalinho,1.26
-Coina AEBT,Funchalinho - Entroc. Capuchos,1.05
-Coina AEBT,Entroc. Capuchos - IC20/ER377-2,6.8
-Coina AEBT,Entroc. Capuchos - IC20/ER377-2,6.8
-Coina AEBT,Coina - Penalva,2.1
-Coina AEBT,Penalva - Stº Antonio da Charneca,2.5
-Coina AEBT,Stº Antonio da Charneca - Cruzamento de Santo André (semáforos),2.6
-Coina AEBT,Cruzamento de Santo André (semáforos) - Cruzamento do Hospital (semáforos),1.65
-Coina AEBT,Cruzamento do Hospital (semáforos) - Rotunda do Lavradio (semáforos),0.65
-Coina AEBT,Cruzamento do Hospital (semáforos) - Rotunda do Lavradio (semáforos),0.65
-Coina AEBT,Rotunda Trafaria - Rotunda Corvina,0.45
-Coina AEBT,Rotunda Corvina - Rotunda Pera,1.75
-Coina AEBT,Rotunda Pera - Funchalinho,0.63
-Coina AEBT,Funchalinho - Rotunda 1,0.1
-Coina AEBT,Rotunda 1 - Rotunda 2,0.65
-Coina AEBT,Rotunda 2 - Lazarim,0.65
-Coina AEBT,Rotunda 2 - Lazarim,0.65
-Vendas Novas,A2/A6/A13 - Vendas Novas,19.729
-Vendas Novas,Vendas Novas - Montemor-o-novo Poente,18.696
-Vendas Novas,Montemor-o-novo Poente - Montemor-o-novo Nascente,5.453
-Vendas Novas,Montemor-o-novo Nascente - Évora Poente,15.247
-Vendas Novas,Évora Poente - Évora Nascente,15.975
-Estremoz,Évora Nascente - Estremoz,30
-Estremoz,Estremoz - Borba,12
-Estremoz,Borba - Elvas Poente,20.45
-Estremoz,Elvas Poente - EN 246,5.25
-Estremoz,EN 246 - Elvas Central,2.8
-Estremoz,Elvas Central - Elvas Nascente,3.75
-Estremoz,Elvas Nascente - Caia,5.65
-Estremoz,Caia - Fronteira do Caia,1.09
-Estremoz,Caia - Fronteira do Caia,1.09
-Salvaterra,A2/A6/A13 - Pegões,10.725
-Salvaterra,Pegões - Santo Estevão,19.375
-Salvaterra,Santo Estevão - A13/A10,10.9
-Salvaterra,A13/A10 - Salvaterra de Magos,12.4
-Salvaterra,Salvaterra de Magos - EN118,25.48
-Salvaterra,Salvaterra de Magos - EN118,25.48
+CO,Sublanço,kms,No_1,No_2
+Carcavelos,Viaduto Duarte Pacheco - Cruz das Oliveiras,1.466,Viaduto Duarte Pacheco,Cruz das Oliveiras
+Carcavelos,Cruz das Oliveiras - Monsanto,1.484,Cruz das Oliveiras,Monsanto
+Carcavelos,Monsanto - Miraflores (A5/IC17),0.972,Monsanto,Miraflores (A5/IC17)
+Carcavelos,Miraflores (A5/IC17) - Linda-a-Velha,1.43,Miraflores (A5/IC17),Linda-a-Velha
+Carcavelos,Linda-a-Velha - Estádio Nacional (A5/A9),2.688,Linda-a-Velha,Estádio Nacional (A5/A9)
+Carcavelos,Estádio Nacional (A5/A9) - Oeiras,3.523,Estádio Nacional (A5/A9),Oeiras
+Carcavelos,Oeiras - Carcavelos,3.377,Oeiras,Carcavelos
+Carcavelos,Carcavelos - Estoril,4.86,Carcavelos,Estoril
+Carcavelos,Estoril - Alcabideche (A5/A16),3,Estoril,Alcabideche (A5/A16)
+Carcavelos,Alcabideche (A5/A16) - Alvide,0.55,Alcabideche (A5/A16),Alvide
+Carcavelos,Alvide - Cascais,1.65,Alvide,Cascais
+Feira,Albergaria (A1/IP5) - Estarreja,10.428,Albergaria (A1/IP5),Estarreja
+Feira,Estarreja - Feira,16.832,Estarreja,Feira
+Feira,Feira - Espinho (IC24),9.8,Feira,Espinho (IC24)
+Feira,Espinho (IC24) - Feiteira,3.92,Espinho (IC24),Feiteira
+Feira,Feiteira - Carvalhos,3.37,Feiteira,Carvalhos
+Feira,Carvalhos - Jaca,2.745,Carvalhos,Jaca
+Feira,Jaca - Santo Ovídio,1.839,Jaca,Santo Ovídio
+Mealhada,Coimbra Sul - Coimbra Norte (A1/A14),8.303,Coimbra Sul,Coimbra Norte (A1/A14)
+Mealhada,Coimbra Norte (A1/A14) - Mealhada,11.707,Coimbra Norte (A1/A14),Mealhada
+Mealhada,Mealhada - Aveiro Sul,23.633,Mealhada,Aveiro Sul
+Mealhada,Aveiro Sul - Albergaria (A1/IP5),14.78,Aveiro Sul,Albergaria (A1/IP5)
+Carregado,Sacavém - São João da Talha,3.85,Sacavém,São João da Talha
+Carregado,São João da Talha - Sta Iria da Azóia,2.95,São João da Talha,Sta Iria da Azóia
+Carregado,Sta Iria da Azóia - Alverca (A1/A9),6.24,Sta Iria da Azóia,Alverca (A1/A9)
+Carregado,Alverca (A1/A9) - Vila Franca de Xira II,7.46,Alverca (A1/A9),Vila Franca de Xira II
+Carregado,Vila Franca de Xira II - Vila Franca de Xira I,3.4,Vila Franca de Xira II,Vila Franca de Xira I
+Carregado,Vila Franca de Xira I - PLLN,3.975,Vila Franca de Xira I,PLLN
+Carregado,PLLN - A1/A10,1.225,PLLN,A1/A10
+Carregado,A1/A10 - Carregado,0.868,A1/A10,Carregado
+Carregado,Carregado - Aveiras de Cima,15.516,Carregado,Aveiras de Cima
+Carregado,Aveiras de Cima - Cartaxo,11.286,Aveiras de Cima,Cartaxo
+Carregado,Cartaxo - Santarém,8.08,Cartaxo,Santarém
+Leiria,Santarém - A1/A15,1.185,Santarém,A1/A15
+Leiria,A1/A15 - Torres Novas (A1/A23),27.015,A1/A15,Torres Novas (A1/A23)
+Leiria,Torres Novas (A1/A23) - Fátima,20.325,Torres Novas (A1/A23),Fátima
+Leiria,Fátima - Leiria,15.235,Fátima,Leiria
+Leiria,Leiria - Pombal,24.065,Leiria,Pombal
+Leiria,Pombal - Soure,14.736,Pombal,Soure
+Leiria,Soure - Condeixa,13.045,Soure,Condeixa
+Leiria,Condeixa - Coimbra Sul,7.681,Condeixa,Coimbra Sul
+A14,Figueira da Foz - Vila Verde,3.2,Figueira da Foz,Vila Verde
+A14,Vila Verde - A14/A17,1.6,Vila Verde,A14/A17
+A14,A14/A17 - Santa Eulália,7.2,A14/A17,Santa Eulália
+A14,Santa Eulália - Montemor-o-Velho,4.8,Santa Eulália,Montemor-o-Velho
+A14,Montemor-o-Velho - EN335,8,Montemor-o-Velho,EN 335
+A14,EN335 - Ançã,9.6,EN 335,Ançã
+A14,Ançã - Coimbra Norte (A1/A14),4.4,Ançã,Coimbra Norte (A1/A14)
+A14,Coimbra Norte (A1/A14) - Zombaria,1.1,Coimbra Norte (A1/A14),Zombaria
+A10,A9/A10 - Arruda dos Vinhos,6.9,A9/A10,Arruda dos Vinhos
+A10,Arruda dos Vinhos - A1/A10,11,Arruda dos Vinhos,A1/A10
+A10,A1/A10 - Benavente,14.5,A1/A10,Benavente
+A10,Benavente - A10/A13,7.4,Benavente,A10/A13
+A9,Estádio Nacional (A5/A9) - Queluz,3.4,Estádio Nacional (A5/A9),Queluz
+A9,Queluz - Radial da Pontinha,6,Queluz,Radial da Pontinha
+A9,Radial Pontinha - Radial Odivelas,6.8,Radial da Pontinha,Radial de Odivelas
+A9,Radial Odivelas - A8/A9,3.5,Radial de Odivelas,A8/A9
+A9,A8/A9 - Bucelas (Zambujal),3.4,A8/A9,Bucelas (Zambujal)
+A9,Bucelas (Zambujal) - A9/A10,8.3,Bucelas (Zambujal),A9/A10
+A9,A9/A10 - Alverca,3,A9/A10,Alverca
