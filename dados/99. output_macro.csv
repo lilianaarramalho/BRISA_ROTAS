@@ -1,0 +1,1257 @@
+,No.Voltas,Turno,Carro,C.O.,Nó,Sublanço,Kms,Incidências,Sentido,Auto Estradas
+0,1,0,0,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+1,1,0,0,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.37564897960000004,Sequência AE_1,A1
+2,1,0,0,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.31692832208493155,Sequência AE_1,A1
+3,1,0,0,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.36881986195433786,Sequência AE_1,A1
+4,1,0,0,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5174556993264839,Sequência AE_1,A1
+5,1,0,0,Feira,Feira,Espinho (IC24) - Feira,9.8,0.7298388397917808,Sequência AE_1,A1
+6,1,0,0,Feira,Estarreja,Feira - Estarreja,16.832,0.6392676301972603,Sequência AE_1,A1
+7,1,0,1,Mealhada,Estarreja,,0.0,0.0,Sequência AE_1,A1
+8,1,0,1,Mealhada,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4853197548027397,Sequência AE_1,A1
+9,1,0,1,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.8119130670849315,Sequência AE_1,A1
+10,1,0,1,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.4296318493150685,Sequência AE_1,A1
+11,1,0,1,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.3233424657534247,Sequência AE_1,A1
+12,1,0,2,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+13,1,0,2,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_1,A1 + A14
+14,1,0,2,Leiria,Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_1,A1 + A14
+15,1,0,2,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+16,1,0,2,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_1,A1 + A14
+17,1,0,2,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_1,A1 + A14
+18,1,0,2,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_1,A1 + A14
+19,1,0,2,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_1,A1 + A14
+20,1,0,2,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+21,1,0,2,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.25238134948219176,Sequência AE_1,A1 + A14
+22,1,0,3,Leiria,Coimbra Sul,,0.0,0.0,Sequência AE_1,A1
+23,1,0,3,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.33125275563561646,Sequência AE_1,A1
+24,1,0,3,Leiria,Soure,Condeixa - Soure,13.045,0.4002388189273972,Sequência AE_1,A1
+25,1,0,3,Leiria,Pombal,Soure - Pombal,14.736,0.652505016569863,Sequência AE_1,A1
+26,1,0,3,Leiria,Leiria,Pombal - Leiria,24.065,0.5700248198013699,Sequência AE_1,A1
+27,1,0,4,Leiria,Leiria,,0.0,0.0,Sequência AE_1,A1
+28,1,0,4,Leiria,Fátima,Leiria - Fátima,15.235,0.761054449026484,Sequência AE_1,A1
+29,1,0,4,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.9786293242273971,Sequência AE_1,A1
+30,1,0,4,Leiria,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.1087966280219178,Sequência AE_1,A1
+31,1,0,4,Leiria,Santarém,A1/A15 - Santarém,1.185,0.3100284996826484,Sequência AE_1,A1
+32,1,0,5,Cartaxo,Santarém,,0.0,0.0,Sequência AE_1,A1 + A10
+33,1,0,5,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4706021274657534,Sequência AE_1,A1 + A10
+34,1,0,5,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.7998764298287672,Sequência AE_1,A1 + A10
+35,1,0,5,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.08569996659315067,Sequência AE_1,A1 + A10
+36,1,0,5,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.19903972602739725,Sequência AE_1,A1 + A10
+37,1,0,5,Cartaxo,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_1,A1 + A10
+38,1,0,6,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10 + A1
+39,1,0,6,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_1,A10 + A1
+40,1,0,6,Carregado,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_1,A10 + A1
+41,1,0,6,Carregado,PLLN,Benavente - PLLN,51.525,0.3319207861506848,Sequência AE_1,A10 + A1
+42,1,0,6,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+43,1,0,7,Carregado,Vila Franca de Xira I,Carregado - Vila Franca de Xira I,62.25,0.0,Sequência AE_1,A1
+44,1,0,7,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.8841323062904111,Sequência AE_1,A1
+45,1,0,7,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6415634703196348,Sequência AE_1,A1
+46,1,0,7,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+47,1,0,8,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+48,1,0,8,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6242191779945204,Sequência AE_1,A1
+49,1,0,8,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+50,1,1,9,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+51,1,1,9,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.3859407324657535,Sequência AE_1,A1
+52,1,1,9,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.3618826940118721,Sequência AE_1,A1
+53,1,1,9,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.33852394472237435,Sequência AE_1,A1
+54,1,1,9,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5087406559694064,Sequência AE_1,A1
+55,1,1,9,Feira,Feira,Espinho (IC24) - Feira,9.8,0.8563013700347032,Sequência AE_1,A1
+56,1,1,9,Feira,Estarreja,Feira - Estarreja,16.832,0.6243378129315069,Sequência AE_1,A1
+57,1,1,10,Mealhada,Estarreja,,0.0,0.0,Sequência AE_1,A1
+58,1,1,10,Mealhada,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4645046863123288,Sequência AE_1,A1
+59,1,1,10,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.779262407550685,Sequência AE_1,A1
+60,1,1,10,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.41527397260273974,Sequência AE_1,A1
+61,1,1,10,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.2635068493150684,Sequência AE_1,A1
+62,1,1,11,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+63,1,1,11,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_1,A1 + A14
+64,1,1,11,Leiria,Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_1,A1 + A14
+65,1,1,11,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+66,1,1,11,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_1,A1 + A14
+67,1,1,11,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_1,A1 + A14
+68,1,1,11,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_1,A1 + A14
+69,1,1,11,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_1,A1 + A14
+70,1,1,11,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+71,1,1,11,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.28826495367397253,Sequência AE_1,A1 + A14
+72,1,1,12,Leiria,Coimbra Sul,,0.0,0.0,Sequência AE_1,A1
+73,1,1,12,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.32128193690410956,Sequência AE_1,A1
+74,1,1,12,Leiria,Soure,Condeixa - Soure,13.045,0.4651743205232877,Sequência AE_1,A1
+75,1,1,12,Leiria,Pombal,Soure - Pombal,14.736,0.7767916863926941,Sequência AE_1,A1
+76,1,1,12,Leiria,Leiria,Pombal - Leiria,24.065,0.5254737817808219,Sequência AE_1,A1
+77,1,1,13,Leiria,Leiria,,0.0,0.0,Sequência AE_1,A1
+78,1,1,13,Leiria,Fátima,Leiria - Fátima,15.235,0.8083388970429225,Sequência AE_1,A1
+79,1,1,13,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,1.0338830971479451,Sequência AE_1,A1
+80,1,1,13,Leiria,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.10728556374383563,Sequência AE_1,A1
+81,1,1,13,Leiria,Santarém,A1/A15 - Santarém,1.185,0.3734172263835616,Sequência AE_1,A1
+82,1,1,14,Cartaxo,Santarém,,0.0,0.0,Sequência AE_1,A1 + A10
+83,1,1,14,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4647922246575342,Sequência AE_1,A1 + A10
+84,1,1,14,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.8259464764305936,Sequência AE_1,A1 + A10
+85,1,1,14,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.07216839292054793,Sequência AE_1,A1 + A10
+86,1,1,14,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.20695025236529677,Sequência AE_1,A1 + A10
+87,1,1,14,Cartaxo,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_1,A1 + A10
+88,1,1,15,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10 + A1
+89,1,1,15,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_1,A10 + A1
+90,1,1,15,Carregado,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_1,A10 + A1
+91,1,1,15,Carregado,PLLN,Benavente - PLLN,51.525,0.32064800473424654,Sequência AE_1,A10 + A1
+92,1,1,15,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+93,1,1,16,Carregado,Vila Franca de Xira I,Carregado - Vila Franca de Xira I,62.25,0.0,Sequência AE_1,A1
+94,1,1,16,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.934062643147032,Sequência AE_1,A1
+95,1,1,16,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6573296803652969,Sequência AE_1,A1
+96,1,1,16,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+97,1,1,17,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+98,1,1,17,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6458934550082192,Sequência AE_1,A1
+99,1,1,17,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+100,1,2,18,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+101,1,2,18,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.07890343863744294,Sequência AE_1,A1
+102,1,2,18,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.07529857297762556,Sequência AE_1,A1
+103,1,2,18,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.10010824824474886,Sequência AE_1,A1
+104,1,2,18,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.16122830210593608,Sequência AE_1,A1
+105,1,2,18,Feira,Feira,Espinho (IC24) - Feira,9.8,0.2175584206721461,Sequência AE_1,A1
+106,1,2,18,Feira,Estarreja,Feira - Estarreja,16.832,0.16694250215342465,Sequência AE_1,A1
+107,1,2,18,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.13255912038630135,Sequência AE_1,A1
+108,1,2,18,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.16978342957808218,Sequência AE_1,A1
+109,1,2,18,Feira,Mealhada,Aveiro Sul - Mealhada,23.633,0.10934075342465753,Sequência AE_1,A1
+110,1,2,19,Mealhada,Mealhada,,0.0,0.0,Sequência AE_1,A1 + A14
+111,1,2,19,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.07134246575342466,Sequência AE_1,A1 + A14
+112,1,2,19,Mealhada,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_1,A1 + A14
+113,1,2,19,Mealhada,Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_1,A1 + A14
+114,1,2,19,Mealhada,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+115,1,2,19,Mealhada,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_1,A1 + A14
+116,1,2,19,Mealhada,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_1,A1 + A14
+117,1,2,19,Mealhada,A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_1,A1 + A14
+118,1,2,19,Mealhada,Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_1,A1 + A14
+119,1,2,19,Mealhada,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+120,1,2,19,Mealhada,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.03707972433150685,Sequência AE_1,A1 + A14
+121,1,2,20,Leiria,Coimbra Sul,,0.0,0.0,Sequência AE_1,A1
+122,1,2,20,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.0620406498849315,Sequência AE_1,A1
+123,1,2,20,Leiria,Soure,Condeixa - Soure,13.045,0.10625809352054792,Sequência AE_1,A1
+124,1,2,20,Leiria,Pombal,Soure - Pombal,14.736,0.17977179027945206,Sequência AE_1,A1
+125,1,2,20,Leiria,Leiria,Pombal - Leiria,24.065,0.11880276805479449,Sequência AE_1,A1
+126,1,2,20,Leiria,Fátima,Leiria - Fátima,15.235,0.17225048920273972,Sequência AE_1,A1
+127,1,2,20,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.2443916879178082,Sequência AE_1,A1
+128,1,2,21,Cartaxo,Torres Novas (A1/A23),,0.0,0.0,Sequência AE_1,A1 + A10
+129,1,2,21,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.03928767123013698,Sequência AE_1,A1 + A10
+130,1,2,21,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.0898967396849315,Sequência AE_1,A1 + A10
+131,1,2,21,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.1045782505479452,Sequência AE_1,A1 + A10
+132,1,2,21,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.2133003812876712,Sequência AE_1,A1 + A10
+133,1,2,21,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.02706314734520548,Sequência AE_1,A1 + A10
+134,1,2,21,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.03831780821917808,Sequência AE_1,A1 + A10
+135,1,2,21,Cartaxo,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_1,A1 + A10
+136,1,2,22,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10 + A1
+137,1,2,22,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_1,A10 + A1
+138,1,2,22,Carregado,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_1,A10 + A1
+139,1,2,22,Carregado,PLLN,Benavente - PLLN,51.525,0.0964449076739726,Sequência AE_1,A10 + A1
+140,1,2,22,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+141,1,2,22,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.19972134742648398,Sequência AE_1,A10 + A1
+142,1,2,22,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.1637260273972603,Sequência AE_1,A10 + A1
+143,1,2,23,Carregado,Alverca (A1/A9),Carregado - Alverca (A1/A9),69.0,0.0,Sequência AE_1,A1
+144,1,2,23,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.09001043476666665,Sequência AE_1,A1
+145,1,2,23,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.1343805174849315,Sequência AE_1,A1
+146,1,2,23,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+147,2,0,0,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+148,2,0,0,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.37564897960000004,Sequência AE_1,A1
+149,2,0,0,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.31692832208493155,Sequência AE_1,A1
+150,2,0,0,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.36881986195433786,Sequência AE_1,A1
+151,2,0,0,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5174556993264839,Sequência AE_1,A1
+152,2,0,0,Feira,Feira,Espinho (IC24) - Feira,9.8,0.7298388397917808,Sequência AE_1,A1
+153,2,0,1,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+154,2,0,1,Feira,Estarreja,Feira - Estarreja,16.832,0.6392676301972603,Sequência AE_1,A1
+155,2,0,1,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4853197548027397,Sequência AE_1,A1
+156,2,0,1,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.8119130670849315,Sequência AE_1,A1
+157,2,0,2,Mealhada,Aveiro Sul,,0.0,0.0,Sequência AE_1,A1
+158,2,0,2,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.4296318493150685,Sequência AE_1,A1
+159,2,0,2,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.3233424657534247,Sequência AE_1,A1
+160,2,0,3,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+161,2,0,3,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_1,A1 + A14
+162,2,0,3,Leiria,Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_1,A1 + A14
+163,2,0,3,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+164,2,0,3,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_1,A1 + A14
+165,2,0,3,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_1,A1 + A14
+166,2,0,3,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_1,A1 + A14
+167,2,0,3,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_1,A1 + A14
+168,2,0,3,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+169,2,0,4,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+170,2,0,4,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.25238134948219176,Sequência AE_1,A14 + A1
+171,2,0,4,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.33125275563561646,Sequência AE_1,A14 + A1
+172,2,0,4,Leiria,Soure,Condeixa - Soure,13.045,0.4002388189273972,Sequência AE_1,A14 + A1
+173,2,0,5,Leiria,Soure,,0.0,0.0,Sequência AE_1,A1
+174,2,0,5,Leiria,Pombal,Soure - Pombal,14.736,0.652505016569863,Sequência AE_1,A1
+175,2,0,5,Leiria,Leiria,Pombal - Leiria,24.065,0.5700248198013699,Sequência AE_1,A1
+176,2,0,5,Leiria,Fátima,Leiria - Fátima,15.235,0.761054449026484,Sequência AE_1,A1
+177,2,0,6,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+178,2,0,6,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.9786293242273971,Sequência AE_1,A1
+179,2,0,6,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.1087966280219178,Sequência AE_1,A1
+180,2,0,6,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3100284996826484,Sequência AE_1,A1
+181,2,0,7,Cartaxo,Santarém,,0.0,0.0,Sequência AE_1,A1
+182,2,0,7,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4706021274657534,Sequência AE_1,A1
+183,2,0,7,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.7998764298287672,Sequência AE_1,A1
+184,2,0,7,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.08569996659315067,Sequência AE_1,A1
+185,2,0,7,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.19903972602739725,Sequência AE_1,A1
+186,2,0,8,Carregado,A1/A10,Carregado - A1/A10,0.75,0.0,Sequência AE_1,A1 + A10
+187,2,0,8,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_1,A1 + A10
+188,2,0,8,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_1,A1 + A10
+189,2,0,8,Carregado,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_1,A1 + A10
+190,2,0,9,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+191,2,0,9,Carregado,PLLN,Benavente - PLLN,51.525,0.3319207861506848,Sequência AE_1,A10 + A1
+192,2,0,9,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+193,2,0,10,Carregado,Vila Franca de Xira I,Carregado - Vila Franca de Xira I,62.25,0.0,Sequência AE_1,A1
+194,2,0,10,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.8841323062904111,Sequência AE_1,A1
+195,2,0,10,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6415634703196348,Sequência AE_1,A1
+196,2,0,11,Carregado,Alverca (A1/A9),Carregado - Alverca (A1/A9),69.0,0.0,Sequência AE_1,A1
+197,2,0,11,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+198,2,0,11,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6242191779945204,Sequência AE_1,A1
+199,2,0,11,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+200,2,1,12,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+201,2,1,12,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.3859407324657535,Sequência AE_1,A1
+202,2,1,12,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.3618826940118721,Sequência AE_1,A1
+203,2,1,12,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.33852394472237435,Sequência AE_1,A1
+204,2,1,12,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5087406559694064,Sequência AE_1,A1
+205,2,1,12,Feira,Feira,Espinho (IC24) - Feira,9.8,0.8563013700347032,Sequência AE_1,A1
+206,2,1,13,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+207,2,1,13,Feira,Estarreja,Feira - Estarreja,16.832,0.6243378129315069,Sequência AE_1,A1
+208,2,1,13,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4645046863123288,Sequência AE_1,A1
+209,2,1,13,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.779262407550685,Sequência AE_1,A1
+210,2,1,14,Mealhada,Aveiro Sul,,0.0,0.0,Sequência AE_1,A1 + A14
+211,2,1,14,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.41527397260273974,Sequência AE_1,A1 + A14
+212,2,1,14,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.2635068493150684,Sequência AE_1,A1 + A14
+213,2,1,14,Mealhada,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_1,A1 + A14
+214,2,1,14,Mealhada,Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_1,A1 + A14
+215,2,1,14,Mealhada,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+216,2,1,14,Mealhada,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_1,A1 + A14
+217,2,1,14,Mealhada,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_1,A1 + A14
+218,2,1,14,Mealhada,A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_1,A1 + A14
+219,2,1,14,Mealhada,Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_1,A1 + A14
+220,2,1,14,Mealhada,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+221,2,1,15,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+222,2,1,15,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.28826495367397253,Sequência AE_1,A14 + A1
+223,2,1,15,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.32128193690410956,Sequência AE_1,A14 + A1
+224,2,1,15,Leiria,Soure,Condeixa - Soure,13.045,0.4651743205232877,Sequência AE_1,A14 + A1
+225,2,1,16,Leiria,Soure,,0.0,0.0,Sequência AE_1,A1
+226,2,1,16,Leiria,Pombal,Soure - Pombal,14.736,0.7767916863926941,Sequência AE_1,A1
+227,2,1,16,Leiria,Leiria,Pombal - Leiria,24.065,0.5254737817808219,Sequência AE_1,A1
+228,2,1,17,Leiria,Leiria,,0.0,0.0,Sequência AE_1,A1
+229,2,1,17,Leiria,Fátima,Leiria - Fátima,15.235,0.8083388970429225,Sequência AE_1,A1
+230,2,1,17,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,1.0338830971479451,Sequência AE_1,A1
+231,2,1,17,Leiria,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.10728556374383563,Sequência AE_1,A1
+232,2,1,18,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+233,2,1,18,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3734172263835616,Sequência AE_1,A1
+234,2,1,18,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4647922246575342,Sequência AE_1,A1
+235,2,1,18,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.8259464764305936,Sequência AE_1,A1
+236,2,1,18,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.07216839292054793,Sequência AE_1,A1
+237,2,1,18,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.20695025236529677,Sequência AE_1,A1
+238,2,1,19,Carregado,A1/A10,Carregado - A1/A10,0.75,0.0,Sequência AE_1,A1 + A10
+239,2,1,19,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_1,A1 + A10
+240,2,1,19,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_1,A1 + A10
+241,2,1,19,Carregado,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_1,A1 + A10
+242,2,1,20,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+243,2,1,20,Carregado,PLLN,Benavente - PLLN,51.525,0.32064800473424654,Sequência AE_1,A10 + A1
+244,2,1,20,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+245,2,1,21,Carregado,Vila Franca de Xira I,Carregado - Vila Franca de Xira I,62.25,0.0,Sequência AE_1,A1
+246,2,1,21,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.934062643147032,Sequência AE_1,A1
+247,2,1,21,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6573296803652969,Sequência AE_1,A1
+248,2,1,22,Carregado,Alverca (A1/A9),Carregado - Alverca (A1/A9),69.0,0.0,Sequência AE_1,A1
+249,2,1,22,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+250,2,1,22,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6458934550082192,Sequência AE_1,A1
+251,2,1,22,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+252,2,2,23,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+253,2,2,23,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.07890343863744294,Sequência AE_1,A1
+254,2,2,23,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.07529857297762556,Sequência AE_1,A1
+255,2,2,23,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.10010824824474886,Sequência AE_1,A1
+256,2,2,23,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.16122830210593608,Sequência AE_1,A1
+257,2,2,23,Feira,Feira,Espinho (IC24) - Feira,9.8,0.2175584206721461,Sequência AE_1,A1
+258,2,2,23,Feira,Estarreja,Feira - Estarreja,16.832,0.16694250215342465,Sequência AE_1,A1
+259,2,2,23,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.13255912038630135,Sequência AE_1,A1
+260,2,2,24,Mealhada,Albergaria (A1/IP5),,0.0,0.0,Sequência AE_1,A1
+261,2,2,24,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.16978342957808218,Sequência AE_1,A1
+262,2,2,24,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.10934075342465753,Sequência AE_1,A1
+263,2,2,24,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.07134246575342466,Sequência AE_1,A1
+264,2,2,25,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+265,2,2,25,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_1,A1 + A14
+266,2,2,25,Leiria,Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_1,A1 + A14
+267,2,2,25,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+268,2,2,25,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_1,A1 + A14
+269,2,2,25,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_1,A1 + A14
+270,2,2,25,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_1,A1 + A14
+271,2,2,25,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_1,A1 + A14
+272,2,2,25,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+273,2,2,26,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+274,2,2,26,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.03707972433150685,Sequência AE_1,A14 + A1
+275,2,2,26,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.0620406498849315,Sequência AE_1,A14 + A1
+276,2,2,26,Leiria,Soure,Condeixa - Soure,13.045,0.10625809352054792,Sequência AE_1,A14 + A1
+277,2,2,26,Leiria,Pombal,Soure - Pombal,14.736,0.17977179027945206,Sequência AE_1,A14 + A1
+278,2,2,27,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+279,2,2,27,Leiria,Leiria,Pombal - Leiria,24.065,0.11880276805479449,Sequência AE_1,A1
+280,2,2,27,Leiria,Fátima,Leiria - Fátima,15.235,0.17225048920273972,Sequência AE_1,A1
+281,2,2,27,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.2443916879178082,Sequência AE_1,A1
+282,2,2,27,Leiria,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.03928767123013698,Sequência AE_1,A1
+283,2,2,28,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1 + A10
+284,2,2,28,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.0898967396849315,Sequência AE_1,A1 + A10
+285,2,2,28,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.1045782505479452,Sequência AE_1,A1 + A10
+286,2,2,28,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.2133003812876712,Sequência AE_1,A1 + A10
+287,2,2,28,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.02706314734520548,Sequência AE_1,A1 + A10
+288,2,2,28,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.03831780821917808,Sequência AE_1,A1 + A10
+289,2,2,28,Cartaxo,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_1,A1 + A10
+290,2,2,29,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10
+291,2,2,29,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_1,A10
+292,2,2,29,Carregado,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_1,A10
+293,2,2,30,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+294,2,2,30,Carregado,PLLN,Benavente - PLLN,51.525,0.0964449076739726,Sequência AE_1,A10 + A1
+295,2,2,30,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+296,2,2,30,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.19972134742648398,Sequência AE_1,A10 + A1
+297,2,2,31,Carregado,Vila Franca de Xira II,Carregado - Vila Franca de Xira II,64.5,0.0,Sequência AE_1,A1
+298,2,2,31,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.1637260273972603,Sequência AE_1,A1
+299,2,2,31,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.09001043476666665,Sequência AE_1,A1
+300,2,2,31,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.1343805174849315,Sequência AE_1,A1
+301,2,2,31,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+302,3,0,0,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+303,3,0,0,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.37564897960000004,Sequência AE_1,A1
+304,3,0,0,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.31692832208493155,Sequência AE_1,A1
+305,3,0,0,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.36881986195433786,Sequência AE_1,A1
+306,3,0,0,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5174556993264839,Sequência AE_1,A1
+307,3,0,0,Feira,Feira,Espinho (IC24) - Feira,9.8,0.7298388397917808,Sequência AE_1,A1
+308,3,0,1,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+309,3,0,1,Feira,Estarreja,Feira - Estarreja,16.832,0.6392676301972603,Sequência AE_1,A1
+310,3,0,1,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4853197548027397,Sequência AE_1,A1
+311,3,0,1,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.8119130670849315,Sequência AE_1,A1
+312,3,0,2,Mealhada,Aveiro Sul,,0.0,0.0,Sequência AE_1,A1
+313,3,0,2,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.4296318493150685,Sequência AE_1,A1
+314,3,0,2,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.3233424657534247,Sequência AE_1,A1
+315,3,0,3,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+316,3,0,3,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_1,A1 + A14
+317,3,0,3,Leiria,Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_1,A1 + A14
+318,3,0,3,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+319,3,0,3,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_1,A1 + A14
+320,3,0,3,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_1,A1 + A14
+321,3,0,3,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_1,A1 + A14
+322,3,0,3,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_1,A1 + A14
+323,3,0,3,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+324,3,0,4,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+325,3,0,4,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.25238134948219176,Sequência AE_1,A14 + A1
+326,3,0,4,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.33125275563561646,Sequência AE_1,A14 + A1
+327,3,0,5,Leiria,Condeixa,,0.0,0.0,Sequência AE_1,A1
+328,3,0,5,Leiria,Soure,Condeixa - Soure,13.045,0.4002388189273972,Sequência AE_1,A1
+329,3,0,5,Leiria,Pombal,Soure - Pombal,14.736,0.652505016569863,Sequência AE_1,A1
+330,3,0,6,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+331,3,0,6,Leiria,Leiria,Pombal - Leiria,24.065,0.5700248198013699,Sequência AE_1,A1
+332,3,0,6,Leiria,Fátima,Leiria - Fátima,15.235,0.761054449026484,Sequência AE_1,A1
+333,3,0,7,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+334,3,0,7,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.9786293242273971,Sequência AE_1,A1
+335,3,0,7,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.1087966280219178,Sequência AE_1,A1
+336,3,0,8,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+337,3,0,8,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3100284996826484,Sequência AE_1,A1
+338,3,0,8,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4706021274657534,Sequência AE_1,A1
+339,3,0,8,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.7998764298287672,Sequência AE_1,A1
+340,3,0,8,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.08569996659315067,Sequência AE_1,A1
+341,3,0,9,Carregado,Carregado,,0.0,0.0,Sequência AE_1,A1 + A10
+342,3,0,9,Carregado,A1/A10,Carregado - A1/A10,0.868,0.19903972602739725,Sequência AE_1,A1 + A10
+343,3,0,9,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_1,A1 + A10
+344,3,0,9,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_1,A1 + A10
+345,3,0,10,Carregado,A9/A10,Carregado - A9/A10,12.0,0.0,Sequência AE_1,A10
+346,3,0,10,Carregado,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_1,A10
+347,3,0,11,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+348,3,0,11,Carregado,PLLN,Benavente - PLLN,51.525,0.3319207861506848,Sequência AE_1,A10 + A1
+349,3,0,12,Carregado,PLLN,Carregado - PLLN,60.0,0.0,Sequência AE_1,A1
+350,3,0,12,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A1
+351,3,0,12,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.8841323062904111,Sequência AE_1,A1
+352,3,0,13,Carregado,Vila Franca de Xira II,Carregado - Vila Franca de Xira II,64.5,0.0,Sequência AE_1,A1
+353,3,0,13,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6415634703196348,Sequência AE_1,A1
+354,3,0,13,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+355,3,0,14,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+356,3,0,14,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6242191779945204,Sequência AE_1,A1
+357,3,0,14,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+358,3,1,15,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+359,3,1,15,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.3859407324657535,Sequência AE_1,A1
+360,3,1,15,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.3618826940118721,Sequência AE_1,A1
+361,3,1,15,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.33852394472237435,Sequência AE_1,A1
+362,3,1,15,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5087406559694064,Sequência AE_1,A1
+363,3,1,15,Feira,Feira,Espinho (IC24) - Feira,9.8,0.8563013700347032,Sequência AE_1,A1
+364,3,1,16,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+365,3,1,16,Feira,Estarreja,Feira - Estarreja,16.832,0.6243378129315069,Sequência AE_1,A1
+366,3,1,16,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4645046863123288,Sequência AE_1,A1
+367,3,1,16,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.779262407550685,Sequência AE_1,A1
+368,3,1,17,Mealhada,Aveiro Sul,,0.0,0.0,Sequência AE_1,A1
+369,3,1,17,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.41527397260273974,Sequência AE_1,A1
+370,3,1,17,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.2635068493150684,Sequência AE_1,A1
+371,3,1,18,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+372,3,1,18,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_1,A1 + A14
+373,3,1,18,Leiria,Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_1,A1 + A14
+374,3,1,18,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+375,3,1,18,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_1,A1 + A14
+376,3,1,18,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_1,A1 + A14
+377,3,1,18,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_1,A1 + A14
+378,3,1,18,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_1,A1 + A14
+379,3,1,18,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+380,3,1,19,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+381,3,1,19,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.28826495367397253,Sequência AE_1,A14 + A1
+382,3,1,19,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.32128193690410956,Sequência AE_1,A14 + A1
+383,3,1,20,Leiria,Condeixa,,0.0,0.0,Sequência AE_1,A1
+384,3,1,20,Leiria,Soure,Condeixa - Soure,13.045,0.4651743205232877,Sequência AE_1,A1
+385,3,1,20,Leiria,Pombal,Soure - Pombal,14.736,0.7767916863926941,Sequência AE_1,A1
+386,3,1,21,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+387,3,1,21,Leiria,Leiria,Pombal - Leiria,24.065,0.5254737817808219,Sequência AE_1,A1
+388,3,1,21,Leiria,Fátima,Leiria - Fátima,15.235,0.8083388970429225,Sequência AE_1,A1
+389,3,1,22,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+390,3,1,22,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,1.0338830971479451,Sequência AE_1,A1
+391,3,1,22,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.10728556374383563,Sequência AE_1,A1
+392,3,1,23,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+393,3,1,23,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3734172263835616,Sequência AE_1,A1
+394,3,1,23,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4647922246575342,Sequência AE_1,A1
+395,3,1,23,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.8259464764305936,Sequência AE_1,A1
+396,3,1,23,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.07216839292054793,Sequência AE_1,A1
+397,3,1,24,Carregado,Carregado,,0.0,0.0,Sequência AE_1,A1 + A10
+398,3,1,24,Carregado,A1/A10,Carregado - A1/A10,0.868,0.20695025236529677,Sequência AE_1,A1 + A10
+399,3,1,24,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_1,A1 + A10
+400,3,1,24,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_1,A1 + A10
+401,3,1,25,Carregado,A9/A10,Carregado - A9/A10,12.0,0.0,Sequência AE_1,A10
+402,3,1,25,Carregado,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_1,A10
+403,3,1,26,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+404,3,1,26,Carregado,PLLN,Benavente - PLLN,51.525,0.32064800473424654,Sequência AE_1,A10 + A1
+405,3,1,27,Carregado,PLLN,Carregado - PLLN,60.0,0.0,Sequência AE_1,A1
+406,3,1,27,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A1
+407,3,1,27,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.934062643147032,Sequência AE_1,A1
+408,3,1,28,Carregado,Vila Franca de Xira II,Carregado - Vila Franca de Xira II,64.5,0.0,Sequência AE_1,A1
+409,3,1,28,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6573296803652969,Sequência AE_1,A1
+410,3,1,28,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+411,3,1,29,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+412,3,1,29,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6458934550082192,Sequência AE_1,A1
+413,3,1,29,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+414,3,2,30,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+415,3,2,30,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.07890343863744294,Sequência AE_1,A1
+416,3,2,30,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.07529857297762556,Sequência AE_1,A1
+417,3,2,30,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.10010824824474886,Sequência AE_1,A1
+418,3,2,30,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.16122830210593608,Sequência AE_1,A1
+419,3,2,30,Feira,Feira,Espinho (IC24) - Feira,9.8,0.2175584206721461,Sequência AE_1,A1
+420,3,2,30,Feira,Estarreja,Feira - Estarreja,16.832,0.16694250215342465,Sequência AE_1,A1
+421,3,2,31,Mealhada,Estarreja,,0.0,0.0,Sequência AE_1,A1
+422,3,2,31,Mealhada,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.13255912038630135,Sequência AE_1,A1
+423,3,2,31,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.16978342957808218,Sequência AE_1,A1
+424,3,2,31,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.10934075342465753,Sequência AE_1,A1
+425,3,2,31,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.07134246575342466,Sequência AE_1,A1
+426,3,2,32,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+427,3,2,32,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_1,A1 + A14
+428,3,2,32,Leiria,Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_1,A1 + A14
+429,3,2,32,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+430,3,2,32,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_1,A1 + A14
+431,3,2,32,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_1,A1 + A14
+432,3,2,32,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_1,A1 + A14
+433,3,2,32,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_1,A1 + A14
+434,3,2,32,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+435,3,2,33,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+436,3,2,33,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.03707972433150685,Sequência AE_1,A14 + A1
+437,3,2,33,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.0620406498849315,Sequência AE_1,A14 + A1
+438,3,2,34,Leiria,Condeixa,,0.0,0.0,Sequência AE_1,A1
+439,3,2,34,Leiria,Soure,Condeixa - Soure,13.045,0.10625809352054792,Sequência AE_1,A1
+440,3,2,34,Leiria,Pombal,Soure - Pombal,14.736,0.17977179027945206,Sequência AE_1,A1
+441,3,2,34,Leiria,Leiria,Pombal - Leiria,24.065,0.11880276805479449,Sequência AE_1,A1
+442,3,2,35,Leiria,Leiria,,0.0,0.0,Sequência AE_1,A1
+443,3,2,35,Leiria,Fátima,Leiria - Fátima,15.235,0.17225048920273972,Sequência AE_1,A1
+444,3,2,35,Leiria,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.2443916879178082,Sequência AE_1,A1
+445,3,2,35,Leiria,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.03928767123013698,Sequência AE_1,A1
+446,3,2,36,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+447,3,2,36,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.0898967396849315,Sequência AE_1,A1
+448,3,2,36,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.1045782505479452,Sequência AE_1,A1
+449,3,2,36,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.2133003812876712,Sequência AE_1,A1
+450,3,2,36,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.02706314734520548,Sequência AE_1,A1
+451,3,2,36,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.03831780821917808,Sequência AE_1,A1
+452,3,2,37,Carregado,A1/A10,Carregado - A1/A10,0.75,0.0,Sequência AE_1,A1 + A10
+453,3,2,37,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_1,A1 + A10
+454,3,2,37,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_1,A1 + A10
+455,3,2,37,Carregado,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_1,A1 + A10
+456,3,2,38,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+457,3,2,38,Carregado,PLLN,Benavente - PLLN,51.525,0.0964449076739726,Sequência AE_1,A10 + A1
+458,3,2,38,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A10 + A1
+459,3,2,39,Carregado,Vila Franca de Xira I,Carregado - Vila Franca de Xira I,62.25,0.0,Sequência AE_1,A1
+460,3,2,39,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.19972134742648398,Sequência AE_1,A1
+461,3,2,39,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.1637260273972603,Sequência AE_1,A1
+462,3,2,39,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.09001043476666665,Sequência AE_1,A1
+463,3,2,39,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.1343805174849315,Sequência AE_1,A1
+464,3,2,40,Carregado,São João da Talha,Carregado - São João da Talha,75.0,0.0,Sequência AE_1,A1
+465,3,2,40,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+466,4,0,0,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+467,4,0,0,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.37564897960000004,Sequência AE_1,A1
+468,4,0,0,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.31692832208493155,Sequência AE_1,A1
+469,4,0,0,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.36881986195433786,Sequência AE_1,A1
+470,4,0,0,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5174556993264839,Sequência AE_1,A1
+471,4,0,0,Feira,Feira,Espinho (IC24) - Feira,9.8,0.7298388397917808,Sequência AE_1,A1
+472,4,0,1,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+473,4,0,1,Feira,Estarreja,Feira - Estarreja,16.832,0.6392676301972603,Sequência AE_1,A1
+474,4,0,1,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4853197548027397,Sequência AE_1,A1
+475,4,0,2,Mealhada,Albergaria (A1/IP5),,0.0,0.0,Sequência AE_1,A1
+476,4,0,2,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.8119130670849315,Sequência AE_1,A1
+477,4,0,2,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.4296318493150685,Sequência AE_1,A1
+478,4,0,3,Mealhada,Mealhada,,0.0,0.0,Sequência AE_1,A1
+479,4,0,3,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.3233424657534247,Sequência AE_1,A1
+480,4,0,4,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+481,4,0,4,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_1,A1 + A14
+482,4,0,4,Leiria,Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_1,A1 + A14
+483,4,0,4,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+484,4,0,4,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_1,A1 + A14
+485,4,0,4,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_1,A1 + A14
+486,4,0,4,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_1,A1 + A14
+487,4,0,4,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_1,A1 + A14
+488,4,0,4,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+489,4,0,5,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+490,4,0,5,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.25238134948219176,Sequência AE_1,A14 + A1
+491,4,0,6,Leiria,Coimbra Sul,,0.0,0.0,Sequência AE_1,A1
+492,4,0,6,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.33125275563561646,Sequência AE_1,A1
+493,4,0,6,Leiria,Soure,Condeixa - Soure,13.045,0.4002388189273972,Sequência AE_1,A1
+494,4,0,6,Leiria,Pombal,Soure - Pombal,14.736,0.652505016569863,Sequência AE_1,A1
+495,4,0,7,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+496,4,0,7,Leiria,Leiria,Pombal - Leiria,24.065,0.5700248198013699,Sequência AE_1,A1
+497,4,0,7,Leiria,Fátima,Leiria - Fátima,15.235,0.761054449026484,Sequência AE_1,A1
+498,4,0,8,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+499,4,0,8,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.9786293242273971,Sequência AE_1,A1
+500,4,0,8,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.1087966280219178,Sequência AE_1,A1
+501,4,0,9,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+502,4,0,9,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3100284996826484,Sequência AE_1,A1
+503,4,0,9,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4706021274657534,Sequência AE_1,A1
+504,4,0,9,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.7998764298287672,Sequência AE_1,A1
+505,4,0,10,Carregado,Aveiras de Cima,,0.0,0.0,Sequência AE_1,A1 + A10
+506,4,0,10,Carregado,Carregado,Aveiras de Cima - Carregado,15.516,0.08569996659315067,Sequência AE_1,A1 + A10
+507,4,0,10,Carregado,A1/A10,Carregado - A1/A10,0.868,0.19903972602739725,Sequência AE_1,A1 + A10
+508,4,0,10,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_1,A1 + A10
+509,4,0,11,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10
+510,4,0,11,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_1,A10
+511,4,0,11,Carregado,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_1,A10
+512,4,0,12,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+513,4,0,12,Carregado,PLLN,Benavente - PLLN,51.525,0.3319207861506848,Sequência AE_1,A10 + A1
+514,4,0,13,Carregado,PLLN,Carregado - PLLN,60.0,0.0,Sequência AE_1,A1
+515,4,0,13,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A1
+516,4,0,13,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.8841323062904111,Sequência AE_1,A1
+517,4,0,14,Carregado,Vila Franca de Xira II,Carregado - Vila Franca de Xira II,64.5,0.0,Sequência AE_1,A1
+518,4,0,14,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6415634703196348,Sequência AE_1,A1
+519,4,0,14,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+520,4,0,15,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+521,4,0,15,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6242191779945204,Sequência AE_1,A1
+522,4,0,15,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+523,4,1,16,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+524,4,1,16,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.3859407324657535,Sequência AE_1,A1
+525,4,1,16,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.3618826940118721,Sequência AE_1,A1
+526,4,1,16,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.33852394472237435,Sequência AE_1,A1
+527,4,1,16,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.5087406559694064,Sequência AE_1,A1
+528,4,1,16,Feira,Feira,Espinho (IC24) - Feira,9.8,0.8563013700347032,Sequência AE_1,A1
+529,4,1,17,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+530,4,1,17,Feira,Estarreja,Feira - Estarreja,16.832,0.6243378129315069,Sequência AE_1,A1
+531,4,1,17,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.4645046863123288,Sequência AE_1,A1
+532,4,1,18,Mealhada,Albergaria (A1/IP5),,0.0,0.0,Sequência AE_1,A1
+533,4,1,18,Mealhada,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.779262407550685,Sequência AE_1,A1
+534,4,1,18,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.41527397260273974,Sequência AE_1,A1
+535,4,1,19,Mealhada,Mealhada,,0.0,0.0,Sequência AE_1,A1
+536,4,1,19,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.2635068493150684,Sequência AE_1,A1
+537,4,1,20,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+538,4,1,20,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_1,A1 + A14
+539,4,1,20,Leiria,Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_1,A1 + A14
+540,4,1,20,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+541,4,1,20,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_1,A1 + A14
+542,4,1,20,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_1,A1 + A14
+543,4,1,20,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_1,A1 + A14
+544,4,1,20,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_1,A1 + A14
+545,4,1,20,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+546,4,1,21,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+547,4,1,21,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.28826495367397253,Sequência AE_1,A14 + A1
+548,4,1,22,Leiria,Coimbra Sul,,0.0,0.0,Sequência AE_1,A1
+549,4,1,22,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.32128193690410956,Sequência AE_1,A1
+550,4,1,22,Leiria,Soure,Condeixa - Soure,13.045,0.4651743205232877,Sequência AE_1,A1
+551,4,1,22,Leiria,Pombal,Soure - Pombal,14.736,0.7767916863926941,Sequência AE_1,A1
+552,4,1,23,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+553,4,1,23,Leiria,Leiria,Pombal - Leiria,24.065,0.5254737817808219,Sequência AE_1,A1
+554,4,1,23,Leiria,Fátima,Leiria - Fátima,15.235,0.8083388970429225,Sequência AE_1,A1
+555,4,1,24,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+556,4,1,24,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,1.0338830971479451,Sequência AE_1,A1
+557,4,1,24,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.10728556374383563,Sequência AE_1,A1
+558,4,1,25,Cartaxo,A1/A15,,0.0,0.0,Sequência AE_1,A1
+559,4,1,25,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.3734172263835616,Sequência AE_1,A1
+560,4,1,25,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.4647922246575342,Sequência AE_1,A1
+561,4,1,25,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.8259464764305936,Sequência AE_1,A1
+562,4,1,26,Carregado,Aveiras de Cima,,0.0,0.0,Sequência AE_1,A1 + A10
+563,4,1,26,Carregado,Carregado,Aveiras de Cima - Carregado,15.516,0.07216839292054793,Sequência AE_1,A1 + A10
+564,4,1,26,Carregado,A1/A10,Carregado - A1/A10,0.868,0.20695025236529677,Sequência AE_1,A1 + A10
+565,4,1,26,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_1,A1 + A10
+566,4,1,27,Carregado,Arruda dos Vinhos,Carregado - Arruda dos Vinhos,7.5,0.0,Sequência AE_1,A10
+567,4,1,27,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_1,A10
+568,4,1,27,Carregado,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_1,A10
+569,4,1,28,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+570,4,1,28,Carregado,PLLN,Benavente - PLLN,51.525,0.32064800473424654,Sequência AE_1,A10 + A1
+571,4,1,29,Carregado,PLLN,Carregado - PLLN,60.0,0.0,Sequência AE_1,A1
+572,4,1,29,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A1
+573,4,1,29,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.934062643147032,Sequência AE_1,A1
+574,4,1,30,Carregado,Vila Franca de Xira II,Carregado - Vila Franca de Xira II,64.5,0.0,Sequência AE_1,A1
+575,4,1,30,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.6573296803652969,Sequência AE_1,A1
+576,4,1,30,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.3094879332388128,Sequência AE_1,A1
+577,4,1,31,Carregado,Sta Iria da Azóia,Carregado - Sta Iria da Azóia,72.75,0.0,Sequência AE_1,A1
+578,4,1,31,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.6458934550082192,Sequência AE_1,A1
+579,4,1,31,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+580,4,2,32,Feira,Santo Ovídio,,0.0,0.0,Sequência AE_1,A1
+581,4,2,32,Feira,Jaca,Santo Ovídio - Jaca,1.839,0.07890343863744294,Sequência AE_1,A1
+582,4,2,32,Feira,Carvalhos,Jaca - Carvalhos,2.745,0.07529857297762556,Sequência AE_1,A1
+583,4,2,32,Feira,Feiteira,Carvalhos - Feiteira,3.37,0.10010824824474886,Sequência AE_1,A1
+584,4,2,32,Feira,Espinho (IC24),Feiteira - Espinho (IC24),3.92,0.16122830210593608,Sequência AE_1,A1
+585,4,2,32,Feira,Feira,Espinho (IC24) - Feira,9.8,0.2175584206721461,Sequência AE_1,A1
+586,4,2,33,Feira,Feira,,0.0,0.0,Sequência AE_1,A1
+587,4,2,33,Feira,Estarreja,Feira - Estarreja,16.832,0.16694250215342465,Sequência AE_1,A1
+588,4,2,33,Feira,Albergaria (A1/IP5),Estarreja - Albergaria (A1/IP5),10.428,0.13255912038630135,Sequência AE_1,A1
+589,4,2,33,Feira,Aveiro Sul,Albergaria (A1/IP5) - Aveiro Sul,14.78,0.16978342957808218,Sequência AE_1,A1
+590,4,2,34,Mealhada,Aveiro Sul,,0.0,0.0,Sequência AE_1,A1
+591,4,2,34,Mealhada,Mealhada,Aveiro Sul - Mealhada,23.633,0.10934075342465753,Sequência AE_1,A1
+592,4,2,34,Mealhada,Coimbra Norte (A1/A14),Mealhada - Coimbra Norte (A1/A14),11.707,0.07134246575342466,Sequência AE_1,A1
+593,4,2,35,Leiria,Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_1,A1 + A14
+594,4,2,35,Leiria,Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_1,A1 + A14
+595,4,2,35,Leiria,Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_1,A1 + A14
+596,4,2,35,Leiria,EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_1,A1 + A14
+597,4,2,35,Leiria,Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_1,A1 + A14
+598,4,2,35,Leiria,Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_1,A1 + A14
+599,4,2,35,Leiria,A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_1,A1 + A14
+600,4,2,35,Leiria,Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_1,A1 + A14
+601,4,2,35,Leiria,Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_1,A1 + A14
+602,4,2,36,Leiria,Figueira da Foz,,0.0,0.0,Sequência AE_1,A14 + A1
+603,4,2,36,Leiria,Coimbra Sul,Figueira da Foz - Coimbra Sul,49.303,0.03707972433150685,Sequência AE_1,A14 + A1
+604,4,2,36,Leiria,Condeixa,Coimbra Sul - Condeixa,7.681,0.0620406498849315,Sequência AE_1,A14 + A1
+605,4,2,37,Leiria,Condeixa,,0.0,0.0,Sequência AE_1,A1
+606,4,2,37,Leiria,Soure,Condeixa - Soure,13.045,0.10625809352054792,Sequência AE_1,A1
+607,4,2,37,Leiria,Pombal,Soure - Pombal,14.736,0.17977179027945206,Sequência AE_1,A1
+608,4,2,38,Leiria,Pombal,,0.0,0.0,Sequência AE_1,A1
+609,4,2,38,Leiria,Leiria,Pombal - Leiria,24.065,0.11880276805479449,Sequência AE_1,A1
+610,4,2,38,Leiria,Fátima,Leiria - Fátima,15.235,0.17225048920273972,Sequência AE_1,A1
+611,4,2,39,Cartaxo,Fátima,,0.0,0.0,Sequência AE_1,A1
+612,4,2,39,Cartaxo,Torres Novas (A1/A23),Fátima - Torres Novas (A1/A23),20.325,0.2443916879178082,Sequência AE_1,A1
+613,4,2,39,Cartaxo,A1/A15,Torres Novas (A1/A23) - A1/A15,27.015,0.03928767123013698,Sequência AE_1,A1
+614,4,2,39,Cartaxo,Santarém,A1/A15 - Santarém,1.185,0.0898967396849315,Sequência AE_1,A1
+615,4,2,40,Cartaxo,Santarém,,0.0,0.0,Sequência AE_1,A1
+616,4,2,40,Cartaxo,Cartaxo,Santarém - Cartaxo,8.08,0.1045782505479452,Sequência AE_1,A1
+617,4,2,40,Cartaxo,Aveiras de Cima,Cartaxo - Aveiras de Cima,11.286,0.2133003812876712,Sequência AE_1,A1
+618,4,2,40,Cartaxo,Carregado,Aveiras de Cima - Carregado,15.516,0.02706314734520548,Sequência AE_1,A1
+619,4,2,40,Cartaxo,A1/A10,Carregado - A1/A10,0.868,0.03831780821917808,Sequência AE_1,A1
+620,4,2,41,Carregado,A1/A10,Carregado - A1/A10,0.75,0.0,Sequência AE_1,A1 + A10
+621,4,2,41,Carregado,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_1,A1 + A10
+622,4,2,41,Carregado,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_1,A1 + A10
+623,4,2,42,Carregado,A9/A10,Carregado - A9/A10,12.0,0.0,Sequência AE_1,A10
+624,4,2,42,Carregado,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_1,A10
+625,4,2,43,Carregado,Benavente,Carregado - Benavente,30.75,0.0,Sequência AE_1,A10 + A1
+626,4,2,43,Carregado,PLLN,Benavente - PLLN,51.525,0.0964449076739726,Sequência AE_1,A10 + A1
+627,4,2,44,Carregado,PLLN,Carregado - PLLN,60.0,0.0,Sequência AE_1,A1
+628,4,2,44,Carregado,Vila Franca de Xira I,PLLN - Vila Franca de Xira I,3.975,0.0,Sequência AE_1,A1
+629,4,2,44,Carregado,Vila Franca de Xira II,Vila Franca de Xira I - Vila Franca de Xira II,3.4,0.19972134742648398,Sequência AE_1,A1
+630,4,2,44,Carregado,Alverca (A1/A9),Vila Franca de Xira II - Alverca (A1/A9),7.46,0.1637260273972603,Sequência AE_1,A1
+631,4,2,45,Carregado,Alverca (A1/A9),Carregado - Alverca (A1/A9),69.0,0.0,Sequência AE_1,A1
+632,4,2,45,Carregado,Sta Iria da Azóia,Alverca (A1/A9) - Sta Iria da Azóia,6.24,0.09001043476666665,Sequência AE_1,A1
+633,4,2,45,Carregado,São João da Talha,Sta Iria da Azóia - São João da Talha,2.95,0.1343805174849315,Sequência AE_1,A1
+634,4,2,45,Carregado,Sacavém,São João da Talha - Sacavém,3.85,0.0,Sequência AE_1,A1
+635,1,0,0,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+636,1,0,0,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6242191779945204,Sequência AE_2,A1
+637,1,0,0,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+638,1,0,0,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6415634703196348,Sequência AE_2,A1
+639,1,0,0,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5223512853575342,Sequência AE_2,A1
+640,1,0,0,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.31054233898630135,Sequência AE_2,A1
+641,1,0,0,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.3319207861506848,Sequência AE_2,A1
+642,1,0,1,A9/A10,PLLN,,0.0,0.0,Sequência AE_2,A1 + A10
+643,1,0,1,A9/A10,A1/A10,PLLN - A1/A10,1.225,0.19903972602739725,Sequência AE_2,A1 + A10
+644,1,0,1,A9/A10,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_2,A1 + A10
+645,1,0,1,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_2,A1 + A10
+646,1,0,1,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_2,A1 + A10
+647,1,0,1,A9/A10,Carregado,Benavente - Carregado,15.368,0.08569996659315067,Sequência AE_2,A1 + A10
+648,1,0,2,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+649,1,0,2,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.7998764298287672,Sequência AE_2,A1
+650,1,0,2,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4706021274657534,Sequência AE_2,A1
+651,1,0,2,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3100284996826484,Sequência AE_2,A1
+652,1,0,2,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.1087966280219178,Sequência AE_2,A1
+653,1,0,2,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.9786293242273971,Sequência AE_2,A1
+654,1,0,3,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+655,1,0,3,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.761054449026484,Sequência AE_2,A1
+656,1,0,3,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5700248198013699,Sequência AE_2,A1
+657,1,0,3,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.652505016569863,Sequência AE_2,A1
+658,1,0,3,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4002388189273972,Sequência AE_2,A1
+659,1,0,4,Coimbra Norte (A1/A14),Soure,,0.0,0.0,Sequência AE_2,A1 + A14
+660,1,0,4,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.33125275563561646,Sequência AE_2,A1 + A14
+661,1,0,4,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.25238134948219176,Sequência AE_2,A1 + A14
+662,1,0,4,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.3233424657534247,Sequência AE_2,A1 + A14
+663,1,0,4,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_2,A1 + A14
+664,1,0,4,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_2,A1 + A14
+665,1,0,4,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+666,1,0,4,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_2,A1 + A14
+667,1,0,4,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_2,A1 + A14
+668,1,0,4,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_2,A1 + A14
+669,1,0,4,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_2,A1 + A14
+670,1,0,4,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+671,1,0,5,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+672,1,0,5,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.4296318493150685,Sequência AE_2,A14 + A1
+673,1,0,5,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.8119130670849315,Sequência AE_2,A14 + A1
+674,1,0,5,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4853197548027397,Sequência AE_2,A14 + A1
+675,1,0,6,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+676,1,0,6,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6392676301972603,Sequência AE_2,A1
+677,1,0,6,Vila Verde,Feira,Estarreja - Feira,16.832,0.7298388397917808,Sequência AE_2,A1
+678,1,0,6,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5174556993264839,Sequência AE_2,A1
+679,1,0,6,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.36881986195433786,Sequência AE_2,A1
+680,1,0,7,Vila Verde,Feiteira,Vila Verde - Feiteira,69.0,0.0,Sequência AE_2,A1
+681,1,0,7,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.31692832208493155,Sequência AE_2,A1
+682,1,0,7,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.37564897960000004,Sequência AE_2,A1
+683,1,0,7,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.1580933219178082,Sequência AE_2,A1
+684,1,1,8,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+685,1,1,8,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6458934550082192,Sequência AE_2,A1
+686,1,1,8,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+687,1,1,8,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6573296803652969,Sequência AE_2,A1
+688,1,1,8,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5567310939479452,Sequência AE_2,A1
+689,1,1,8,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.32272046992694065,Sequência AE_2,A1
+690,1,1,8,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.32064800473424654,Sequência AE_2,A1
+691,1,1,9,A9/A10,PLLN,,0.0,0.0,Sequência AE_2,A1 + A10
+692,1,1,9,A9/A10,A1/A10,PLLN - A1/A10,1.225,0.20695025236529677,Sequência AE_2,A1 + A10
+693,1,1,9,A9/A10,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_2,A1 + A10
+694,1,1,9,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_2,A1 + A10
+695,1,1,9,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_2,A1 + A10
+696,1,1,9,A9/A10,Carregado,Benavente - Carregado,15.368,0.07216839292054793,Sequência AE_2,A1 + A10
+697,1,1,10,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+698,1,1,10,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.8259464764305936,Sequência AE_2,A1
+699,1,1,10,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4647922246575342,Sequência AE_2,A1
+700,1,1,10,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3734172263835616,Sequência AE_2,A1
+701,1,1,10,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.10728556374383563,Sequência AE_2,A1
+702,1,1,10,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,1.0338830971479451,Sequência AE_2,A1
+703,1,1,11,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+704,1,1,11,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.8083388970429225,Sequência AE_2,A1
+705,1,1,11,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5254737817808219,Sequência AE_2,A1
+706,1,1,11,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.7767916863926941,Sequência AE_2,A1
+707,1,1,11,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4651743205232877,Sequência AE_2,A1
+708,1,1,12,Coimbra Norte (A1/A14),Soure,,0.0,0.0,Sequência AE_2,A1 + A14
+709,1,1,12,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.32128193690410956,Sequência AE_2,A1 + A14
+710,1,1,12,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.28826495367397253,Sequência AE_2,A1 + A14
+711,1,1,12,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.2635068493150684,Sequência AE_2,A1 + A14
+712,1,1,12,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_2,A1 + A14
+713,1,1,12,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_2,A1 + A14
+714,1,1,12,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+715,1,1,12,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_2,A1 + A14
+716,1,1,12,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_2,A1 + A14
+717,1,1,12,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_2,A1 + A14
+718,1,1,12,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_2,A1 + A14
+719,1,1,12,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+720,1,1,13,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+721,1,1,13,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.41527397260273974,Sequência AE_2,A14 + A1
+722,1,1,13,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.779262407550685,Sequência AE_2,A14 + A1
+723,1,1,13,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4645046863123288,Sequência AE_2,A14 + A1
+724,1,1,13,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6243378129315069,Sequência AE_2,A14 + A1
+725,1,1,14,Vila Verde,Estarreja,Vila Verde - Estarreja,60.0,0.0,Sequência AE_2,A1
+726,1,1,14,Vila Verde,Feira,Estarreja - Feira,16.832,0.8563013700347032,Sequência AE_2,A1
+727,1,1,14,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5087406559694064,Sequência AE_2,A1
+728,1,1,14,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.33852394472237435,Sequência AE_2,A1
+729,1,1,15,Vila Verde,Feiteira,Vila Verde - Feiteira,69.0,0.0,Sequência AE_2,A1
+730,1,1,15,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.3618826940118721,Sequência AE_2,A1
+731,1,1,15,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.3859407324657535,Sequência AE_2,A1
+732,1,1,15,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.13299914383561645,Sequência AE_2,A1
+733,1,2,16,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1 + A10
+734,1,2,16,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.1343805174849315,Sequência AE_2,A1 + A10
+735,1,2,16,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.09001043476666665,Sequência AE_2,A1 + A10
+736,1,2,16,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.1637260273972603,Sequência AE_2,A1 + A10
+737,1,2,16,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.13530118219452056,Sequência AE_2,A1 + A10
+738,1,2,16,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.05114814995068494,Sequência AE_2,A1 + A10
+739,1,2,16,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.0964449076739726,Sequência AE_2,A1 + A10
+740,1,2,16,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.03831780821917808,Sequência AE_2,A1 + A10
+741,1,2,16,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_2,A1 + A10
+742,1,2,17,A9/A10,Arruda dos Vinhos,,0.0,0.0,Sequência AE_2,A10 + A1
+743,1,2,17,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_2,A10 + A1
+744,1,2,17,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_2,A10 + A1
+745,1,2,17,A9/A10,Carregado,Benavente - Carregado,15.368,0.02706314734520548,Sequência AE_2,A10 + A1
+746,1,2,17,A9/A10,Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.2133003812876712,Sequência AE_2,A10 + A1
+747,1,2,17,A9/A10,Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.1045782505479452,Sequência AE_2,A10 + A1
+748,1,2,17,A9/A10,Santarém,Cartaxo - Santarém,8.08,0.0898967396849315,Sequência AE_2,A10 + A1
+749,1,2,17,A9/A10,A1/A15,Santarém - A1/A15,1.185,0.03928767123013698,Sequência AE_2,A10 + A1
+750,1,2,18,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+751,1,2,18,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.2443916879178082,Sequência AE_2,A1
+752,1,2,18,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.17225048920273972,Sequência AE_2,A1
+753,1,2,18,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.11880276805479449,Sequência AE_2,A1
+754,1,2,18,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.17977179027945206,Sequência AE_2,A1
+755,1,2,18,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.10625809352054792,Sequência AE_2,A1
+756,1,2,18,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.0620406498849315,Sequência AE_2,A1
+757,1,2,19,Coimbra Norte (A1/A14),Condeixa,,0.0,0.0,Sequência AE_2,A1 + A14
+758,1,2,19,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.03707972433150685,Sequência AE_2,A1 + A14
+759,1,2,19,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.07134246575342466,Sequência AE_2,A1 + A14
+760,1,2,19,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_2,A1 + A14
+761,1,2,19,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_2,A1 + A14
+762,1,2,19,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+763,1,2,19,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_2,A1 + A14
+764,1,2,19,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_2,A1 + A14
+765,1,2,19,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_2,A1 + A14
+766,1,2,19,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_2,A1 + A14
+767,1,2,19,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+768,1,2,20,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+769,1,2,20,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.10934075342465753,Sequência AE_2,A14 + A1
+770,1,2,20,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.16978342957808218,Sequência AE_2,A14 + A1
+771,1,2,20,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.13255912038630135,Sequência AE_2,A14 + A1
+772,1,2,20,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.16694250215342465,Sequência AE_2,A14 + A1
+773,1,2,20,Vila Verde,Feira,Estarreja - Feira,16.832,0.2175584206721461,Sequência AE_2,A14 + A1
+774,1,2,20,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.16122830210593608,Sequência AE_2,A14 + A1
+775,1,2,21,Vila Verde,Espinho (IC24),Vila Verde - Espinho (IC24),64.5,0.0,Sequência AE_2,A1
+776,1,2,21,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.10010824824474886,Sequência AE_2,A1
+777,1,2,21,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.07529857297762556,Sequência AE_2,A1
+778,1,2,21,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.07890343863744294,Sequência AE_2,A1
+779,1,2,21,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.030113013698630137,Sequência AE_2,A1
+780,2,0,0,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+781,2,0,0,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6242191779945204,Sequência AE_2,A1
+782,2,0,0,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+783,2,0,0,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6415634703196348,Sequência AE_2,A1
+784,2,0,0,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5223512853575342,Sequência AE_2,A1
+785,2,0,0,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.31054233898630135,Sequência AE_2,A1
+786,2,0,1,Vila Franca de Xira I,Vila Franca de Xira I,,0.0,0.0,Sequência AE_2,A1 + A10
+787,2,0,1,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.3319207861506848,Sequência AE_2,A1 + A10
+788,2,0,1,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.19903972602739725,Sequência AE_2,A1 + A10
+789,2,0,1,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_2,A1 + A10
+790,2,0,1,Vila Franca de Xira I,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_2,A1 + A10
+791,2,0,2,A9/A10,A9/A10,,0.0,0.0,Sequência AE_2,A10 + A1
+792,2,0,2,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_2,A10 + A1
+793,2,0,2,A9/A10,Carregado,Benavente - Carregado,15.368,0.08569996659315067,Sequência AE_2,A10 + A1
+794,2,0,2,A9/A10,Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.7998764298287672,Sequência AE_2,A10 + A1
+795,2,0,3,Coimbra Norte (A1/A14),Aveiras de Cima,,0.0,0.0,Sequência AE_2,A1
+796,2,0,3,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4706021274657534,Sequência AE_2,A1
+797,2,0,3,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3100284996826484,Sequência AE_2,A1
+798,2,0,3,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.1087966280219178,Sequência AE_2,A1
+799,2,0,3,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.9786293242273971,Sequência AE_2,A1
+800,2,0,4,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+801,2,0,4,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.761054449026484,Sequência AE_2,A1
+802,2,0,4,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5700248198013699,Sequência AE_2,A1
+803,2,0,5,Coimbra Norte (A1/A14),Leiria,,0.0,0.0,Sequência AE_2,A1
+804,2,0,5,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.652505016569863,Sequência AE_2,A1
+805,2,0,5,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4002388189273972,Sequência AE_2,A1
+806,2,0,5,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.33125275563561646,Sequência AE_2,A1
+807,2,0,5,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.25238134948219176,Sequência AE_2,A1
+808,2,0,6,Coimbra Norte (A1/A14),Coimbra Sul,,0.0,0.0,Sequência AE_2,A1 + A14
+809,2,0,6,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.3233424657534247,Sequência AE_2,A1 + A14
+810,2,0,6,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_2,A1 + A14
+811,2,0,6,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_2,A1 + A14
+812,2,0,6,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+813,2,0,6,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_2,A1 + A14
+814,2,0,6,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_2,A1 + A14
+815,2,0,6,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_2,A1 + A14
+816,2,0,6,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_2,A1 + A14
+817,2,0,6,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+818,2,0,7,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+819,2,0,7,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.4296318493150685,Sequência AE_2,A14 + A1
+820,2,0,7,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.8119130670849315,Sequência AE_2,A14 + A1
+821,2,0,8,Vila Verde,Aveiro Sul,Vila Verde - Aveiro Sul,12.0,0.0,Sequência AE_2,A1
+822,2,0,8,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4853197548027397,Sequência AE_2,A1
+823,2,0,8,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6392676301972603,Sequência AE_2,A1
+824,2,0,8,Vila Verde,Feira,Estarreja - Feira,16.832,0.7298388397917808,Sequência AE_2,A1
+825,2,0,9,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+826,2,0,9,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5174556993264839,Sequência AE_2,A1
+827,2,0,9,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.36881986195433786,Sequência AE_2,A1
+828,2,0,9,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.31692832208493155,Sequência AE_2,A1
+829,2,0,10,Vila Verde,Carvalhos,Vila Verde - Carvalhos,72.75,0.0,Sequência AE_2,A1
+830,2,0,10,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.37564897960000004,Sequência AE_2,A1
+831,2,0,10,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.1580933219178082,Sequência AE_2,A1
+832,2,1,11,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+833,2,1,11,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6458934550082192,Sequência AE_2,A1
+834,2,1,11,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+835,2,1,11,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6573296803652969,Sequência AE_2,A1
+836,2,1,11,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5567310939479452,Sequência AE_2,A1
+837,2,1,11,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.32272046992694065,Sequência AE_2,A1
+838,2,1,12,Vila Franca de Xira I,Vila Franca de Xira I,,0.0,0.0,Sequência AE_2,A1 + A10
+839,2,1,12,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.32064800473424654,Sequência AE_2,A1 + A10
+840,2,1,12,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.20695025236529677,Sequência AE_2,A1 + A10
+841,2,1,12,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_2,A1 + A10
+842,2,1,12,Vila Franca de Xira I,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_2,A1 + A10
+843,2,1,13,A9/A10,A9/A10,,0.0,0.0,Sequência AE_2,A10 + A1
+844,2,1,13,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_2,A10 + A1
+845,2,1,13,A9/A10,Carregado,Benavente - Carregado,15.368,0.07216839292054793,Sequência AE_2,A10 + A1
+846,2,1,13,A9/A10,Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.8259464764305936,Sequência AE_2,A10 + A1
+847,2,1,14,Coimbra Norte (A1/A14),Aveiras de Cima,,0.0,0.0,Sequência AE_2,A1
+848,2,1,14,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4647922246575342,Sequência AE_2,A1
+849,2,1,14,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3734172263835616,Sequência AE_2,A1
+850,2,1,14,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.10728556374383563,Sequência AE_2,A1
+851,2,1,14,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,1.0338830971479451,Sequência AE_2,A1
+852,2,1,15,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+853,2,1,15,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.8083388970429225,Sequência AE_2,A1
+854,2,1,15,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5254737817808219,Sequência AE_2,A1
+855,2,1,16,Coimbra Norte (A1/A14),Leiria,,0.0,0.0,Sequência AE_2,A1
+856,2,1,16,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.7767916863926941,Sequência AE_2,A1
+857,2,1,16,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4651743205232877,Sequência AE_2,A1
+858,2,1,16,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.32128193690410956,Sequência AE_2,A1
+859,2,1,17,Coimbra Norte (A1/A14),Condeixa,,0.0,0.0,Sequência AE_2,A1 + A14
+860,2,1,17,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.28826495367397253,Sequência AE_2,A1 + A14
+861,2,1,17,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.2635068493150684,Sequência AE_2,A1 + A14
+862,2,1,17,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_2,A1 + A14
+863,2,1,17,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_2,A1 + A14
+864,2,1,17,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+865,2,1,17,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_2,A1 + A14
+866,2,1,17,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_2,A1 + A14
+867,2,1,17,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_2,A1 + A14
+868,2,1,17,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_2,A1 + A14
+869,2,1,17,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+870,2,1,18,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+871,2,1,18,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.41527397260273974,Sequência AE_2,A14 + A1
+872,2,1,18,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.779262407550685,Sequência AE_2,A14 + A1
+873,2,1,19,Vila Verde,Aveiro Sul,Vila Verde - Aveiro Sul,12.0,0.0,Sequência AE_2,A1
+874,2,1,19,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4645046863123288,Sequência AE_2,A1
+875,2,1,19,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6243378129315069,Sequência AE_2,A1
+876,2,1,19,Vila Verde,Feira,Estarreja - Feira,16.832,0.8563013700347032,Sequência AE_2,A1
+877,2,1,20,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+878,2,1,20,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5087406559694064,Sequência AE_2,A1
+879,2,1,20,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.33852394472237435,Sequência AE_2,A1
+880,2,1,20,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.3618826940118721,Sequência AE_2,A1
+881,2,1,21,Vila Verde,Carvalhos,Vila Verde - Carvalhos,72.75,0.0,Sequência AE_2,A1
+882,2,1,21,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.3859407324657535,Sequência AE_2,A1
+883,2,1,21,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.13299914383561645,Sequência AE_2,A1
+884,2,2,22,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+885,2,2,22,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.1343805174849315,Sequência AE_2,A1
+886,2,2,22,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.09001043476666665,Sequência AE_2,A1
+887,2,2,22,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.1637260273972603,Sequência AE_2,A1
+888,2,2,22,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.13530118219452056,Sequência AE_2,A1
+889,2,2,22,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.05114814995068494,Sequência AE_2,A1
+890,2,2,22,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.0964449076739726,Sequência AE_2,A1
+891,2,2,22,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.03831780821917808,Sequência AE_2,A1
+892,2,2,23,A9/A10,A1/A10,,0.0,0.0,Sequência AE_2,A1 + A10
+893,2,2,23,A9/A10,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_2,A1 + A10
+894,2,2,23,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_2,A1 + A10
+895,2,2,23,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_2,A1 + A10
+896,2,2,23,A9/A10,Carregado,Benavente - Carregado,15.368,0.02706314734520548,Sequência AE_2,A1 + A10
+897,2,2,24,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+898,2,2,24,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.2133003812876712,Sequência AE_2,A1
+899,2,2,24,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.1045782505479452,Sequência AE_2,A1
+900,2,2,24,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.0898967396849315,Sequência AE_2,A1
+901,2,2,24,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.03928767123013698,Sequência AE_2,A1
+902,2,2,24,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.2443916879178082,Sequência AE_2,A1
+903,2,2,25,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+904,2,2,25,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.17225048920273972,Sequência AE_2,A1
+905,2,2,25,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.11880276805479449,Sequência AE_2,A1
+906,2,2,25,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.17977179027945206,Sequência AE_2,A1
+907,2,2,25,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.10625809352054792,Sequência AE_2,A1
+908,2,2,26,Coimbra Norte (A1/A14),Soure,,0.0,0.0,Sequência AE_2,A1 + A14
+909,2,2,26,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.0620406498849315,Sequência AE_2,A1 + A14
+910,2,2,26,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.03707972433150685,Sequência AE_2,A1 + A14
+911,2,2,26,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.07134246575342466,Sequência AE_2,A1 + A14
+912,2,2,26,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_2,A1 + A14
+913,2,2,26,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_2,A1 + A14
+914,2,2,26,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+915,2,2,26,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_2,A1 + A14
+916,2,2,26,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_2,A1 + A14
+917,2,2,26,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_2,A1 + A14
+918,2,2,26,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_2,A1 + A14
+919,2,2,26,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+920,2,2,27,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+921,2,2,27,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.10934075342465753,Sequência AE_2,A14 + A1
+922,2,2,27,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.16978342957808218,Sequência AE_2,A14 + A1
+923,2,2,27,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.13255912038630135,Sequência AE_2,A14 + A1
+924,2,2,28,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+925,2,2,28,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.16694250215342465,Sequência AE_2,A1
+926,2,2,28,Vila Verde,Feira,Estarreja - Feira,16.832,0.2175584206721461,Sequência AE_2,A1
+927,2,2,28,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.16122830210593608,Sequência AE_2,A1
+928,2,2,28,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.10010824824474886,Sequência AE_2,A1
+929,2,2,28,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.07529857297762556,Sequência AE_2,A1
+930,2,2,28,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.07890343863744294,Sequência AE_2,A1
+931,2,2,29,Vila Verde,Jaca,Vila Verde - Jaca,75.0,0.0,Sequência AE_2,A1
+932,2,2,29,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.030113013698630137,Sequência AE_2,A1
+933,3,0,0,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+934,3,0,0,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6242191779945204,Sequência AE_2,A1
+935,3,0,0,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+936,3,0,0,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6415634703196348,Sequência AE_2,A1
+937,3,0,0,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5223512853575342,Sequência AE_2,A1
+938,3,0,0,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.31054233898630135,Sequência AE_2,A1
+939,3,0,1,Vila Franca de Xira I,Vila Franca de Xira I,,0.0,0.0,Sequência AE_2,A1 + A10
+940,3,0,1,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.3319207861506848,Sequência AE_2,A1 + A10
+941,3,0,1,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.19903972602739725,Sequência AE_2,A1 + A10
+942,3,0,1,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_2,A1 + A10
+943,3,0,1,Vila Franca de Xira I,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_2,A1 + A10
+944,3,0,2,A9/A10,A9/A10,,0.0,0.0,Sequência AE_2,A10 + A1
+945,3,0,2,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_2,A10 + A1
+946,3,0,2,A9/A10,Carregado,Benavente - Carregado,15.368,0.08569996659315067,Sequência AE_2,A10 + A1
+947,3,0,3,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+948,3,0,3,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.7998764298287672,Sequência AE_2,A1
+949,3,0,3,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4706021274657534,Sequência AE_2,A1
+950,3,0,3,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3100284996826484,Sequência AE_2,A1
+951,3,0,3,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.1087966280219178,Sequência AE_2,A1
+952,3,0,4,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+953,3,0,4,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.9786293242273971,Sequência AE_2,A1
+954,3,0,4,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.761054449026484,Sequência AE_2,A1
+955,3,0,5,Coimbra Norte (A1/A14),Fátima,,0.0,0.0,Sequência AE_2,A1
+956,3,0,5,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5700248198013699,Sequência AE_2,A1
+957,3,0,5,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.652505016569863,Sequência AE_2,A1
+958,3,0,6,Coimbra Norte (A1/A14),Pombal,,0.0,0.0,Sequência AE_2,A1
+959,3,0,6,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4002388189273972,Sequência AE_2,A1
+960,3,0,6,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.33125275563561646,Sequência AE_2,A1
+961,3,0,6,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.25238134948219176,Sequência AE_2,A1
+962,3,0,6,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.3233424657534247,Sequência AE_2,A1
+963,3,0,7,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_2,A1 + A14
+964,3,0,7,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_2,A1 + A14
+965,3,0,7,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_2,A1 + A14
+966,3,0,7,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+967,3,0,7,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_2,A1 + A14
+968,3,0,7,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_2,A1 + A14
+969,3,0,7,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_2,A1 + A14
+970,3,0,7,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_2,A1 + A14
+971,3,0,7,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+972,3,0,8,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+973,3,0,8,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.4296318493150685,Sequência AE_2,A14 + A1
+974,3,0,9,Vila Verde,Mealhada,Vila Verde - Mealhada,7.5,0.0,Sequência AE_2,A1
+975,3,0,9,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.8119130670849315,Sequência AE_2,A1
+976,3,0,9,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4853197548027397,Sequência AE_2,A1
+977,3,0,10,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+978,3,0,10,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6392676301972603,Sequência AE_2,A1
+979,3,0,10,Vila Verde,Feira,Estarreja - Feira,16.832,0.7298388397917808,Sequência AE_2,A1
+980,3,0,11,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+981,3,0,11,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5174556993264839,Sequência AE_2,A1
+982,3,0,11,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.36881986195433786,Sequência AE_2,A1
+983,3,0,11,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.31692832208493155,Sequência AE_2,A1
+984,3,0,12,Vila Verde,Carvalhos,Vila Verde - Carvalhos,72.75,0.0,Sequência AE_2,A1
+985,3,0,12,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.37564897960000004,Sequência AE_2,A1
+986,3,0,12,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.1580933219178082,Sequência AE_2,A1
+987,3,1,13,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+988,3,1,13,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6458934550082192,Sequência AE_2,A1
+989,3,1,13,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+990,3,1,13,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6573296803652969,Sequência AE_2,A1
+991,3,1,13,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5567310939479452,Sequência AE_2,A1
+992,3,1,13,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.32272046992694065,Sequência AE_2,A1
+993,3,1,14,Vila Franca de Xira I,Vila Franca de Xira I,,0.0,0.0,Sequência AE_2,A1 + A10
+994,3,1,14,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.32064800473424654,Sequência AE_2,A1 + A10
+995,3,1,14,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.20695025236529677,Sequência AE_2,A1 + A10
+996,3,1,14,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_2,A1 + A10
+997,3,1,14,Vila Franca de Xira I,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_2,A1 + A10
+998,3,1,15,A9/A10,A9/A10,,0.0,0.0,Sequência AE_2,A10 + A1
+999,3,1,15,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_2,A10 + A1
+1000,3,1,15,A9/A10,Carregado,Benavente - Carregado,15.368,0.07216839292054793,Sequência AE_2,A10 + A1
+1001,3,1,16,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+1002,3,1,16,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.8259464764305936,Sequência AE_2,A1
+1003,3,1,16,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4647922246575342,Sequência AE_2,A1
+1004,3,1,16,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3734172263835616,Sequência AE_2,A1
+1005,3,1,16,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.10728556374383563,Sequência AE_2,A1
+1006,3,1,17,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+1007,3,1,17,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,1.0338830971479451,Sequência AE_2,A1
+1008,3,1,17,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.8083388970429225,Sequência AE_2,A1
+1009,3,1,18,Coimbra Norte (A1/A14),Fátima,,0.0,0.0,Sequência AE_2,A1
+1010,3,1,18,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5254737817808219,Sequência AE_2,A1
+1011,3,1,18,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.7767916863926941,Sequência AE_2,A1
+1012,3,1,19,Coimbra Norte (A1/A14),Pombal,,0.0,0.0,Sequência AE_2,A1
+1013,3,1,19,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4651743205232877,Sequência AE_2,A1
+1014,3,1,19,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.32128193690410956,Sequência AE_2,A1
+1015,3,1,19,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.28826495367397253,Sequência AE_2,A1
+1016,3,1,19,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.2635068493150684,Sequência AE_2,A1
+1017,3,1,20,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_2,A1 + A14
+1018,3,1,20,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_2,A1 + A14
+1019,3,1,20,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_2,A1 + A14
+1020,3,1,20,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+1021,3,1,20,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_2,A1 + A14
+1022,3,1,20,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_2,A1 + A14
+1023,3,1,20,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_2,A1 + A14
+1024,3,1,20,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_2,A1 + A14
+1025,3,1,20,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+1026,3,1,21,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+1027,3,1,21,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.41527397260273974,Sequência AE_2,A14 + A1
+1028,3,1,22,Vila Verde,Mealhada,Vila Verde - Mealhada,7.5,0.0,Sequência AE_2,A1
+1029,3,1,22,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.779262407550685,Sequência AE_2,A1
+1030,3,1,22,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4645046863123288,Sequência AE_2,A1
+1031,3,1,23,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+1032,3,1,23,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6243378129315069,Sequência AE_2,A1
+1033,3,1,23,Vila Verde,Feira,Estarreja - Feira,16.832,0.8563013700347032,Sequência AE_2,A1
+1034,3,1,24,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+1035,3,1,24,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5087406559694064,Sequência AE_2,A1
+1036,3,1,24,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.33852394472237435,Sequência AE_2,A1
+1037,3,1,24,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.3618826940118721,Sequência AE_2,A1
+1038,3,1,25,Vila Verde,Carvalhos,Vila Verde - Carvalhos,72.75,0.0,Sequência AE_2,A1
+1039,3,1,25,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.3859407324657535,Sequência AE_2,A1
+1040,3,1,25,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.13299914383561645,Sequência AE_2,A1
+1041,3,2,26,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+1042,3,2,26,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.1343805174849315,Sequência AE_2,A1
+1043,3,2,26,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.09001043476666665,Sequência AE_2,A1
+1044,3,2,26,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.1637260273972603,Sequência AE_2,A1
+1045,3,2,26,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.13530118219452056,Sequência AE_2,A1
+1046,3,2,26,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.05114814995068494,Sequência AE_2,A1
+1047,3,2,26,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.0964449076739726,Sequência AE_2,A1
+1048,3,2,26,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.03831780821917808,Sequência AE_2,A1
+1049,3,2,27,A9/A10,A1/A10,,0.0,0.0,Sequência AE_2,A1 + A10
+1050,3,2,27,A9/A10,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_2,A1 + A10
+1051,3,2,27,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_2,A1 + A10
+1052,3,2,27,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_2,A1 + A10
+1053,3,2,28,Coimbra Norte (A1/A14),Benavente,,0.0,0.0,Sequência AE_2,A10 + A1
+1054,3,2,28,Coimbra Norte (A1/A14),Carregado,Benavente - Carregado,15.368,0.02706314734520548,Sequência AE_2,A10 + A1
+1055,3,2,28,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.2133003812876712,Sequência AE_2,A10 + A1
+1056,3,2,28,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.1045782505479452,Sequência AE_2,A10 + A1
+1057,3,2,28,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.0898967396849315,Sequência AE_2,A10 + A1
+1058,3,2,28,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.03928767123013698,Sequência AE_2,A10 + A1
+1059,3,2,29,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+1060,3,2,29,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.2443916879178082,Sequência AE_2,A1
+1061,3,2,29,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.17225048920273972,Sequência AE_2,A1
+1062,3,2,29,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.11880276805479449,Sequência AE_2,A1
+1063,3,2,30,Coimbra Norte (A1/A14),Leiria,,0.0,0.0,Sequência AE_2,A1
+1064,3,2,30,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.17977179027945206,Sequência AE_2,A1
+1065,3,2,30,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.10625809352054792,Sequência AE_2,A1
+1066,3,2,30,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.0620406498849315,Sequência AE_2,A1
+1067,3,2,30,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.03707972433150685,Sequência AE_2,A1
+1068,3,2,31,Coimbra Norte (A1/A14),Coimbra Sul,,0.0,0.0,Sequência AE_2,A1 + A14
+1069,3,2,31,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.07134246575342466,Sequência AE_2,A1 + A14
+1070,3,2,31,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_2,A1 + A14
+1071,3,2,31,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_2,A1 + A14
+1072,3,2,31,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+1073,3,2,31,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_2,A1 + A14
+1074,3,2,31,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_2,A1 + A14
+1075,3,2,31,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_2,A1 + A14
+1076,3,2,31,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_2,A1 + A14
+1077,3,2,31,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+1078,3,2,32,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+1079,3,2,32,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.10934075342465753,Sequência AE_2,A14 + A1
+1080,3,2,32,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.16978342957808218,Sequência AE_2,A14 + A1
+1081,3,2,33,Vila Verde,Aveiro Sul,Vila Verde - Aveiro Sul,12.0,0.0,Sequência AE_2,A1
+1082,3,2,33,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.13255912038630135,Sequência AE_2,A1
+1083,3,2,33,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.16694250215342465,Sequência AE_2,A1
+1084,3,2,33,Vila Verde,Feira,Estarreja - Feira,16.832,0.2175584206721461,Sequência AE_2,A1
+1085,3,2,33,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.16122830210593608,Sequência AE_2,A1
+1086,3,2,34,Vila Verde,Espinho (IC24),Vila Verde - Espinho (IC24),64.5,0.0,Sequência AE_2,A1
+1087,3,2,34,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.10010824824474886,Sequência AE_2,A1
+1088,3,2,34,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.07529857297762556,Sequência AE_2,A1
+1089,3,2,34,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.07890343863744294,Sequência AE_2,A1
+1090,3,2,34,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.030113013698630137,Sequência AE_2,A1
+1091,4,0,0,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+1092,4,0,0,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6242191779945204,Sequência AE_2,A1
+1093,4,0,0,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+1094,4,0,0,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6415634703196348,Sequência AE_2,A1
+1095,4,0,0,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5223512853575342,Sequência AE_2,A1
+1096,4,0,1,Vila Franca de Xira I,Vila Franca de Xira II,,0.0,0.0,Sequência AE_2,A1 + A10
+1097,4,0,1,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.31054233898630135,Sequência AE_2,A1 + A10
+1098,4,0,1,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.3319207861506848,Sequência AE_2,A1 + A10
+1099,4,0,1,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.19903972602739725,Sequência AE_2,A1 + A10
+1100,4,0,1,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.13018185162739723,Sequência AE_2,A1 + A10
+1101,4,0,2,A9/A10,Arruda dos Vinhos,,0.0,0.0,Sequência AE_2,A10
+1102,4,0,2,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17885771809315065,Sequência AE_2,A10
+1103,4,0,2,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.16408889538904112,Sequência AE_2,A10
+1104,4,0,3,Coimbra Norte (A1/A14),Benavente,,0.0,0.0,Sequência AE_2,A10 + A1
+1105,4,0,3,Coimbra Norte (A1/A14),Carregado,Benavente - Carregado,15.368,0.08569996659315067,Sequência AE_2,A10 + A1
+1106,4,0,3,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.7998764298287672,Sequência AE_2,A10 + A1
+1107,4,0,4,Coimbra Norte (A1/A14),Aveiras de Cima,,0.0,0.0,Sequência AE_2,A1
+1108,4,0,4,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4706021274657534,Sequência AE_2,A1
+1109,4,0,4,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3100284996826484,Sequência AE_2,A1
+1110,4,0,4,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.1087966280219178,Sequência AE_2,A1
+1111,4,0,5,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+1112,4,0,5,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.9786293242273971,Sequência AE_2,A1
+1113,4,0,6,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+1114,4,0,6,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.761054449026484,Sequência AE_2,A1
+1115,4,0,6,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5700248198013699,Sequência AE_2,A1
+1116,4,0,7,Coimbra Norte (A1/A14),Leiria,,0.0,0.0,Sequência AE_2,A1
+1117,4,0,7,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.652505016569863,Sequência AE_2,A1
+1118,4,0,7,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4002388189273972,Sequência AE_2,A1
+1119,4,0,8,Coimbra Norte (A1/A14),Soure,,0.0,0.0,Sequência AE_2,A1
+1120,4,0,8,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.33125275563561646,Sequência AE_2,A1
+1121,4,0,8,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.25238134948219176,Sequência AE_2,A1
+1122,4,0,8,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.3233424657534247,Sequência AE_2,A1
+1123,4,0,9,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_2,A1 + A14
+1124,4,0,9,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.05409795458493151,Sequência AE_2,A1 + A14
+1125,4,0,9,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.0785528430479452,Sequência AE_2,A1 + A14
+1126,4,0,9,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+1127,4,0,9,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.06834246575525114,Sequência AE_2,A1 + A14
+1128,4,0,9,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.145283616030137,Sequência AE_2,A1 + A14
+1129,4,0,9,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.025464774954337903,Sequência AE_2,A1 + A14
+1130,4,0,9,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06957077625570776,Sequência AE_2,A1 + A14
+1131,4,0,9,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+1132,4,0,10,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+1133,4,0,10,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.4296318493150685,Sequência AE_2,A14 + A1
+1134,4,0,11,Vila Verde,Mealhada,Vila Verde - Mealhada,7.5,0.0,Sequência AE_2,A1
+1135,4,0,11,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.8119130670849315,Sequência AE_2,A1
+1136,4,0,11,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4853197548027397,Sequência AE_2,A1
+1137,4,0,12,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+1138,4,0,12,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6392676301972603,Sequência AE_2,A1
+1139,4,0,12,Vila Verde,Feira,Estarreja - Feira,16.832,0.7298388397917808,Sequência AE_2,A1
+1140,4,0,13,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+1141,4,0,13,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5174556993264839,Sequência AE_2,A1
+1142,4,0,13,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.36881986195433786,Sequência AE_2,A1
+1143,4,0,14,Vila Verde,Feiteira,Vila Verde - Feiteira,69.0,0.0,Sequência AE_2,A1
+1144,4,0,14,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.31692832208493155,Sequência AE_2,A1
+1145,4,0,14,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.37564897960000004,Sequência AE_2,A1
+1146,4,0,14,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.1580933219178082,Sequência AE_2,A1
+1147,4,1,15,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+1148,4,1,15,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.6458934550082192,Sequência AE_2,A1
+1149,4,1,15,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.3094879332388128,Sequência AE_2,A1
+1150,4,1,15,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.6573296803652969,Sequência AE_2,A1
+1151,4,1,15,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.5567310939479452,Sequência AE_2,A1
+1152,4,1,16,Vila Franca de Xira I,Vila Franca de Xira II,,0.0,0.0,Sequência AE_2,A1 + A10
+1153,4,1,16,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.32272046992694065,Sequência AE_2,A1 + A10
+1154,4,1,16,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.32064800473424654,Sequência AE_2,A1 + A10
+1155,4,1,16,Vila Franca de Xira I,A1/A10,PLLN - A1/A10,1.225,0.20695025236529677,Sequência AE_2,A1 + A10
+1156,4,1,16,Vila Franca de Xira I,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.1498124483013699,Sequência AE_2,A1 + A10
+1157,4,1,17,A9/A10,Arruda dos Vinhos,,0.0,0.0,Sequência AE_2,A10
+1158,4,1,17,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.17637358311963466,Sequência AE_2,A10
+1159,4,1,17,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.15421888664383562,Sequência AE_2,A10
+1160,4,1,18,Coimbra Norte (A1/A14),Benavente,,0.0,0.0,Sequência AE_2,A10 + A1
+1161,4,1,18,Coimbra Norte (A1/A14),Carregado,Benavente - Carregado,15.368,0.07216839292054793,Sequência AE_2,A10 + A1
+1162,4,1,18,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.8259464764305936,Sequência AE_2,A10 + A1
+1163,4,1,19,Coimbra Norte (A1/A14),Aveiras de Cima,,0.0,0.0,Sequência AE_2,A1
+1164,4,1,19,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.4647922246575342,Sequência AE_2,A1
+1165,4,1,19,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.3734172263835616,Sequência AE_2,A1
+1166,4,1,19,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.10728556374383563,Sequência AE_2,A1
+1167,4,1,20,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+1168,4,1,20,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,1.0338830971479451,Sequência AE_2,A1
+1169,4,1,21,Coimbra Norte (A1/A14),Torres Novas (A1/A23),,0.0,0.0,Sequência AE_2,A1
+1170,4,1,21,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.8083388970429225,Sequência AE_2,A1
+1171,4,1,21,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.5254737817808219,Sequência AE_2,A1
+1172,4,1,22,Coimbra Norte (A1/A14),Leiria,,0.0,0.0,Sequência AE_2,A1
+1173,4,1,22,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.7767916863926941,Sequência AE_2,A1
+1174,4,1,22,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.4651743205232877,Sequência AE_2,A1
+1175,4,1,23,Coimbra Norte (A1/A14),Soure,,0.0,0.0,Sequência AE_2,A1
+1176,4,1,23,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.32128193690410956,Sequência AE_2,A1
+1177,4,1,23,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.28826495367397253,Sequência AE_2,A1
+1178,4,1,23,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.2635068493150684,Sequência AE_2,A1
+1179,4,1,24,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_2,A1 + A14
+1180,4,1,24,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.04577519234109589,Sequência AE_2,A1 + A14
+1181,4,1,24,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.09007392669497717,Sequência AE_2,A1 + A14
+1182,4,1,24,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+1183,4,1,24,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.04742130276894978,Sequência AE_2,A1 + A14
+1184,4,1,24,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.18479056424885842,Sequência AE_2,A1 + A14
+1185,4,1,24,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.02444618395616438,Sequência AE_2,A1 + A14
+1186,4,1,24,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.06528949771689498,Sequência AE_2,A1 + A14
+1187,4,1,24,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+1188,4,1,25,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+1189,4,1,25,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.41527397260273974,Sequência AE_2,A14 + A1
+1190,4,1,26,Vila Verde,Mealhada,Vila Verde - Mealhada,7.5,0.0,Sequência AE_2,A1
+1191,4,1,26,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.779262407550685,Sequência AE_2,A1
+1192,4,1,26,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.4645046863123288,Sequência AE_2,A1
+1193,4,1,27,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+1194,4,1,27,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.6243378129315069,Sequência AE_2,A1
+1195,4,1,27,Vila Verde,Feira,Estarreja - Feira,16.832,0.8563013700347032,Sequência AE_2,A1
+1196,4,1,28,Vila Verde,Feira,Vila Verde - Feira,62.25,0.0,Sequência AE_2,A1
+1197,4,1,28,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.5087406559694064,Sequência AE_2,A1
+1198,4,1,28,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.33852394472237435,Sequência AE_2,A1
+1199,4,1,29,Vila Verde,Feiteira,Vila Verde - Feiteira,69.0,0.0,Sequência AE_2,A1
+1200,4,1,29,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.3618826940118721,Sequência AE_2,A1
+1201,4,1,29,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.3859407324657535,Sequência AE_2,A1
+1202,4,1,29,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.13299914383561645,Sequência AE_2,A1
+1203,4,2,30,Vila Franca de Xira I,Sacavém,,0.0,0.0,Sequência AE_2,A1
+1204,4,2,30,Vila Franca de Xira I,São João da Talha,Sacavém - São João da Talha,3.85,0.1343805174849315,Sequência AE_2,A1
+1205,4,2,30,Vila Franca de Xira I,Sta Iria da Azóia,São João da Talha - Sta Iria da Azóia,2.95,0.09001043476666665,Sequência AE_2,A1
+1206,4,2,30,Vila Franca de Xira I,Alverca (A1/A9),Sta Iria da Azóia - Alverca (A1/A9),6.24,0.1637260273972603,Sequência AE_2,A1
+1207,4,2,30,Vila Franca de Xira I,Vila Franca de Xira II,Alverca (A1/A9) - Vila Franca de Xira II,7.46,0.13530118219452056,Sequência AE_2,A1
+1208,4,2,30,Vila Franca de Xira I,Vila Franca de Xira I,Vila Franca de Xira II - Vila Franca de Xira I,3.4,0.05114814995068494,Sequência AE_2,A1
+1209,4,2,30,Vila Franca de Xira I,PLLN,Vila Franca de Xira I - PLLN,3.975,0.0964449076739726,Sequência AE_2,A1
+1210,4,2,31,A9/A10,PLLN,,0.0,0.0,Sequência AE_2,A1 + A10
+1211,4,2,31,A9/A10,A1/A10,PLLN - A1/A10,1.225,0.03831780821917808,Sequência AE_2,A1 + A10
+1212,4,2,31,A9/A10,Arruda dos Vinhos,A1/A10 - Arruda dos Vinhos,11.0,0.027896111063013703,Sequência AE_2,A1 + A10
+1213,4,2,31,A9/A10,A9/A10,Arruda dos Vinhos - A9/A10,6.9,0.033535822142465754,Sequência AE_2,A1 + A10
+1214,4,2,32,A9/A10,A9/A10,,0.0,0.0,Sequência AE_2,A10 + A1
+1215,4,2,32,A9/A10,Benavente,A9/A10 - Benavente,32.4,0.02961002623561644,Sequência AE_2,A10 + A1
+1216,4,2,32,A9/A10,Carregado,Benavente - Carregado,15.368,0.02706314734520548,Sequência AE_2,A10 + A1
+1217,4,2,33,Coimbra Norte (A1/A14),Carregado,,0.0,0.0,Sequência AE_2,A1
+1218,4,2,33,Coimbra Norte (A1/A14),Aveiras de Cima,Carregado - Aveiras de Cima,15.516,0.2133003812876712,Sequência AE_2,A1
+1219,4,2,33,Coimbra Norte (A1/A14),Cartaxo,Aveiras de Cima - Cartaxo,11.286,0.1045782505479452,Sequência AE_2,A1
+1220,4,2,33,Coimbra Norte (A1/A14),Santarém,Cartaxo - Santarém,8.08,0.0898967396849315,Sequência AE_2,A1
+1221,4,2,33,Coimbra Norte (A1/A14),A1/A15,Santarém - A1/A15,1.185,0.03928767123013698,Sequência AE_2,A1
+1222,4,2,34,Coimbra Norte (A1/A14),A1/A15,,0.0,0.0,Sequência AE_2,A1
+1223,4,2,34,Coimbra Norte (A1/A14),Torres Novas (A1/A23),A1/A15 - Torres Novas (A1/A23),27.015,0.2443916879178082,Sequência AE_2,A1
+1224,4,2,34,Coimbra Norte (A1/A14),Fátima,Torres Novas (A1/A23) - Fátima,20.325,0.17225048920273972,Sequência AE_2,A1
+1225,4,2,35,Coimbra Norte (A1/A14),Fátima,,0.0,0.0,Sequência AE_2,A1
+1226,4,2,35,Coimbra Norte (A1/A14),Leiria,Fátima - Leiria,15.235,0.11880276805479449,Sequência AE_2,A1
+1227,4,2,35,Coimbra Norte (A1/A14),Pombal,Leiria - Pombal,24.065,0.17977179027945206,Sequência AE_2,A1
+1228,4,2,36,Coimbra Norte (A1/A14),Pombal,,0.0,0.0,Sequência AE_2,A1
+1229,4,2,36,Coimbra Norte (A1/A14),Soure,Pombal - Soure,14.736,0.10625809352054792,Sequência AE_2,A1
+1230,4,2,36,Coimbra Norte (A1/A14),Condeixa,Soure - Condeixa,13.045,0.0620406498849315,Sequência AE_2,A1
+1231,4,2,36,Coimbra Norte (A1/A14),Coimbra Sul,Condeixa - Coimbra Sul,7.681,0.03707972433150685,Sequência AE_2,A1
+1232,4,2,36,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),Coimbra Sul - Coimbra Norte (A1/A14),8.303,0.07134246575342466,Sequência AE_2,A1
+1233,4,2,37,Coimbra Norte (A1/A14),Coimbra Norte (A1/A14),,0.0,0.0,Sequência AE_2,A1 + A14
+1234,4,2,37,Coimbra Norte (A1/A14),Zombaria,Coimbra Norte (A1/A14) - Zombaria,1.1,0.0013871270406392694,Sequência AE_2,A1 + A14
+1235,4,2,37,Coimbra Norte (A1/A14),Ançã,Zombaria - Ançã,5.5,0.018852682331506845,Sequência AE_2,A1 + A14
+1236,4,2,37,Coimbra Norte (A1/A14),EN 335,Ançã - EN 335,9.6,0.0,Sequência AE_2,A1 + A14
+1237,4,2,37,Coimbra Norte (A1/A14),Montemor-o-Velho,EN 335 - Montemor-o-Velho,8.0,0.02092116298630137,Sequência AE_2,A1 + A14
+1238,4,2,37,Coimbra Norte (A1/A14),Santa Eulália,Montemor-o-Velho - Santa Eulália,4.8,0.022939518320547945,Sequência AE_2,A1 + A14
+1239,4,2,37,Coimbra Norte (A1/A14),A14/A17,Santa Eulália - A14/A17,7.2,0.007130136987214612,Sequência AE_2,A1 + A14
+1240,4,2,37,Coimbra Norte (A1/A14),Vila Verde,A14/A17 - Vila Verde,1.6,0.009632876712328767,Sequência AE_2,A1 + A14
+1241,4,2,37,Coimbra Norte (A1/A14),Figueira da Foz,Vila Verde - Figueira da Foz,3.2,0.0,Sequência AE_2,A1 + A14
+1242,4,2,38,Vila Verde,Figueira da Foz,Vila Verde - Figueira da Foz,0.75,0.0,Sequência AE_2,A14 + A1
+1243,4,2,38,Vila Verde,Mealhada,Figueira da Foz - Mealhada,50.507,0.10934075342465753,Sequência AE_2,A14 + A1
+1244,4,2,39,Vila Verde,Mealhada,Vila Verde - Mealhada,7.5,0.0,Sequência AE_2,A1
+1245,4,2,39,Vila Verde,Aveiro Sul,Mealhada - Aveiro Sul,23.633,0.16978342957808218,Sequência AE_2,A1
+1246,4,2,39,Vila Verde,Albergaria (A1/IP5),Aveiro Sul - Albergaria (A1/IP5),14.78,0.13255912038630135,Sequência AE_2,A1
+1247,4,2,40,Vila Verde,Albergaria (A1/IP5),Vila Verde - Albergaria (A1/IP5),30.75,0.0,Sequência AE_2,A1
+1248,4,2,40,Vila Verde,Estarreja,Albergaria (A1/IP5) - Estarreja,10.428,0.16694250215342465,Sequência AE_2,A1
+1249,4,2,40,Vila Verde,Feira,Estarreja - Feira,16.832,0.2175584206721461,Sequência AE_2,A1
+1250,4,2,40,Vila Verde,Espinho (IC24),Feira - Espinho (IC24),9.8,0.16122830210593608,Sequência AE_2,A1
+1251,4,2,41,Vila Verde,Espinho (IC24),Vila Verde - Espinho (IC24),64.5,0.0,Sequência AE_2,A1
+1252,4,2,41,Vila Verde,Feiteira,Espinho (IC24) - Feiteira,3.92,0.10010824824474886,Sequência AE_2,A1
+1253,4,2,41,Vila Verde,Carvalhos,Feiteira - Carvalhos,3.37,0.07529857297762556,Sequência AE_2,A1
+1254,4,2,41,Vila Verde,Jaca,Carvalhos - Jaca,2.745,0.07890343863744294,Sequência AE_2,A1
+1255,4,2,41,Vila Verde,Santo Ovídio,Jaca - Santo Ovídio,1.839,0.030113013698630137,Sequência AE_2,A1
