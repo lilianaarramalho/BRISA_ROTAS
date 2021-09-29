@@ -18,6 +18,7 @@ def ler_arguments():
     global slot_tempo
     global tempo_inicio_turno
     global maximo_tempo_passagem
+    global folgas
 
     file = open("dados/arguments.txt", "r")
 
@@ -34,6 +35,7 @@ def ler_arguments():
     slot_tempo = dictionary.get('slot_tempo')
     tempo_inicio_turno=dictionary.get('tempo_inicio_turno')
     maximo_tempo_passagem=dictionary.get('max_tempo_passagem')*60
+    folgas = dictionary.get('folgas')
 
     return velocidade,t_medio_incidencia,n_simulacoes,tipo_corrida,slot_tempo
 
@@ -429,8 +431,12 @@ def import_data(sort):
 
     total=0
     # Calcular probabilidade agregada por tuno por cada sublanço
+
+    count_ciclo = 0
     for i in range(len(lista_probabilidades)):
 
+
+        id_turno = 1000
         # Descobrir a que turno diz respeito
         for j in range(len(turnos)):
             if lista_hora[i]>=turnos[j].inicio and lista_hora[i]<turnos[j].fim:
@@ -440,12 +446,13 @@ def import_data(sort):
         # Descobrir qual o sublanço
         found=False
         for j in range(len(nos)):
-            n_caracteres=lista_sublanco[i].count('-')
-            no_fim = lista_sublanco[i].split('-')[n_caracteres]
+            n_caracteres=lista_sublanco[i].count(' - ')
+            no_fim = lista_sublanco[i].split(' - ')[n_caracteres]
             no_fim = no_fim.strip()
-            if (no_fim in nos[j].nome):
+            if (no_fim == nos[j].nome):
                 id_sublanco = j
                 found=True
+
 
 
         if found==True:
@@ -454,21 +461,28 @@ def import_data(sort):
                     probabilidades_turno_1[id_sublanco] += lista_probabilidades[i]
                     n_incidencias_dia_1[id_sublanco] += lista_n_incidencias_ano[i] / 365
                     nome_sublanco_turno_1[id_sublanco]=lista_sublanco[i]
+                    count_ciclo += 1
                 elif (id_turno == 1):
 
                     probabilidades_turno_2[id_sublanco] += lista_probabilidades[i]
                     n_incidencias_dia_2[id_sublanco] += lista_n_incidencias_ano[i] / 365
                     nome_sublanco_turno_2[id_sublanco] = lista_sublanco[i]
+                    count_ciclo += 1
                 else:
                     if id_sublanco==1:
                         total+=lista_n_incidencias_ano[i]
                     probabilidades_turno_3[id_sublanco] += lista_probabilidades[i]
                     n_incidencias_dia_3[id_sublanco] += lista_n_incidencias_ano[i] / 365
                     nome_sublanco_turno_3[id_sublanco] = lista_sublanco[i]
+                    count_ciclo += 1
+
 
 
             except:
                 print('.')  # TODO isto nunca devia vir para o except
+
+
+
 
     return nos, turnos
 def get_distance(x,y):
@@ -2631,7 +2645,7 @@ def limpar_resultado(paragens):
 
     return new_vetor
 
-def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adicionados):
+def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adicionados, index_anterior):
 
     if (id_turno == 0):
         probabilidades_turno = probabilidades_turno_1.copy()
@@ -2666,6 +2680,18 @@ def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adici
 
     tempo_co_rota = dist_co_rota * 2
 
+    index = 0
+    if carro[0] == 0:
+        for dict in tempo_sublancos:
+            if nome_sublancos_turno[carro[index]] == dict.get('sublanco'):
+                tempo_sublanco = dict.get('tempo')
+                break
+        tempo_resol_incid += n_incidencias_turno[carro[index]] * tempo_sublanco
+        incidencias_consideradas.append(n_incidencias_turno[carro[index]] * tempo_sublanco)
+        tempo_desloc_incidencia += get_distance(ponto_medio, carro[index]) * probabilidades_turno[
+            carro[index]]
+
+
     for index in range(len(carro) - 1):
 
         tempo_sublanco = t_medio_incidencia
@@ -2678,31 +2704,39 @@ def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adici
                 tempo_sublanco = dict.get('tempo')
                 break
 
+
+
         if index==0 and carro[0]!=0:
 
-            tempo_nos += (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2
-            append_tempo_nos.append( (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2)
+            if(nos[carro[-1]].grupo == "-1" or (carro[index] != index_anterior and nos[carro[-1]].grupo != "-1" )):
+                tempo_nos += (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2
+                append_tempo_nos.append( (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]])/2)
 
         else:
 
-            tempo_nos += tempos_nos_norte_sul[carro[index]]
-            tempo_nos += tempos_nos_sul_norte[carro[index]]
-            append_tempo_nos.append((tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]]))
 
-
-            if index!=0:
-
+            if(carro[index] == index_anterior and nos[carro[-1]].grupo != "-1"):
+                tempo_nos += (tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]]) / 2
+                append_tempo_nos.append((tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]]) / 2)
+            else:
+                tempo_nos += tempos_nos_norte_sul[carro[index]]
+                tempo_nos += tempos_nos_sul_norte[carro[index]]
+                append_tempo_nos.append((tempos_nos_norte_sul[carro[index]] + tempos_nos_sul_norte[carro[index]]))
+            if index != 0:
                 tempo_resol_incid += n_incidencias_turno[carro[index]] * tempo_sublanco
-                incidencias_consideradas.append( n_incidencias_turno[carro[index]] * tempo_sublanco)
+                incidencias_consideradas.append(n_incidencias_turno[carro[index]] * tempo_sublanco)
                 tempo_desloc_incidencia += get_distance(ponto_medio, carro[index]) * probabilidades_turno[
-                        carro[index]]
+                    carro[index]]
+
+
+
 
     if carro[0]==0 and len(carro)==1:
         tempo_nos += tempos_nos_norte_sul[carro[0]]
         tempo_nos += tempos_nos_sul_norte[carro[0]]
         append_tempo_nos.append((tempos_nos_norte_sul[carro[0]] + tempos_nos_sul_norte[carro[0]]) )
 
-    elif carro[-1]==len(nos)-1:
+    elif carro[-1]==len(nos)-1 or nos[carro[-1]].grupo != "-1":
 
         tempo_nos += tempos_nos_norte_sul[carro[-1]]
         tempo_nos += tempos_nos_sul_norte[carro[-1]]
@@ -2728,8 +2762,16 @@ def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adici
     # Tempo turno sem pausas
     tempo_turno = turnos[id_turno].fim - turnos[id_turno].inicio - sum(pausas_duracao[id_turno])
     tempo_patrulha=60 * tempo_patrulha / velocidade
+
+    # Retornar resultado
+    tempo_vistorias = 0
+
+    for vistoria in vistorias:
+        if vistoria.get('Nó Início') in carro and vistoria.get('Nó Fim') in carro:
+            tempo_vistorias += vistoria.get('Tempo Norte Sul') + vistoria.get('Tempo Sul Norte')
+
     # Calcular tempo total
-    tempo_total = tempo_patrulha + tempo_nos + tempo_incidencias + tempo_co_rota
+    tempo_total = tempo_patrulha + tempo_nos + tempo_incidencias + tempo_co_rota + tempo_vistorias
 
     indicadores = {
         'Tempo_Resolucao_Incid': tempo_resol_incid,
@@ -2741,13 +2783,12 @@ def verificar_corte(carro, id_turno, n_voltas, dist_co_rota,vetor_warnings,adici
         'Incidencias consideradas' : incidencias_consideradas,
         'Lista extensoes':lista_extensoes,
         'Tempo_CO_Rota' : tempo_co_rota,
-        'Lista nos':append_tempo_nos
+        'Lista nos':append_tempo_nos,
+        'Tempo_Vistorias': tempo_vistorias
     }
 
-    # Retornar resultado
 
-
-    if (tempo_total <= tempo_turno) or len(carro)<=2 or (len(carro)<=adicionados+1 and adicionados>1) or (adicionados>1 and tempo_total*0.8<=tempo_turno) :
+    if (tempo_total <= tempo_turno) or len(carro)<=2 or (len(carro)<=adicionados+1 and adicionados>1) or (adicionados>1 and tempo_total*(1-folgas)<=tempo_turno) :
         if tempo_total>tempo_turno:
             print('Para o número de voltas ' + str(n_voltas) + ' no turno ' + str(id_turno) + ', existe um carro cujo tempo total (' + str(tempo_total/60) + ') é superior ao tempo de abertura (' + str(tempo_turno/60) + ').')
             vetor_warnings.append('Para o número de voltas ' + str(n_voltas) + ' no turno ' + str(id_turno) + ', existe um carro cujo tempo total (' + str(tempo_total/60) + ') é superior ao tempo de abertura (' + str(tempo_turno/60) + ').')
@@ -2857,11 +2898,12 @@ def calcular_matriz_cos():
                 id_inicio=co
                 id_fim=no.id
             else:
-                id_inicio = co
-                id_fim = no.id
+                id_inicio = no.id
+                id_fim = co
             id_anterior=id_inicio
             for posicao_intermedia in range(id_inicio+1,id_fim+1):
-                distancia +=get_distance(id_anterior, posicao_intermedia)
+                if not((nos[id_anterior].grupo != "-1" or nos[posicao_intermedia].grupo != "-1") and no.grupo == "-1"):
+                    distancia += get_distance(id_anterior, posicao_intermedia)
                 id_anterior=posicao_intermedia
             if (distancia < dist_min):
                 dist_min = distancia

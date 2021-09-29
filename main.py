@@ -261,7 +261,7 @@ else: #Tipo Corrida = 0 é Macro
     co_escolhido = 0
     turnos_escolhidos = []
 
-    calcular_matriz_cos()
+
     output_solucao = []
 
     carro_count = 0
@@ -281,12 +281,17 @@ else: #Tipo Corrida = 0 é Macro
 
     #for i in range(2,4):
 
+    index_anterior = 0
+    adicionados = 0
+    adicionei_grupo_antes = False
+
     for sort in sorts:
         nos, turnos = import_data(sort)
+        calcular_matriz_cos()
         for i in range(n_voltas):
             print ('No Voltas:::' + str(i))
             #Por turno
-            carro_count = 0
+            carro_count = 1
             for id_turno in range(len(turnos)):
                 print('Turno::::' + str(id_turno))
                 index = 0
@@ -303,12 +308,12 @@ else: #Tipo Corrida = 0 é Macro
                     este_carro = []
                     teste_carro = []
                     criterio_corte = False
+                    adicionados = 0
                     while criterio_corte == False and index < len(nos):
                         if(index > 0 and len(teste_carro) == 0):
                             index -= 1
 
                         adicionados=0
-                        
 
                         if nos[index].grupo!="-1" and nos[index-1].grupo!=nos[index].grupo:
                             for no in nos:
@@ -317,11 +322,18 @@ else: #Tipo Corrida = 0 é Macro
                                     adicionados+=1
 
                         else:
-                            teste_carro.append(nos[index].id)
+                            if (adicionei_grupo_antes):
+                                teste_carro.append(nos[index_anterior].id)
+                                adicionei_grupo_antes = False
+                            else:
+                                teste_carro.append(nos[index].id)
+                            if(len(teste_carro) >= 2 and nos[teste_carro[-2]].grupo == "-1"):
+                                index_anterior = index
                             adicionados+=1
 
+
                         co_escolhido, dist_co_rota = escolher_co(teste_carro)
-                        teste_indicadores, criterio_corte,vetor_warnings = verificar_corte(teste_carro, id_turno,i +1, dist_co_rota,vetor_warnings,adicionados)
+                        teste_indicadores, criterio_corte,vetor_warnings = verificar_corte(teste_carro, id_turno,i +1, dist_co_rota,vetor_warnings,adicionados, index_anterior)
 
                         if (criterio_corte == False):
                             este_carro = teste_carro.copy()
@@ -332,6 +344,11 @@ else: #Tipo Corrida = 0 é Macro
                             vetor_warnings.append('Para o número de voltas ' + str(n_voltas) + ' no turno ' + str(id_turno) + ', é impossível alocar grupo ' + str(nos[teste_carro[-1]].grupo) + ' em conjunto.' )
 
                     solucao_macro.append(este_carro)
+                    if(nos[este_carro[-1]].grupo != "-1"):
+                        adicionei_grupo_antes = True
+                    else:
+                        adicionei_grupo_antes = False
+
                     cos_escolhidos.append(co_escolhido)
                     turnos_escolhidos.append(id_turno)
 
@@ -346,7 +363,7 @@ else: #Tipo Corrida = 0 é Macro
 
                     for sub in este_carro:
                         if count_sub>0:
-                            sublanco=str(nos[este_carro[count_sub]-1].nome) + " - " + str(nos[este_carro[count_sub]].nome)
+                            sublanco=str(nos[este_carro[count_sub-1]].nome) + " - " + str(nos[este_carro[count_sub]].nome)
                             extensao=indicadores.get('Lista extensoes')[count_sub-1]
                             incidencias=indicadores.get('Incidencias consideradas')[count_sub-1]
 
@@ -383,7 +400,8 @@ else: #Tipo Corrida = 0 é Macro
                         'Tempo_Desloc_Incid': indicadores.get('Tempo_Desloc_Incid')/60,
                         'Tempo_Nos': indicadores.get('Tempo_Nos')/60,
                         'Tempo_Patrulha': indicadores.get('Tempo_Patrulha')/60,
-                        'Temp_CO_Rota:' : indicadores.get('Tempo_CO_Rota')/60,
+                        'Temp_CO_Rota' : indicadores.get('Tempo_CO_Rota')/60,
+                        'Tempo_Vistorias': indicadores.get('Tempo_Vistorias') / 60,
                         'Tempo_Total': indicadores.get('Tempo_Total')/60,
                         'Tempo_Abertura':indicadores.get('Tempo_Abertura')/60,
                         'Nós':lista_nos,
@@ -391,7 +409,6 @@ else: #Tipo Corrida = 0 é Macro
                         'Nós':indicadores.get('Lista nos'),
                         'Sentido':sort,
                         'Auto Estradas': listToStr
-
                     }
                     output_agregado.append(new_row)
                     carro_count += 1
